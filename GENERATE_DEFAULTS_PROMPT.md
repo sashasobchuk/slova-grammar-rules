@@ -8,7 +8,15 @@ about its grammar, it is written in it, and all example sentences are in it.
 
 LANGUAGE CODE — derive it yourself: the ISO 639-1 code of the TARGET
 LANGUAGE (Japanese -> ja, Ukrainian -> uk, Spanish -> es). Two-letter code
-if the language has one, otherwise ISO 639-3.
+if the language has one, otherwise ISO 639-3. Base code only, with no
+script or region suffix: Chinese (Simplified) -> zh, not zh-Hans. The file
+is saved as "<LANGUAGE CODE>.json" and the app requests exactly that name.
+
+VERSION — the catalog always carries a "version": an integer the app
+compares with what a device has already seeded. A brand new catalog is
+"version": 1. Regenerating or extending an existing catalog: take the
+"version" of the current file and add 1, otherwise devices that already
+have the older catalog skip the new rules entirely.
 
 Return ONE JSON object and nothing else: no prose before or after it, no
 markdown code fence, no comments, no trailing commas.
@@ -44,6 +52,7 @@ native language.
 
 {
 "lang": "<LANGUAGE CODE>",
+"version": <VERSION>,
 "groups": [ { "id": "...", "name": "...", "description": "..." } ],
 "tags":   [ { "id": "...", "name": "...", "description": "...",
 "groupIds": ["..."] } ],
@@ -223,7 +232,8 @@ at which the rule sits in the ordering.
 
 Go through this list silently before you output anything:
 
-- the object contains "lang", all 3 groups, all 6 level tags, all 3
+- the object contains "lang" and an integer "version" (1 for a new
+  catalog, current + 1 when regenerating), all 3 groups, all 6 level tags, all 3
   severity tags, 12-20 area tags, and 50-90 rules covering a1-c2 with
   8-15 rules per level;
 - every rule has exactly 10 examples and a description of 15-30 lines with

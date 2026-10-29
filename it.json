@@ -1,0 +1,262 @@
+{
+  "lang": "it",
+  "version": 1,
+  "groups": [
+    { "id": "it.group.level", "name": "level", "description": "Livello QCER in cui la regola viene normalmente insegnata." },
+    { "id": "it.group.severity", "name": "severity", "description": "Quanto gravemente la violazione della regola compromette la comprensione." },
+    { "id": "it.group.area", "name": "area", "description": "L'area della grammatica italiana a cui appartiene la regola." }
+  ],
+  "tags": [
+    { "id": "it.tag.a1", "name": "a1", "description": "Lo studente comprende e usa frasi molto semplici e familiari, come presentarsi e chiedere informazioni di base.", "groupIds": ["it.group.level"] },
+    { "id": "it.tag.a2", "name": "a2", "description": "Lo studente comunica in situazioni quotidiane prevedibili e parla di esperienze personali con frasi semplici.", "groupIds": ["it.group.level"] },
+    { "id": "it.tag.b1", "name": "b1", "description": "Lo studente affronta la maggior parte delle situazioni di viaggio e racconta esperienze, progetti e opinioni in modo lineare.", "groupIds": ["it.group.level"] },
+    { "id": "it.tag.b2", "name": "b2", "description": "Lo studente interagisce con scioltezza su temi concreti e astratti e si esprime su argomenti di attualità.", "groupIds": ["it.group.level"] },
+    { "id": "it.tag.c1", "name": "c1", "description": "Lo studente usa la lingua in modo flessibile ed efficace per scopi sociali, di studio e professionali, con testi complessi.", "groupIds": ["it.group.level"] },
+    { "id": "it.tag.c2", "name": "c2", "description": "Lo studente comprende senza sforzo qualsiasi testo e si esprime con precisione e sfumature anche in contesti complessi.", "groupIds": ["it.group.level"] },
+    { "id": "it.tag.minor", "name": "minor", "description": "L'errore è evidente ma il significato della frase resta chiaro.", "groupIds": ["it.group.severity"] },
+    { "id": "it.tag.major", "name": "major", "description": "L'errore altera il significato e non solo la forma della frase.", "groupIds": ["it.group.severity"] },
+    { "id": "it.tag.critical", "name": "critical", "description": "L'errore rende la frase difficile o impossibile da capire.", "groupIds": ["it.group.severity"] },
+    { "id": "it.tag.verb_conjugation", "name": "verb_conjugation", "description": "Coniugazione dei verbi: desinenze, persone e gruppi verbali regolari e irregolari del modo indicativo.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.articles", "name": "articles", "description": "Articoli determinativi e indeterminativi, con le loro forme davanti a vocali, consonanti complesse e s impura.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.agreement", "name": "agreement", "description": "Concordanza di genere e numero tra nome, aggettivo, articolo e participio.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.past_tenses", "name": "past_tenses", "description": "Tempi del passato composti e semplici, con la scelta tra ausiliare avere ed essere.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.pronouns", "name": "pronouns", "description": "Pronomi personali usati come complementi diretti e indiretti, con la loro posizione nella frase.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.moods", "name": "moods", "description": "Uso dei modi verbali, in particolare il congiuntivo, dopo verbi di opinione, volontà e dubbio.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.aspect", "name": "aspect", "description": "Contrasto tra azioni abituali, descrittive e concluse nel passato, espresso dalla scelta del tempo verbale.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.conditionals", "name": "conditionals", "description": "Frasi ipotetiche e periodi condizionali, con i tempi verbali di ipotesi reale, possibile e irreale.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.voice", "name": "voice", "description": "Forme passive e costruzioni che mettono in evidenza l'agente o il risultato di un'azione.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.subordination", "name": "subordination", "description": "Costruzioni subordinate non finite, come il participio assoluto, e loro uso nei periodi complessi.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.clitics", "name": "clitics", "description": "Particelle pronominali atone come ci e ne, con il loro ordine e la loro combinazione con altri pronomi.", "groupIds": ["it.group.area"] },
+    { "id": "it.tag.impersonal_constructions", "name": "impersonal_constructions", "description": "Costruzioni impersonali e passivanti con il pronome si, senza soggetto esplicito o con soggetto generico.", "groupIds": ["it.group.area"] }
+  ],
+  "rules": [
+    {
+      "id": "it.rule.presente_regolari",
+      "title": "Presente indicativo dei verbi regolari",
+      "description": "**L'idea** — Il presente indica un'azione abituale, una situazione attuale o un fatto generale. In italiano la desinenza del verbo indica già la persona, quindi il pronome soggetto si usa di rado.\n\n**La forma** — \n- Radice del verbo più desinenza: parl-are, cred-ere, dorm-ire.\n- Desinenze -are: -o, -i, -a, -iamo, -ate, -ano.\n- Desinenze -ere: -o, -i, -e, -iamo, -ete, -ono.\n- Desinenze -ire (tipo dormire): -o, -i, -e, -iamo, -ite, -ono.\n- La negazione si forma con non davanti al verbo.\n\n**Quando si usa** — Abitudini e routine, fatti generali, situazioni presenti. Segnali tipici: ogni giorno, di solito, adesso, sempre.\n\n**Quando NON si usa** — Per azioni già concluse nel passato si usa il passato prossimo. Per progetti futuri si usa il presente con un avverbio di tempo futuro, non un tempo futuro specifico.\n\n**Errori tipici** — \n- Usare la stessa desinenza per tutte le persone, perché lo studente cerca una forma unica.\n- Confondere le desinenze di -ere e -ire alla terza plurale.\n- Dimenticare la desinenza alla seconda persona singolare.\n\n**Registro** — Forma neutra e molto frequente in tutte le situazioni.",
+      "llmDescription": "Verbi regolari al presente indicativo con desinenze -o, -i, -a, -iamo, -ate, -ano, -are, -ere, -ire; frasi abituali o generali.",
+      "examples": [
+        { "wrong": "Io parla bene l'italiano.", "correct": "Io parlo bene l'italiano.", "note": "La prima persona singolare richiede la desinenza -o." },
+        { "wrong": "Tu mangiamo a casa ogni sera.", "correct": "Tu mangi a casa ogni sera.", "note": "La seconda persona singolare termina in -i." },
+        { "wrong": "Noi vivi a Roma da anni.", "correct": "Noi viviamo a Roma da anni.", "note": "La prima plurale richiede -iamo." },
+        { "wrong": "Loro lavora molto in ufficio.", "correct": "Loro lavorano molto in ufficio.", "note": "La terza plurale richiede -ano." },
+        { "wrong": "Lei studiano medicina all'università.", "correct": "Lei studia medicina all'università.", "note": "Il soggetto singolare richiede la forma singolare." },
+        { "wrong": "Voi capisci la domanda?", "correct": "Voi capite la domanda?", "note": "La seconda plurale dei verbi in -ire è -ite." },
+        { "wrong": "Io prende il treno ogni giorno.", "correct": "Io prendo il treno ogni giorno.", "note": "Con io la desinenza è -o, non -e." },
+        { "wrong": "Il bambino dormo presto la sera.", "correct": "Il bambino dorme presto la sera.", "note": "La terza singolare dei verbi in -ire è -e." },
+        { "wrong": "Noi chiama mia madre la sera.", "correct": "Noi chiamiamo mia madre la sera.", "note": "Il soggetto noi richiede sempre la forma in -iamo." },
+        { "wrong": "Tu non fumo in casa mia.", "correct": "Tu non fumi in casa mia.", "note": "Con tu la desinenza è -i, anche con la negazione." }
+      ],
+      "tagIds": ["it.tag.a1", "it.tag.minor", "it.tag.verb_conjugation"]
+    },
+    {
+      "id": "it.rule.articoli_determinativi",
+      "title": "Articoli determinativi maschili e femminili",
+      "description": "**L'idea** — L'articolo determinativo indica un nome noto o specifico. La sua forma non dipende solo dal genere e dal numero, ma anche dalla lettera con cui inizia la parola successiva.\n\n**La forma** — \n- Maschile singolare: il davanti a consonante, lo davanti a s impura, z o gn, l' davanti a vocale.\n- Maschile plurale: i davanti a consonante, gli davanti a vocale, s impura, z o gn.\n- Femminile singolare: la davanti a consonante, l' davanti a vocale.\n- Femminile plurale: le davanti a qualsiasi lettera.\n\n**Quando si usa** — Con nomi determinati, con cose uniche o generali, e prima dei nomi che indicano una categoria. Segnali: il contesto già noto ai parlanti.\n\n**Quando NON si usa** — Con nomi generici dopo di o senza determinazione in alcuni casi. Il test: se la parola successiva inizia per vocale, usa l'apostrofo al singolare.\n\n**Errori tipici** — \n- Usare il davanti a parole che iniziano per s impura, come lo studente.\n- Usare lo davanti a vocale invece di l'.\n- Usare i al posto di gli prima di vocale.\n\n**Registro** — Uso neutro e obbligatorio in ogni registro.",
+      "llmDescription": "Articoli determinativi il, lo, la, l', i, gli, le con scelta della forma secondo la lettera iniziale della parola seguente.",
+      "examples": [
+        { "wrong": "Il studente è molto attento.", "correct": "Lo studente è molto attento.", "note": "Davanti a s impura seguita da consonante serve lo." },
+        { "wrong": "Lo amico di Marco arriva domani.", "correct": "L'amico di Marco arriva domani.", "note": "Davanti a vocale il singolare richiede l'apostrofo." },
+        { "wrong": "La zaino è sul divano.", "correct": "Lo zaino è sul divano.", "note": "Davanti a z il maschile usa lo." },
+        { "wrong": "Il ragazzi giocano in cortile.", "correct": "I ragazzi giocano in cortile.", "note": "Il plurale maschile consonantico richiede i." },
+        { "wrong": "I amici arrivano alle otto.", "correct": "Gli amici arrivano alle otto.", "note": "Il plurale davanti a vocale richiede gli." },
+        { "wrong": "La ore passano lentamente oggi.", "correct": "Le ore passano lentamente oggi.", "note": "Il femminile plurale usa sempre le." },
+        { "wrong": "Io bevo lo caffè al mattino.", "correct": "Io bevo il caffè al mattino.", "note": "Caffè inizia per consonante, quindi il." },
+        { "wrong": "Mi piace lo pizza di sera.", "correct": "Mi piace la pizza di sera.", "note": "Pizza è femminile, serve la." },
+        { "wrong": "Vado al mare con i amici.", "correct": "Vado al mare con gli amici.", "note": "Il plurale maschile davanti a vocale vuole gli." },
+        { "wrong": "Dov'è il stazione centrale?", "correct": "Dov'è la stazione centrale?", "note": "Stazione è femminile singolare." }
+      ],
+      "tagIds": ["it.tag.a1", "it.tag.major", "it.tag.articles"]
+    },
+    {
+      "id": "it.rule.accordo_aggettivi",
+      "title": "Accordo dell'aggettivo con il nome",
+      "description": "**L'idea** — L'aggettivo descrive un nome e deve accordarsi con esso. In italiano il genere e il numero sono marcati su ogni parola della frase, quindi l'errore di accordo è molto visibile.\n\n**La forma** — \n- Aggettivi in -o: maschile -o, femminile -a, plurale maschile -i, plurale femminile -e.\n- Aggettivi in -e: singolare -e, plurale -i, senza distinzione di genere.\n- Il nome determina l'accordo, non il soggetto o il verbo.\n- Con più nomi di generi diversi si usa il maschile plurale.\n\n**Quando si usa** — Dopo il verbo essere o con i nomi nella posizione tipica. Segnali: nomi che cambiano desinenza con l'articolo.\n\n**Quando NON si usa** — Gli aggettivi usati come avverbi restano invariati, come in parlare forte. Il test: se l'aggettivo descrive un nome, deve concordare.\n\n**Errori tipici** — \n- Concordare l'aggettivo con l'articolo e non con il nome.\n- Dimenticare il plurale quando i nomi sono più di uno.\n- Usare il maschile con un nome femminile perché è la forma di citazione.\n\n**Registro** — Regola obbligatoria in tutti i registri.",
+      "llmDescription": "Accordo di genere e numero degli aggettivi con il nome, con desinenze -o, -a, -i, -e e aggettivi invariabili in -e.",
+      "examples": [
+        { "wrong": "La casa è molto grande.", "correct": "La casa è molto grande.", "note": "Questo esempio è corretto e serve come riferimento." },
+        { "wrong": "La mia sorella è molto simpatico.", "correct": "La mia sorella è molto simpatica.", "note": "Sorella è femminile, l'aggettivo deve essere in -a." },
+        { "wrong": "I libri sono interessante.", "correct": "I libri sono interessanti.", "note": "Libri è plurale maschile, serve -i." },
+        { "wrong": "Le mele sono rosso.", "correct": "Le mele sono rosse.", "note": "Mele è femminile plurale, serve -e." },
+        { "wrong": "Mia nonna è un persona gentile.", "correct": "Mia nonna è una persona gentile.", "note": "Persona è femminile e richiede l'articolo una." },
+        { "wrong": "Noi siamo stanco dopo il viaggio.", "correct": "Noi siamo stanchi dopo il viaggio.", "note": "Noi riferito a gruppo maschile richiede -i." },
+        { "wrong": "Il ragazzo e la ragazza sono gentile.", "correct": "Il ragazzo e la ragazza sono gentili.", "note": "Due generi diversi richiedono il maschile plurale." },
+        { "wrong": "Questa giornata è difficili.", "correct": "Questa giornata è difficile.", "note": "Aggettivo in -e al singolare non cambia." },
+        { "wrong": "Gli studenti sono bravo in matematica.", "correct": "Gli studenti sono bravi in matematica.", "note": "Studenti maschili plurale richiedono -i." },
+        { "wrong": "Le giornate sono molto bello.", "correct": "Le giornate sono molto belle.", "note": "Giornate è femminile plurale, serve -e." }
+      ],
+      "tagIds": ["it.tag.a2", "it.tag.major", "it.tag.agreement"]
+    },
+    {
+      "id": "it.rule.passato_prossimo",
+      "title": "Passato prossimo con avere ed essere",
+      "description": "**L'idea** — Il passato prossimo racconta un'azione conclusa o un evento con effetto sul presente. Si forma con un ausiliare e il participio passato, e la scelta dell'ausiliare dipende dal verbo.\n\n**La forma** — \n- Ausiliare avere (presente) più participio: ho mangiato, hai letto, abbiamo visto.\n- Ausiliare essere (presente) più participio: sono andato, è arrivata, siamo partiti.\n- Il participio dei verbi in -are finisce in -ato, in -ere in -uto o -ito, in -ire in -ito.\n- Con essere il participio concorda con il soggetto in genere e numero.\n\n**Quando si usa** — Con azioni concluse, eventi singoli e cambi di stato. Segnali: ieri, la settimana scorsa, due anni fa.\n\n**Quando NON si usa** — Per descrizioni o azioni continue nel passato si usa l'imperfetto. Il test: se l'azione è finita e puntuale, usa il passato prossimo.\n\n**Errori tipici** — \n- Usare essere con verbi transitivi che richiedono avere.\n- Dimenticare l'accordo del participio con essere.\n- Usare il participio regolare per verbi irregolari come fare, che diventa fatto.\n\n**Registro** — Molto usato nel parlato di tutta Italia, anche nello scritto informale.",
+      "llmDescription": "Passato prossimo con ausiliare avere o essere e participio passato; scelta dell'ausiliare e accordo del participio con essere.",
+      "examples": [
+        { "wrong": "Ieri io ho andato al mercato.", "correct": "Ieri io sono andato al mercato.", "note": "Andare vuole l'ausiliare essere." },
+        { "wrong": "Tu sei mangiato la torta.", "correct": "Tu hai mangiato la torta.", "note": "Mangiare è transitivo e vuole avere." },
+        { "wrong": "Maria è partito presto stamattina.", "correct": "Maria è partita presto stamattina.", "note": "Con essere il participio concorda con il soggetto femminile." },
+        { "wrong": "Noi abbiamo arrivato in ritardo.", "correct": "Noi siamo arrivati in ritardo.", "note": "Arrivare vuole essere e il participio concorda." },
+        { "wrong": "Loro hanno fatti i compiti ieri.", "correct": "Loro hanno fatto i compiti ieri.", "note": "Il participio di fare è fatto, non fatti." },
+        { "wrong": "Ho leggiuto il libro di storia.", "correct": "Ho letto il libro di storia.", "note": "Leggere ha il participio irregolare letto." },
+        { "wrong": "Tu e Luca siete stato a Firenze.", "correct": "Tu e Luca siete stati a Firenze.", "note": "Soggetto plurale maschile richiede stati." },
+        { "wrong": "Io ho nata a Napoli nel 1990.", "correct": "Io sono nata a Napoli nel 1990.", "note": "Nascere vuole essere, con accordo al femminile." },
+        { "wrong": "Voi avete venuti in treno.", "correct": "Voi siete venuti in treno.", "note": "Venire vuole essere." },
+        { "wrong": "Il bambino ha dormito bene stanotte.", "correct": "Il bambino ha dormito bene stanotte.", "note": "Questa frase è corretta e serve come controllo." }
+      ],
+      "tagIds": ["it.tag.a2", "it.tag.major", "it.tag.past_tenses"]
+    },
+    {
+      "id": "it.rule.pronomi_diretti",
+      "title": "Pronomi diretti di terza persona",
+      "description": "**L'idea** — Il pronome diretto sostituisce il complemento oggetto già noto, per evitare la ripetizione. Nelle frasi con i tempi composti deve accordarsi con il participio passato.\n\n**La forma** — \n- Forme: lo (maschile singolare), la (femminile singolare), li (maschile plurale), le (femminile plurale).\n- Si pongono prima del verbo coniugato: lo vedo, la sento.\n- Con l'infinito o l'imperativo positivo si attaccano al verbo: vederlo, dillo.\n- Con i tempi composti con avere il participio concorda: l'ho vista, le ho lette.\n\n**Quando si usa** — Per sostituire un oggetto già menzionato o noto. Segnali: frasi con un complemento che il parlante ha già citato.\n\n**Quando NON si usa** — Con i complementi indiretti si usano gli, le o a lui, a lei. Il test: se l'oggetto risponde alla domanda cosa o chi, è diretto.\n\n**Errori tipici** — \n- Non accordare il participio con il pronome femminile o plurale.\n- Mettere il pronome dopo il verbo coniugato.\n- Confondere il pronome diretto con quello indiretto.\n\n**Registro** — Uso neutro e frequente, obbligatorio in ogni registro.",
+      "llmDescription": "Pronomi diretti lo, la, li, le con posizione prima del verbo coniugato, attaccati all'infinito o all'imperativo, e accordo del participio.",
+      "examples": [
+        { "wrong": "Io vedo Maria domani.", "correct": "Io la vedo domani.", "note": "Maria è femminile singolare, serve il pronome la." },
+        { "wrong": "Hai comprato il pane? Sì, ho comprato lo.", "correct": "Hai comprato il pane? Sì, l'ho comprato.", "note": "Il pronome va prima del verbo ausiliare." },
+        { "wrong": "Ho visto le ragazze ieri, le ho viste.", "correct": "Ho visto le ragazze ieri, le ho viste.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Ho letto le lettere ieri sera.", "correct": "Le ho lette ieri sera.", "note": "Il pronome le richiede l'accordo del participio letto." },
+        { "wrong": "Ho mangiato la torta, l'ho mangiata.", "correct": "Ho mangiato la torta, l'ho mangiata.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Devo chiamare mia madre, devo chiamarla oggi.", "correct": "Devo chiamare mia madre, devo chiamarla oggi.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Compra il giornale, comprala adesso.", "correct": "Compralo adesso.", "note": "Il giornale è maschile singolare, serve lo." },
+        { "wrong": "Non li conosco, le conosco bene.", "correct": "Non li conosco, le conosco bene.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Gli ho visto ieri al cinema.", "correct": "Li ho visti ieri al cinema.", "note": "Gli è indiretto, qui serve il diretto li." },
+        { "wrong": "Ho scritto le email, le ho scrivete.", "correct": "Ho scritto le email, le ho scritte.", "note": "Il participio femminile plurale è scritte." }
+      ],
+      "tagIds": ["it.tag.b1", "it.tag.major", "it.tag.pronouns"]
+    },
+    {
+      "id": "it.rule.congiuntivo_presente",
+      "title": "Congiuntivo presente dopo verbi di opinione",
+      "description": "**L'idea** — Il congiuntivo esprime un'opinione soggettiva, un dubbio o un desiderio, non un fatto certo. Dopo i verbi di opinione e di volontà la frase subordinata richiede questo modo.\n\n**La forma** — \n- Radice più desinenze: per i verbi in -are: -i, -i, -i, -iamo, -iate, -ino.\n- Per i verbi in -ere e -ire: -a, -a, -a, -iamo, -iate, -ano per molti verbi.\n- Il verbo della subordinata è introdotto da che.\n- Con i verbi irregolari la radice cambia, come in essere: sia, sia, sia.\n\n**Quando si usa** — Dopo penso che, credo che, voglio che, è importante che. Segnali: verbi di opinione, volontà, dubbio nella principale.\n\n**Quando NON si usa** — Dopo so che, dico che o sono sicuro che si usa l'indicativo. Il test: se la principale esprime certezza, usa l'indicativo.\n\n**Errori tipici** — \n- Usare l'indicativo dopo penso che per abitudine dalla lingua madre.\n- Usare il congiuntivo dopo so che.\n- Dimenticare che prima della subordinata c'è che.\n\n**Registro** — Molto usato nello scritto e nel parlato formale, più frequente nelle frasi complesse.",
+      "llmDescription": "Congiuntivo presente nella subordinata introdotta da che dopo verbi di opinione, volontà o dubbio, come penso che, credo che, voglio che.",
+      "examples": [
+        { "wrong": "Penso che lui è stanco.", "correct": "Penso che lui sia stanco.", "note": "Penso che richiede il congiuntivo sia." },
+        { "wrong": "Credo che tu hai ragione.", "correct": "Credo che tu abbia ragione.", "note": "Credo che richiede il congiuntivo abbia." },
+        { "wrong": "So che lui sia a casa.", "correct": "So che lui è a casa.", "note": "So che è una certezza e vuole l'indicativo." },
+        { "wrong": "Voglio che tu vieni domani.", "correct": "Voglio che tu venga domani.", "note": "Volere che richiede il congiuntivo venga." },
+        { "wrong": "Ritengo che noi partiamo presto.", "correct": "Ritengo che noi partiamo presto.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Mi sembra che loro sono felici.", "correct": "Mi sembra che loro siano felici.", "note": "Sembrare che richiede il congiuntivo siano." },
+        { "wrong": "È importante che voi studiate ogni giorno.", "correct": "È importante che voi studiate ogni giorno.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Spero che il treno arriva in tempo.", "correct": "Spero che il treno arrivi in tempo.", "note": "Sperare che richiede il congiuntivo arrivi." },
+        { "wrong": "Non penso che Marco sa la risposta.", "correct": "Non penso che Marco sappia la risposta.", "note": "Dopo la negazione di penso il congiuntivo resta." },
+        { "wrong": "Dubito che loro capiscono il problema.", "correct": "Dubito che loro capiscano il problema.", "note": "Dubitare che richiede il congiuntivo capiscano." }
+      ],
+      "tagIds": ["it.tag.b1", "it.tag.major", "it.tag.moods"]
+    },
+    {
+      "id": "it.rule.imperfetto_passato_prossimo",
+      "title": "Imperfetto contro passato prossimo",
+      "description": "**L'idea** — Nel passato l'italiano distingue lo sfondo e la descrizione dall'azione puntuale e conclusa. L'imperfetto descrive come erano le cose o cosa succedeva abitualmente; il passato prossimo racconta un evento che ha avuto luogo.\n\n**La forma** — \n- Imperfetto: radice più -avo, -avi, -ava, -avamo, -avate, -avano per i verbi in -are.\n- Imperfetto dei verbi in -ere e -ire: -evo, -evi, -eva, -evamo, -evate, -evano.\n- Il verbo essere all'imperfetto è irregolare: ero, eri, era.\n- Passato prossimo: ausiliare avere o essere più participio passato.\n\n**Quando si usa** — L'imperfetto per descrizioni, abitudini passate e azioni in corso. Il passato prossimo per l'evento puntuale che interrompe. Segnali: mentre, quando, ogni giorno.\n\n**Quando NON si usa** — Per un evento concluso e unico non si usa l'imperfetto, a meno di un contesto descrittivo. Il test: chiedi se l'azione è in corso o è un fatto specifico.\n\n**Errori tipici** — \n- Usare il passato prossimo per descrivere lo sfondo.\n- Usare l'imperfetto per un evento preciso e concluso.\n- Confondere i tempi con verbi come sapere o volere, che al passato hanno significati diversi.\n\n**Registro** — Uso neutro e molto frequente nel racconto scritto e orale.",
+      "llmDescription": "Contrasto tra imperfetto, per descrizioni e abitudini passate, e passato prossimo, per eventi puntuali; segnali come mentre, quando, ogni giorno, ieri.",
+      "examples": [
+        { "wrong": "Mentre cucinavo, il telefono ha squillato.", "correct": "Mentre cucinavo, il telefono ha squillato.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Quando ero piccolo, sono andato al mare ogni estate.", "correct": "Quando ero piccolo, andavo al mare ogni estate.", "note": "Un'abitudine passata richiede l'imperfetto." },
+        { "wrong": "Ieri pioveva e sono rimasto a casa.", "correct": "Ieri pioveva e sono rimasto a casa.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Ieri ho dovuto lavorare fino a tardi.", "correct": "Ieri dovevo lavorare fino a tardi.", "note": "Dovere come obbligo continuo vuole l'imperfetto." },
+        { "wrong": "Da bambina giocavo sempre in giardino.", "correct": "Da bambina giocavo sempre in giardino.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Mentre leggevamo, il gatto è saltato sul tavolo.", "correct": "Mentre leggevamo, il gatto è saltato sul tavolo.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Quando sono arrivato, c'era molta gente.", "correct": "Quando sono arrivato, c'era molta gente.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "L'anno scorso avevo un nuovo lavoro e sono stato felice.", "correct": "L'anno scorso avevo un nuovo lavoro e ero felice.", "note": "Uno stato d'animo descrittivo richiede l'imperfetto." },
+        { "wrong": "Ogni sabato sono andati al mercato.", "correct": "Ogni sabato andavano al mercato.", "note": "Ogni sabato indica un'abitudine e vuole l'imperfetto." },
+        { "wrong": "Ieri hanno cucinato mentre noi parlavamo.", "correct": "Ieri cucinavano mentre noi parlavamo.", "note": "Un'azione in corso con mentre vuole l'imperfetto." }
+      ],
+      "tagIds": ["it.tag.b2", "it.tag.major", "it.tag.aspect"]
+    },
+    {
+      "id": "it.rule.periodo_ipotetico_secondo",
+      "title": "Periodo ipotetico dell'irrealtà",
+      "description": "**L'idea** — Il periodo ipotetico di secondo tipo parla di situazioni immaginarie o improbabili nel presente o nel futuro. Il parlante sa che la condizione non si realizza, quindi usa un tempo lontano dalla realtà.\n\n**La forma** — \n- Protasi con se più congiuntivo imperfetto: se avessi tempo, se fossi ricco.\n- Apodosi con condizionale presente: viaggerei, compreresti.\n- L'ordine delle due parti può essere invertito senza cambiare il senso.\n- Non si usa il condizionale nella frase con se.\n\n**Quando si usa** — Per desideri irreali, consigli ipotetici, situazioni immaginarie. Segnali: se più imperfetto congiuntivo, condizionale nella principale.\n\n**Quando NON si usa** — Per condizioni reali e possibili si usa il primo tipo con l'indicativo. Il test: se la condizione è probabile, usa il primo tipo.\n\n**Errori tipici** — \n- Usare il condizionale nella frase con se.\n- Usare l'indicativo dopo se in un'ipotesi irreale.\n- Confondere il congiuntivo imperfetto con il presente.\n\n**Registro** — Usato nel parlato quotidiano e nello scritto, molto frequente.",
+      "llmDescription": "Periodo ipotetico irreale con se più congiuntivo imperfetto nella protasi e condizionale presente nell'apodosi, per situazioni immaginarie nel presente o futuro.",
+      "examples": [
+        { "wrong": "Se avrei tempo, viaggerei di più.", "correct": "Se avessi tempo, viaggerei di più.", "note": "Nella frase con se non si usa il condizionale." },
+        { "wrong": "Se sono ricco, comprerei una casa.", "correct": "Se fossi ricco, comprerei una casa.", "note": "Un'ipotesi irreale richiede il congiuntivo imperfetto." },
+        { "wrong": "Se io avessi più soldi, andrei in vacanza.", "correct": "Se io avessi più soldi, andrei in vacanza.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Se tu studi di più, avresti buoni voti.", "correct": "Se tu studiassi di più, avresti buoni voti.", "note": "L'ipotesi irreale richiede studiassi." },
+        { "wrong": "Se lui sapesse la verità, cambierebbe idea.", "correct": "Se lui sapesse la verità, cambierebbe idea.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Se noi avremmo una macchina, saremmo più liberi.", "correct": "Se noi avessimo una macchina, saremmo più liberi.", "note": "Il congiuntivo imperfetto non usa avremmo." },
+        { "wrong": "Se vivrei in campagna, avresti un giardino.", "correct": "Se vivessi in campagna, avresti un giardino.", "note": "Nella protasi non si usa il condizionale." },
+        { "wrong": "Se loro vincono la gara, festeggerebbero.", "correct": "Se loro vincessero la gara, festeggerebbero.", "note": "L'ipotesi irreale vuole il congiuntivo vincessero." },
+        { "wrong": "Se io sarei tu, cercherei un lavoro nuovo.", "correct": "Se io fossi te, cercherei un lavoro nuovo.", "note": "Essere al congiuntivo imperfetto è fossi." },
+        { "wrong": "Se voi potete venire, sarebbe bello.", "correct": "Se poteste venire, sarebbe bello.", "note": "L'ipotesi irreale richiede il congiuntivo poteste." }
+      ],
+      "tagIds": ["it.tag.b2", "it.tag.major", "it.tag.conditionals"]
+    },
+    {
+      "id": "it.rule.forma_passiva",
+      "title": "Forma passiva con essere e venire",
+      "description": "**L'idea** — La forma passiva sposta l'attenzione dal soggetto all'oggetto dell'azione. Si usa quando chi compie l'azione non è importante o non è noto, oppure per dare rilievo a ciò che subisce l'azione.\n\n**La forma** — \n- Essere più participio passato, concordato con il soggetto: il libro è letto.\n- Venire più participio passato, più dinamico e frequente nei tempi semplici: la casa viene costruita.\n- L'agente si introduce con da: il film è diretto da Fellini.\n- Il participio concorda con il soggetto in genere e numero.\n\n**Quando si usa** — Quando l'azione o il risultato conta più dell'agente. Segnali: da più nome di chi compie, il risultato dell'azione.\n\n**Quando NON si usa** — Con verbi intransitivi non si forma il passivo. Il test: se il verbo non ha oggetto diretto, non si usa il passivo.\n\n**Errori tipici** — \n- Usare il passivo con verbi intransitivi.\n- Non far concordare il participio con il soggetto.\n- Usare per invece di da per l'agente.\n\n**Registro** — Più frequente nello scritto formale e nei testi giornalistici e tecnici.",
+      "llmDescription": "Forma passiva con essere o venire più participio passato concordato con il soggetto, con agente introdotto da da; tipico dello scritto formale.",
+      "examples": [
+        { "wrong": "La lettera è scritto da Marco.", "correct": "La lettera è scritta da Marco.", "note": "Il participio concorda con lettera, femminile singolare." },
+        { "wrong": "Il ponte viene costruito per il Comune.", "correct": "Il ponte viene costruito dal Comune.", "note": "L'agente si introduce con da." },
+        { "wrong": "I documenti sono firmate dal direttore.", "correct": "I documenti sono firmati dal direttore.", "note": "Documenti è maschile plurale." },
+        { "wrong": "Il libro è letto da molte persone.", "correct": "Il libro è letto da molte persone.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Le case sono costruito nel 1950.", "correct": "Le case sono costruite nel 1950.", "note": "Case è femminile plurale." },
+        { "wrong": "Il treno è arrivato dalla stazione.", "correct": "Il treno è arrivato in stazione.", "note": "Arrivare è intransitivo e non forma il passivo." },
+        { "wrong": "La torta viene mangiata dai bambini ieri.", "correct": "La torta è stata mangiata dai bambini ieri.", "note": "Al passato il passivo con venire non è naturale." },
+        { "wrong": "Gli esami vengono superati dagli studenti.", "correct": "Gli esami vengono superati dagli studenti.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Il quadro è dipinto per un pittore famoso.", "correct": "Il quadro è dipinto da un pittore famoso.", "note": "Chi compie l'azione si introduce con da." },
+        { "wrong": "La finestra è aperta dal vento ieri.", "correct": "La finestra è stata aperta dal vento ieri.", "note": "Al passato prossimo il passivo richiede stata." }
+      ],
+      "tagIds": ["it.tag.c1", "it.tag.major", "it.tag.voice"]
+    },
+    {
+      "id": "it.rule.gerundio_participio_assoluto",
+      "title": "Participio passato assoluto",
+      "description": "**L'idea** — Il participio assoluto esprime una circostanza temporale, causale o concessiva senza verbo finito. È tipico dello scritto elegante e riassume in poche parole un'azione precedente o contemporanea.\n\n**La forma** — \n- Participio passato senza ausiliare, con soggetto proprio se diverso dalla principale.\n- Il participio concorda con il soggetto della subordinata, non con quello della principale.\n- Di solito la posizione è all'inizio o alla fine della frase.\n- Il soggetto del participio viene dopo il participio: finita la cena, gli ospiti partirono.\n\n**Quando si usa** — Per indicare un'azione conclusa prima dell'azione principale. Segnali: un participio seguito da un soggetto, senza ausiliare.\n\n**Quando NON si usa** — Quando il soggetto del participio coincide con quello della principale in modo ambiguo, meglio una frase con il verbo finito. Il test: se la frase diventa ambigua, usa una subordinata completa.\n\n**Errori tipici** — \n- Usare l'ausiliare con il participio assoluto.\n- Non accordare il participio con il soggetto proprio.\n- Usare il participio assoluto nella frase colloquiale dove è innaturale.\n\n**Registro** — Tipico dello scritto formale e letterario, raro nel parlato quotidiano.",
+      "llmDescription": "Participio passato assoluto senza ausiliare, con soggetto proprio, che esprime circostanza temporale o causale nello scritto formale.",
+      "examples": [
+        { "wrong": "Finito il lavoro, siamo usciti.", "correct": "Finito il lavoro, siamo usciti.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Avuto il permesso, siamo partiti.", "correct": "Ottenuto il permesso, siamo partiti.", "note": "Avere al participio assoluto non è naturale qui." },
+        { "wrong": "Finita le lezioni, gli studenti sono usciti.", "correct": "Finite le lezioni, gli studenti sono usciti.", "note": "Lezioni è femminile plurale, il participio concorda." },
+        { "wrong": "Arrivati a casa, ho chiamato mia madre.", "correct": "Arrivati a casa, ho chiamato mia madre.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Mangiato la cena, andiamo a dormire.", "correct": "Cenati, andiamo a dormire.", "note": "Mangiare non è il participio più naturale qui." },
+        { "wrong": "Ritornata la pioggia, abbiamo chiuso le finestre.", "correct": "Tornata la pioggia, abbiamo chiuso le finestre.", "note": "Ritornare è pleonastico con questo participio." },
+        { "wrong": "Conclusa la riunione, i colleghi hanno lasciato l'ufficio.", "correct": "Conclusa la riunione, i colleghi hanno lasciato l'ufficio.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Chiuse le porte, il custode se ne andò.", "correct": "Chiuse le porte, il custode se ne andò.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Scritto la lettera, mi sono riposata.", "correct": "Scritta la lettera, mi sono riposata.", "note": "Il participio concorda con lettera, femminile." },
+        { "wrong": "Partiti i treni, la stazione si è svuotata.", "correct": "Partiti i treni, la stazione si è svuotata.", "note": "Questa frase è corretta e serve come controllo." }
+      ],
+      "tagIds": ["it.tag.c1", "it.tag.major", "it.tag.subordination"]
+    },
+    {
+      "id": "it.rule.ci_ne_combinati",
+      "title": "Ci e ne con altri pronomi clitici",
+      "description": "**L'idea** — Ci e ne sono particelle atone che indicano luogo o quantità. Quando compaiono insieme ad altri pronomi l'ordine è fisso e le forme si modificano, perché l'italiano evita sequenze difficili da pronunciare.\n\n**La forma** — \n- Ci indica luogo, ne indica quantità o provenienza; entrambi precedono il verbo coniugato.\n- Con il pronome diretto l'ordine è: indiretto, poi ne o ci, poi il verbo.\n- Con i pronomi combinati mi, ti, ci, vi, si davanti a ne o ci la i diventa e: me ne, te ne.\n- Attaccati all'infinito o all'imperativo positivo formano una sola parola: andarci, dammene.\n\n**Quando si usa** — Ci per luoghi già nominati, ne per quantità o per un complemento introdotto da di. Segnali: di più, ci sono, ci vado.\n\n**Quando NON si usa** — Con persone il pronome è lui, lei o loro, non ci o ne. Il test: se il complemento è una persona, non usa ne.\n\n**Errori tipici** — \n- Mettere ne o ci dopo il verbo coniugato.\n- Non cambiare mi in me davanti a ne.\n- Usare ne per persone.\n\n**Registro** — Molto frequente nel parlato, anche formale.",
+      "llmDescription": "Particelle atone ci e ne in combinazione con altri pronomi, con forme come me ne, glielo, ce ne, e posizione prima del verbo coniugato o attaccate all'infinito.",
+      "examples": [
+        { "wrong": "Ci vado domani con te.", "correct": "Ci vado domani con te.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Mi ne hanno dati due.", "correct": "Me ne hanno dati due.", "note": "Davanti a ne il pronome mi diventa me." },
+        { "wrong": "Ho comprato dei libri, ho comprato tre ne.", "correct": "Ne ho comprati tre.", "note": "Ne precede il verbo coniugato." },
+        { "wrong": "Vado a Roma e ci sono già stato.", "correct": "Vado a Roma e ci sono già stato.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Gliele ho dato ieri, il libro.", "correct": "Glielo ho dato ieri.", "note": "Con il libro il pronome diretto è lo." },
+        { "wrong": "Vorrei che tu ci andassi con lui.", "correct": "Vorrei che tu ci andassi con lui.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Quante mele hai? Ne ho cinque.", "correct": "Quante mele hai? Ne ho cinque.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Dammi del pane, dammi ne un po'.", "correct": "Dammene un po'.", "note": "Con l'imperativo il ne si attacca al verbo." },
+        { "wrong": "Ci sono molti studenti, ci sono ne molti.", "correct": "Ce ne sono molti.", "note": "Ci e ne si combinano come ce ne." },
+        { "wrong": "Hanno parlato di lui, ne hanno parlato.", "correct": "Hanno parlato di lui.", "note": "Ne non si usa per una persona come lui." }
+      ],
+      "tagIds": ["it.tag.c2", "it.tag.critical", "it.tag.clitics"]
+    },
+    {
+      "id": "it.rule.si_impersonale_passivante",
+      "title": "Il si impersonale e passivante",
+      "description": "**L'idea** — Il si impersonale descrive un'azione senza indicare un soggetto preciso, come se fosse valida per tutti. Il si passivante ha il significato di passivo, ma con il verbo alla terza persona e un oggetto che determina l'accordo.\n\n**La forma** — \n- Si impersonale più verbo alla terza singolare: qui si lavora molto.\n- Con verbi intransitivi o con essere il predicato è sempre alla terza singolare: si è partiti.\n- Si passivante con oggetto plurale: si vendono case, il verbo concorda con il plurale.\n- Dopo il si impersonale il participio di tempi composti prende la forma maschile plurale: si è stati.\n\n**Quando si usa** — Per regole generali, istruzioni e azioni senza soggetto preciso. Segnali: verbi in terza persona con si, frasi di opinione generale.\n\n**Quando NON si usa** — Quando il soggetto è noto, si usa la forma passiva o il soggetto esplicito. Il test: se il soggetto è identificato, non serve il si.\n\n**Errori tipici** — \n- Mettere il verbo al plurale con oggetto singolare.\n- Usare si con un pronome soggetto esplicito.\n- Non accordare l'aggettivo o il participio nella frase con si impersonale.\n\n**Registro** — Molto frequente nel parlato e nello scritto neutro.",
+      "llmDescription": "Costruzione con il pronome si impersonale o passivante, verbo alla terza persona e accordo con l'oggetto; per azioni generali o senza soggetto preciso.",
+      "examples": [
+        { "wrong": "Qui si lavoriamo molto.", "correct": "Qui si lavora molto.", "note": "Con si impersonale il verbo è alla terza singolare." },
+        { "wrong": "In Italia si mangia spaghetti.", "correct": "In Italia si mangiano spaghetti.", "note": "Con oggetto plurale il verbo concorda al plurale." },
+        { "wrong": "Si vende case in questa zona.", "correct": "Si vendono case in questa zona.", "note": "Il si passivante concorda con case, plurale." },
+        { "wrong": "Qui si dorme bene la notte.", "correct": "Qui si dorme bene la notte.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Si è stato molto felici ieri.", "correct": "Si è stati molto felici ieri.", "note": "Il participio con si impersonale prende il plurale maschile." },
+        { "wrong": "Noi si parliamo molte lingue qui.", "correct": "Qui si parlano molte lingue.", "note": "Con si impersonale non si usa il soggetto noi." },
+        { "wrong": "Si partiamo sempre presto.", "correct": "Si parte sempre presto.", "note": "Con si impersonale il verbo resta alla terza singolare." },
+        { "wrong": "Si deve studiare ogni giorno.", "correct": "Si deve studiare ogni giorno.", "note": "Questa frase è corretta e serve come controllo." },
+        { "wrong": "Si affittano appartamento in centro.", "correct": "Si affitta un appartamento in centro.", "note": "Il singolare richiede il verbo al singolare." },
+        { "wrong": "Si può vedere i monumenti in estate.", "correct": "Si possono vedere i monumenti in estate.", "note": "Il verbo modale concorda con l'oggetto plurale." }
+      ],
+      "tagIds": ["it.tag.c2", "it.tag.major", "it.tag.impersonal_constructions"]
+    }
+  ]
+}
