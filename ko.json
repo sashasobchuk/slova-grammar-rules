@@ -1,6 +1,6 @@
 {
   "lang": "ko",
-  "version": 1,
+  "version": 2,
   "groups": [
     {
       "id": "ko.group.level",
@@ -16,6 +16,16 @@
       "id": "ko.group.area",
       "name": "area",
       "description": "규칙이 속하는 문법 영역입니다."
+    },
+    {
+      "id": "ko.group.function",
+      "name": "function",
+      "description": "학습자가 한국어로 하고 싶은 일입니다. 과거 말하기, 질문하기, 부탁하기, 비교하기, 생각 잇기 등을 나타냅니다."
+    },
+    {
+      "id": "ko.group.frequency",
+      "name": "frequency",
+      "description": "그 표현이 영상, 대화, 책 같은 실제 일상 언어에서 얼마나 자주 나오는지를 나타냅니다."
     }
   ],
   "tags": [
@@ -218,6 +228,166 @@
       "groupIds": [
         "ko.group.area"
       ]
+    },
+    {
+      "id": "ko.tag.sentence_building",
+      "name": "sentence_building",
+      "description": "조사, 서술어, 어순처럼 문장을 이루는 기본 요소를 다룹니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.talking_about_present",
+      "name": "talking_about_present",
+      "description": "현재의 상태, 습관, 지금 일어나는 일을 말하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.talking_about_past",
+      "name": "talking_about_past",
+      "description": "지난 일, 경험, 과거의 습관을 말하고 이야기하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.talking_about_future",
+      "name": "talking_about_future",
+      "description": "계획, 예정, 약속, 앞으로의 일을 말하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.describing_things",
+      "name": "describing_things",
+      "description": "명사, 형용사, 관형사형, 지시어, 소유, 수량으로 사람과 사물을 묘사하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.comparing",
+      "name": "comparing",
+      "description": "보다, 제일, 만큼처럼 사람과 사물을 비교하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.asking_questions",
+      "name": "asking_questions",
+      "description": "의문사 질문, 제안을 묻는 질문, 간접 질문 등 질문하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.negating",
+      "name": "negating",
+      "description": "안, 못, -지 않다처럼 부정하고 거절하는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.advice_obligation",
+      "name": "advice_obligation",
+      "description": "충고, 의무, 금지, 필요를 나타내는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.requests_offers_permission",
+      "name": "requests_offers_permission",
+      "description": "부탁, 제안, 허락 구하기와 허락하기, 공손하게 묻기를 나타내는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.ability_possibility",
+      "name": "ability_possibility",
+      "description": "능력, 가능성, 추측, 확신을 나타내는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.hypotheticals_wishes",
+      "name": "hypotheticals_wishes",
+      "description": "조건, 가정, 희망, 후회, 바람을 나타내는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.reporting_speech",
+      "name": "reporting_speech",
+      "description": "다른 사람의 말, 질문, 명령, 제안을 전달하는 인용 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.linking_ideas",
+      "name": "linking_ideas",
+      "description": "이유, 결과, 대조, 목적, 시간, 관형절로 생각과 절을 잇는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.emphasis_style",
+      "name": "emphasis_style",
+      "description": "강조, 격식, 말투 등급, 높임, 문어체 구조를 나타내는 표현입니다.",
+      "groupIds": [
+        "ko.group.function"
+      ]
+    },
+    {
+      "id": "ko.tag.everyday",
+      "name": "everyday",
+      "description": "거의 모든 일상 대화에서 끊임없이 쓰입니다.",
+      "groupIds": [
+        "ko.group.frequency"
+      ]
+    },
+    {
+      "id": "ko.tag.common",
+      "name": "common",
+      "description": "일반적인 말과 글에서 자주 쓰이지만 모든 대화에 나오지는 않습니다.",
+      "groupIds": [
+        "ko.group.frequency"
+      ]
+    },
+    {
+      "id": "ko.tag.rare",
+      "name": "rare",
+      "description": "주로 격식체, 문어체, 고급 표현으로 가끔만 만납니다.",
+      "groupIds": [
+        "ko.group.frequency"
+      ]
+    },
+    {
+      "id": "ko.tag.pronoun",
+      "name": "pronoun",
+      "description": "인칭 대명사, 지시어 이/그/저, 의문사처럼 무엇을 가리키거나 묻는 말을 다룹니다.",
+      "groupIds": [
+        "ko.group.area"
+      ]
+    },
+    {
+      "id": "ko.tag.comparison",
+      "name": "comparison",
+      "description": "보다, 제일, 만큼, 처럼처럼 두 대상 이상을 비교하는 표현을 다룹니다.",
+      "groupIds": [
+        "ko.group.area"
+      ]
     }
   ],
   "rules": [
@@ -281,7 +451,9 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.particle"
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -344,7 +516,9 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.particle"
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -407,7 +581,9 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.particle"
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -470,7 +646,10 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.copula"
+        "ko.tag.copula",
+        "ko.tag.sentence_building",
+        "ko.tag.describing_things",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -533,7 +712,9 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.particle"
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -596,7 +777,9 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.particle"
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -660,7 +843,9 @@
         "ko.tag.a1",
         "ko.tag.major",
         "ko.tag.verb_ending",
-        "ko.tag.speech_level"
+        "ko.tag.speech_level",
+        "ko.tag.talking_about_present",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -723,7 +908,9 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.negation"
+        "ko.tag.negation",
+        "ko.tag.negating",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -786,7 +973,595 @@
       "tagIds": [
         "ko.tag.a1",
         "ko.tag.major",
-        "ko.tag.number_counter"
+        "ko.tag.number_counter",
+        "ko.tag.describing_things",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.existence_itda_eopda",
+      "title": "존재와 소유 있어요/없어요",
+      "description": "**핵심 개념** `있다`는 무엇이 어디에 있거나 누가 무엇을 가지고 있을 때 씁니다. `없다`는 그 반대입니다. 사람, 물건, 시간, 돈 모두 이 동사로 말합니다.\n\n**형태**\n- 장소 + `에` + 명사 + `이/가` + `있어요/없어요`\n- 가진 사람 + `은/는` + 명사 + `이/가` + `있어요/없어요`\n- 질문: `있어요?` `없어요?`\n- 과거: `있었어요` `없었어요`\n- 높임(사람이 있을 때): `계세요` `안 계세요`\n\n**언제 쓰는가**\n- 장소에 무엇이 있는지 말할 때: 방에, 가방 안에\n- 가진 것을 말할 때: 시간, 돈, 동생, 차\n- 가게에서 물건이 있는지 물을 때\n\n**언제 쓰지 않는가** `이에요/예요`와 구별합니다. 무엇이 *무엇인지* 말하면 `이에요`, 무엇이 *있는지* 말하면 `있어요`입니다. 부정도 다릅니다: `아니에요`는 명사 부정, `없어요`는 존재 부정입니다.\n\n**자주 하는 실수**\n- `안 있어요`라고 말함: 부정은 항상 `없어요`입니다.\n- 장소에 `에서`를 붙임: 존재는 `에`입니다.\n- 가진 물건에 `을/를`을 붙임: `있다` 앞에는 `이/가`입니다.\n- `있어요`와 `이에요`를 섞음.\n\n**말투와 사용** 일상에서 가장 많이 쓰는 동사 중 하나입니다. `재미있다`, `맛있다`, `맛없다`도 이 동사에서 나왔습니다.",
+      "llmDescription": "존재·소유의 있다/없다, 명사+이/가 있어요, 에 있어요, 부정은 없어요(안 있어요 오류), 높임 계세요. 명사 서술 이에요/아니에요와 구별합니다.",
+      "examples": [
+        {
+          "wrong": "책상 위에 책이 안 있어요.",
+          "correct": "책상 위에 책이 없어요.",
+          "note": "있다의 부정은 없다입니다."
+        },
+        {
+          "wrong": "저는 동생을 있어요.",
+          "correct": "저는 동생이 있어요.",
+          "note": "있다 앞에는 이/가를 씁니다."
+        },
+        {
+          "wrong": "화장실이 어디에서 있어요?",
+          "correct": "화장실이 어디에 있어요?",
+          "note": "존재 장소에는 에를 씁니다."
+        },
+        {
+          "wrong": "오늘은 시간이 안 있어요.",
+          "correct": "오늘은 시간이 없어요.",
+          "note": "안 있어요가 아니라 없어요입니다."
+        },
+        {
+          "wrong": "냉장고에 우유 이에요.",
+          "correct": "냉장고에 우유가 있어요.",
+          "note": "존재는 이에요가 아니라 있어요입니다."
+        },
+        {
+          "wrong": "우리 집에 고양이가 두 마리 있다요.",
+          "correct": "우리 집에 고양이가 두 마리 있어요.",
+          "note": "해요체는 있어요입니다."
+        },
+        {
+          "wrong": "혹시 작은 사이즈를 있어요?",
+          "correct": "혹시 작은 사이즈가 있어요?",
+          "note": "물건 뒤에 이/가를 씁니다."
+        },
+        {
+          "wrong": "어제 회사에 사람이 안 있었어요.",
+          "correct": "어제 회사에 사람이 없었어요.",
+          "note": "과거 부정은 없었어요입니다."
+        },
+        {
+          "wrong": "할머니는 지금 방에 있으세요.",
+          "correct": "할머니는 지금 방에 계세요.",
+          "note": "사람 존재 높임은 계세요입니다."
+        },
+        {
+          "wrong": "내일 수업이 있어요? 아니요, 수업이 아니에요.",
+          "correct": "내일 수업이 있어요? 아니요, 수업이 없어요.",
+          "note": "존재의 부정은 아니에요가 아니라 없어요입니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.major",
+        "ko.tag.verb_ending",
+        "ko.tag.sentence_building",
+        "ko.tag.describing_things",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.sino_korean_numbers",
+      "title": "한자어 수 일, 이, 삼",
+      "description": "**핵심 개념** 한국어에는 수가 두 가지 있습니다. `일, 이, 삼`은 한자어 수입니다. 날짜, 돈, 전화번호, 분, 층, 번처럼 정해진 단위와 함께 씁니다.\n\n**형태**\n- `일 이 삼 사 오 육 칠 팔 구 십`\n- 큰 수: `십, 백, 천, 만` (만 = 10,000)\n- 11 = `십일`, 20 = `이십`, 100 = `백` (일백이 아님)\n- 수 + 단위: `삼 층`, `오 분`, `만 원`\n- 6월 = `유월`, 10월 = `시월`\n\n**언제 쓰는가**\n- 날짜: 년, 월, 일\n- 돈: 원\n- 시간의 분과 초: 분, 초\n- 번호와 층: 번, 층, 호, 전화번호\n- 학년, 개월, 인분\n\n**언제 쓰지 않는가** 고유어 수 `하나, 둘, 셋`과 구별합니다. 개수, 사람 수, 나이(살), 시각의 `시`에는 고유어 수를 씁니다. 테스트: 단위가 `개, 명, 시, 살, 마리`이면 고유어, `원, 분, 월, 일, 층`이면 한자어입니다.\n\n**자주 하는 실수**\n- 분에 고유어를 씀: `다섯 분`은 사람을 높여 세는 말이 됩니다.\n- 만을 잘못 셈: 10,000은 `일만`이 아니라 `만`입니다.\n- `육월`, `십월`처럼 말함: `유월`, `시월`입니다.\n- 시와 분을 같은 수로 셈.\n\n**알아 둘 점** 전화번호의 0은 `공`이라고 읽습니다. 백, 천, 만 앞의 `일`은 보통 생략합니다.",
+      "llmDescription": "한자어 수 일·이·삼·십·백·천·만과 원·분·월·일·층·번·년, 유월·시월, 만 원. 개·명·시·살에 쓰는 고유어 수 하나·둘·셋과 구별합니다.",
+      "examples": [
+        {
+          "wrong": "지금 세 시 다섯 분이에요.",
+          "correct": "지금 세 시 오 분이에요.",
+          "note": "분에는 한자어 수를 씁니다."
+        },
+        {
+          "wrong": "이 가방은 일만 원이에요.",
+          "correct": "이 가방은 만 원이에요.",
+          "note": "만 앞의 일은 생략합니다."
+        },
+        {
+          "wrong": "제 생일은 육월 십일이에요.",
+          "correct": "제 생일은 유월 십일이에요.",
+          "note": "6월은 유월이라고 읽습니다."
+        },
+        {
+          "wrong": "저희 사무실은 다섯 층에 있어요.",
+          "correct": "저희 사무실은 오 층에 있어요.",
+          "note": "층에는 한자어 수를 씁니다."
+        },
+        {
+          "wrong": "커피 두 잔에 팔천 원 이에요?",
+          "correct": "커피 두 잔에 팔천 원이에요?",
+          "note": "원 뒤의 이에요는 붙여 씁니다."
+        },
+        {
+          "wrong": "우리는 십월에 여행을 가요.",
+          "correct": "우리는 시월에 여행을 가요.",
+          "note": "10월은 시월이라고 읽습니다."
+        },
+        {
+          "wrong": "버스 하나 번을 타세요.",
+          "correct": "버스 일 번을 타세요.",
+          "note": "번호에는 한자어 수를 씁니다."
+        },
+        {
+          "wrong": "그 영화는 둘천이십 년에 나왔어요.",
+          "correct": "그 영화는 이천이십 년에 나왔어요.",
+          "note": "연도에는 한자어 수를 씁니다."
+        },
+        {
+          "wrong": "동생은 셋 학년이에요.",
+          "correct": "동생은 삼 학년이에요.",
+          "note": "학년에는 한자어 수를 씁니다."
+        },
+        {
+          "wrong": "일백 명이 왔어요.",
+          "correct": "백 명이 왔어요.",
+          "note": "백 앞의 일은 생략합니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.minor",
+        "ko.tag.number_counter",
+        "ko.tag.describing_things",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.demonstratives_i_geu_jeo",
+      "title": "지시어 이, 그, 저",
+      "description": "**핵심 개념** `이, 그, 저`는 무엇을 가리킬 때 씁니다. 말하는 사람 가까이는 `이`, 듣는 사람 가까이나 이미 말한 것은 `그`, 둘 다에게서 먼 것은 `저`입니다.\n\n**형태**\n- 지시어 + 명사: `이 책`, `그 사람`, `저 집` (띄어 씁니다)\n- 사물: `이것/그것/저것`, 말할 때 `이거/그거/저거`\n- 조사와 줄임: `이게`(이것이), `이건`(이것은), `이걸`(이것을)\n- 장소: `여기/거기/저기`\n- 사람 높임: `이분/그분/저분`\n\n**언제 쓰는가**\n- 손에 든 물건이나 가까운 것: 이\n- 상대방 옆의 것, 앞에서 말한 것: 그\n- 멀리 보이는 것: 저\n- 가게에서 물건을 고를 때\n\n**언제 쓰지 않는가** 눈에 보이지 않고 대화에서 이미 나온 것에는 `저`가 아니라 `그`를 씁니다. 테스트: 지금 보이고 멀면 `저`, 보이지 않고 이야기 속에 있으면 `그`입니다.\n\n**자주 하는 실수**\n- 명사 없이 `이`만 씀: 혼자 쓰면 `이것/이거`입니다.\n- 지난 이야기 속 사람에게 `저 사람`을 씀.\n- `이거가`처럼 줄임을 틀림: `이게`입니다.\n- 지시어와 명사를 붙여 씀.\n\n**말투와 사용** 말할 때는 `이거, 그거, 저거`가 자연스럽고 글에서는 `이것, 그것, 저것`을 씁니다.",
+      "llmDescription": "지시어 이/그/저 + 명사, 이것·그것·저것, 이거·이게·이건, 여기·거기·저기, 이분. 앞에서 말한 보이지 않는 대상은 그, 멀리 보이는 것은 저입니다.",
+      "examples": [
+        {
+          "wrong": "이는 제 가방이에요.",
+          "correct": "이건 제 가방이에요.",
+          "note": "혼자 쓰면 이것, 이건입니다."
+        },
+        {
+          "wrong": "어제 만난 저 사람 이름이 뭐예요?",
+          "correct": "어제 만난 그 사람 이름이 뭐예요?",
+          "note": "이야기 속 사람은 그입니다."
+        },
+        {
+          "wrong": "이거가 얼마예요?",
+          "correct": "이게 얼마예요?",
+          "note": "이거 + 가는 이게로 줄입니다."
+        },
+        {
+          "wrong": "저기 저산이 정말 높아요.",
+          "correct": "저기 저 산이 정말 높아요.",
+          "note": "지시어와 명사는 띄어 씁니다."
+        },
+        {
+          "wrong": "그를 주세요.",
+          "correct": "그거 주세요.",
+          "note": "물건은 그거라고 합니다."
+        },
+        {
+          "wrong": "선생님, 그것 사람이 누구예요?",
+          "correct": "선생님, 그 사람이 누구예요?",
+          "note": "명사 앞에는 그것이 아니라 그입니다."
+        },
+        {
+          "wrong": "이것 옷이 마음에 들어요.",
+          "correct": "이 옷이 마음에 들어요.",
+          "note": "명사 앞에는 이것이 아니라 이를 씁니다."
+        },
+        {
+          "wrong": "이거는 안 먹어요.",
+          "correct": "이건 안 먹어요.",
+          "note": "말할 때 이거는은 이건으로 줄입니다."
+        },
+        {
+          "wrong": "그때 본 저 영화 재미있었지요?",
+          "correct": "그때 본 그 영화 재미있었지요?",
+          "note": "지난 경험 속 대상은 그입니다."
+        },
+        {
+          "wrong": "저기 있는 거가 우리 학교예요.",
+          "correct": "저기 있는 게 우리 학교예요.",
+          "note": "거 + 가는 게로 줄입니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.minor",
+        "ko.tag.pronoun",
+        "ko.tag.describing_things",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.question_words",
+      "title": "의문사 뭐, 누구, 어디, 언제",
+      "description": "**핵심 개념** 모르는 정보를 물을 때 의문사를 씁니다. 한국어에서는 의문사를 문장 앞으로 옮기지 않고, 대답이 들어갈 자리에 그대로 둡니다.\n\n**형태**\n- `뭐`(무엇): 물건, 일\n- `누구`: 사람, 주어가 되면 `누가`\n- `어디`: 장소, 보통 `어디에`, `어디에서`\n- `언제`: 시간, 조사 `에`를 붙이지 않음\n- `왜`: 이유, `어떻게`: 방법, `몇` + 단위: 수\n- `무슨` + 명사: 종류, `어느` + 명사: 여러 개 중 선택\n- 끝은 의문문 억양: `-아요?`\n\n**언제 쓰는가**\n- 이름, 물건, 장소, 시간, 이유를 물을 때\n- 수와 나이를 물을 때: 몇 개, 몇 살\n- 종류를 물을 때: 무슨 음식\n\n**언제 쓰지 않는가** `무슨`과 `어느`를 구별합니다. 종류를 모르면 `무슨`, 보이는 몇 개 중에서 고르면 `어느`입니다. `뭐`는 혼자 쓰고, `무슨`은 항상 명사와 함께 씁니다.\n\n**자주 하는 실수**\n- `누구가`라고 말함: 주어는 `누가`입니다.\n- `언제에`라고 말함: `언제` 뒤에 `에`를 쓰지 않습니다.\n- `뭐 음식`처럼 명사 앞에 `뭐`를 씀: `무슨 음식`입니다.\n- 의문사를 문장 맨 앞으로 옮김.\n\n**말투와 사용** 말할 때는 `무엇` 대신 `뭐`, `무엇을` 대신 `뭘`을 많이 씁니다.",
+      "llmDescription": "의문사 뭐·누구·누가·어디·언제·왜·어떻게·몇·무슨·어느, 대답 자리에 놓음, 누구가·언제에 오류. 무슨(종류)과 어느(선택)를 구별합니다.",
+      "examples": [
+        {
+          "wrong": "누구가 왔어요?",
+          "correct": "누가 왔어요?",
+          "note": "주어 누구는 누가가 됩니다."
+        },
+        {
+          "wrong": "언제에 한국에 왔어요?",
+          "correct": "언제 한국에 왔어요?",
+          "note": "언제 뒤에는 에를 쓰지 않습니다."
+        },
+        {
+          "wrong": "뭐 음식을 좋아해요?",
+          "correct": "무슨 음식을 좋아해요?",
+          "note": "명사 앞에는 무슨을 씁니다."
+        },
+        {
+          "wrong": "어디 가방이 제 거예요? 이거요, 저거요?",
+          "correct": "어느 가방이 제 거예요? 이거요, 저거요?",
+          "note": "보이는 것 중 고를 때는 어느입니다."
+        },
+        {
+          "wrong": "동생이 몇이 살이에요?",
+          "correct": "동생이 몇 살이에요?",
+          "note": "몇은 단위 앞에 바로 씁니다."
+        },
+        {
+          "wrong": "당신은 어디 일해요?",
+          "correct": "당신은 어디에서 일해요?",
+          "note": "행동 장소에는 어디에서를 씁니다."
+        },
+        {
+          "wrong": "이 단어는 뭐 뜻이에요?",
+          "correct": "이 단어는 무슨 뜻이에요?",
+          "note": "명사 앞에는 무슨을 씁니다."
+        },
+        {
+          "wrong": "어떻게 어제 학교에 안 왔어요?",
+          "correct": "왜 어제 학교에 안 왔어요?",
+          "note": "이유는 왜로 묻습니다."
+        },
+        {
+          "wrong": "주말에 누구를 만나요? 누구가 와요?",
+          "correct": "주말에 누구를 만나요? 누가 와요?",
+          "note": "주어 자리에는 누가입니다."
+        },
+        {
+          "wrong": "역까지 왜 가요? 버스로 가요?",
+          "correct": "역까지 어떻게 가요? 버스로 가요?",
+          "note": "방법은 어떻게로 묻습니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.major",
+        "ko.tag.pronoun",
+        "ko.tag.asking_questions",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.possessive_particle_ui",
+      "title": "소유 조사 의",
+      "description": "**핵심 개념** `의`는 무엇이 누구의 것인지, 또는 무엇에 속하는지 보여 줍니다. 가진 사람이 앞, 가진 물건이 뒤에 옵니다.\n\n**형태**\n- 소유자 + `의` + 소유물: `친구의 차`\n- `저의` → `제`, `나의` → `내`, `너의` → `네`(말할 때 `니`)\n- 말할 때 `의`는 자주 생략: `친구 차`\n- `의`는 보통 `[에]`로 발음합니다.\n\n**언제 쓰는가**\n- 물건의 주인을 말할 때\n- 가족과 관계: 제 동생, 친구 어머니\n- 부분과 전체: 회사의 이름, 책의 제목\n\n**언제 쓰지 않는가** `우리`, `저희`와 가족·집·나라를 말할 때는 보통 `의`를 쓰지 않습니다: `우리 엄마`, `우리 집`. 테스트: 내 가족이나 소속이면 `우리 + 명사`, 개인 물건이면 `제/내 + 명사`입니다.\n\n**자주 하는 실수**\n- `저의`를 줄이지 않거나 `저 가방`처럼 `의`를 빼서 `저`(지시어)와 헷갈림: `제 가방`입니다.\n- `나의`, `너의`를 말할 때 그대로 씀: `내`, `네`가 자연스럽습니다.\n- 순서를 바꿈: 소유자가 항상 앞입니다.\n- `제의`처럼 두 번 붙임.\n\n**말투와 사용** 글과 노래 가사에서는 `나의`, `너의`도 씁니다. 대화에서는 `의`를 빼는 경우가 많습니다.",
+      "llmDescription": "소유 조사 의, 소유자+의+소유물, 저의→제·나의→내·너의→네, 우리 집·우리 엄마, 생략 가능. 관형사형 어미나 지시어 저와 구별합니다.",
+      "examples": [
+        {
+          "wrong": "이것은 저 가방이에요.",
+          "correct": "이것은 제 가방이에요.",
+          "note": "저의는 제로 줄입니다."
+        },
+        {
+          "wrong": "제의 이름은 민수예요.",
+          "correct": "제 이름은 민수예요.",
+          "note": "제에는 의를 다시 붙이지 않습니다."
+        },
+        {
+          "wrong": "나의 동생은 고등학생이야.",
+          "correct": "내 동생은 고등학생이야.",
+          "note": "말할 때 나의는 내로 씁니다."
+        },
+        {
+          "wrong": "차의 친구가 아주 멋있어요.",
+          "correct": "친구의 차가 아주 멋있어요.",
+          "note": "소유자가 앞에 옵니다."
+        },
+        {
+          "wrong": "너 핸드폰 어디 있어?",
+          "correct": "네 핸드폰 어디 있어?",
+          "note": "너의는 네로 줄입니다."
+        },
+        {
+          "wrong": "이 책 제목의 뭐예요?",
+          "correct": "이 책의 제목이 뭐예요?",
+          "note": "의는 소유자 뒤에 붙습니다."
+        },
+        {
+          "wrong": "저의 회사는 서울에 있습니다.",
+          "correct": "제 회사는 서울에 있습니다.",
+          "note": "저의는 보통 제로 씁니다."
+        },
+        {
+          "wrong": "선생님에 전화번호를 알아요?",
+          "correct": "선생님의 전화번호를 알아요?",
+          "note": "소유는 에가 아니라 의입니다."
+        },
+        {
+          "wrong": "그것은 누구 의 우산이에요?",
+          "correct": "그것은 누구의 우산이에요?",
+          "note": "의는 앞말에 붙여 씁니다."
+        },
+        {
+          "wrong": "저 아버지는 의사예요.",
+          "correct": "제 아버지는 의사예요.",
+          "note": "저는 소유를 나타내지 못합니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.minor",
+        "ko.tag.particle",
+        "ko.tag.describing_things",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.noun_conjunction_hago_wa",
+      "title": "나열 조사 하고, 와/과, (이)랑",
+      "description": "**핵심 개념** 두 명사를 \"그리고\"처럼 이을 때 `하고`, `와/과`, `(이)랑`을 씁니다. 같은 조사로 \"누구와 함께\"도 말합니다.\n\n**형태**\n- 받침 없는 명사 + `와`, 받침 있는 명사 + `과`: `우유와 빵`, `빵과 우유`\n- 모든 명사 + `하고`: `빵하고 우유`\n- 받침 없는 명사 + `랑`, 받침 있는 명사 + `이랑`\n- 함께: 사람 + `하고/와/랑` + `같이`\n- 마지막 명사에는 문장 속 조사(`이/가`, `을/를`)를 붙입니다.\n\n**언제 쓰는가**\n- 물건 두 개 이상을 말할 때: 사과하고 배\n- 함께 하는 사람: 친구하고 같이\n- 비교 대상: 언니와 달라요\n\n**언제 쓰지 않는가** 동사나 문장을 이을 때는 이 조사가 아니라 연결어미 `-고`를 씁니다. 테스트: 이을 것이 명사이면 `하고/와`, 동사나 형용사이면 `-고`입니다.\n\n**자주 하는 실수**\n- 받침을 거꾸로 씀: `책와`, `우유과`.\n- 동사를 `하고`로 이음: `먹하고`.\n- `이랑`과 `랑`을 바꿔 씀.\n- 한 문장에서 세 가지 조사를 섞어 씀.\n\n**말투와 사용** `와/과`는 글과 격식체, `하고`는 일상 대화, `(이)랑`은 친한 사이의 말에서 많이 씁니다.",
+      "llmDescription": "명사 나열·동반 조사 와/과(받침 유무), 하고, (이)랑, 사람+하고 같이. 동사와 절을 잇는 연결어미 -고와 구별합니다.",
+      "examples": [
+        {
+          "wrong": "책와 연필을 샀어요.",
+          "correct": "책과 연필을 샀어요.",
+          "note": "받침 있는 명사 뒤에는 과입니다."
+        },
+        {
+          "wrong": "우유과 빵을 먹었어요.",
+          "correct": "우유와 빵을 먹었어요.",
+          "note": "받침 없는 명사 뒤에는 와입니다."
+        },
+        {
+          "wrong": "저는 친구랑이 영화를 봤어요.",
+          "correct": "저는 친구랑 영화를 봤어요.",
+          "note": "랑 뒤에 이를 붙이지 않습니다."
+        },
+        {
+          "wrong": "동생은 밥이랑 김치 먹어?",
+          "correct": "동생은 밥이랑 김치를 먹어?",
+          "note": "마지막 명사에 목적격 조사를 붙입니다."
+        },
+        {
+          "wrong": "엄마랑이 시장에 갈 거예요.",
+          "correct": "엄마랑 시장에 갈 거예요.",
+          "note": "함께는 엄마랑입니다."
+        },
+        {
+          "wrong": "커피랑 케이크 주세요? 아니요, 녹차과 케이크요.",
+          "correct": "커피랑 케이크 주세요? 아니요, 녹차랑 케이크요.",
+          "note": "받침 없는 녹차에는 랑입니다."
+        },
+        {
+          "wrong": "저는 어제 선생님이 같이 점심을 먹었습니다.",
+          "correct": "저는 어제 선생님하고 같이 점심을 먹었습니다.",
+          "note": "함께하는 사람 뒤에는 하고를 씁니다."
+        },
+        {
+          "wrong": "저는 축구과 야구를 좋아해요.",
+          "correct": "저는 축구와 야구를 좋아해요.",
+          "note": "받침 없는 축구 뒤에는 와입니다."
+        },
+        {
+          "wrong": "여기 물이랑 컵이 있어요? 컵랑 접시도요?",
+          "correct": "여기 물이랑 컵이 있어요? 컵이랑 접시도요?",
+          "note": "받침 있는 명사 뒤에는 이랑입니다."
+        },
+        {
+          "wrong": "아침에 빵을 먹하고 학교에 가요.",
+          "correct": "아침에 빵을 먹고 학교에 가요.",
+          "note": "동사는 하고가 아니라 -고로 잇습니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.minor",
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.additive_particle_do",
+      "title": "첨가 조사 도",
+      "description": "**핵심 개념** `도`는 \"이것 역시\", \"이 사람 역시\"라는 뜻입니다. 앞에서 말한 것과 같은 일이 다른 대상에게도 있다고 말할 때 씁니다.\n\n**형태**\n- 명사 + `도`: `저도`, `커피도`\n- `도`는 `이/가`, `은/는`, `을/를`을 대신합니다: `제가` → `저도`\n- `에`, `에서`, `에게` 뒤에는 붙여 씁니다: `서울에도`, `친구에게도`\n- 부정문과 함께: `아무도`, `하나도` + 부정\n\n**언제 쓰는가**\n- 같은 상황을 덧붙일 때: 저도 학생이에요\n- 하나 더 더할 때: 빵도 사요\n- 강한 부정: 하나도 없어요, 아무도 안 와요\n\n**언제 쓰지 않는가** 대조를 말할 때는 `도`가 아니라 `은/는`을 씁니다. 테스트: \"나 역시 같다\"면 `도`, \"나는 다르다\"면 `은/는`입니다.\n\n**자주 하는 실수**\n- `저가도`, `커피를도`처럼 다른 조사와 겹쳐 씀.\n- `에`를 빼고 `도`만 씀: 장소는 `서울에도`입니다.\n- `아무도` 뒤에 긍정 서술어를 씀.\n- 대조 문장에서 `도`를 씀.\n\n**말투와 사용** 일상 대화와 글에서 아주 많이 씁니다. 짧은 대답 `저도요`도 자주 씁니다.",
+      "llmDescription": "첨가 조사 도, 이/가·을/를 대신 저도·커피도, 에도·에게도, 아무도·하나도+부정. 대조의 은/는과 구별합니다.",
+      "examples": [
+        {
+          "wrong": "저가도 학생이에요.",
+          "correct": "저도 학생이에요.",
+          "note": "도는 이/가를 대신합니다."
+        },
+        {
+          "wrong": "저는 커피를도 마셔요.",
+          "correct": "저는 커피도 마셔요.",
+          "note": "도는 을/를을 대신합니다."
+        },
+        {
+          "wrong": "저는 일본도 살았어요.",
+          "correct": "저는 일본에도 살았어요.",
+          "note": "장소의 에 뒤에 도를 붙입니다."
+        },
+        {
+          "wrong": "교실에 아무도 있어요.",
+          "correct": "교실에 아무도 없어요.",
+          "note": "아무도 뒤에는 부정이 옵니다."
+        },
+        {
+          "wrong": "형은 키가 커요. 저도 키가 작아요.",
+          "correct": "형은 키가 커요. 저는 키가 작아요.",
+          "note": "대조는 도가 아니라 는입니다."
+        },
+        {
+          "wrong": "우리 아이에게 선물을 줬어요. 조카도 줬어요.",
+          "correct": "우리 아이에게 선물을 줬어요. 조카에게도 줬어요.",
+          "note": "에게 뒤에 도를 붙입니다."
+        },
+        {
+          "wrong": "지갑에 돈이 하나도 있어요.",
+          "correct": "지갑에 돈이 하나도 없어요.",
+          "note": "하나도 뒤에는 부정이 옵니다."
+        },
+        {
+          "wrong": "그 친구는 영어를 잘해요. 중국어는 잘해요.",
+          "correct": "그 친구는 영어를 잘해요. 중국어도 잘해요.",
+          "note": "같은 일을 더할 때는 도입니다."
+        },
+        {
+          "wrong": "비가 와요. 바람은 불어요.",
+          "correct": "비가 와요. 바람도 불어요.",
+          "note": "덧붙이는 대상에는 도를 씁니다."
+        },
+        {
+          "wrong": "우리도가 같이 갈게요.",
+          "correct": "우리도 같이 갈게요.",
+          "note": "도 뒤에 가를 붙이지 않습니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.minor",
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.direction_means_particle_euro",
+      "title": "방향과 수단의 조사 (으)로",
+      "description": "**핵심 개념** `(으)로`는 움직이는 방향과 무엇을 쓰는 수단을 나타냅니다. \"어느 쪽으로\"와 \"무엇을 써서\"를 말할 때 씁니다.\n\n**형태**\n- 받침 없는 명사 + `로`: `학교로`, `버스로`\n- 받침 있는 명사 + `으로`: `집으로`, `숟가락으로`\n- `ㄹ` 받침 명사 + `로`: `지하철로`, `연필로`\n- 방향: `왼쪽으로`, `위로`\n- 수단과 도구, 재료, 언어: `한국어로`\n\n**언제 쓰는가**\n- 방향을 말할 때: 오른쪽으로 가세요\n- 교통수단: 택시로, 비행기로\n- 도구: 젓가락으로, 펜으로\n- 언어: 한국어로 말해요\n\n**언제 쓰지 않는가** 도착점 자체를 말하면 `에`, 방향이나 쪽을 말하면 `(으)로`입니다. `학교에 가요`는 목적지, `학교로 가요`는 그쪽으로 갑니다. 교통수단에는 `에`나 `을/를`이 아니라 `(으)로`를 씁니다.\n\n**자주 하는 실수**\n- `ㄹ` 받침 뒤에 `으로`를 씀: `지하철으로`.\n- 받침 없는 명사 뒤에 `으로`를 씀: `버스으로`.\n- 수단에 `에서`를 씀: `버스에서 가요`.\n- 언어에 `을`을 씀: `한국어를 써요`와 `한국어로 말해요`를 섞음.\n\n**알아 둘 점** `ㄹ` 받침은 받침 없는 명사처럼 `로`만 씁니다. 이것이 가장 흔한 함정입니다.",
+      "llmDescription": "방향·수단·도구·언어의 조사 (으)로, 받침 유무, ㄹ 받침은 로(지하철로), 왼쪽으로·버스로·한국어로. 도착점 에와 행동 장소 에서와 구별합니다.",
+      "examples": [
+        {
+          "wrong": "저는 지하철으로 출근해요.",
+          "correct": "저는 지하철로 출근해요.",
+          "note": "ㄹ 받침 뒤에는 로입니다."
+        },
+        {
+          "wrong": "버스으로 가요?",
+          "correct": "버스로 가요?",
+          "note": "받침 없는 명사 뒤에는 로입니다."
+        },
+        {
+          "wrong": "오른쪽로 가세요.",
+          "correct": "오른쪽으로 가세요.",
+          "note": "받침 있는 명사 뒤에는 으로입니다."
+        },
+        {
+          "wrong": "우리는 비행기에서 제주도에 갔어요.",
+          "correct": "우리는 비행기로 제주도에 갔어요.",
+          "note": "교통수단은 (으)로입니다."
+        },
+        {
+          "wrong": "한국어에 말해 주세요.",
+          "correct": "한국어로 말해 주세요.",
+          "note": "언어는 (으)로입니다."
+        },
+        {
+          "wrong": "아이가 젓가락을 밥을 먹어요.",
+          "correct": "아이가 젓가락으로 밥을 먹어요.",
+          "note": "도구에는 (으)로를 씁니다."
+        },
+        {
+          "wrong": "연필으로 이름을 쓰세요.",
+          "correct": "연필로 이름을 쓰세요.",
+          "note": "ㄹ 받침 뒤에는 로입니다."
+        },
+        {
+          "wrong": "이 길 똑바로 쭉 앞에 가면 은행이 있어요.",
+          "correct": "이 길 똑바로 쭉 앞으로 가면 은행이 있어요.",
+          "note": "방향은 (으)로입니다."
+        },
+        {
+          "wrong": "형은 자전거를 학교에 다녀요.",
+          "correct": "형은 자전거로 학교에 다녀요.",
+          "note": "수단에는 (으)로를 씁니다."
+        },
+        {
+          "wrong": "이메일에 보내 드릴게요.",
+          "correct": "이메일로 보내 드릴게요.",
+          "note": "전달 수단은 (으)로입니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.major",
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
+      ]
+    },
+    {
+      "id": "ko.rule.range_particle_buteo_kkaji",
+      "title": "범위 조사 부터, 까지",
+      "description": "**핵심 개념** `부터`는 시작, `까지`는 끝을 나타냅니다. 시간이나 순서의 범위를 말할 때 둘을 함께 씁니다.\n\n**형태**\n- 명사 + `부터`: `아홉 시부터`, `월요일부터`\n- 명사 + `까지`: `여섯 시까지`, `금요일까지`\n- 함께: `-부터 -까지`\n- 장소의 출발점: `에서 -까지` (`집에서 학교까지`)\n- 강조: `까지` = 그것마저\n\n**언제 쓰는가**\n- 시간 범위: 수업, 근무, 영업 시간\n- 마감: 내일까지 내세요\n- 순서의 시작: 이것부터 해요\n- 장소의 끝: 역까지 걸어요\n\n**언제 쓰지 않는가** 장소의 출발점에는 보통 `부터`가 아니라 `에서`를 씁니다. 테스트: 시간이나 순서의 시작이면 `부터`, 공간의 출발점이면 `에서`입니다. 끝은 두 경우 모두 `까지`입니다.\n\n**자주 하는 실수**\n- 장소 출발점에 `부터`를 씀: `서울부터 부산까지`보다 `서울에서`가 자연스럽습니다.\n- `까지`와 `에`를 겹쳐 씀: `다섯 시에까지`.\n- 마감에 `에`를 씀: 기한은 `까지`입니다.\n- 순서를 바꿈: `까지 -부터`.\n\n**말투와 사용** 공지와 안내문에서 아주 많이 씁니다.",
+      "llmDescription": "범위 조사 부터(시간·순서의 시작)와 까지(끝·마감), -부터 -까지, 장소는 에서 -까지. 장소 출발점 에서와 시점 에와 구별합니다.",
+      "examples": [
+        {
+          "wrong": "수업은 아홉 시에서 열두 시까지예요.",
+          "correct": "수업은 아홉 시부터 열두 시까지예요.",
+          "note": "시간의 시작은 부터입니다."
+        },
+        {
+          "wrong": "신청은 금요일부터 하세요. 토요일에는 안 돼요.",
+          "correct": "신청은 금요일까지 하세요. 토요일에는 안 돼요.",
+          "note": "마감은 까지입니다."
+        },
+        {
+          "wrong": "저는 집부터 회사까지 걸어가요.",
+          "correct": "저는 집에서 회사까지 걸어가요.",
+          "note": "장소 출발점은 에서입니다."
+        },
+        {
+          "wrong": "가게는 밤 열 시에까지 열어요.",
+          "correct": "가게는 밤 열 시까지 열어요.",
+          "note": "까지 앞에 에를 쓰지 않습니다."
+        },
+        {
+          "wrong": "우리는 다음 주에서 방학이에요.",
+          "correct": "우리는 다음 주부터 방학이에요.",
+          "note": "시간의 시작은 부터입니다."
+        },
+        {
+          "wrong": "여기부터 공항까지 얼마나 걸려요?",
+          "correct": "여기에서 공항까지 얼마나 걸려요?",
+          "note": "장소 출발점은 에서입니다."
+        },
+        {
+          "wrong": "쉬운 것에서 시작합시다.",
+          "correct": "쉬운 것부터 시작합시다.",
+          "note": "순서의 시작은 부터입니다."
+        },
+        {
+          "wrong": "역에 걸어서 십 분 걸려요.",
+          "correct": "역까지 걸어서 십 분 걸려요.",
+          "note": "도착 지점까지의 거리는 까지입니다."
+        },
+        {
+          "wrong": "휴가는 월요일부터 수요일에 쉬어요.",
+          "correct": "휴가는 월요일부터 수요일까지 쉬어요.",
+          "note": "범위의 끝은 까지입니다."
+        },
+        {
+          "wrong": "언니는 아침에서 밤까지 공부했어요.",
+          "correct": "언니는 아침부터 밤까지 공부했어요.",
+          "note": "시간의 시작은 부터입니다."
+        }
+      ],
+      "tagIds": [
+        "ko.tag.a1",
+        "ko.tag.minor",
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -850,7 +1625,9 @@
         "ko.tag.a2",
         "ko.tag.major",
         "ko.tag.tense_aspect",
-        "ko.tag.verb_ending"
+        "ko.tag.verb_ending",
+        "ko.tag.talking_about_past",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -914,7 +1691,9 @@
         "ko.tag.a2",
         "ko.tag.major",
         "ko.tag.tense_aspect",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.talking_about_future",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -977,7 +1756,9 @@
       "tagIds": [
         "ko.tag.a2",
         "ko.tag.major",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.hypotheticals_wishes",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1041,7 +1822,10 @@
         "ko.tag.a2",
         "ko.tag.major",
         "ko.tag.honorific",
-        "ko.tag.speech_level"
+        "ko.tag.speech_level",
+        "ko.tag.emphasis_style",
+        "ko.tag.requests_offers_permission",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1104,7 +1888,9 @@
       "tagIds": [
         "ko.tag.a2",
         "ko.tag.major",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.ability_possibility",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1168,7 +1954,10 @@
         "ko.tag.a2",
         "ko.tag.major",
         "ko.tag.negation",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.advice_obligation",
+        "ko.tag.negating",
+        "ko.tag.common"
       ]
     },
     {
@@ -1231,7 +2020,9 @@
       "tagIds": [
         "ko.tag.a2",
         "ko.tag.major",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1294,7 +2085,9 @@
       "tagIds": [
         "ko.tag.a2",
         "ko.tag.minor",
-        "ko.tag.particle"
+        "ko.tag.particle",
+        "ko.tag.sentence_building",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1357,7 +2150,10 @@
       "tagIds": [
         "ko.tag.b1",
         "ko.tag.major",
-        "ko.tag.adnominal"
+        "ko.tag.adnominal",
+        "ko.tag.describing_things",
+        "ko.tag.linking_ideas",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1420,7 +2216,10 @@
       "tagIds": [
         "ko.tag.b1",
         "ko.tag.major",
-        "ko.tag.adnominal"
+        "ko.tag.adnominal",
+        "ko.tag.describing_things",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -1483,7 +2282,9 @@
       "tagIds": [
         "ko.tag.b1",
         "ko.tag.major",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1546,7 +2347,10 @@
       "tagIds": [
         "ko.tag.b1",
         "ko.tag.major",
-        "ko.tag.conditional"
+        "ko.tag.conditional",
+        "ko.tag.hypotheticals_wishes",
+        "ko.tag.linking_ideas",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1609,7 +2413,9 @@
       "tagIds": [
         "ko.tag.b1",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1673,7 +2479,9 @@
         "ko.tag.b1",
         "ko.tag.major",
         "ko.tag.irregular",
-        "ko.tag.sound_change"
+        "ko.tag.sound_change",
+        "ko.tag.describing_things",
+        "ko.tag.common"
       ]
     },
     {
@@ -1737,7 +2545,9 @@
         "ko.tag.b1",
         "ko.tag.major",
         "ko.tag.irregular",
-        "ko.tag.sound_change"
+        "ko.tag.sound_change",
+        "ko.tag.sentence_building",
+        "ko.tag.common"
       ]
     },
     {
@@ -1801,7 +2611,9 @@
         "ko.tag.b1",
         "ko.tag.minor",
         "ko.tag.modality",
-        "ko.tag.verb_ending"
+        "ko.tag.verb_ending",
+        "ko.tag.requests_offers_permission",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1864,7 +2676,9 @@
       "tagIds": [
         "ko.tag.b1",
         "ko.tag.major",
-        "ko.tag.tense_aspect"
+        "ko.tag.tense_aspect",
+        "ko.tag.talking_about_present",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -1927,7 +2741,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.major",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -1990,7 +2806,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.major",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -2053,7 +2871,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.major",
-        "ko.tag.voice"
+        "ko.tag.voice",
+        "ko.tag.sentence_building",
+        "ko.tag.common"
       ]
     },
     {
@@ -2116,7 +2936,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.major",
-        "ko.tag.voice"
+        "ko.tag.voice",
+        "ko.tag.sentence_building",
+        "ko.tag.common"
       ]
     },
     {
@@ -2180,7 +3002,10 @@
         "ko.tag.b2",
         "ko.tag.minor",
         "ko.tag.connective",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.linking_ideas",
+        "ko.tag.talking_about_future",
+        "ko.tag.common"
       ]
     },
     {
@@ -2243,7 +3068,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.major",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.advice_obligation",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -2306,7 +3133,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.major",
-        "ko.tag.quotation"
+        "ko.tag.quotation",
+        "ko.tag.reporting_speech",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -2369,7 +3198,9 @@
       "tagIds": [
         "ko.tag.b2",
         "ko.tag.minor",
-        "ko.tag.tense_aspect"
+        "ko.tag.tense_aspect",
+        "ko.tag.talking_about_past",
+        "ko.tag.common"
       ]
     },
     {
@@ -2433,7 +3264,10 @@
         "ko.tag.c1",
         "ko.tag.minor",
         "ko.tag.modality",
-        "ko.tag.verb_ending"
+        "ko.tag.verb_ending",
+        "ko.tag.linking_ideas",
+        "ko.tag.emphasis_style",
+        "ko.tag.everyday"
       ]
     },
     {
@@ -2497,7 +3331,9 @@
         "ko.tag.c1",
         "ko.tag.minor",
         "ko.tag.modality",
-        "ko.tag.tense_aspect"
+        "ko.tag.tense_aspect",
+        "ko.tag.talking_about_past",
+        "ko.tag.common"
       ]
     },
     {
@@ -2560,7 +3396,9 @@
       "tagIds": [
         "ko.tag.c1",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -2623,7 +3461,9 @@
       "tagIds": [
         "ko.tag.c1",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -2686,7 +3526,10 @@
       "tagIds": [
         "ko.tag.c1",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.comparing",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -2749,7 +3592,9 @@
       "tagIds": [
         "ko.tag.c1",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -2812,7 +3657,10 @@
       "tagIds": [
         "ko.tag.c1",
         "ko.tag.minor",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.ability_possibility",
+        "ko.tag.hypotheticals_wishes",
+        "ko.tag.common"
       ]
     },
     {
@@ -2875,7 +3723,9 @@
       "tagIds": [
         "ko.tag.c1",
         "ko.tag.minor",
-        "ko.tag.tense_aspect"
+        "ko.tag.tense_aspect",
+        "ko.tag.talking_about_past",
+        "ko.tag.common"
       ]
     },
     {
@@ -2939,7 +3789,10 @@
         "ko.tag.c2",
         "ko.tag.minor",
         "ko.tag.modality",
-        "ko.tag.tense_aspect"
+        "ko.tag.tense_aspect",
+        "ko.tag.talking_about_past",
+        "ko.tag.hypotheticals_wishes",
+        "ko.tag.common"
       ]
     },
     {
@@ -3002,7 +3855,9 @@
       "tagIds": [
         "ko.tag.c2",
         "ko.tag.minor",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.ability_possibility",
+        "ko.tag.common"
       ]
     },
     {
@@ -3065,7 +3920,9 @@
       "tagIds": [
         "ko.tag.c2",
         "ko.tag.minor",
-        "ko.tag.modality"
+        "ko.tag.modality",
+        "ko.tag.describing_things",
+        "ko.tag.common"
       ]
     },
     {
@@ -3128,7 +3985,9 @@
       "tagIds": [
         "ko.tag.c2",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -3191,7 +4050,9 @@
       "tagIds": [
         "ko.tag.c2",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.common"
       ]
     },
     {
@@ -3255,7 +4116,10 @@
         "ko.tag.c2",
         "ko.tag.minor",
         "ko.tag.connective",
-        "ko.tag.speech_level"
+        "ko.tag.speech_level",
+        "ko.tag.emphasis_style",
+        "ko.tag.linking_ideas",
+        "ko.tag.rare"
       ]
     },
     {
@@ -3318,7 +4182,10 @@
       "tagIds": [
         "ko.tag.c2",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.emphasis_style",
+        "ko.tag.linking_ideas",
+        "ko.tag.rare"
       ]
     },
     {
@@ -3382,7 +4249,9 @@
         "ko.tag.c2",
         "ko.tag.major",
         "ko.tag.speech_level",
-        "ko.tag.honorific"
+        "ko.tag.honorific",
+        "ko.tag.emphasis_style",
+        "ko.tag.common"
       ]
     },
     {
@@ -3445,7 +4314,10 @@
       "tagIds": [
         "ko.tag.c2",
         "ko.tag.minor",
-        "ko.tag.connective"
+        "ko.tag.connective",
+        "ko.tag.linking_ideas",
+        "ko.tag.advice_obligation",
+        "ko.tag.common"
       ]
     }
   ]

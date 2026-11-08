@@ -1,6 +1,6 @@
 {
   "lang": "fr",
-  "version": 1,
+  "version": 2,
   "groups": [
     {
       "id": "fr.group.level",
@@ -16,6 +16,16 @@
       "id": "fr.group.area",
       "name": "area",
       "description": "Domaine grammatical auquel la règle appartient."
+    },
+    {
+      "id": "fr.group.function",
+      "name": "function",
+      "description": "Ce que l'apprenant veut faire avec la langue : parler du passé, poser une question, donner un conseil, comparer, relier des idées."
+    },
+    {
+      "id": "fr.group.frequency",
+      "name": "frequency",
+      "description": "Fréquence de la construction dans l'usage réel : vidéos, conversation, livres."
     }
   ],
   "tags": [
@@ -250,6 +260,174 @@
       "groupIds": [
         "fr.group.area"
       ]
+    },
+    {
+      "id": "fr.tag.sentence_building",
+      "name": "sentence_building",
+      "description": "Les briques de base de la phrase : verbe, sujet, pronoms compléments, prépositions et ordre des mots.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.talking_about_present",
+      "name": "talking_about_present",
+      "description": "Parler d'états, d'habitudes et d'actions en cours au présent.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.talking_about_past",
+      "name": "talking_about_past",
+      "description": "Raconter des événements passés, des habitudes d'autrefois et des histoires.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.talking_about_future",
+      "name": "talking_about_future",
+      "description": "Parler de projets, de prévisions et d'actions à venir.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.describing_things",
+      "name": "describing_things",
+      "description": "Décrire les personnes et les choses : noms, adjectifs, articles, déterminants, possession et quantité.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.comparing",
+      "name": "comparing",
+      "description": "Comparer des personnes et des choses : comparatif, superlatif, égalité et proportion.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.asking_questions",
+      "name": "asking_questions",
+      "description": "Poser des questions de tout type : oui ou non, mots interrogatifs, inversion.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.negating",
+      "name": "negating",
+      "description": "Dire non : formes négatives et mots de négation.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.advice_obligation",
+      "name": "advice_obligation",
+      "description": "Donner un conseil, exprimer une nécessité, une obligation, une interdiction ou un reproche.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.requests_offers_permission",
+      "name": "requests_offers_permission",
+      "description": "Demander, proposer, permettre ou inviter, y compris les formes de politesse.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.ability_possibility",
+      "name": "ability_possibility",
+      "description": "Exprimer la capacité, la possibilité, la certitude et la supposition.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.hypotheticals_wishes",
+      "name": "hypotheticals_wishes",
+      "description": "Exprimer des conditions, des situations imaginées, des regrets et des souhaits.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.reporting_speech",
+      "name": "reporting_speech",
+      "description": "Rapporter ce que d'autres ont dit, demandé ou pensé.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.linking_ideas",
+      "name": "linking_ideas",
+      "description": "Relier des propositions : cause, conséquence, opposition, but, temps et relatives.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.emphasis_style",
+      "name": "emphasis_style",
+      "description": "Mettre en relief ou changer de registre : inversion, mise en relief, tournures soutenues et littéraires.",
+      "groupIds": [
+        "fr.group.function"
+      ]
+    },
+    {
+      "id": "fr.tag.everyday",
+      "name": "everyday",
+      "description": "Employé sans cesse, dans presque chaque conversation.",
+      "groupIds": [
+        "fr.group.frequency"
+      ]
+    },
+    {
+      "id": "fr.tag.common",
+      "name": "common",
+      "description": "Fréquent à l'oral et à l'écrit, mais pas dans chaque conversation.",
+      "groupIds": [
+        "fr.group.frequency"
+      ]
+    },
+    {
+      "id": "fr.tag.rare",
+      "name": "rare",
+      "description": "Surtout soutenu, littéraire ou avancé ; rencontré de temps en temps.",
+      "groupIds": [
+        "fr.group.frequency"
+      ]
+    },
+    {
+      "id": "fr.tag.pronouns",
+      "name": "pronouns",
+      "description": "Les pronoms autres que compléments : sujets, toniques, possessifs, démonstratifs, interrogatifs, indéfinis et neutres.",
+      "groupIds": [
+        "fr.group.area"
+      ]
+    },
+    {
+      "id": "fr.tag.adverbs",
+      "name": "adverbs",
+      "description": "La formation des adverbes en -ment et la place de l'adverbe dans la phrase.",
+      "groupIds": [
+        "fr.group.area"
+      ]
+    },
+    {
+      "id": "fr.tag.infinitive",
+      "name": "infinitive",
+      "description": "Les constructions avec l'infinitif : verbes modaux, faire causatif, verbes de perception, infinitif passé et négatif.",
+      "groupIds": [
+        "fr.group.area"
+      ]
     }
   ],
   "rules": [
@@ -313,7 +491,9 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.major",
-        "fr.tag.articles"
+        "fr.tag.articles",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -376,7 +556,9 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.major",
-        "fr.tag.gender_number"
+        "fr.tag.gender_number",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -439,7 +621,10 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.critical",
-        "fr.tag.present_tense"
+        "fr.tag.present_tense",
+        "fr.tag.sentence_building",
+        "fr.tag.talking_about_present",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -502,7 +687,10 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.critical",
-        "fr.tag.present_tense"
+        "fr.tag.present_tense",
+        "fr.tag.talking_about_present",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -566,7 +754,9 @@
         "fr.tag.a1",
         "fr.tag.major",
         "fr.tag.adjectives",
-        "fr.tag.gender_number"
+        "fr.tag.gender_number",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -629,7 +819,9 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.major",
-        "fr.tag.negation"
+        "fr.tag.negation",
+        "fr.tag.negating",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -692,7 +884,9 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.major",
-        "fr.tag.questions"
+        "fr.tag.questions",
+        "fr.tag.asking_questions",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -755,7 +949,9 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.major",
-        "fr.tag.determiners"
+        "fr.tag.determiners",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -818,7 +1014,596 @@
       "tagIds": [
         "fr.tag.a1",
         "fr.tag.major",
-        "fr.tag.prepositions"
+        "fr.tag.prepositions",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.subject_pronouns_on",
+      "title": "Pronoms sujets et on",
+      "description": "**L'idée**\nEn français, le verbe a presque toujours un sujet. Si on ne dit pas le nom, on met un pronom sujet. Le pronom *on* est très fréquent : il veut dire *nous* à l'oral ou *les gens* en général.\n\n**La forme**\n- *je* (*j'* devant voyelle ou h muet), *tu*, *il*, *elle*, *on*\n- *nous*, *vous*, *ils*, *elles*\n- *on* + verbe à la 3e personne du singulier : *on mange*, *on est*\n- *tu* : une personne proche ; *vous* : une personne en politesse ou plusieurs personnes\n- *ils* : groupe masculin ou mixte ; *elles* : groupe seulement féminin\n- négation : *je ne*, *on ne*, *on n'* devant voyelle\n\n**Quand l'employer**\n- devant chaque verbe conjugué, sauf à l'impératif\n- *on* = *nous* dans la conversation : *on va au cinéma ?*\n- *on* = les gens : *en France, on dîne tard*\n- *vous* avec un inconnu, un client, un professeur\n\n**Quand ne pas l'employer**\nNe confondez pas le pronom sujet et le pronom tonique (*moi*, *toi*, *lui*). Test : juste devant le verbe, c'est *je*, *tu*, *il* ; seul, après une préposition ou après *c'est*, c'est *moi*, *toi*, *lui*.\n\n**Erreurs typiques**\n- oublier le sujet : *suis fatigué* ; le verbe a besoin de *je*\n- conjuguer *on* au pluriel : *on sommes* ; avec *on*, c'est *on est*\n- dire *ils* pour un groupe de femmes : il faut *elles*\n- oublier l'élision : *je ai* devient *j'ai*\n- tutoyer un inconnu : en situation polie, on dit *vous*\n\n**Registre et usage**\n*On* remplace *nous* presque toujours à l'oral. À l'écrit formel, *nous* reste plus soigné.",
+      "llmDescription": "Pronoms sujets je/j', tu, il, elle, on, nous, vous, ils, elles : sujet oublié, on avec verbe pluriel, ils/elles confondus, tu/vous de politesse ; pas les toniques moi, toi.",
+      "examples": [
+        {
+          "wrong": "Suis très fatigué ce soir.",
+          "correct": "Je suis très fatigué ce soir.",
+          "note": "Le verbe conjugué a besoin d'un sujet."
+        },
+        {
+          "wrong": "On sommes en retard pour le train.",
+          "correct": "On est en retard pour le train.",
+          "note": "Avec *on*, le verbe est au singulier."
+        },
+        {
+          "wrong": "Marie et Julie ? Ils habitent à Lyon.",
+          "correct": "Marie et Julie ? Elles habitent à Lyon.",
+          "note": "Groupe de femmes : *elles*."
+        },
+        {
+          "wrong": "Je ai deux frères et une sœur.",
+          "correct": "J'ai deux frères et une sœur.",
+          "note": "*Je* devient *j'* devant une voyelle."
+        },
+        {
+          "wrong": "Monsieur, tu peux signer ici, s'il vous plaît ?",
+          "correct": "Monsieur, vous pouvez signer ici, s'il vous plaît ?",
+          "note": "Avec un inconnu poli, on dit *vous*."
+        },
+        {
+          "wrong": "Le week-end, on allons souvent à la plage.",
+          "correct": "Le week-end, on va souvent à la plage.",
+          "note": "*On* se conjugue comme *il*."
+        },
+        {
+          "wrong": "Mon frère travaille beaucoup, mais est content.",
+          "correct": "Mon frère travaille beaucoup, mais il est content.",
+          "note": "Le second verbe a aussi besoin d'un sujet."
+        },
+        {
+          "wrong": "Moi aime le chocolat noir.",
+          "correct": "J'aime le chocolat noir.",
+          "note": "Devant le verbe, pronom sujet *je*, pas *moi*."
+        },
+        {
+          "wrong": "Est-ce que parle français, madame ?",
+          "correct": "Est-ce que vous parlez français, madame ?",
+          "note": "Sujet oublié dans la question."
+        },
+        {
+          "wrong": "En France, on mangent tard le soir.",
+          "correct": "En France, on mange tard le soir.",
+          "note": "*On* + verbe à la 3e personne du singulier."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.major",
+        "fr.tag.pronouns",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.irregular_verbs_present",
+      "title": "Aller, faire, prendre, venir au présent",
+      "description": "**L'idée**\nLes verbes les plus utiles du français sont irréguliers. *Aller*, *faire*, *prendre* et *venir* ne suivent pas le modèle de *parler*. Il faut apprendre leurs formes par cœur, car on les entend dans presque chaque phrase.\n\n**La forme**\n- *aller* : *vais, vas, va, allons, allez, vont*\n- *faire* : *fais, fais, fait, faisons, faites, font*\n- *prendre* : *prends, prends, prend, prenons, prenez, prennent*\n- *venir* : *viens, viens, vient, venons, venez, viennent*\n- même modèle : *apprendre, comprendre* comme *prendre* ; *revenir, devenir* comme *venir*\n- négation : *je ne vais pas*, *il ne fait pas*\n- question : *est-ce que tu viens ?*, *vous faites quoi ?*\n\n**Quand l'employer**\n- *aller* + lieu : *à la gare*, *au travail*\n- *faire* + activité : *du sport*, *la cuisine*, *les courses*\n- *prendre* + transport ou repas : *le bus*, *un café*\n- *venir* + origine : *de Paris*, *du Canada*\n\n**Quand ne pas l'employer**\nNe donnez pas à ces verbes les terminaisons des verbes en *-er* (*-e, -es, -ons, -ez, -ent*). Test : si l'infinitif n'est pas en *-er*, ou si c'est *aller*, vérifiez la forme irrégulière.\n\n**Erreurs typiques**\n- régulariser : *vous faisez*, *ils allent* ; il faut *vous faites*, *ils vont*\n- oublier le double *n* : *ils prenent* devient *ils prennent*\n- confondre *viens* et *vient* : *je viens*, *il vient*\n- dire *ils fairent* au lieu de *ils font*\n\n**Exceptions et pièges**\n- *vous faites*, *vous dites*, *vous êtes* : trois formes sans *-ez*",
+      "llmDescription": "Présent irrégulier de aller (vais, vont), faire (faites, font), prendre (prennent), venir (viennent) et dérivés : formes régularisées comme un verbe en -er, double n oublié.",
+      "examples": [
+        {
+          "wrong": "Vous faisez du sport le samedi ?",
+          "correct": "Vous faites du sport le samedi ?",
+          "note": "*Faire* avec *vous* : *faites*."
+        },
+        {
+          "wrong": "Mes parents allent au marché le dimanche.",
+          "correct": "Mes parents vont au marché le dimanche.",
+          "note": "*Aller* avec *ils* : *vont*."
+        },
+        {
+          "wrong": "Les enfants prenent le bus à huit heures.",
+          "correct": "Les enfants prennent le bus à huit heures.",
+          "note": "*Prennent* s'écrit avec deux *n*."
+        },
+        {
+          "wrong": "Je vient de Belgique.",
+          "correct": "Je viens de Belgique.",
+          "note": "*Venir* avec *je* : *viens*."
+        },
+        {
+          "wrong": "Qu'est-ce que vous prendez comme dessert ?",
+          "correct": "Qu'est-ce que vous prenez comme dessert ?",
+          "note": "*Prendre* avec *vous* : *prenez*."
+        },
+        {
+          "wrong": "Tu comprend la question ?",
+          "correct": "Tu comprends la question ?",
+          "note": "*Comprendre* avec *tu* : *comprends*."
+        },
+        {
+          "wrong": "Elle va au travail et elle prendre le métro.",
+          "correct": "Elle va au travail et elle prend le métro.",
+          "note": "Verbe conjugué, pas l'infinitif : *prend*."
+        },
+        {
+          "wrong": "Ils fairent la cuisine ensemble.",
+          "correct": "Ils font la cuisine ensemble.",
+          "note": "*Faire* avec *ils* : *font*."
+        },
+        {
+          "wrong": "Mes amis venent ce soir à la maison.",
+          "correct": "Mes amis viennent ce soir à la maison.",
+          "note": "*Venir* avec *ils* : *viennent*."
+        },
+        {
+          "wrong": "Je vas à la piscine avec ma sœur.",
+          "correct": "Je vais à la piscine avec ma sœur.",
+          "note": "*Aller* avec *je* : *vais*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.major",
+        "fr.tag.present_tense",
+        "fr.tag.talking_about_present",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.ir_verbs_present",
+      "title": "Verbes en -ir comme finir",
+      "description": "**L'idée**\nBeaucoup de verbes en *-ir* se conjuguent comme *finir*. Au pluriel, ils prennent une syllabe en plus : *-iss-*. Si on connaît ce modèle, on peut conjuguer des dizaines de verbes.\n\n**La forme**\n- radical : l'infinitif sans *-ir* (*fin-*, *chois-*, *réuss-*)\n- singulier : *-is*, *-is*, *-it* (*je finis*, *tu finis*, *il finit*)\n- pluriel : *-issons*, *-issez*, *-issent* (*nous finissons*, *vous finissez*, *ils finissent*)\n- négation : *je ne finis pas*\n- question : *est-ce que vous choisissez ?*\n- même modèle : *choisir*, *réussir*, *grandir*, *grossir*, *maigrir*, *remplir*, *obéir*, *réfléchir*\n\n**Quand l'employer**\n- avec les verbes de la liste et les verbes formés sur un adjectif : *rougir*, *vieillir*\n- pour parler du présent, d'une habitude : *tous les jours*, *souvent*\n\n**Quand ne pas l'employer**\nCertains verbes en *-ir* n'ont pas *-iss-* : *partir*, *sortir*, *dormir*, *venir*, *ouvrir*. Test : si le verbe signifie un mouvement ou le sommeil (*partir*, *dormir*), pas de *-iss-* ; si on peut le relier à un adjectif ou s'il est dans la liste de *finir*, mettez *-iss-*.\n\n**Erreurs typiques**\n- oublier *-iss-* au pluriel : *nous finons*, *ils choisent*\n- mettre *-iss-* au singulier : *je finiss*\n- écrire *il finis* : à la 3e personne, c'est *-it*\n- conjuguer *partir* comme *finir* : *nous partissons* est faux\n\n**Registre et usage**\nVerbes fréquents dans la vie de tous les jours : choisir un plat, finir le travail, réussir un examen.",
+      "llmDescription": "Présent des verbes en -ir type finir : -is, -is, -it, -issons, -issez, -issent ; -iss- oublié au pluriel ou ajouté à partir, sortir, dormir, venir.",
+      "examples": [
+        {
+          "wrong": "Nous finons le travail à six heures.",
+          "correct": "Nous finissons le travail à six heures.",
+          "note": "Au pluriel, *finir* prend *-iss-*."
+        },
+        {
+          "wrong": "Qu'est-ce que vous choisez comme plat ?",
+          "correct": "Qu'est-ce que vous choisissez comme plat ?",
+          "note": "*Vous* : *choisissez*."
+        },
+        {
+          "wrong": "Les enfants grandent très vite.",
+          "correct": "Les enfants grandissent très vite.",
+          "note": "*Ils* : *grandissent*."
+        },
+        {
+          "wrong": "Mon fils finis toujours son assiette.",
+          "correct": "Mon fils finit toujours son assiette.",
+          "note": "3e personne du singulier : *-it*."
+        },
+        {
+          "wrong": "Je ne réussiss pas cet exercice.",
+          "correct": "Je ne réussis pas cet exercice.",
+          "note": "Au singulier, pas de *-iss-*."
+        },
+        {
+          "wrong": "Ils réfléchient avant de répondre.",
+          "correct": "Ils réfléchissent avant de répondre.",
+          "note": "*Ils* : *réfléchissent*."
+        },
+        {
+          "wrong": "Nous partissons demain matin.",
+          "correct": "Nous partons demain matin.",
+          "note": "*Partir* n'a pas de *-iss-*."
+        },
+        {
+          "wrong": "Tu remplit le formulaire, s'il te plaît ?",
+          "correct": "Tu remplis le formulaire, s'il te plaît ?",
+          "note": "*Tu* : terminaison *-is*."
+        },
+        {
+          "wrong": "Les élèves obéient au professeur.",
+          "correct": "Les élèves obéissent au professeur.",
+          "note": "*Ils* : *obéissent*."
+        },
+        {
+          "wrong": "Vous dormissez bien dans cet hôtel ?",
+          "correct": "Vous dormez bien dans cet hôtel ?",
+          "note": "*Dormir* ne suit pas le modèle de *finir*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.minor",
+        "fr.tag.present_tense",
+        "fr.tag.talking_about_present",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.il_y_a_existence",
+      "title": "Il y a pour l'existence",
+      "description": "**L'idée**\n*Il y a* sert à dire qu'une chose ou une personne existe, est présente quelque part. C'est une formule fixe : elle ne change pas avec le nombre. On l'utilise pour présenter quelque chose de nouveau.\n\n**La forme**\n- *il y a* + article indéfini ou partitif + nom : *il y a un*, *une*, *des*, *du*\n- même forme au singulier et au pluriel : *il y a deux chambres*\n- négation : *il n'y a pas de* + nom (*de* remplace *un*, *une*, *des*, *du*)\n- question : *est-ce qu'il y a* ? ou *y a-t-il* ?\n- passé : *il y avait* ; futur : *il y aura*\n\n**Quand l'employer**\n- présenter ce qu'il y a dans un lieu : *dans la cuisine*, *près d'ici*\n- compter : *il y a trois personnes*\n- demander si une chose existe : *il y a une pharmacie ?*\n\n**Quand ne pas l'employer**\nNe confondez pas *il y a* et *c'est* / *ce sont*. Test : on présente une chose nouvelle dans un lieu, c'est *il y a* ; on identifie ou on décrit une chose déjà vue, c'est *c'est*.\n\n**Erreurs typiques**\n- mettre au pluriel : *il y ont des livres* ; la formule reste *il y a*\n- oublier *y* : *il a un parc* ne veut pas dire la même chose\n- garder l'article après la négation : *il n'y a pas des œufs*\n- employer *avoir* avec la chose comme sujet : *la ville a un musée* est possible, mais *il est un musée* est faux\n\n**Exceptions et pièges**\n- *il y a* + durée veut dire *avant maintenant* (*il y a deux ans*) : c'est un autre emploi",
+      "llmDescription": "Il y a, il n'y a pas de, il y avait, est-ce qu'il y a pour la présence : pluriel fautif, y oublié, article après négation, confusion avec c'est.",
+      "examples": [
+        {
+          "wrong": "Dans ma rue, il y ont deux boulangeries.",
+          "correct": "Dans ma rue, il y a deux boulangeries.",
+          "note": "*Il y a* ne change pas au pluriel."
+        },
+        {
+          "wrong": "Il n'y a pas des œufs dans le frigo.",
+          "correct": "Il n'y a pas d'œufs dans le frigo.",
+          "note": "Après *pas*, *de* ou *d'*."
+        },
+        {
+          "wrong": "Excusez-moi, il a une pharmacie près d'ici ?",
+          "correct": "Excusez-moi, il y a une pharmacie près d'ici ?",
+          "note": "Il manque *y* dans *il y a*."
+        },
+        {
+          "wrong": "C'est un chat dans le jardin !",
+          "correct": "Il y a un chat dans le jardin !",
+          "note": "Présence dans un lieu : *il y a*."
+        },
+        {
+          "wrong": "Il est beaucoup de monde au cinéma.",
+          "correct": "Il y a beaucoup de monde au cinéma.",
+          "note": "Pour la présence, *il y a*, pas *il est*."
+        },
+        {
+          "wrong": "Dans notre classe, il y sont vingt élèves.",
+          "correct": "Dans notre classe, il y a vingt élèves.",
+          "note": "Formule fixe avec *a*."
+        },
+        {
+          "wrong": "Tu veux du lait ? Il n'y a pas du lait.",
+          "correct": "Tu veux du lait ? Il n'y a pas de lait.",
+          "note": "Après la négation, *du* devient *de*."
+        },
+        {
+          "wrong": "Demain, il y auront du soleil.",
+          "correct": "Demain, il y aura du soleil.",
+          "note": "Au futur, *il y aura*, toujours au singulier."
+        },
+        {
+          "wrong": "Il ne y a pas de problème.",
+          "correct": "Il n'y a pas de problème.",
+          "note": "*Ne* devient *n'* devant *y*."
+        },
+        {
+          "wrong": "Ce sont des fleurs partout dans le parc.",
+          "correct": "Il y a des fleurs partout dans le parc.",
+          "note": "Présence dans un lieu : *il y a*, pas *ce sont*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.major",
+        "fr.tag.articles",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.stressed_pronouns",
+      "title": "Pronoms toniques",
+      "description": "**L'idée**\nLes pronoms toniques sont les pronoms qu'on peut dire seuls ou qu'on met en valeur. On les emploie quand le pronom n'est pas juste devant le verbe : après une préposition, après *c'est*, ou pour insister.\n\n**La forme**\n- *moi*, *toi*, *lui*, *elle*\n- *nous*, *vous*, *eux*, *elles*\n- après une préposition : *avec moi*, *chez lui*, *pour eux*, *sans toi*\n- après *c'est* : *c'est moi*, *c'est elle* ; au pluriel *ce sont eux*\n- pour insister : *moi, je…*, *lui, il…*\n- réponse courte : *moi aussi*, *pas moi*, *et toi ?*\n\n**Quand l'employer**\n- après *avec, pour, chez, sans, à côté de, devant, après*\n- après *c'est* pour identifier quelqu'un\n- dans une réponse sans verbe : *qui veut du café ? moi !*\n- avec *et*, *aussi*, *non plus*\n\n**Quand ne pas l'employer**\nNe mettez pas le pronom tonique juste devant le verbe : là, il faut le pronom sujet. Test : si le mot suivant est le verbe conjugué, dites *je*, *tu*, *il* ; s'il n'y a pas de verbe juste après, ou s'il y a une préposition avant, dites *moi*, *toi*, *lui*.\n\n**Erreurs typiques**\n- employer le pronom sujet après une préposition : *avec je*, *chez il*\n- dire *ils* après une préposition au lieu de *eux* : *pour ils*\n- dire *c'est je* au lieu de *c'est moi*\n- mettre *moi* à la place du sujet : *moi parle*",
+      "llmDescription": "Pronoms toniques moi, toi, lui, elle, nous, vous, eux, elles après préposition (avec, chez, pour), après c'est, en réponse courte ; pronom sujet je, il, ils employé à leur place.",
+      "examples": [
+        {
+          "wrong": "Tu viens au cinéma avec je ?",
+          "correct": "Tu viens au cinéma avec moi ?",
+          "note": "Après *avec*, pronom tonique *moi*."
+        },
+        {
+          "wrong": "Ce soir, nous dînons chez ils.",
+          "correct": "Ce soir, nous dînons chez eux.",
+          "note": "Après *chez*, *eux* au masculin pluriel."
+        },
+        {
+          "wrong": "Qui a fait ce gâteau ? C'est je.",
+          "correct": "Qui a fait ce gâteau ? C'est moi.",
+          "note": "Après *c'est*, pronom tonique."
+        },
+        {
+          "wrong": "J'aime le jazz. Et tu ?",
+          "correct": "J'aime le jazz. Et toi ?",
+          "note": "Sans verbe, on dit *toi*."
+        },
+        {
+          "wrong": "Ce cadeau est pour il, pas pour toi.",
+          "correct": "Ce cadeau est pour lui, pas pour toi.",
+          "note": "Après *pour*, *lui*."
+        },
+        {
+          "wrong": "Je suis fatigué. Je aussi !",
+          "correct": "Je suis fatigué. Moi aussi !",
+          "note": "Avec *aussi* sans verbe : *moi*."
+        },
+        {
+          "wrong": "Mes sœurs partent sans nous, mais pas sans elle.",
+          "correct": "Mes sœurs partent sans nous, mais pas sans elles.",
+          "note": "Plusieurs femmes : *elles* avec *s*."
+        },
+        {
+          "wrong": "Il, il travaille toujours le dimanche.",
+          "correct": "Lui, il travaille toujours le dimanche.",
+          "note": "Pour insister, pronom tonique *lui*."
+        },
+        {
+          "wrong": "Vous habitez à côté de nous ou à côté de ils ?",
+          "correct": "Vous habitez à côté de nous ou à côté d'eux ?",
+          "note": "Après *de*, *eux* avec élision."
+        },
+        {
+          "wrong": "Je ne veux pas partir sans tu.",
+          "correct": "Je ne veux pas partir sans toi.",
+          "note": "Après *sans*, *toi*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.minor",
+        "fr.tag.pronouns",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.prepositions_cities_countries",
+      "title": "Prépositions devant villes et pays",
+      "description": "**L'idée**\nPour dire où on est ou où on va, la préposition dépend du lieu. Pour une ville, c'est simple : *à*. Pour un pays, elle dépend du genre et du nombre du pays.\n\n**La forme**\n- ville : *à* + ville (*à Paris*, *à Tokyo*)\n- pays féminin (souvent en *-e*) : *en* (*en France*, *en Italie*)\n- pays masculin commençant par une voyelle : *en* (*en Iran*, *en Équateur*)\n- pays masculin commençant par une consonne : *au* (*au Japon*, *au Canada*)\n- pays pluriel : *aux* (*aux États-Unis*, *aux Pays-Bas*)\n- origine : *de* ville, *de* pays féminin (*de France*), *du* pays masculin, *des* pays pluriel\n\n**Quand l'employer**\n- avec *habiter*, *être*, *aller*, *vivre*, *travailler* : lieu où on est ou où on va\n- avec *venir*, *rentrer*, *arriver* + *de* : lieu d'où on vient\n\n**Quand ne pas l'employer**\nNe mettez pas *dans* devant un nom de pays ou de ville sans article. Test : nom de ville seul, *à* ; nom de pays, choisissez entre *en*, *au* et *aux* selon son genre et son nombre.\n\n**Erreurs typiques**\n- *à France*, *en Paris* : *à* va avec les villes, *en* avec les pays féminins\n- *en Japon* : pays masculin avec consonne, donc *au*\n- *à les États-Unis* : la contraction donne *aux*\n- *je viens du France* : pays féminin, donc *de*\n\n**Exceptions et pièges**\n- *le Mexique*, *le Cambodge*, *le Mozambique* finissent par *-e* mais sont masculins : *au Mexique*",
+      "llmDescription": "Préposition devant un lieu géographique : à + ville, en + pays féminin ou à voyelle, au + pays masculin, aux + pays pluriel ; de, du, des pour l'origine.",
+      "examples": [
+        {
+          "wrong": "J'habite à France depuis deux ans.",
+          "correct": "J'habite en France depuis deux ans.",
+          "note": "Pays féminin : *en*."
+        },
+        {
+          "wrong": "Nous allons en Japon cet été.",
+          "correct": "Nous allons au Japon cet été.",
+          "note": "Pays masculin à consonne : *au*."
+        },
+        {
+          "wrong": "Ma sœur travaille en Londres.",
+          "correct": "Ma sœur travaille à Londres.",
+          "note": "Devant une ville : *à*."
+        },
+        {
+          "wrong": "Ils partent à les États-Unis demain.",
+          "correct": "Ils partent aux États-Unis demain.",
+          "note": "*À* + *les* donne *aux*."
+        },
+        {
+          "wrong": "Tu viens du Espagne ?",
+          "correct": "Tu viens d'Espagne ?",
+          "note": "Pays féminin : *de*, élidé devant voyelle."
+        },
+        {
+          "wrong": "Mon père est né en Mexique.",
+          "correct": "Mon père est né au Mexique.",
+          "note": "*Le Mexique* est masculin : *au*."
+        },
+        {
+          "wrong": "Vous vivez dans Canada ?",
+          "correct": "Vous vivez au Canada ?",
+          "note": "Pays masculin : *au*, pas *dans*."
+        },
+        {
+          "wrong": "Elles rentrent de les Pays-Bas ce soir.",
+          "correct": "Elles rentrent des Pays-Bas ce soir.",
+          "note": "*De* + *les* donne *des*."
+        },
+        {
+          "wrong": "Je ne suis jamais allé au Italie.",
+          "correct": "Je ne suis jamais allé en Italie.",
+          "note": "*L'Italie* est féminine : *en*."
+        },
+        {
+          "wrong": "Notre professeur vient de Brésil.",
+          "correct": "Notre professeur vient du Brésil.",
+          "note": "Pays masculin : *du*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.minor",
+        "fr.tag.prepositions",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.interrogative_quel",
+      "title": "L'interrogatif quel",
+      "description": "**L'idée**\n*Quel* sert à demander une précision sur un nom : quelle chose parmi d'autres, quelle heure, quel jour. C'est un adjectif : il s'accorde avec le nom qu'il accompagne.\n\n**La forme**\n- masculin singulier : *quel* (*quel jour*)\n- féminin singulier : *quelle* (*quelle heure*)\n- masculin pluriel : *quels* (*quels livres*)\n- féminin pluriel : *quelles* (*quelles langues*)\n- *quel* + nom : *quel âge as-tu ?*\n- *quel* + *être* + nom : *quelle est ton adresse ?* (accord avec le nom après *être*)\n- avec préposition : *à quelle heure*, *dans quel quartier*\n\n**Quand l'employer**\n- demander l'heure, la date, l'âge, le nom, l'adresse, la nationalité\n- choisir dans un groupe : *quel film ?*\n- devant *est* / *sont* + nom\n\n**Quand ne pas l'employer**\nNe confondez pas *quel* et *qu'est-ce que*. Test : si un nom suit (ou *être* + nom), c'est *quel* ; si un sujet et un verbe suivent sans nom, c'est *qu'est-ce que*.\n\n**Erreurs typiques**\n- oublier l'accord : *quel heure*, *quel sont tes films* ; regardez le nom\n- dire *qu'est-ce que est ton nom* au lieu de *quel est ton nom*\n- employer *que* devant un nom : *que livre*\n\n**Registre et usage**\nTrès fréquent à l'oral. *Quel* aussi dans l'exclamation : *quelle belle journée !*",
+      "llmDescription": "Adjectif interrogatif quel, quelle, quels, quelles + nom ou + être + nom (quelle heure, quel est ton nom) : accord oublié, qu'est-ce que ou que employés à sa place.",
+      "examples": [
+        {
+          "wrong": "Quel heure est-il ?",
+          "correct": "Quelle heure est-il ?",
+          "note": "*Heure* est féminin : *quelle*."
+        },
+        {
+          "wrong": "Qu'est-ce que est ton nom ?",
+          "correct": "Quel est ton nom ?",
+          "note": "Devant *être* + nom : *quel*."
+        },
+        {
+          "wrong": "Quel sont vos plats préférés ?",
+          "correct": "Quels sont vos plats préférés ?",
+          "note": "*Plats*, masculin pluriel : *quels*."
+        },
+        {
+          "wrong": "Tu parles quel langues ?",
+          "correct": "Tu parles quelles langues ?",
+          "note": "*Langues*, féminin pluriel : *quelles*."
+        },
+        {
+          "wrong": "Que âge a votre fille ?",
+          "correct": "Quel âge a votre fille ?",
+          "note": "Devant un nom : *quel*, pas *que*."
+        },
+        {
+          "wrong": "À quel heure commence le cours ?",
+          "correct": "À quelle heure commence le cours ?",
+          "note": "Accord avec *heure* : *quelle*."
+        },
+        {
+          "wrong": "Quelle est ton numéro de téléphone ?",
+          "correct": "Quel est ton numéro de téléphone ?",
+          "note": "*Numéro* est masculin : *quel*."
+        },
+        {
+          "wrong": "Dans quelle quartier habitez-vous ?",
+          "correct": "Dans quel quartier habitez-vous ?",
+          "note": "*Quartier* est masculin : *quel*."
+        },
+        {
+          "wrong": "Quelles est votre adresse, madame ?",
+          "correct": "Quelle est votre adresse, madame ?",
+          "note": "*Adresse* singulier : *quelle* sans *s*."
+        },
+        {
+          "wrong": "Qu'est-ce que film tu veux voir ?",
+          "correct": "Quel film tu veux voir ?",
+          "note": "Devant un nom : *quel*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.minor",
+        "fr.tag.questions",
+        "fr.tag.asking_questions",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.modal_verbs_infinitive",
+      "title": "Pouvoir, vouloir, devoir + infinitif",
+      "description": "**L'idée**\n*Pouvoir*, *vouloir* et *devoir* expriment la capacité, le désir et l'obligation. Ils sont suivis directement d'un deuxième verbe à l'infinitif. Ce sont des verbes irréguliers très fréquents.\n\n**La forme**\n- *pouvoir* : *peux, peux, peut, pouvons, pouvez, peuvent*\n- *vouloir* : *veux, veux, veut, voulons, voulez, veulent*\n- *devoir* : *dois, dois, doit, devons, devez, doivent*\n- + infinitif sans préposition : *je peux venir*, *il doit partir*\n- négation : *ne* + verbe modal + *pas* + infinitif (*je ne peux pas venir*)\n- pronom complément avant l'infinitif : *je veux le voir*\n\n**Quand l'employer**\n- *pouvoir* : capacité, possibilité, permission (*tu peux entrer*)\n- *vouloir* : désir, volonté (*je veux apprendre*)\n- *devoir* : obligation, nécessité (*nous devons partir*)\n- demande polie : *pouvez-vous… ?*, *tu peux… ?*\n\n**Quand ne pas l'employer**\nNe mettez pas *à* ou *de* entre ces verbes et l'infinitif : ce n'est pas comme *apprendre à* ou *décider de*. Test : après *pouvoir*, *vouloir*, *devoir*, l'infinitif suit directement.\n\n**Erreurs typiques**\n- conjuguer le deuxième verbe : *je peux viens*\n- ajouter une préposition : *je veux de partir*\n- régulariser : *ils pouvent*, *ils devent*, *ils voulent* ; au pluriel, le radical change\n- mettre *pas* après l'infinitif : *je peux venir pas*",
+      "llmDescription": "Pouvoir (peux, peuvent), vouloir (veux, veulent), devoir (dois, doivent) au présent + infinitif direct : deuxième verbe conjugué, préposition ajoutée, formes régularisées, négation mal placée.",
+      "examples": [
+        {
+          "wrong": "Je peux viens demain matin.",
+          "correct": "Je peux venir demain matin.",
+          "note": "Après *pouvoir*, un infinitif."
+        },
+        {
+          "wrong": "Nous voulons de partir en vacances.",
+          "correct": "Nous voulons partir en vacances.",
+          "note": "Pas de préposition après *vouloir*."
+        },
+        {
+          "wrong": "Les enfants pouvent jouer dehors.",
+          "correct": "Les enfants peuvent jouer dehors.",
+          "note": "*Pouvoir* avec *ils* : *peuvent*."
+        },
+        {
+          "wrong": "Tu doit faire tes devoirs.",
+          "correct": "Tu dois faire tes devoirs.",
+          "note": "*Devoir* avec *tu* : *dois*."
+        },
+        {
+          "wrong": "Je ne peux venir pas ce soir.",
+          "correct": "Je ne peux pas venir ce soir.",
+          "note": "*Pas* se place après *peux*."
+        },
+        {
+          "wrong": "Elles voulent apprendre le piano.",
+          "correct": "Elles veulent apprendre le piano.",
+          "note": "*Vouloir* avec *elles* : *veulent*."
+        },
+        {
+          "wrong": "Est-ce que vous pouvez fermez la fenêtre ?",
+          "correct": "Est-ce que vous pouvez fermer la fenêtre ?",
+          "note": "Après *pouvoir*, *fermer* à l'infinitif."
+        },
+        {
+          "wrong": "Mes collègues devent finir le rapport.",
+          "correct": "Mes collègues doivent finir le rapport.",
+          "note": "*Devoir* avec *ils* : *doivent*."
+        },
+        {
+          "wrong": "Il veut à manger une pizza.",
+          "correct": "Il veut manger une pizza.",
+          "note": "Pas de *à* devant l'infinitif."
+        },
+        {
+          "wrong": "On doit prenons le train de neuf heures.",
+          "correct": "On doit prendre le train de neuf heures.",
+          "note": "Le second verbe reste à l'infinitif."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.major",
+        "fr.tag.infinitive",
+        "fr.tag.present_tense",
+        "fr.tag.ability_possibility",
+        "fr.tag.requests_offers_permission",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.preference_verbs_definite_article",
+      "title": "Article défini après aimer",
+      "description": "**L'idée**\nAprès les verbes de goût comme *aimer* ou *détester*, on parle d'une chose en général, de toute la catégorie. C'est pourquoi on emploie l'article défini (*le, la, l', les*), et pas le partitif.\n\n**La forme**\n- *aimer, adorer, préférer, détester* + *le, la, l', les* + nom\n- *j'aime le café*, *elle adore les chats*, *nous détestons la pluie*\n- négation : *je n'aime pas le café* (l'article défini reste après *pas*)\n- question : *tu aimes les légumes ?*\n- avec *à* ou *de*, contraction normale : *au*, *du* ne viennent pas d'*aimer*\n\n**Quand l'employer**\n- goût, préférence, opinion sur une catégorie : *le sport*, *la musique*, *les films d'horreur*\n- après *aimer*, *adorer*, *préférer*, *détester*, *apprécier*\n\n**Quand ne pas l'employer**\nNe confondez pas avec les verbes de consommation comme *manger*, *boire*, *acheter*, *prendre*, qui demandent souvent le partitif. Test : je donne mon goût général, *le*, *la*, *les* ; je parle d'une quantité que je prends, *du*, *de la*, *des*.\n\n**Erreurs typiques**\n- employer le partitif : *j'aime du chocolat*\n- employer *de* après la négation : *je n'aime pas de poisson* ; avec *aimer*, l'article défini reste\n- oublier l'article : *j'aime musique*\n- mettre l'indéfini : *j'adore des chats*",
+      "llmDescription": "Article défini le, la, l', les après aimer, adorer, préférer, détester (goût général), aussi après la négation : partitif du/de la, de, des ou article absent employés à sa place.",
+      "examples": [
+        {
+          "wrong": "J'aime du chocolat noir.",
+          "correct": "J'aime le chocolat noir.",
+          "note": "Après *aimer*, article défini."
+        },
+        {
+          "wrong": "Mon père n'aime pas de poisson.",
+          "correct": "Mon père n'aime pas le poisson.",
+          "note": "Avec *aimer*, l'article défini reste après *pas*."
+        },
+        {
+          "wrong": "Tu aimes musique classique ?",
+          "correct": "Tu aimes la musique classique ?",
+          "note": "Article défini oublié."
+        },
+        {
+          "wrong": "Les enfants adorent des chats.",
+          "correct": "Les enfants adorent les chats.",
+          "note": "Goût général : *les*, pas *des*."
+        },
+        {
+          "wrong": "Nous détestons de la pluie en été.",
+          "correct": "Nous détestons la pluie en été.",
+          "note": "Pas de partitif après *détester*."
+        },
+        {
+          "wrong": "Je préfère du thé au café.",
+          "correct": "Je préfère le thé au café.",
+          "note": "Après *préférer*, article défini."
+        },
+        {
+          "wrong": "Elle n'aime pas des films d'horreur.",
+          "correct": "Elle n'aime pas les films d'horreur.",
+          "note": "Catégorie entière : *les*."
+        },
+        {
+          "wrong": "Vous aimez de l'opéra ?",
+          "correct": "Vous aimez l'opéra ?",
+          "note": "Goût général : *l'*, pas *de l'*."
+        },
+        {
+          "wrong": "Ils adorent sport et voyages.",
+          "correct": "Ils adorent le sport et les voyages.",
+          "note": "Chaque nom garde son article défini."
+        },
+        {
+          "wrong": "Je déteste du bruit le matin.",
+          "correct": "Je déteste le bruit le matin.",
+          "note": "Après *détester*, *le*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a1",
+        "fr.tag.minor",
+        "fr.tag.articles",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -882,7 +1667,9 @@
         "fr.tag.a2",
         "fr.tag.major",
         "fr.tag.past_tenses",
-        "fr.tag.participles"
+        "fr.tag.participles",
+        "fr.tag.talking_about_past",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -946,7 +1733,9 @@
         "fr.tag.a2",
         "fr.tag.major",
         "fr.tag.past_tenses",
-        "fr.tag.participles"
+        "fr.tag.participles",
+        "fr.tag.talking_about_past",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1009,7 +1798,9 @@
       "tagIds": [
         "fr.tag.a2",
         "fr.tag.minor",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.talking_about_future",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1072,7 +1863,9 @@
       "tagIds": [
         "fr.tag.a2",
         "fr.tag.major",
-        "fr.tag.articles"
+        "fr.tag.articles",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1136,7 +1929,10 @@
         "fr.tag.a2",
         "fr.tag.major",
         "fr.tag.object_pronouns",
-        "fr.tag.present_tense"
+        "fr.tag.present_tense",
+        "fr.tag.talking_about_present",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1199,7 +1995,9 @@
       "tagIds": [
         "fr.tag.a2",
         "fr.tag.major",
-        "fr.tag.object_pronouns"
+        "fr.tag.object_pronouns",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1262,7 +2060,10 @@
       "tagIds": [
         "fr.tag.a2",
         "fr.tag.major",
-        "fr.tag.imperative"
+        "fr.tag.imperative",
+        "fr.tag.requests_offers_permission",
+        "fr.tag.advice_obligation",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1326,7 +2127,9 @@
         "fr.tag.a2",
         "fr.tag.minor",
         "fr.tag.comparison",
-        "fr.tag.adjectives"
+        "fr.tag.adjectives",
+        "fr.tag.comparing",
+        "fr.tag.common"
       ]
     },
     {
@@ -1389,7 +2192,862 @@
       "tagIds": [
         "fr.tag.a2",
         "fr.tag.major",
-        "fr.tag.determiners"
+        "fr.tag.determiners",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.c_est_vs_il_est",
+      "title": "C'est ou il est",
+      "description": "**L'idée**\nPour présenter ou décrire une personne ou une chose, on hésite entre *c'est* et *il est* / *elle est*. Le choix dépend de ce qui suit : un nom avec un déterminant, ou un adjectif seul.\n\n**La forme**\n- *c'est* + déterminant + nom : *c'est un ami*, *c'est mon frère*\n- *ce sont* + déterminant + nom pluriel : *ce sont mes voisins*\n- *il est* / *elle est* + adjectif : *elle est gentille*\n- *il est* / *elle est* + profession, nationalité, religion sans article : *il est médecin*\n- *c'est* + nom propre ou pronom tonique : *c'est Marie*, *c'est moi*\n- *c'est* + adjectif masculin pour une idée générale : *c'est facile*, *c'est beau*\n- négation : *ce n'est pas*, *il n'est pas*\n\n**Quand l'employer**\n- présenter quelqu'un : *c'est* + *un*, *mon*, *le*…\n- décrire quelqu'un déjà nommé : *il est grand*\n- dire la profession : *il est professeur*, mais *c'est un bon professeur*\n- commenter une situation : *c'est génial*\n\n**Quand ne pas l'employer**\nTest simple : s'il y a un article ou un possessif devant le nom, dites *c'est* ; s'il y a seulement un adjectif ou une profession seule pour une personne précise, dites *il est* / *elle est*.\n\n**Erreurs typiques**\n- *il est un médecin* : avec l'article, il faut *c'est un médecin*\n- *c'est médecin* : sans article, il faut *il est médecin*\n- *elle est ma sœur* : avec un possessif, *c'est ma sœur*\n- *c'est belle* : pour une situation, *c'est* + masculin ; pour une personne, *elle est belle*\n- *c'est mes amis* à l'écrit soigné : *ce sont mes amis*",
+      "llmDescription": "Choix entre c'est / ce sont (+ déterminant + nom, nom propre, pronom, adjectif d'idée générale) et il est / elle est (+ adjectif, profession sans article).",
+      "examples": [
+        {
+          "wrong": "Il est un très bon médecin.",
+          "correct": "C'est un très bon médecin.",
+          "note": "Avec un article, *c'est*."
+        },
+        {
+          "wrong": "C'est infirmière à l'hôpital Saint-Louis.",
+          "correct": "Elle est infirmière à l'hôpital Saint-Louis.",
+          "note": "Profession sans article : *elle est*."
+        },
+        {
+          "wrong": "Je te présente Léa. Elle est ma sœur.",
+          "correct": "Je te présente Léa. C'est ma sœur.",
+          "note": "Avec un possessif, *c'est*."
+        },
+        {
+          "wrong": "Regarde ce paysage, c'est belle !",
+          "correct": "Regarde ce paysage, c'est beau !",
+          "note": "Après *c'est*, adjectif au masculin."
+        },
+        {
+          "wrong": "Tu connais Paul ? C'est très sympathique.",
+          "correct": "Tu connais Paul ? Il est très sympathique.",
+          "note": "Personne décrite par un adjectif : *il est*."
+        },
+        {
+          "wrong": "Ils sont mes voisins du troisième étage.",
+          "correct": "Ce sont mes voisins du troisième étage.",
+          "note": "Possessif + nom pluriel : *ce sont*."
+        },
+        {
+          "wrong": "Qui est-ce ? Il est Thomas, mon collègue.",
+          "correct": "Qui est-ce ? C'est Thomas, mon collègue.",
+          "note": "Devant un nom propre, *c'est*."
+        },
+        {
+          "wrong": "Apprendre le chinois, il est difficile.",
+          "correct": "Apprendre le chinois, c'est difficile.",
+          "note": "Idée générale : *c'est*."
+        },
+        {
+          "wrong": "Elle n'est pas une mauvaise idée.",
+          "correct": "Ce n'est pas une mauvaise idée.",
+          "note": "Article + nom : *ce n'est pas*."
+        },
+        {
+          "wrong": "Mon oncle ? C'est canadien.",
+          "correct": "Mon oncle ? Il est canadien.",
+          "note": "Nationalité d'une personne : *il est*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.pronouns",
+        "fr.tag.articles",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.venir_de_recent_past",
+      "title": "Passé récent avec venir de",
+      "description": "**L'idée**\nLe passé récent dit qu'une action s'est terminée juste avant le moment où on parle. On le forme avec *venir de* + infinitif. C'est le contraire exact du futur proche.\n\n**La forme**\n- *venir* au présent + *de* + infinitif\n- *venir* : *viens, viens, vient, venons, venez, viennent*\n- *de* devient *d'* devant une voyelle : *je viens d'arriver*\n- négation : rare ; on dit plutôt *je ne suis pas encore arrivé*\n- question : *tu viens de rentrer ?*\n- pronoms objets avant l'infinitif : *je viens de le voir*\n\n**Quand l'employer**\n- action finie il y a très peu de temps : *à l'instant*, *juste*\n- annoncer une nouvelle : *elle vient d'avoir un bébé*\n- expliquer une situation présente : *je viens de manger, je n'ai pas faim*\n\n**Quand ne pas l'employer**\nNe confondez pas avec *venir* + lieu (*je viens de Lyon* = origine) ni avec le passé composé. Test : si après *venir de* il y a un infinitif, c'est le passé récent ; si l'action date d'hier ou plus, prenez le passé composé.\n\n**Erreurs typiques**\n- oublier *de* : *je viens manger* veut dire *je viens pour manger*\n- mettre le participe : *il vient de fini*\n- conjuguer *venir* au passé composé : *je suis venu de partir*\n- confondre avec le futur proche : *je vais finir* ≠ *je viens de finir*",
+      "llmDescription": "Passé récent venir de/d' + infinitif (je viens de finir) : de oublié, participe au lieu de l'infinitif, venir au passé ; opposé au futur proche avec aller.",
+      "examples": [
+        {
+          "wrong": "Je viens arriver à la gare.",
+          "correct": "Je viens d'arriver à la gare.",
+          "note": "Passé récent : *venir de* + infinitif."
+        },
+        {
+          "wrong": "Le film vient de commencé.",
+          "correct": "Le film vient de commencer.",
+          "note": "Après *venir de*, l'infinitif."
+        },
+        {
+          "wrong": "Nous sommes venus de manger, merci.",
+          "correct": "Nous venons de manger, merci.",
+          "note": "*Venir* reste au présent."
+        },
+        {
+          "wrong": "Ma cousine vient de avoir un bébé.",
+          "correct": "Ma cousine vient d'avoir un bébé.",
+          "note": "*De* devient *d'* devant une voyelle."
+        },
+        {
+          "wrong": "Nous allons de rentrer de vacances, tout est sale.",
+          "correct": "Nous venons de rentrer de vacances, tout est sale.",
+          "note": "Action terminée : *venir de*, pas *aller*."
+        },
+        {
+          "wrong": "Ils viennent recevoir les résultats de l'examen.",
+          "correct": "Ils viennent de recevoir les résultats de l'examen.",
+          "note": "*De* oublié après *venir*."
+        },
+        {
+          "wrong": "Vous venez de finissez le rapport ?",
+          "correct": "Vous venez de finir le rapport ?",
+          "note": "Le second verbe reste à l'infinitif."
+        },
+        {
+          "wrong": "Elle vienne de partir au travail.",
+          "correct": "Elle vient de partir au travail.",
+          "note": "*Venir* avec *elle* : *vient*."
+        },
+        {
+          "wrong": "Je viens à te envoyer un message.",
+          "correct": "Je viens de t'envoyer un message.",
+          "note": "Il faut *de*, pas *à*."
+        },
+        {
+          "wrong": "On vient d'acheté une nouvelle voiture.",
+          "correct": "On vient d'acheter une nouvelle voiture.",
+          "note": "Infinitif *acheter*, pas participe."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.past_tenses",
+        "fr.tag.infinitive",
+        "fr.tag.talking_about_past",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.etre_en_train_de",
+      "title": "Être en train de",
+      "description": "**L'idée**\nLe présent simple peut déjà dire ce qui se passe maintenant. Mais pour insister sur une action en cours, au moment précis où on parle, on dit *être en train de* + infinitif.\n\n**La forme**\n- *être* conjugué + *en train de* + infinitif\n- *je suis en train de lire*, *nous sommes en train de manger*\n- *de* devient *d'* devant une voyelle : *en train d'écrire*\n- négation : *je ne suis pas en train de dormir*\n- question : *qu'est-ce que tu es en train de faire ?*\n- au passé : *j'étais en train de cuisiner* (imparfait)\n- pronoms avant l'infinitif : *je suis en train de le réparer*\n\n**Quand l'employer**\n- action en cours maintenant : *là*, *en ce moment*, *pour l'instant*\n- expliquer pourquoi on n'est pas disponible : *je suis en train de travailler*\n- au passé, action interrompue par une autre\n\n**Quand ne pas l'employer**\nNe l'employez pas pour une habitude ou un état : là, le présent simple suffit. Test : si on peut ajouter *en ce moment précis*, *être en train de* est possible ; si on dit *tous les jours*, *toujours*, on emploie le présent simple.\n\n**Erreurs typiques**\n- oublier *de* : *je suis en train manger*\n- conjuguer le second verbe : *il est en train de mange*\n- l'employer pour une habitude : *je suis en train de jouer au tennis le lundi*\n- mettre un verbe d'état : *je suis en train de savoir*",
+      "llmDescription": "Être en train de/d' + infinitif, action en cours précise : de oublié, verbe conjugué après de, emploi pour une habitude ou un verbe d'état.",
+      "examples": [
+        {
+          "wrong": "Je suis en train manger, je te rappelle.",
+          "correct": "Je suis en train de manger, je te rappelle.",
+          "note": "Il faut *de* après *en train*."
+        },
+        {
+          "wrong": "Mon frère est en train de répare son vélo.",
+          "correct": "Mon frère est en train de réparer son vélo.",
+          "note": "Après *de*, l'infinitif."
+        },
+        {
+          "wrong": "Le lundi, je suis en train de jouer au tennis.",
+          "correct": "Le lundi, je joue au tennis.",
+          "note": "Habitude : présent simple."
+        },
+        {
+          "wrong": "Qu'est-ce que vous êtes en train faire ?",
+          "correct": "Qu'est-ce que vous êtes en train de faire ?",
+          "note": "*De* oublié."
+        },
+        {
+          "wrong": "Nous avons en train de regarder un film.",
+          "correct": "Nous sommes en train de regarder un film.",
+          "note": "Avec *être*, pas *avoir*."
+        },
+        {
+          "wrong": "Elle est en train de écrire un courriel.",
+          "correct": "Elle est en train d'écrire un courriel.",
+          "note": "*De* devient *d'* devant une voyelle."
+        },
+        {
+          "wrong": "Je suis en train de connaître la réponse.",
+          "correct": "Je connais la réponse.",
+          "note": "Verbe d'état : pas *en train de*."
+        },
+        {
+          "wrong": "Ils ne sont en train pas de dormir.",
+          "correct": "Ils ne sont pas en train de dormir.",
+          "note": "*Pas* se place après *être*."
+        },
+        {
+          "wrong": "Tu es en train de étudier pour l'examen ?",
+          "correct": "Tu es en train d'étudier pour l'examen ?",
+          "note": "Élision : *d'étudier*."
+        },
+        {
+          "wrong": "J'étais en train de cuisinais quand il est arrivé.",
+          "correct": "J'étais en train de cuisiner quand il est arrivé.",
+          "note": "Le second verbe reste à l'infinitif."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.present_tense",
+        "fr.tag.infinitive",
+        "fr.tag.talking_about_present",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.superlative",
+      "title": "Le superlatif",
+      "description": "**L'idée**\nLe superlatif place une personne ou une chose au sommet ou en bas d'un groupe : la plus grande, le moins cher. On ajoute un article défini devant *plus* ou *moins*.\n\n**La forme**\n- *le / la / les* + *plus* ou *moins* + adjectif : *la plus belle ville*\n- l'article s'accorde avec le nom : *le plus grand*, *la plus grande*, *les plus grands*\n- adjectif placé après le nom : *le restaurant le plus cher* (l'article est répété)\n- adjectif placé avant le nom : *le plus beau jardin*\n- le groupe de comparaison : *de* + nom (*de la ville*, *du monde*, *de la classe*)\n- irréguliers : *le meilleur*, *la meilleure* (bon) ; *le mieux* (bien, adverbe)\n- avec un verbe : *c'est lui qui travaille le plus*\n\n**Quand l'employer**\n- classer dans un groupe : *du monde*, *de la famille*, *de tous*\n- donner un record : *le plus haut*, *le plus vieux*\n\n**Quand ne pas l'employer**\nNe confondez pas avec le comparatif, qui compare deux éléments avec *que*. Test : un groupe entier avec *de*, c'est le superlatif avec article ; deux éléments avec *que*, c'est le comparatif sans article.\n\n**Erreurs typiques**\n- oublier l'article : *c'est plus grande ville*\n- ne pas répéter l'article après le nom : *la ville plus belle du pays*\n- employer *dans* au lieu de *de* : *le plus grand dans le monde*\n- dire *le plus bon* au lieu de *le meilleur*\n- accorder mal l'article : *le plus belle*",
+      "llmDescription": "Superlatif le/la/les plus ou moins + adjectif, article répété après le nom, de pour le groupe, le meilleur, le mieux : article oublié, dans au lieu de de.",
+      "examples": [
+        {
+          "wrong": "Paris est plus grande ville de France.",
+          "correct": "Paris est la plus grande ville de France.",
+          "note": "Superlatif : article défini devant *plus*."
+        },
+        {
+          "wrong": "C'est le restaurant plus cher du quartier.",
+          "correct": "C'est le restaurant le plus cher du quartier.",
+          "note": "Après le nom, on répète *le*."
+        },
+        {
+          "wrong": "C'est le plus haut bâtiment dans le monde.",
+          "correct": "C'est le plus haut bâtiment du monde.",
+          "note": "Le groupe s'introduit par *de*."
+        },
+        {
+          "wrong": "Ce gâteau est le plus bon de la boulangerie.",
+          "correct": "Ce gâteau est le meilleur de la boulangerie.",
+          "note": "*Bon* devient *le meilleur*."
+        },
+        {
+          "wrong": "Julie est le plus jeune de la famille.",
+          "correct": "Julie est la plus jeune de la famille.",
+          "note": "Accord féminin : *la plus*."
+        },
+        {
+          "wrong": "Quels sont les films les plus drôle de l'année ?",
+          "correct": "Quels sont les films les plus drôles de l'année ?",
+          "note": "L'adjectif s'accorde au pluriel."
+        },
+        {
+          "wrong": "C'est mon frère qui chante le meilleur.",
+          "correct": "C'est mon frère qui chante le mieux.",
+          "note": "Avec un verbe, *le mieux*."
+        },
+        {
+          "wrong": "Prenez la chambre la moins chère que l'hôtel.",
+          "correct": "Prenez la chambre la moins chère de l'hôtel.",
+          "note": "Superlatif : *de*, pas *que*."
+        },
+        {
+          "wrong": "Ce n'est pas le plus mauvaise idée.",
+          "correct": "Ce n'est pas la plus mauvaise idée.",
+          "note": "*Idée* est féminin : *la plus*."
+        },
+        {
+          "wrong": "Nous avons visité les plages plus belles de l'île.",
+          "correct": "Nous avons visité les plages les plus belles de l'île.",
+          "note": "Après le nom, on répète *les*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.comparison",
+        "fr.tag.adjectives",
+        "fr.tag.comparing",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.imperative_negative",
+      "title": "Impératif négatif",
+      "description": "**L'idée**\nL'impératif négatif sert à interdire ou à déconseiller : *ne fais pas ça !* La forme du verbe est la même qu'à l'impératif affirmatif, mais la négation l'entoure et les pronoms changent de place.\n\n**La forme**\n- *ne* + verbe à l'impératif + *pas* : *ne parle pas*, *ne partons pas*, *ne criez pas*\n- *n'* devant voyelle : *n'oublie pas*\n- autres négations : *ne… jamais*, *ne… plus*, *ne… rien*\n- pronoms AVANT le verbe, sans trait d'union : *ne le fais pas*, *ne lui dites rien*\n- verbes pronominaux : *ne te lève pas*, *ne vous inquiétez pas*\n- pronoms de forme normale : *me*, *te* (pas *moi*, *toi*)\n\n**Quand l'employer**\n- interdire : *ne touche pas*, *ne fumez pas*\n- conseiller de ne pas faire : *ne t'inquiète pas*\n- rassurer : *ne t'en fais pas*\n\n**Quand ne pas l'employer**\nNe gardez pas l'ordre de l'impératif affirmatif (*lève-toi*, *dis-le*). Test : à l'affirmatif, pronom après le verbe avec trait d'union ; au négatif, pronom avant le verbe, comme au présent.\n\n**Erreurs typiques**\n- garder le pronom après : *ne lève-toi pas*\n- employer *toi* ou *moi* : *ne toi inquiète pas*\n- oublier *ne* à l'écrit : *touche pas*\n- mettre *pas* avant le verbe : *ne pas parle*\n- ajouter le sujet : *tu ne parle pas*\n\n**Registre et usage**\nÀ l'oral familier, *ne* disparaît souvent (*touche pas !*), mais à l'écrit il est obligatoire.",
+      "llmDescription": "Impératif négatif ne + verbe + pas/jamais/rien, pronoms avant le verbe sans trait d'union (ne te lève pas) : ordre affirmatif gardé, toi/moi, pas mal placé.",
+      "examples": [
+        {
+          "wrong": "Ne lève-toi pas trop tard demain.",
+          "correct": "Ne te lève pas trop tard demain.",
+          "note": "Au négatif, pronom avant le verbe."
+        },
+        {
+          "wrong": "Ne toi inquiète pas, tout va bien.",
+          "correct": "Ne t'inquiète pas, tout va bien.",
+          "note": "Au négatif, *te*, pas *toi*."
+        },
+        {
+          "wrong": "Ne dites-lui rien, c'est une surprise.",
+          "correct": "Ne lui dites rien, c'est une surprise.",
+          "note": "Pronom avant le verbe, sans trait d'union."
+        },
+        {
+          "wrong": "Ne pas touche à mon ordinateur !",
+          "correct": "Ne touche pas à mon ordinateur !",
+          "note": "*Pas* se place après le verbe."
+        },
+        {
+          "wrong": "N'oublies pas ton parapluie.",
+          "correct": "N'oublie pas ton parapluie.",
+          "note": "Verbe en *-er* : pas de *-s* à l'impératif."
+        },
+        {
+          "wrong": "Ne mangeons-le pas avant le dîner.",
+          "correct": "Ne le mangeons pas avant le dîner.",
+          "note": "Au négatif, *le* se place avant le verbe."
+        },
+        {
+          "wrong": "Ne parlez jamais-moi sur ce ton.",
+          "correct": "Ne me parlez jamais sur ce ton.",
+          "note": "Au négatif, *me* avant le verbe."
+        },
+        {
+          "wrong": "Tu ne cours pas dans le couloir !",
+          "correct": "Ne cours pas dans le couloir !",
+          "note": "Impératif : pas de sujet."
+        },
+        {
+          "wrong": "Ne vous asseyez-vous pas ici, c'est mouillé.",
+          "correct": "Ne vous asseyez pas ici, c'est mouillé.",
+          "note": "Pronom une seule fois, avant le verbe."
+        },
+        {
+          "wrong": "Ne les achetez pas-les, ils sont trop chers.",
+          "correct": "Ne les achetez pas, ils sont trop chers.",
+          "note": "Pas de pronom répété après le verbe."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.major",
+        "fr.tag.imperative",
+        "fr.tag.negation",
+        "fr.tag.advice_obligation",
+        "fr.tag.negating",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.adverbs_ment",
+      "title": "Adverbes en -ment",
+      "description": "**L'idée**\nL'adverbe en *-ment* dit comment on fait une action : *lentement*, *facilement*. On le fabrique à partir d'un adjectif. L'adverbe ne s'accorde jamais.\n\n**La forme**\n- adjectif au féminin + *-ment* : *lent* → *lente* → *lentement*\n- adjectif terminé par une voyelle : masculin + *-ment* : *vrai* → *vraiment*, *poli* → *poliment*\n- adjectif en *-ant* : *-amment* (*courant* → *couramment*)\n- adjectif en *-ent* : *-emment* (*récent* → *récemment*), prononcé comme *-amment*\n- invariable : pas de *-s*, pas de *-e* en plus\n- place : après le verbe conjugué (*il parle lentement*)\n\n**Quand l'employer**\n- pour décrire la manière d'agir, après un verbe : *conduire prudemment*\n- devant un adjectif pour nuancer : *vraiment content*\n\n**Quand ne pas l'employer**\nNe confondez pas l'adverbe et l'adjectif. Test : si le mot décrit un nom (*une voiture rapide*), c'est l'adjectif ; s'il décrit un verbe (*elle conduit rapidement*), c'est l'adverbe.\n\n**Erreurs typiques**\n- employer l'adjectif après un verbe : *il parle lent*\n- partir du masculin d'un adjectif en consonne : *heureusment* au lieu de *heureusement*\n- écrire *-ament* pour un adjectif en *-ent* : *évidamment*\n- accorder l'adverbe : *elles parlent doucements*\n\n**Exceptions et pièges**\n- *gentil* → *gentiment* ; *bref* → *brièvement*\n- *bien*, *mal*, *vite* ne finissent pas en *-ment*\n- quelques adverbes en *-ément* : *précisément*, *énormément*, *profondément*",
+      "llmDescription": "Adverbe de manière en -ment formé sur l'adjectif féminin (lentement), -amment, -emment, invariable : adjectif employé après un verbe, formation fautive, accord ajouté.",
+      "examples": [
+        {
+          "wrong": "Le professeur parle très lent.",
+          "correct": "Le professeur parle très lentement.",
+          "note": "Après un verbe, l'adverbe *lentement*."
+        },
+        {
+          "wrong": "Heureusment, il ne pleut pas aujourd'hui.",
+          "correct": "Heureusement, il ne pleut pas aujourd'hui.",
+          "note": "On part du féminin *heureuse*."
+        },
+        {
+          "wrong": "Elle parle courament trois langues.",
+          "correct": "Elle parle couramment trois langues.",
+          "note": "*Courant* donne *couramment*."
+        },
+        {
+          "wrong": "Évidamment, nous serons là à midi.",
+          "correct": "Évidemment, nous serons là à midi.",
+          "note": "*Évident* donne *évidemment*."
+        },
+        {
+          "wrong": "Mes sœurs chantent doucements.",
+          "correct": "Mes sœurs chantent doucement.",
+          "note": "L'adverbe est invariable."
+        },
+        {
+          "wrong": "Conduis prudent, la route est glissante.",
+          "correct": "Conduis prudemment, la route est glissante.",
+          "note": "Avec un verbe, adverbe *prudemment*."
+        },
+        {
+          "wrong": "Ils nous ont gentilment invités chez eux.",
+          "correct": "Ils nous ont gentiment invités chez eux.",
+          "note": "*Gentil* donne *gentiment*."
+        },
+        {
+          "wrong": "Tu as vraiement aimé ce film ?",
+          "correct": "Tu as vraiment aimé ce film ?",
+          "note": "Adjectif en voyelle : masculin + *-ment*."
+        },
+        {
+          "wrong": "Répondez poliement au client, s'il vous plaît.",
+          "correct": "Répondez poliment au client, s'il vous plaît.",
+          "note": "*Poli* donne *poliment*."
+        },
+        {
+          "wrong": "Il a récament changé de travail.",
+          "correct": "Il a récemment changé de travail.",
+          "note": "*Récent* donne *récemment*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.adverbs",
+        "fr.tag.describing_things",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.depuis_pendant_il_y_a",
+      "title": "Depuis, pendant, il y a",
+      "description": "**L'idée**\nTrois petits mots expriment la durée et le moment, mais ils ne disent pas la même chose. *Depuis* : une situation qui a commencé et continue encore. *Pendant* : une durée terminée ou limitée. *Il y a* : le moment où une action a eu lieu, compté à partir d'aujourd'hui.\n\n**La forme**\n- *depuis* + durée ou date + verbe au PRÉSENT : *j'habite ici depuis trois ans*\n- *pendant* + durée + passé composé, présent ou futur : *j'ai travaillé pendant deux heures*\n- *il y a* + durée + passé composé : *je suis arrivé il y a deux jours*\n- question : *depuis quand ?*, *depuis combien de temps ?*, *pendant combien de temps ?*\n- négation avec *depuis* : souvent au passé composé (*je ne l'ai pas vu depuis un mois*)\n\n**Quand l'employer**\n- *depuis* : l'action continue maintenant (*je suis malade depuis lundi*)\n- *pendant* : durée d'une action finie ou prévue (*pendant les vacances*)\n- *il y a* : moment dans le passé (*il y a une semaine*)\n\n**Quand ne pas l'employer**\nTest : si l'action continue aujourd'hui, *depuis* + présent ; si elle est finie et qu'on donne sa durée, *pendant* ; si on dit quand elle a eu lieu, *il y a*.\n\n**Erreurs typiques**\n- passé composé avec *depuis* pour une action qui continue : *j'ai habité ici depuis trois ans*\n- *depuis* pour un moment passé : *je suis arrivé depuis deux jours*\n- *pendant* pour une action qui continue : *j'apprends le français pendant deux ans*\n- *il y a* pour une durée : *j'ai dormi il y a huit heures*",
+      "llmDescription": "Depuis + présent (action qui continue), pendant + durée finie ou prévue, il y a + passé composé (moment passé) : mot de durée ou temps du verbe confondus.",
+      "examples": [
+        {
+          "wrong": "J'ai habité à Lyon depuis trois ans.",
+          "correct": "J'habite à Lyon depuis trois ans.",
+          "note": "Action qui continue : *depuis* + présent."
+        },
+        {
+          "wrong": "Nous sommes arrivés depuis deux jours.",
+          "correct": "Nous sommes arrivés il y a deux jours.",
+          "note": "Moment passé : *il y a*."
+        },
+        {
+          "wrong": "Elle apprend le piano pendant cinq ans.",
+          "correct": "Elle apprend le piano depuis cinq ans.",
+          "note": "Action qui continue : *depuis*."
+        },
+        {
+          "wrong": "Hier, j'ai dormi il y a dix heures.",
+          "correct": "Hier, j'ai dormi pendant dix heures.",
+          "note": "Durée finie : *pendant*."
+        },
+        {
+          "wrong": "Depuis combien de temps tu as travaillé ici ?",
+          "correct": "Depuis combien de temps tu travailles ici ?",
+          "note": "Avec *depuis*, verbe au présent."
+        },
+        {
+          "wrong": "Hier soir, nous avons parlé au téléphone depuis une heure.",
+          "correct": "Hier soir, nous avons parlé au téléphone pendant une heure.",
+          "note": "Durée finie : *pendant*."
+        },
+        {
+          "wrong": "Mon fils est malade il y a lundi.",
+          "correct": "Mon fils est malade depuis lundi.",
+          "note": "Situation qui continue : *depuis*."
+        },
+        {
+          "wrong": "J'ai acheté cette voiture depuis un an.",
+          "correct": "J'ai acheté cette voiture il y a un an.",
+          "note": "Achat ponctuel passé : *il y a*."
+        },
+        {
+          "wrong": "L'été prochain, je travaillerai depuis deux mois en Espagne.",
+          "correct": "L'été prochain, je travaillerai pendant deux mois en Espagne.",
+          "note": "Durée prévue au futur : *pendant*."
+        },
+        {
+          "wrong": "Vous attendez il y a longtemps ?",
+          "correct": "Vous attendez depuis longtemps ?",
+          "note": "Attente qui continue : *depuis*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.major",
+        "fr.tag.prepositions",
+        "fr.tag.talking_about_past",
+        "fr.tag.talking_about_present",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.inversion_questions",
+      "title": "Question par inversion",
+      "description": "**L'idée**\nLa question par inversion est la forme la plus soignée de la question. On met le pronom sujet après le verbe, relié par un trait d'union. On la trouve à l'écrit, dans les situations polies et dans quelques formules très courantes.\n\n**La forme**\n- verbe + trait d'union + pronom sujet : *parlez-vous ?*, *as-tu faim ?*\n- mot interrogatif + verbe + pronom : *où habitez-vous ?*\n- *-t-* entre deux voyelles à la 3e personne : *a-t-il ?*, *parle-t-elle ?*, *va-t-on ?*\n- sujet nom : nom + verbe + pronom de reprise : *Paul est-il là ?*\n- temps composés : auxiliaire + pronom + participe : *avez-vous fini ?*\n- négation : *ne* + verbe-pronom + *pas* : *n'aimes-tu pas ?*\n- *je* : très rare (sauf *puis-je*, *suis-je*)\n\n**Quand l'employer**\n- à l'écrit, dans un courriel formel, avec *vous* de politesse\n- formules fixes : *comment allez-vous ?*, *quel âge as-tu ?*, *quelle heure est-il ?*\n\n**Quand ne pas l'employer**\nNe la mélangez pas avec *est-ce que*, qui garde l'ordre sujet + verbe. Test : avec *est-ce que*, pas d'inversion ; sans *est-ce que*, à l'écrit soigné, inversion avec trait d'union.\n\n**Erreurs typiques**\n- oublier le trait d'union : *parlez vous français ?*\n- oublier *-t-* : *a il ?*, *parle elle ?*\n- inverser un nom sujet : *est Paul là ?* ; il faut *Paul est-il là ?*\n- mettre le participe avant le pronom : *avez fini-vous ?*\n\n**Registre et usage**\nÀ l'oral courant, on préfère l'intonation ou *est-ce que*.",
+      "llmDescription": "Question par inversion verbe-pronom avec trait d'union (parlez-vous, a-t-il, Paul est-il) : trait d'union ou -t- oubliés, nom sujet inversé, participe mal placé ; distinct de est-ce que.",
+      "examples": [
+        {
+          "wrong": "Parlez vous anglais, monsieur ?",
+          "correct": "Parlez-vous anglais, monsieur ?",
+          "note": "Trait d'union entre verbe et pronom."
+        },
+        {
+          "wrong": "A il déjà réservé l'hôtel ?",
+          "correct": "A-t-il déjà réservé l'hôtel ?",
+          "note": "*-t-* entre deux voyelles."
+        },
+        {
+          "wrong": "Est votre directeur dans son bureau ?",
+          "correct": "Votre directeur est-il dans son bureau ?",
+          "note": "Sujet nom : reprise par *il*."
+        },
+        {
+          "wrong": "Où habite-tu maintenant ?",
+          "correct": "Où habites-tu maintenant ?",
+          "note": "Le verbe garde sa terminaison *-es*."
+        },
+        {
+          "wrong": "Avez fini-vous vos devoirs ?",
+          "correct": "Avez-vous fini vos devoirs ?",
+          "note": "Pronom juste après l'auxiliaire."
+        },
+        {
+          "wrong": "Comment va elle depuis l'opération ?",
+          "correct": "Comment va-t-elle depuis l'opération ?",
+          "note": "*Va* + *elle* : *va-t-elle*."
+        },
+        {
+          "wrong": "Ne veux-tu pas venir avec nous pas ?",
+          "correct": "Ne veux-tu pas venir avec nous ?",
+          "note": "*Pas* une seule fois, après le pronom."
+        },
+        {
+          "wrong": "Est-ce que pouvez-vous m'aider ?",
+          "correct": "Est-ce que vous pouvez m'aider ?",
+          "note": "Pas d'inversion après *est-ce que*."
+        },
+        {
+          "wrong": "Quelle heure il est-il ?",
+          "correct": "Quelle heure est-il ?",
+          "note": "Le pronom n'apparaît qu'une fois, après."
+        },
+        {
+          "wrong": "Quand part on en vacances, les enfants ?",
+          "correct": "Quand part-on en vacances, les enfants ?",
+          "note": "Trait d'union entre *part* et *on*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.questions",
+        "fr.tag.word_order",
+        "fr.tag.asking_questions",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.possessive_pronouns",
+      "title": "Pronoms possessifs",
+      "description": "**L'idée**\nLe pronom possessif remplace un nom avec son possessif : au lieu de répéter *mon livre*, on dit *le mien*. Il s'accorde avec l'objet possédé, pas avec le possesseur.\n\n**La forme**\n- à moi : *le mien, la mienne, les miens, les miennes*\n- à toi : *le tien, la tienne, les tiens, les tiennes*\n- à lui / à elle : *le sien, la sienne, les siens, les siennes*\n- à nous : *le nôtre, la nôtre, les nôtres*\n- à vous : *le vôtre, la vôtre, les vôtres*\n- à eux / à elles : *le leur, la leur, les leurs*\n- contraction avec *à* et *de* : *au mien*, *aux nôtres*, *du sien*\n- accent circonflexe sur *nôtre*, *vôtre* (pas sur *notre*, *votre* adjectifs)\n\n**Quand l'employer**\n- éviter de répéter un nom déjà dit : *ta voiture est rouge, la mienne est bleue*\n- dans une comparaison : *ton idée est meilleure que la mienne*\n- avec *c'est* pour insister : *c'est le mien !*\n\n**Quand ne pas l'employer**\nNe confondez pas avec l'adjectif possessif (*mon, ma, mes*), toujours suivi d'un nom. Test : si un nom suit, adjectif *mon* ; s'il n'y a pas de nom, pronom *le mien*.\n\n**Erreurs typiques**\n- accorder avec le possesseur : *Paul a perdu la sienne* pour *son stylo* ; il faut *le sien*\n- oublier l'article : *ce livre est mien*\n- écrire *la notre* sans accent\n- dire *le leurs* : au singulier, *le leur*",
+      "llmDescription": "Pronoms possessifs le mien, la tienne, les siens, le nôtre, la vôtre, les leurs, accord avec l'objet possédé : accord avec le possesseur, article oublié, contraction au/du manquée.",
+      "examples": [
+        {
+          "wrong": "Ta voiture est rouge, mon est bleue.",
+          "correct": "Ta voiture est rouge, la mienne est bleue.",
+          "note": "Sans nom après, pronom *la mienne*."
+        },
+        {
+          "wrong": "Marc a oublié son stylo, je lui prête la mienne.",
+          "correct": "Marc a oublié son stylo, je lui prête le mien.",
+          "note": "*Stylo* est masculin : *le mien*."
+        },
+        {
+          "wrong": "Ce sac n'est pas à moi, c'est la sienne.",
+          "correct": "Ce sac n'est pas à moi, c'est le sien.",
+          "note": "Accord avec *sac* : *le sien*."
+        },
+        {
+          "wrong": "Nos enfants jouent avec les leur.",
+          "correct": "Nos enfants jouent avec les leurs.",
+          "note": "Pluriel : *les leurs*."
+        },
+        {
+          "wrong": "Votre maison est plus grande que la notre.",
+          "correct": "Votre maison est plus grande que la nôtre.",
+          "note": "Pronom : *nôtre* avec accent."
+        },
+        {
+          "wrong": "Ces clés sont tiennes ?",
+          "correct": "Ces clés sont les tiennes ?",
+          "note": "Le pronom possessif prend un article."
+        },
+        {
+          "wrong": "J'ai parlé à mes parents, parle à les tiens.",
+          "correct": "J'ai parlé à mes parents, parle aux tiens.",
+          "note": "*À* + *les* donne *aux*."
+        },
+        {
+          "wrong": "Mon téléphone ne marche plus, je peux utiliser le tienne ?",
+          "correct": "Mon téléphone ne marche plus, je peux utiliser le tien ?",
+          "note": "Masculin : *le tien*."
+        },
+        {
+          "wrong": "Ils ont pris leurs vélos et nous avons pris le nôtres.",
+          "correct": "Ils ont pris leurs vélos et nous avons pris les nôtres.",
+          "note": "Plusieurs vélos : *les nôtres*."
+        },
+        {
+          "wrong": "Je n'ai pas besoin de ton avis, mais de le vôtre.",
+          "correct": "Je n'ai pas besoin de ton avis, mais du vôtre.",
+          "note": "*De* + *le* donne *du*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.pronouns",
+        "fr.tag.describing_things",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.beau_nouveau_vieux",
+      "title": "Beau, nouveau, vieux : bel, nouvel, vieil",
+      "description": "**L'idée**\nQuelques adjectifs très fréquents placés avant le nom ont une forme spéciale devant une voyelle. Cela évite un choc entre deux voyelles et rend la phrase plus fluide.\n\n**La forme**\n- *beau* : *beau* (m.), *bel* (m. devant voyelle ou h muet), *belle* (f.), *beaux*, *belles*\n- *nouveau* : *nouveau*, *nouvel*, *nouvelle*, *nouveaux*, *nouvelles*\n- *vieux* : *vieux*, *vieil*, *vieille*, *vieux*, *vieilles*\n- *bel*, *nouvel*, *vieil* : seulement au masculin singulier, juste devant le nom\n- pluriel masculin : *beaux*, *nouveaux*, *vieux* (pas de forme spéciale)\n- après le verbe *être* : toujours *beau*, *nouveau*, *vieux*\n\n**Quand l'employer**\n- devant un nom masculin singulier qui commence par une voyelle ou un h muet : *un bel homme*, *un nouvel appartement*, *un vieil ami*\n\n**Quand ne pas l'employer**\nNe mettez pas *bel*, *nouvel*, *vieil* après le verbe ni au féminin. Test : l'adjectif est-il juste devant un nom masculin singulier à voyelle ? Oui : *bel*, *nouvel*, *vieil* ; non : forme normale.\n\n**Erreurs typiques**\n- *un beau arbre*, *un nouveau ordinateur* : devant voyelle, *bel*, *nouvel*\n- *il est bel* : après *être*, *il est beau*\n- *des nouvels amis* : au pluriel, *nouveaux*\n- *un vieux homme* : h muet, donc *un vieil homme*\n\n**Exceptions et pièges**\n- *fou* → *fol*, *mou* → *mol* suivent le même modèle, mais sont rares",
+      "llmDescription": "Bel, nouvel, vieil devant nom masculin singulier à voyelle ou h muet : beau, nouveau, vieux fautifs devant voyelle ; bel ou nouvel après être ou au pluriel.",
+      "examples": [
+        {
+          "wrong": "Il y a un beau arbre dans le jardin.",
+          "correct": "Il y a un bel arbre dans le jardin.",
+          "note": "Devant voyelle : *bel*."
+        },
+        {
+          "wrong": "J'ai acheté un nouveau ordinateur.",
+          "correct": "J'ai acheté un nouvel ordinateur.",
+          "note": "Devant voyelle : *nouvel*."
+        },
+        {
+          "wrong": "C'est un vieux ami de mon père.",
+          "correct": "C'est un vieil ami de mon père.",
+          "note": "Devant voyelle : *vieil*."
+        },
+        {
+          "wrong": "Ton appartement est vraiment bel.",
+          "correct": "Ton appartement est vraiment beau.",
+          "note": "Après *être*, forme normale *beau*."
+        },
+        {
+          "wrong": "Mes parents ont deux nouvels vélos.",
+          "correct": "Mes parents ont deux nouveaux vélos.",
+          "note": "Masculin pluriel : *nouveaux*."
+        },
+        {
+          "wrong": "Un vieux homme attend devant la porte.",
+          "correct": "Un vieil homme attend devant la porte.",
+          "note": "H muet : *vieil*."
+        },
+        {
+          "wrong": "Vous avez passé un beau été ?",
+          "correct": "Vous avez passé un bel été ?",
+          "note": "*Été* commence par une voyelle : *bel*."
+        },
+        {
+          "wrong": "Elle a trouvé un nouveau emploi à Nantes.",
+          "correct": "Elle a trouvé un nouvel emploi à Nantes.",
+          "note": "*Emploi* : voyelle, donc *nouvel*."
+        },
+        {
+          "wrong": "Ma grand-mère habite dans une vieil maison.",
+          "correct": "Ma grand-mère habite dans une vieille maison.",
+          "note": "Féminin : *vieille*."
+        },
+        {
+          "wrong": "Quel beau hôtel ! On reste ici ?",
+          "correct": "Quel bel hôtel ! On reste ici ?",
+          "note": "H muet : *bel*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.adjectives",
+        "fr.tag.describing_things",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.il_faut_infinitive",
+      "title": "Il faut + infinitif",
+      "description": "**L'idée**\n*Il faut* exprime une nécessité ou une obligation générale. Le verbe *falloir* est impersonnel : son sujet est toujours *il*, qui ne représente personne. On ajoute directement un infinitif ou un nom.\n\n**La forme**\n- *il faut* + infinitif : *il faut partir*\n- *il faut* + nom : *il faut du temps*, *il faut un passeport*\n- négation : *il ne faut pas* + infinitif = interdiction (*il ne faut pas fumer*)\n- passé : *il fallait*, *il a fallu* ; futur : *il faudra* ; conditionnel : *il faudrait*\n- pronom personnel indirect pour préciser : *il me faut*, *il nous faut* + nom\n- jamais de sujet *je*, *tu*, *nous* devant *faut*\n\n**Quand l'employer**\n- règle générale ou conseil : *il faut boire de l'eau*\n- obligation sans dire qui : *il faut payer à l'entrée*\n- besoin : *il faut deux heures pour y aller*\n\n**Quand ne pas l'employer**\nNe confondez pas avec *il faut que* + subjonctif, qui précise une personne (*il faut que tu partes*), ni avec *devoir* conjugué. Test : obligation générale, *il faut* + infinitif ; obligation d'une personne précise, *je dois* ou *il faut que je*.\n\n**Erreurs typiques**\n- conjuguer *falloir* avec une personne : *je faut*, *nous fallons*\n- conjuguer le verbe suivant : *il faut mange*\n- ajouter *de* : *il faut de partir*\n- *il ne faut pas* compris comme *ce n'est pas nécessaire* ; c'est une interdiction",
+      "llmDescription": "Il faut, il ne faut pas, il faudra + infinitif ou nom : falloir conjugué avec je ou nous, verbe conjugué après faut, de ajouté ; pas il faut que.",
+      "examples": [
+        {
+          "wrong": "Je faut partir maintenant.",
+          "correct": "Il faut partir maintenant.",
+          "note": "*Falloir* a toujours le sujet *il*."
+        },
+        {
+          "wrong": "Il faut mange des légumes chaque jour.",
+          "correct": "Il faut manger des légumes chaque jour.",
+          "note": "Après *il faut*, l'infinitif."
+        },
+        {
+          "wrong": "Il faut de réserver une table.",
+          "correct": "Il faut réserver une table.",
+          "note": "Pas de *de* après *il faut*."
+        },
+        {
+          "wrong": "Nous fallons acheter des billets.",
+          "correct": "Il faut acheter des billets.",
+          "note": "*Falloir* ne se conjugue pas avec *nous*."
+        },
+        {
+          "wrong": "Il faut pas ne fumer dans le train.",
+          "correct": "Il ne faut pas fumer dans le train.",
+          "note": "*Ne… pas* entourent *faut*."
+        },
+        {
+          "wrong": "Demain, il fallera se lever tôt.",
+          "correct": "Demain, il faudra se lever tôt.",
+          "note": "Futur de *falloir* : *il faudra*."
+        },
+        {
+          "wrong": "Pour ce voyage, il faut d'un passeport.",
+          "correct": "Pour ce voyage, il faut un passeport.",
+          "note": "*Il faut* + nom sans *de*."
+        },
+        {
+          "wrong": "Hier, il a fallu attendrons deux heures.",
+          "correct": "Hier, il a fallu attendre deux heures.",
+          "note": "Le verbe après reste à l'infinitif."
+        },
+        {
+          "wrong": "Qu'est-ce qu'il faut faisons pour s'inscrire ?",
+          "correct": "Qu'est-ce qu'il faut faire pour s'inscrire ?",
+          "note": "Infinitif *faire* après *il faut*."
+        },
+        {
+          "wrong": "Ils me faut un peu de temps.",
+          "correct": "Il me faut un peu de temps.",
+          "note": "Sujet impersonnel *il*, au singulier."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.infinitive",
+        "fr.tag.advice_obligation",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.savoir_connaitre",
+      "title": "Savoir ou connaître",
+      "description": "**L'idée**\n*Savoir* et *connaître* veulent dire tous les deux qu'on a une information. Mais *connaître* va avec une personne, un lieu ou une chose qu'on a rencontrés. *Savoir* va avec un fait, une information ou une capacité apprise.\n\n**La forme**\n- *savoir* : *sais, sais, sait, savons, savez, savent*\n- *connaître* : *connais, connais, connaît, connaissons, connaissez, connaissent*\n- *savoir* + infinitif (capacité) : *je sais nager*\n- *savoir* + *que*, *si*, *où*, *quand*, *comment*… : *je sais où il habite*\n- *connaître* + nom (avec article ou possessif) : *je connais ce quartier*\n- négation : *je ne sais pas*, *je ne connais pas*\n\n**Quand l'employer**\n- *connaître* : une personne, une ville, un restaurant, un livre, un film\n- *savoir* : une information, une réponse, un fait, une compétence\n\n**Quand ne pas l'employer**\nNe mettez pas *connaître* devant un infinitif ou une proposition. Test : après le verbe vient un nom de personne ou de lieu, *connaître* ; un infinitif ou *que*, *si*, *où*, *comment*, *savoir*.\n\n**Erreurs typiques**\n- *je connais nager* : capacité, donc *je sais nager*\n- *je sais Paul* : personne, donc *je connais Paul*\n- *tu connais où est la gare ?* : question indirecte, donc *savoir*\n- *je peux nager* pour une capacité apprise : *savoir* est plus juste\n- oublier l'accent : *il connait* est accepté, *il connaît* est classique\n\n**Exceptions et pièges**\n- avec un nom d'information, les deux sont possibles : *savoir* ou *connaître la réponse*",
+      "llmDescription": "Savoir (+ infinitif de capacité, + que, si, où, comment) ou connaître (+ personne, lieu, œuvre) : connaître devant infinitif ou proposition, savoir devant une personne ou un lieu.",
+      "examples": [
+        {
+          "wrong": "Ma fille connaît nager depuis l'âge de quatre ans.",
+          "correct": "Ma fille sait nager depuis l'âge de quatre ans.",
+          "note": "Capacité + infinitif : *savoir*."
+        },
+        {
+          "wrong": "Tu sais Paul, le frère de Julie ?",
+          "correct": "Tu connais Paul, le frère de Julie ?",
+          "note": "Une personne : *connaître*."
+        },
+        {
+          "wrong": "Vous connaissez où est la gare ?",
+          "correct": "Vous savez où est la gare ?",
+          "note": "Devant *où* : *savoir*."
+        },
+        {
+          "wrong": "Je ne sais pas bien ce quartier.",
+          "correct": "Je ne connais pas bien ce quartier.",
+          "note": "Un lieu : *connaître*."
+        },
+        {
+          "wrong": "Nous connaissons qu'il est malade.",
+          "correct": "Nous savons qu'il est malade.",
+          "note": "Devant *que* : *savoir*."
+        },
+        {
+          "wrong": "Ils savent un bon restaurant près d'ici.",
+          "correct": "Ils connaissent un bon restaurant près d'ici.",
+          "note": "Un lieu précis : *connaître*."
+        },
+        {
+          "wrong": "Est-ce que tu connais si le musée est ouvert ?",
+          "correct": "Est-ce que tu sais si le musée est ouvert ?",
+          "note": "Devant *si* : *savoir*."
+        },
+        {
+          "wrong": "Elle connaît parler quatre langues.",
+          "correct": "Elle sait parler quatre langues.",
+          "note": "Compétence apprise : *savoir*."
+        },
+        {
+          "wrong": "Vous savez ce livre de Victor Hugo ?",
+          "correct": "Vous connaissez ce livre de Victor Hugo ?",
+          "note": "Une œuvre : *connaître*."
+        },
+        {
+          "wrong": "Je ne connais pas comment fonctionne cette machine.",
+          "correct": "Je ne sais pas comment fonctionne cette machine.",
+          "note": "Devant *comment* : *savoir*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.major",
+        "fr.tag.present_tense",
+        "fr.tag.ability_possibility",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.tout_agreement",
+      "title": "Tout, toute, tous, toutes",
+      "description": "**L'idée**\n*Tout* devant un nom veut dire *la totalité* (*toute la journée*) ou *chaque* (*tous les jours*). C'est un déterminant : il s'accorde en genre et en nombre avec le nom.\n\n**La forme**\n- masculin singulier : *tout* (*tout le temps*)\n- féminin singulier : *toute* (*toute la nuit*)\n- masculin pluriel : *tous* (*tous les enfants*)\n- féminin pluriel : *toutes* (*toutes les semaines*)\n- *tout* + article / possessif / démonstratif + nom : *tout le*, *toute ma*, *tous ces*\n- pronom : *tout* (= toutes les choses), *tous* (*s* prononcé), *toutes* = tout le monde\n- *tout le monde* + verbe au singulier\n\n**Quand l'employer**\n- totalité : *toute la classe*, *tout le gâteau*\n- répétition : *tous les matins*, *toutes les deux heures*\n- pronom pour un groupe : *ils sont tous là*\n\n**Quand ne pas l'employer**\nNe confondez pas avec *chaque*, toujours au singulier et sans article. Test : *tous les* + pluriel = *chaque* + singulier ; ne mélangez pas les deux (*chaque les jours* est faux).\n\n**Erreurs typiques**\n- oublier l'accord : *tout la journée*, *tout les jours*\n- écrire *touts* au masculin pluriel : c'est *tous*\n- oublier l'article : *tous jours* au lieu de *tous les jours*\n- mettre le verbe au pluriel après *tout le monde* : *tout le monde sont*\n\n**Registre et usage**\nTrès fréquent à l'oral : *tout le temps*, *tous les jours*, *c'est tout*.",
+      "llmDescription": "Déterminant et pronom tout, toute, tous, toutes accordé avec le nom (toute la journée, tous les jours), tout le monde + singulier : accord oublié, touts, article oublié.",
+      "examples": [
+        {
+          "wrong": "J'ai travaillé tout la journée.",
+          "correct": "J'ai travaillé toute la journée.",
+          "note": "*Journée* est féminin : *toute*."
+        },
+        {
+          "wrong": "Nous allons à la piscine tout les samedis.",
+          "correct": "Nous allons à la piscine tous les samedis.",
+          "note": "Masculin pluriel : *tous*."
+        },
+        {
+          "wrong": "Touts les élèves sont présents.",
+          "correct": "Tous les élèves sont présents.",
+          "note": "Masculin pluriel : *tous*, pas *touts*."
+        },
+        {
+          "wrong": "Tout le monde sont contents.",
+          "correct": "Tout le monde est content.",
+          "note": "*Tout le monde* + verbe au singulier."
+        },
+        {
+          "wrong": "Elle appelle sa mère tous jours.",
+          "correct": "Elle appelle sa mère tous les jours.",
+          "note": "Il faut l'article *les*."
+        },
+        {
+          "wrong": "Tu as lu tous ces lettres ?",
+          "correct": "Tu as lu toutes ces lettres ?",
+          "note": "*Lettres* féminin pluriel : *toutes*."
+        },
+        {
+          "wrong": "Prenez ce médicament tous les deux heures.",
+          "correct": "Prenez ce médicament toutes les deux heures.",
+          "note": "*Heures* est féminin : *toutes*."
+        },
+        {
+          "wrong": "Mes amis ? Ils sont tout partis en vacances.",
+          "correct": "Mes amis ? Ils sont tous partis en vacances.",
+          "note": "Pronom pour *ils* : *tous*."
+        },
+        {
+          "wrong": "Il a mangé toute le gâteau !",
+          "correct": "Il a mangé tout le gâteau !",
+          "note": "*Gâteau* est masculin : *tout*."
+        },
+        {
+          "wrong": "Toute mes cousines habitent à Marseille.",
+          "correct": "Toutes mes cousines habitent à Marseille.",
+          "note": "Féminin pluriel : *toutes*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.a2",
+        "fr.tag.minor",
+        "fr.tag.determiners",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1452,7 +3110,9 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1515,7 +3175,9 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1578,7 +3240,9 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.talking_about_future",
+        "fr.tag.common"
       ]
     },
     {
@@ -1641,7 +3305,9 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.object_pronouns"
+        "fr.tag.object_pronouns",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1704,7 +3370,9 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.object_pronouns"
+        "fr.tag.object_pronouns",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1767,7 +3435,10 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.relative_clauses"
+        "fr.tag.relative_clauses",
+        "fr.tag.linking_ideas",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1830,7 +3501,10 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.requests_offers_permission",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -1894,7 +3568,10 @@
         "fr.tag.b1",
         "fr.tag.major",
         "fr.tag.subordination",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
       ]
     },
     {
@@ -1957,7 +3634,734 @@
       "tagIds": [
         "fr.tag.b1",
         "fr.tag.major",
-        "fr.tag.negation"
+        "fr.tag.negation",
+        "fr.tag.negating",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.relative_ou",
+      "title": "Pronom relatif où",
+      "description": "**L'idée**\nLe pronom relatif *où* relie deux phrases en reprenant un lieu ou un moment. Il évite de répéter *dans cette ville* ou *ce jour-là*. Il remplace un complément de lieu ou de temps.\n\n**La forme**\n- nom de lieu + *où* + sujet + verbe : *la ville où j'habite*\n- nom de temps + *où* + sujet + verbe : *le jour où il est parti*\n- noms de temps fréquents : *le jour, le moment, l'année, l'époque, l'instant, la semaine*\n- *d'où*, *par où*, *jusqu'où* pour l'origine, le passage, la limite\n- *où* ne change jamais de forme\n- le verbe de la relative est souvent à l'indicatif\n\n**Quand l'employer**\n- reprendre un lieu : *le restaurant où…*, *le pays où…*\n- reprendre un moment : *l'année où…*, *au moment où…*\n- après *là* : *là où tu veux*\n\n**Quand ne pas l'employer**\nNe confondez pas *où* avec *que* ou *dont*. Test : si le verbe de la relative a déjà son objet direct (*la maison que j'ai achetée*), c'est *que* ; si on peut dire *dans ce lieu* ou *à ce moment*, c'est *où* ; si le verbe demande *de*, c'est *dont*.\n\n**Erreurs typiques**\n- *quand* après un nom de temps : *le jour quand je suis né* ; il faut *où*\n- *que* pour un lieu : *la ville que j'habite* (sauf avec *habiter* transitif, rare)\n- *dans lequel* trop lourd à l'oral : *où* est plus naturel\n- *où* pour une personne : *l'ami où j'habite* ; il faut *chez qui*",
+      "llmDescription": "Pronom relatif où après un nom de lieu ou de temps (la ville où, le jour où, d'où) : quand ou que employés à sa place.",
+      "examples": [
+        {
+          "wrong": "Je me souviens du jour quand nous nous sommes rencontrés.",
+          "correct": "Je me souviens du jour où nous nous sommes rencontrés.",
+          "note": "Après un nom de temps : *où*."
+        },
+        {
+          "wrong": "C'est le restaurant que nous avons dîné hier.",
+          "correct": "C'est le restaurant où nous avons dîné hier.",
+          "note": "Lieu sans objet direct : *où*."
+        },
+        {
+          "wrong": "L'année quand elle est née, il a beaucoup neigé.",
+          "correct": "L'année où elle est née, il a beaucoup neigé.",
+          "note": "Nom de temps : *où*, pas *quand*."
+        },
+        {
+          "wrong": "Voici la maison dont j'ai grandi.",
+          "correct": "Voici la maison où j'ai grandi.",
+          "note": "Lieu : *où*, pas *dont*."
+        },
+        {
+          "wrong": "Au moment que le téléphone a sonné, je dormais.",
+          "correct": "Au moment où le téléphone a sonné, je dormais.",
+          "note": "*Au moment où*, expression fixe."
+        },
+        {
+          "wrong": "Le village que vient ma grand-mère est très petit.",
+          "correct": "Le village d'où vient ma grand-mère est très petit.",
+          "note": "Origine : *d'où*."
+        },
+        {
+          "wrong": "Tu connais un parc que les enfants peuvent jouer ?",
+          "correct": "Tu connais un parc où les enfants peuvent jouer ?",
+          "note": "Lieu de l'action : *où*."
+        },
+        {
+          "wrong": "C'était une époque quand on écrivait des lettres.",
+          "correct": "C'était une époque où on écrivait des lettres.",
+          "note": "Après *époque* : *où*."
+        },
+        {
+          "wrong": "Le bureau qu'elle travaille est au centre-ville.",
+          "correct": "Le bureau où elle travaille est au centre-ville.",
+          "note": "Lieu : *où*, pas *que*."
+        },
+        {
+          "wrong": "Je ne sais pas le chemin que nous devons passer.",
+          "correct": "Je ne sais pas le chemin par où nous devons passer.",
+          "note": "Passage : *par où*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.major",
+        "fr.tag.relative_clauses",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.demonstrative_pronouns",
+      "title": "Pronoms démonstratifs celui, celle",
+      "description": "**L'idée**\nLe pronom démonstratif remplace un nom déjà dit pour le montrer ou le préciser : au lieu de *le livre de Paul*, on dit *celui de Paul*. Il s'accorde avec le nom qu'il remplace et ne s'emploie jamais seul.\n\n**La forme**\n- *celui* (m. sg.), *celle* (f. sg.), *ceux* (m. pl.), *celles* (f. pl.)\n- toujours suivi de : *-ci* / *-là*, *de* + nom, ou un pronom relatif (*qui, que, où, dont*)\n- *celui-ci* (le plus proche), *celui-là* (le plus loin ou l'autre)\n- *celle de ma sœur*, *ceux qui viennent*, *celles que j'ai vues*\n- neutre pour une idée : *ce qui*, *ce que*, *cela* / *ça*\n\n**Quand l'employer**\n- éviter de répéter un nom : *ma voiture et celle de Marc*\n- choisir entre deux : *celui-ci ou celui-là ?*\n- définir un groupe : *ceux qui veulent peuvent partir*\n\n**Quand ne pas l'employer**\nNe confondez pas avec l'adjectif démonstratif (*ce, cet, cette, ces*), toujours suivi d'un nom. Test : un nom suit, adjectif *cette* ; pas de nom, pronom *celle-ci*, *celle de*, *celle qui*.\n\n**Erreurs typiques**\n- employer le pronom seul : *je prends celui* ; il faut *celui-ci* ou *celui-là*\n- oublier l'accord : *celui de ma mère* pour *la voiture*\n- écrire *ceuxs* ou *celui* au pluriel : c'est *ceux*\n- mettre *cette* sans nom : *cette de Paul*",
+      "llmDescription": "Pronoms démonstratifs celui, celle, ceux, celles + -ci/-là, de + nom ou qui/que : pronom seul, accord faux, ceux mal formé, adjectif ce/cette employé sans nom.",
+      "examples": [
+        {
+          "wrong": "Ce n'est pas mon manteau, c'est cette de Julie.",
+          "correct": "Ce n'est pas mon manteau, c'est celui de Julie.",
+          "note": "Sans nom, pronom *celui*."
+        },
+        {
+          "wrong": "Quelle robe préfères-tu ? Celle ou celle-là ?",
+          "correct": "Quelle robe préfères-tu ? Celle-ci ou celle-là ?",
+          "note": "*Celle* ne s'emploie pas seul."
+        },
+        {
+          "wrong": "Celui qui veulent partir peuvent sortir.",
+          "correct": "Ceux qui veulent partir peuvent sortir.",
+          "note": "Pluriel : *ceux*."
+        },
+        {
+          "wrong": "Ta voiture est plus rapide que celui de mon père.",
+          "correct": "Ta voiture est plus rapide que celle de mon père.",
+          "note": "*Voiture* est féminin : *celle*."
+        },
+        {
+          "wrong": "J'ai vu tes photos et celles-ci de Marie.",
+          "correct": "J'ai vu tes photos et celles de Marie.",
+          "note": "Devant *de*, pas de *-ci*."
+        },
+        {
+          "wrong": "Parmi ces gâteaux, je prends celui.",
+          "correct": "Parmi ces gâteaux, je prends celui-là.",
+          "note": "Il faut *-ci* ou *-là*."
+        },
+        {
+          "wrong": "Les meilleurs étudiants sont celles qui travaillent.",
+          "correct": "Les meilleurs étudiants sont ceux qui travaillent.",
+          "note": "Masculin pluriel : *ceux*."
+        },
+        {
+          "wrong": "Mes clés ? Ce sont celle qui sont sur la table.",
+          "correct": "Mes clés ? Ce sont celles qui sont sur la table.",
+          "note": "*Clés*, féminin pluriel : *celles*."
+        },
+        {
+          "wrong": "Mon appartement est petit, mais ceci de Léo est grand.",
+          "correct": "Mon appartement est petit, mais celui de Léo est grand.",
+          "note": "Nom masculin repris : *celui*."
+        },
+        {
+          "wrong": "Vous cherchez quels documents ? Ceuxs du dossier rouge.",
+          "correct": "Vous cherchez quels documents ? Ceux du dossier rouge.",
+          "note": "*Ceux* ne prend pas de *s*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.pronouns",
+        "fr.tag.describing_things",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.double_object_pronouns",
+      "title": "Ordre des doubles pronoms",
+      "description": "**L'idée**\nQuand un verbe a deux compléments remplacés par des pronoms, les deux pronoms se placent avant le verbe dans un ordre fixe. Cet ordre ne dépend pas du sens, mais de la forme des pronoms.\n\n**La forme**\n- ordre devant le verbe : *me / te / se / nous / vous* → *le / la / les* → *lui / leur* → *y* → *en*\n- *il me le donne*, *je le lui dis*, *elle nous en parle*, *je les y emmène*\n- *lui* et *leur* toujours après *le, la, les* : *je la lui prête*\n- négation : *ne* + pronoms + verbe + *pas* : *je ne le lui ai pas dit*\n- temps composés : pronoms avant l'auxiliaire : *il me l'a donné*\n- avec infinitif : pronoms avant l'infinitif : *je vais le lui dire*\n- impératif affirmatif : verbe + COD + COI : *donne-le-moi*\n\n**Quand l'employer**\n- verbes à deux compléments : *donner, dire, prêter, envoyer, montrer, expliquer, rendre*\n- avec *en* pour une quantité : *je vous en donne deux*\n\n**Quand ne pas l'employer**\nNe gardez pas l'ordre des noms (COD puis *à* + personne) pour tous les pronoms. Test : si un des pronoms est *me, te, nous, vous*, il vient en premier ; si c'est *lui* ou *leur*, il vient après *le, la, les*.\n\n**Erreurs typiques**\n- *je lui le donne* : il faut *je le lui donne*\n- *il le me prête* : il faut *il me le prête*\n- *je leur en ai les donné* : un pronom placé après l'auxiliaire\n- *lui y* : très rare, on évite cette combinaison",
+      "llmDescription": "Ordre de deux pronoms compléments devant le verbe : me/te/se/nous/vous, puis le/la/les, puis lui/leur, puis y, puis en (je le lui donne, il me l'a dit).",
+      "examples": [
+        {
+          "wrong": "Le livre ? Je lui le donne demain.",
+          "correct": "Le livre ? Je le lui donne demain.",
+          "note": "*Le* avant *lui*."
+        },
+        {
+          "wrong": "Ma mère le me répète tous les jours.",
+          "correct": "Ma mère me le répète tous les jours.",
+          "note": "*Me* avant *le*."
+        },
+        {
+          "wrong": "Ces photos, tu leur les as montrées ?",
+          "correct": "Ces photos, tu les leur as montrées ?",
+          "note": "*Les* avant *leur*."
+        },
+        {
+          "wrong": "Des bonbons ? Je en vous donne deux.",
+          "correct": "Des bonbons ? Je vous en donne deux.",
+          "note": "*Vous* avant *en*."
+        },
+        {
+          "wrong": "La vérité, je ne lui l'ai pas dite.",
+          "correct": "La vérité, je ne la lui ai pas dite.",
+          "note": "*La* avant *lui*."
+        },
+        {
+          "wrong": "Ton vélo, il te le va rendre ce soir.",
+          "correct": "Ton vélo, il va te le rendre ce soir.",
+          "note": "Pronoms avant l'infinitif."
+        },
+        {
+          "wrong": "Ces enfants, nous y les emmenons chaque été.",
+          "correct": "Ces enfants, nous les y emmenons chaque été.",
+          "note": "*Les* avant *y*."
+        },
+        {
+          "wrong": "Il y en a ? Oui, en il y a beaucoup.",
+          "correct": "Il y en a ? Oui, il y en a beaucoup.",
+          "note": "*Y* avant *en*."
+        },
+        {
+          "wrong": "Ce cadeau, nous leur l'offrons à Noël.",
+          "correct": "Ce cadeau, nous le leur offrons à Noël.",
+          "note": "*Le* avant *leur*."
+        },
+        {
+          "wrong": "Votre adresse, pouvez-vous la nous envoyer ?",
+          "correct": "Votre adresse, pouvez-vous nous l'envoyer ?",
+          "note": "*Nous* avant *la*, élidé en *l'*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.object_pronouns",
+        "fr.tag.word_order",
+        "fr.tag.sentence_building",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.pronouns_compound_tenses",
+      "title": "Pronoms au passé composé",
+      "description": "**L'idée**\nAu passé composé, le verbe a deux parties : l'auxiliaire et le participe. Les pronoms compléments ne se placent pas devant le participe, mais devant l'auxiliaire, c'est-à-dire devant la partie conjuguée.\n\n**La forme**\n- sujet + pronom(s) + *avoir* / *être* + participe : *je l'ai vu*, *il lui a parlé*\n- *le, la* deviennent *l'* devant l'auxiliaire : *je l'ai acheté*\n- négation : *ne* + pronom + auxiliaire + *pas* + participe : *je ne l'ai pas vu*\n- question avec inversion : pronom + auxiliaire-sujet + participe : *l'as-tu lu ?*\n- *y* et *en* aussi devant l'auxiliaire : *j'y suis allé*, *j'en ai mangé*\n- même règle au plus-que-parfait et au futur antérieur\n\n**Quand l'employer**\n- chaque fois qu'un pronom COD, COI, *y* ou *en* accompagne un verbe à un temps composé\n\n**Quand ne pas l'employer**\nAvec un verbe modal + infinitif, le pronom va devant l'infinitif (*j'ai voulu le voir*). Test : le pronom complète-t-il le participe ou un infinitif ? Participe : devant l'auxiliaire ; infinitif : devant l'infinitif.\n\n**Erreurs typiques**\n- placer le pronom devant le participe : *j'ai le vu*, *il a lui parlé*\n- mettre *pas* avant le pronom : *je n'ai pas le vu*\n- oublier l'élision : *je le ai vu*\n- placer *en* ou *y* après le participe : *j'ai mangé en*\n\n**Exceptions et pièges**\n- avec un COD placé avant, le participe s'accorde : *je les ai vues*",
+      "llmDescription": "Pronoms le, la, lui, leur, y, en devant l'auxiliaire aux temps composés (je l'ai vu, je ne lui ai pas parlé) : pronom devant le participe.",
+      "examples": [
+        {
+          "wrong": "Ce film ? J'ai le vu hier soir.",
+          "correct": "Ce film ? Je l'ai vu hier soir.",
+          "note": "Pronom devant l'auxiliaire, élidé."
+        },
+        {
+          "wrong": "Ta sœur ? Je ai lui parlé ce matin.",
+          "correct": "Ta sœur ? Je lui ai parlé ce matin.",
+          "note": "*Lui* se place avant *ai*."
+        },
+        {
+          "wrong": "Nous n'avons pas les invités à la fête.",
+          "correct": "Nous ne les avons pas invités à la fête.",
+          "note": "Pronom entre *ne* et l'auxiliaire."
+        },
+        {
+          "wrong": "Marseille ? Elle est allée y l'an dernier.",
+          "correct": "Marseille ? Elle y est allée l'an dernier.",
+          "note": "*Y* devant l'auxiliaire."
+        },
+        {
+          "wrong": "Du gâteau ? Ils ont mangé en beaucoup.",
+          "correct": "Du gâteau ? Ils en ont mangé beaucoup.",
+          "note": "*En* devant l'auxiliaire."
+        },
+        {
+          "wrong": "Ce livre, as-tu le lu ?",
+          "correct": "Ce livre, l'as-tu lu ?",
+          "note": "Pronom avant l'auxiliaire inversé."
+        },
+        {
+          "wrong": "Vos parents ? Je ne ai pas leur téléphoné.",
+          "correct": "Vos parents ? Je ne leur ai pas téléphoné.",
+          "note": "*Leur* avant l'auxiliaire, *pas* après."
+        },
+        {
+          "wrong": "La lettre ? Il la a envoyée lundi.",
+          "correct": "La lettre ? Il l'a envoyée lundi.",
+          "note": "*La* devient *l'* devant *a*."
+        },
+        {
+          "wrong": "Mes clés ? Tu as les vues quelque part ?",
+          "correct": "Mes clés ? Tu les as vues quelque part ?",
+          "note": "*Les* devant *as*."
+        },
+        {
+          "wrong": "Le directeur m'a dit qu'il avait nous appelés.",
+          "correct": "Le directeur m'a dit qu'il nous avait appelés.",
+          "note": "Au plus-que-parfait aussi, pronom devant l'auxiliaire."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.major",
+        "fr.tag.object_pronouns",
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.interrogative_lequel",
+      "title": "Pronom interrogatif lequel",
+      "description": "**L'idée**\n*Lequel* sert à demander un choix parmi des personnes ou des choses déjà connues, sans répéter le nom. C'est la forme pronom de *quel* + nom : *quel livre ?* devient *lequel ?*.\n\n**La forme**\n- *lequel* (m. sg.), *laquelle* (f. sg.), *lesquels* (m. pl.), *lesquelles* (f. pl.)\n- accord avec le nom remplacé\n- avec *à* : *auquel*, *à laquelle*, *auxquels*, *auxquelles*\n- avec *de* : *duquel*, *de laquelle*, *desquels*, *desquelles*\n- seul : *lequel préfères-tu ?* ; avec *de* : *laquelle de ces robes ?*\n- question avec *est-ce que* : *lequel est-ce que tu veux ?*\n\n**Quand l'employer**\n- choisir dans un groupe connu : *j'ai deux stylos, lequel tu veux ?*\n- après une préposition : *à laquelle penses-tu ?*\n\n**Quand ne pas l'employer**\nNe confondez pas avec *quel*, qui est suivi d'un nom, ni avec *lequel* relatif (après un nom, sans question). Test : un nom suit, *quel* ; aucun nom ne suit et on pose une question de choix, *lequel*.\n\n**Erreurs typiques**\n- oublier l'accord : *lequel* pour *la chemise*\n- employer *quel* seul : *quel tu veux ?*\n- ne pas contracter : *à lequel*, *de lesquels*\n- employer *qui* ou *quoi* pour un choix parmi des objets : *quoi tu préfères ?*",
+      "llmDescription": "Pronom interrogatif lequel, laquelle, lesquels, lesquelles, auquel, duquel pour un choix sans répéter le nom : accord faux, quel ou quoi seuls, contraction à/de oubliée.",
+      "examples": [
+        {
+          "wrong": "J'ai deux chemises. Lequel tu préfères ?",
+          "correct": "J'ai deux chemises. Laquelle tu préfères ?",
+          "note": "*Chemise* est féminin : *laquelle*."
+        },
+        {
+          "wrong": "Il y a trois films ce soir. Quel tu veux voir ?",
+          "correct": "Il y a trois films ce soir. Lequel tu veux voir ?",
+          "note": "Sans nom après : *lequel*."
+        },
+        {
+          "wrong": "Parmi ces livres, lequels as-tu lus ?",
+          "correct": "Parmi ces livres, lesquels as-tu lus ?",
+          "note": "Masculin pluriel : *lesquels*."
+        },
+        {
+          "wrong": "Tu penses à un projet ? À lequel ?",
+          "correct": "Tu penses à un projet ? Auquel ?",
+          "note": "*À* + *lequel* donne *auquel*."
+        },
+        {
+          "wrong": "De ces deux solutions, quoi est la meilleure ?",
+          "correct": "De ces deux solutions, laquelle est la meilleure ?",
+          "note": "Choix entre deux choses : *laquelle*."
+        },
+        {
+          "wrong": "Il parle de ses collègues. De lesquels ?",
+          "correct": "Il parle de ses collègues. Desquels ?",
+          "note": "*De* + *lesquels* donne *desquels*."
+        },
+        {
+          "wrong": "Ces fleurs sont belles. Lesquels voulez-vous, madame ?",
+          "correct": "Ces fleurs sont belles. Lesquelles voulez-vous, madame ?",
+          "note": "*Fleurs* féminin pluriel : *lesquelles*."
+        },
+        {
+          "wrong": "Laquelle de ces gâteaux est au chocolat ?",
+          "correct": "Lequel de ces gâteaux est au chocolat ?",
+          "note": "*Gâteaux* est masculin : *lequel*."
+        },
+        {
+          "wrong": "Tu as répondu aux questions ? À lesquelles ?",
+          "correct": "Tu as répondu aux questions ? Auxquelles ?",
+          "note": "*À* + *lesquelles* donne *auxquelles*."
+        },
+        {
+          "wrong": "Entre ces deux hôtels, qui est le moins cher ?",
+          "correct": "Entre ces deux hôtels, lequel est le moins cher ?",
+          "note": "Choix parmi des choses : *lequel*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.questions",
+        "fr.tag.pronouns",
+        "fr.tag.asking_questions",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.ce_qui_ce_que",
+      "title": "Ce qui et ce que",
+      "description": "**L'idée**\n*Ce qui* et *ce que* veulent dire *la chose qui* ou *la chose que*, quand on ne nomme pas la chose. On les emploie pour parler d'une idée, d'un fait, de quelque chose de vague.\n\n**La forme**\n- *ce qui* + verbe : *ce* est le sujet du verbe (*ce qui me plaît*)\n- *ce que* + sujet + verbe : *ce* est le COD (*ce que je veux*)\n- *ce qu'* devant voyelle : *ce qu'il dit*\n- *ce dont* si le verbe demande *de* (*ce dont j'ai besoin*)\n- mise en relief : *ce qui m'étonne, c'est…*, *ce que j'aime, c'est…*\n- discours indirect : *dis-moi ce que tu veux* (pas *qu'est-ce que*)\n- *tout ce qui*, *tout ce que* : toutes les choses qui / que\n\n**Quand l'employer**\n- parler d'une chose non nommée : *je comprends ce que tu dis*\n- reprendre toute une phrase : *il est parti, ce qui m'a surpris*\n- question indirecte sur une chose\n\n**Quand ne pas l'employer**\nNe confondez pas avec *qui* / *que* après un nom (*le livre que je lis*). Test : un nom précède, *qui* / *que* ; aucun nom avant, *ce qui* / *ce que*. Puis : un verbe suit directement, *ce qui* ; un sujet suit, *ce que*.\n\n**Erreurs typiques**\n- oublier *ce* : *je ne sais pas que tu veux*\n- confondre *ce qui* et *ce que* : *ce que se passe*\n- *qu'est-ce que* dans une question indirecte : *dis-moi qu'est-ce que tu veux*\n- *quoi* à la place : *je sais quoi tu penses*",
+      "llmDescription": "Ce qui (sujet + verbe) et ce que (sujet + verbe après) sans nom antécédent, tout ce que, question indirecte : ce oublié, qui et que confondus, quoi employé.",
+      "examples": [
+        {
+          "wrong": "Je ne comprends pas que tu dis.",
+          "correct": "Je ne comprends pas ce que tu dis.",
+          "note": "Sans nom avant : *ce que*."
+        },
+        {
+          "wrong": "Ce que se passe ici est grave.",
+          "correct": "Ce qui se passe ici est grave.",
+          "note": "Verbe juste après : *ce qui*."
+        },
+        {
+          "wrong": "Dis-moi qu'est-ce que tu veux pour Noël.",
+          "correct": "Dis-moi ce que tu veux pour Noël.",
+          "note": "Question indirecte : *ce que*."
+        },
+        {
+          "wrong": "Ce qui j'aime, c'est voyager seul.",
+          "correct": "Ce que j'aime, c'est voyager seul.",
+          "note": "Sujet *je* après : *ce que*."
+        },
+        {
+          "wrong": "Il est arrivé en retard, que m'a énervé.",
+          "correct": "Il est arrivé en retard, ce qui m'a énervé.",
+          "note": "Reprise d'une phrase : *ce qui*."
+        },
+        {
+          "wrong": "Tu peux prendre tout que tu veux.",
+          "correct": "Tu peux prendre tout ce que tu veux.",
+          "note": "*Tout ce que*, avec *ce*."
+        },
+        {
+          "wrong": "Je sais quoi tu penses de lui.",
+          "correct": "Je sais ce que tu penses de lui.",
+          "note": "*Ce que*, pas *quoi*."
+        },
+        {
+          "wrong": "Nous ne savons pas ce que va arriver demain.",
+          "correct": "Nous ne savons pas ce qui va arriver demain.",
+          "note": "*Ce* est sujet de *va* : *ce qui*."
+        },
+        {
+          "wrong": "Ce que il raconte n'est pas vrai.",
+          "correct": "Ce qu'il raconte n'est pas vrai.",
+          "note": "*Ce que* s'élide devant *il*."
+        },
+        {
+          "wrong": "Vous avez vu qu'est-ce qui est arrivé ?",
+          "correct": "Vous avez vu ce qui est arrivé ?",
+          "note": "Interrogation indirecte : *ce qui*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.major",
+        "fr.tag.relative_clauses",
+        "fr.tag.pronouns",
+        "fr.tag.linking_ideas",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.indefinite_de_adjective",
+      "title": "Quelque chose de + adjectif",
+      "description": "**L'idée**\nLes pronoms indéfinis comme *quelque chose*, *rien*, *quelqu'un*, *personne* ne peuvent pas recevoir un adjectif directement. On place *de* entre le pronom et l'adjectif, et l'adjectif reste au masculin singulier.\n\n**La forme**\n- *quelque chose* + *de* + adjectif : *quelque chose de bon*\n- *rien* + *de* + adjectif : *rien de grave*\n- *quelqu'un* + *de* + adjectif : *quelqu'un de gentil*\n- *personne* + *de* + adjectif : *personne d'intéressant*\n- *de* devient *d'* devant une voyelle : *quelque chose d'important*\n- adjectif toujours au masculin singulier, même pour une femme\n- négation : *ne… rien de*, *ne… personne de* (*je n'ai rien vu de beau*)\n\n**Quand l'employer**\n- qualifier une chose ou une personne non précisée : *quelque chose de nouveau*, *quelqu'un de sérieux*\n- avec *autre* : *quelque chose d'autre*, *personne d'autre*\n\n**Quand ne pas l'employer**\nNe mettez pas *de* après un vrai nom (*une chose importante*, *une personne gentille*). Test : après *chose* ou *personne* précédés d'un article, adjectif direct et accordé ; après les pronoms *quelque chose*, *rien*, *quelqu'un*, *personne*, il faut *de* + masculin.\n\n**Erreurs typiques**\n- oublier *de* : *quelque chose bon*, *rien spécial*\n- accorder l'adjectif : *quelqu'un de gentille*\n- placer l'adjectif avant : *un nouveau quelque chose*\n- *autre chose* et *quelque chose d'autre* : les deux sont justes, mais *quelque chose autre* est faux",
+      "llmDescription": "Pronom indéfini quelque chose, rien, quelqu'un, personne + de/d' + adjectif masculin (quelque chose de bon, personne d'autre) : de oublié, adjectif accordé ou antéposé.",
+      "examples": [
+        {
+          "wrong": "Je voudrais manger quelque chose bon.",
+          "correct": "Je voudrais manger quelque chose de bon.",
+          "note": "Il faut *de* avant l'adjectif."
+        },
+        {
+          "wrong": "Ne t'inquiète pas, ce n'est rien grave.",
+          "correct": "Ne t'inquiète pas, ce n'est rien de grave.",
+          "note": "*Rien de* + adjectif."
+        },
+        {
+          "wrong": "Ma voisine est quelqu'un de très gentille.",
+          "correct": "Ma voisine est quelqu'un de très gentil.",
+          "note": "Après *quelqu'un de*, masculin."
+        },
+        {
+          "wrong": "Tu as quelque chose de important à me dire ?",
+          "correct": "Tu as quelque chose d'important à me dire ?",
+          "note": "*De* s'élide devant une voyelle."
+        },
+        {
+          "wrong": "Il n'y avait personne intéressant à la soirée.",
+          "correct": "Il n'y avait personne d'intéressant à la soirée.",
+          "note": "*Personne d'* + adjectif."
+        },
+        {
+          "wrong": "Vous voulez quelque chose autre ?",
+          "correct": "Vous voulez quelque chose d'autre ?",
+          "note": "*Quelque chose d'autre*."
+        },
+        {
+          "wrong": "Nous cherchons quelqu'un sérieux pour ce poste.",
+          "correct": "Nous cherchons quelqu'un de sérieux pour ce poste.",
+          "note": "*De* oublié après *quelqu'un*."
+        },
+        {
+          "wrong": "Il ne s'est rien passé spécial ce week-end.",
+          "correct": "Il ne s'est rien passé de spécial ce week-end.",
+          "note": "*Rien… de spécial*."
+        },
+        {
+          "wrong": "Elle a acheté quelque chose de nouvelle pour la maison.",
+          "correct": "Elle a acheté quelque chose de nouveau pour la maison.",
+          "note": "Adjectif au masculin singulier."
+        },
+        {
+          "wrong": "Je n'ai vu personne de connus au concert.",
+          "correct": "Je n'ai vu personne de connu au concert.",
+          "note": "Adjectif au singulier après *personne de*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.pronouns",
+        "fr.tag.adjectives",
+        "fr.tag.describing_things",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.cause_parce_que_a_cause_de",
+      "title": "Parce que, à cause de, grâce à",
+      "description": "**L'idée**\nPour donner une cause, le français a deux familles d'outils. Les conjonctions (*parce que*, *puisque*, *comme*) introduisent une phrase avec un verbe. Les prépositions (*à cause de*, *grâce à*) introduisent seulement un nom ou un pronom.\n\n**La forme**\n- *parce que* / *parce qu'* + sujet + verbe : *parce qu'il pleut*\n- *comme* + phrase, en début de phrase : *comme il pleut, je reste*\n- *puisque* + phrase : cause déjà connue de l'autre\n- *à cause de* + nom : cause négative (*à cause de la pluie*)\n- *grâce à* + nom : cause positive (*grâce à toi*)\n- contractions : *à cause du*, *à cause des*, *grâce au*, *grâce aux*\n- question : *pourquoi ?* → réponse avec *parce que*\n\n**Quand l'employer**\n- *parce que* : réponse à *pourquoi*, cause nouvelle\n- *comme* : cause placée avant la conséquence\n- *grâce à* : résultat heureux ; *à cause de* : résultat malheureux\n\n**Quand ne pas l'employer**\nTest : après le mot de cause, il y a un verbe conjugué ? Oui : *parce que*, *comme*, *puisque*. Non, seulement un nom : *à cause de* ou *grâce à*. Puis : bon résultat, *grâce à* ; mauvais, *à cause de*.\n\n**Erreurs typiques**\n- *parce que* + nom : *parce que la pluie*\n- *à cause de* + phrase : *à cause de il est malade*\n- *grâce à* pour un problème : *grâce à la grève, j'ai raté le train*\n- oublier la contraction : *à cause de le bruit*\n- *comme* après la conséquence : on préfère *parce que*",
+      "llmDescription": "Cause : parce que, comme, puisque + phrase ; à cause de (négatif), grâce à (positif) + nom : conjonction devant un nom, préposition devant une phrase.",
+      "examples": [
+        {
+          "wrong": "Je suis resté chez moi parce que la pluie.",
+          "correct": "Je suis resté chez moi à cause de la pluie.",
+          "note": "Devant un nom : *à cause de*."
+        },
+        {
+          "wrong": "Elle n'est pas venue à cause de elle est malade.",
+          "correct": "Elle n'est pas venue parce qu'elle est malade.",
+          "note": "Devant une phrase : *parce que*."
+        },
+        {
+          "wrong": "Grâce à la grève, nous avons raté l'avion.",
+          "correct": "À cause de la grève, nous avons raté l'avion.",
+          "note": "Résultat négatif : *à cause de*."
+        },
+        {
+          "wrong": "À cause de ton aide, j'ai réussi l'examen.",
+          "correct": "Grâce à ton aide, j'ai réussi l'examen.",
+          "note": "Résultat positif : *grâce à*."
+        },
+        {
+          "wrong": "Je n'ai pas dormi à cause de le bruit.",
+          "correct": "Je n'ai pas dormi à cause du bruit.",
+          "note": "*De* + *le* donne *du*."
+        },
+        {
+          "wrong": "Pourquoi tu pars ? Parce que mon travail.",
+          "correct": "Pourquoi tu pars ? À cause de mon travail.",
+          "note": "Nom seul : *à cause de*."
+        },
+        {
+          "wrong": "Ils ont trouvé l'hôtel grâce à les voisins.",
+          "correct": "Ils ont trouvé l'hôtel grâce aux voisins.",
+          "note": "*À* + *les* donne *aux*."
+        },
+        {
+          "wrong": "Parce que il fait beau, on mange dehors ?",
+          "correct": "Comme il fait beau, on mange dehors ?",
+          "note": "Cause en tête de phrase : *comme*."
+        },
+        {
+          "wrong": "Nous sommes en retard grâce aux embouteillages.",
+          "correct": "Nous sommes en retard à cause des embouteillages.",
+          "note": "Problème : *à cause des*."
+        },
+        {
+          "wrong": "Le projet a réussi parce que vous.",
+          "correct": "Le projet a réussi grâce à vous.",
+          "note": "Devant un pronom, préposition *grâce à*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.major",
+        "fr.tag.subordination",
+        "fr.tag.prepositions",
+        "fr.tag.linking_ideas",
+        "fr.tag.everyday"
+      ]
+    },
+    {
+      "id": "fr.rule.adverb_placement_compound",
+      "title": "Place de l'adverbe au passé composé",
+      "description": "**L'idée**\nAu passé composé, les adverbes courts et fréquents se placent entre l'auxiliaire et le participe : *j'ai bien mangé*. Les adverbes longs, de lieu ou de temps précis se mettent plutôt après le participe.\n\n**La forme**\n- auxiliaire + adverbe court + participe : *j'ai bien dormi*, *il a beaucoup travaillé*\n- adverbes courts : *bien, mal, déjà, encore, toujours, souvent, beaucoup, trop, assez, vite, enfin, presque, vraiment*\n- négation : *ne* + auxiliaire + *pas* + adverbe + participe : *je n'ai pas encore fini*, *il n'a pas bien compris*\n- adverbes de temps et de lieu : après le participe (*je l'ai vu hier*, *il a dormi ici*)\n- adverbes longs en *-ment* : souvent après le participe (*elle a parlé lentement*)\n- même place avec un infinitif : *il faut bien manger*\n\n**Quand l'employer**\n- avec tous les temps composés : plus-que-parfait, futur antérieur, conditionnel passé\n\n**Quand ne pas l'employer**\nAu présent, l'adverbe suit le verbe (*je mange bien*). Test : verbe en un mot, adverbe après ; verbe en deux mots, adverbe court entre les deux, adverbe de temps précis (*hier*, *demain*, *aujourd'hui*) à la fin.\n\n**Erreurs typiques**\n- *j'ai mangé bien* : adverbe court après le participe\n- *j'ai hier vu Paul* : *hier* jamais entre auxiliaire et participe\n- *je n'ai encore pas fini* : *pas* avant *encore*\n- *j'ai toujours pas compris* : à l'écrit, il faut *ne… pas*",
+      "llmDescription": "Adverbe aux temps composés : bien, déjà, encore, souvent, beaucoup entre auxiliaire et participe ; hier, ici après le participe.",
+      "examples": [
+        {
+          "wrong": "Nous avons mangé bien dans ce restaurant.",
+          "correct": "Nous avons bien mangé dans ce restaurant.",
+          "note": "*Bien* entre l'auxiliaire et le participe."
+        },
+        {
+          "wrong": "Tu as fini déjà tes devoirs ?",
+          "correct": "Tu as déjà fini tes devoirs ?",
+          "note": "*Déjà* avant le participe."
+        },
+        {
+          "wrong": "J'ai hier vu ton frère au marché.",
+          "correct": "J'ai vu ton frère hier au marché.",
+          "note": "*Hier* se place après le participe."
+        },
+        {
+          "wrong": "Je n'ai encore pas reçu ta lettre.",
+          "correct": "Je n'ai pas encore reçu ta lettre.",
+          "note": "*Pas* vient avant *encore*."
+        },
+        {
+          "wrong": "Elle a travaillé beaucoup cette semaine.",
+          "correct": "Elle a beaucoup travaillé cette semaine.",
+          "note": "*Beaucoup* entre auxiliaire et participe."
+        },
+        {
+          "wrong": "Ils sont allés souvent en Italie.",
+          "correct": "Ils sont souvent allés en Italie.",
+          "note": "*Souvent* avant le participe."
+        },
+        {
+          "wrong": "Vous avez compris vraiment la question ?",
+          "correct": "Vous avez vraiment compris la question ?",
+          "note": "*Vraiment* entre auxiliaire et participe."
+        },
+        {
+          "wrong": "Il n'a compris pas bien les consignes.",
+          "correct": "Il n'a pas bien compris les consignes.",
+          "note": "*Pas bien* entre auxiliaire et participe."
+        },
+        {
+          "wrong": "Elle a aimé toujours la musique classique.",
+          "correct": "Elle a toujours aimé la musique classique.",
+          "note": "*Toujours* avant le participe."
+        },
+        {
+          "wrong": "J'avais mangé trop, je me sentais mal.",
+          "correct": "J'avais trop mangé, je me sentais mal.",
+          "note": "*Trop* entre auxiliaire et participe."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.adverbs",
+        "fr.tag.word_order",
+        "fr.tag.talking_about_past",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.infinitif_passe_apres",
+      "title": "Après + infinitif passé",
+      "description": "**L'idée**\nPour dire qu'une action vient après une autre, avec le même sujet, on emploie *après* + infinitif passé. L'infinitif passé montre que la première action est déjà terminée.\n\n**La forme**\n- *après* + *avoir* ou *être* + participe passé\n- *après avoir mangé*, *après être arrivé*, *après s'être levé*\n- même auxiliaire qu'au passé composé : *être* pour les verbes de mouvement et les pronominaux\n- avec *être*, le participe s'accorde avec le sujet de la phrase : *après être partie, elle…*\n- négation : *après n'avoir rien dit*, *après ne pas avoir compris*\n- pronoms avant l'auxiliaire : *après l'avoir lu*\n- sujet identique dans les deux parties de la phrase\n\n**Quand l'employer**\n- succession de deux actions du même sujet : *après avoir fini, il est sorti*\n- au passé, au présent ou au futur : la forme ne change pas\n\n**Quand ne pas l'employer**\nNe mettez pas l'infinitif présent après *après*, et ne l'employez pas avec deux sujets différents (alors *après que* + indicatif). Test : même sujet, *après avoir* / *après être* ; sujets différents, *après que* + phrase. Pour l'action suivante, *avant de* + infinitif présent.\n\n**Erreurs typiques**\n- *après manger* : il faut *après avoir mangé*\n- mauvais auxiliaire : *après avoir sorti* pour un déplacement\n- oublier l'accord avec *être* : *après être arrivé, Marie…*\n- oublier le pronom réfléchi : *après être levé*",
+      "llmDescription": "Après + infinitif passé (après avoir mangé, après être partie, après s'être levé), même sujet : infinitif présent, mauvais auxiliaire, accord ou réfléchi oubliés ; distinct de avant de.",
+      "examples": [
+        {
+          "wrong": "Après manger, nous sommes allés au parc.",
+          "correct": "Après avoir mangé, nous sommes allés au parc.",
+          "note": "*Après* + infinitif passé."
+        },
+        {
+          "wrong": "Après avoir arrivé à Paris, il a appelé sa mère.",
+          "correct": "Après être arrivé à Paris, il a appelé sa mère.",
+          "note": "*Arriver* se construit avec *être*."
+        },
+        {
+          "wrong": "Après être sorti du bureau, Claire a pris le métro.",
+          "correct": "Après être sortie du bureau, Claire a pris le métro.",
+          "note": "Avec *être*, accord avec Claire."
+        },
+        {
+          "wrong": "Après être levé, je prends toujours un café.",
+          "correct": "Après m'être levé, je prends toujours un café.",
+          "note": "Verbe pronominal : *m'être levé*."
+        },
+        {
+          "wrong": "Après lire ce livre, tu comprendras mieux.",
+          "correct": "Après avoir lu ce livre, tu comprendras mieux.",
+          "note": "Action terminée : infinitif passé."
+        },
+        {
+          "wrong": "Après avoir le vu, elle a pleuré.",
+          "correct": "Après l'avoir vu, elle a pleuré.",
+          "note": "Pronom avant l'auxiliaire."
+        },
+        {
+          "wrong": "Après avoir finir mes études, je voyagerai un an.",
+          "correct": "Après avoir fini mes études, je voyagerai un an.",
+          "note": "Après *avoir*, le participe *fini*."
+        },
+        {
+          "wrong": "Après avoir pas compris, il a posé une question.",
+          "correct": "Après ne pas avoir compris, il a posé une question.",
+          "note": "Négation : *ne pas* devant *avoir*."
+        },
+        {
+          "wrong": "Après avoir disputés, ils se sont réconciliés.",
+          "correct": "Après s'être disputés, ils se sont réconciliés.",
+          "note": "Pronominal : *s'être* + participe."
+        },
+        {
+          "wrong": "Après avoir tombé, l'enfant s'est mis à pleurer.",
+          "correct": "Après être tombé, l'enfant s'est mis à pleurer.",
+          "note": "*Tomber* se construit avec *être*."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.infinitive",
+        "fr.tag.past_tenses",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
+      ]
+    },
+    {
+      "id": "fr.rule.negation_infinitive",
+      "title": "Négation de l'infinitif",
+      "description": "**L'idée**\nQuand on nie un infinitif, les deux mots de la négation ne l'entourent pas : ils se placent ensemble devant lui. On dit *ne pas fumer*, pas *ne fumer pas*. On trouve cette forme dans les consignes, les conseils et après beaucoup de verbes.\n\n**La forme**\n- *ne pas* + infinitif : *ne pas toucher*\n- *ne jamais*, *ne plus*, *ne rien* + infinitif : *ne plus fumer*, *ne rien dire*\n- *ne… personne* : *personne* reste après l'infinitif (*ne voir personne*)\n- pronoms entre *ne pas* et l'infinitif : *ne pas le faire*, *ne pas se lever*\n- infinitif passé : *ne pas avoir compris*, *ne pas être venu*\n- après préposition : *pour ne pas oublier*, *de ne pas répondre*\n\n**Quand l'employer**\n- consignes et panneaux : *ne pas stationner*\n- après *demander de, dire de, essayer de, décider de, promettre de* : *il m'a dit de ne pas venir*\n- après *pour* : *pour ne pas être en retard*\n\n**Quand ne pas l'employer**\nAvec un verbe conjugué, la négation l'entoure (*je ne fume pas*). Avec un verbe conjugué + infinitif (*je ne veux pas partir*), on nie le verbe conjugué. Test : on nie le verbe conjugué ou l'infinitif ? Infinitif : *ne pas* devant lui.\n\n**Erreurs typiques**\n- *ne fumer pas* : il faut *ne pas fumer*\n- *ne le pas faire* : le pronom suit *ne pas*\n- oublier *ne* : *pour pas oublier* (familier)\n- *ne personne voir* : *personne* reste après l'infinitif",
+      "llmDescription": "Négation d'un infinitif : ne pas, ne plus, ne jamais, ne rien groupés devant l'infinitif (pour ne pas oublier, ne pas le faire) ; négation qui entoure l'infinitif.",
+      "examples": [
+        {
+          "wrong": "Merci de fumer ne pas dans le train.",
+          "correct": "Merci de ne pas fumer dans le train.",
+          "note": "*Ne pas* se place devant l'infinitif."
+        },
+        {
+          "wrong": "Le médecin m'a dit de ne manger pas de sucre.",
+          "correct": "Le médecin m'a dit de ne pas manger de sucre.",
+          "note": "*Ne pas* groupés devant l'infinitif."
+        },
+        {
+          "wrong": "Je pars tôt pour ne être pas en retard.",
+          "correct": "Je pars tôt pour ne pas être en retard.",
+          "note": "Après *pour* : *ne pas* + infinitif."
+        },
+        {
+          "wrong": "Elle a promis de ne le pas répéter.",
+          "correct": "Elle a promis de ne pas le répéter.",
+          "note": "Pronom après *ne pas*."
+        },
+        {
+          "wrong": "Ils ont décidé de fumer ne plus.",
+          "correct": "Ils ont décidé de ne plus fumer.",
+          "note": "*Ne plus* devant l'infinitif."
+        },
+        {
+          "wrong": "Essayez de ne dire rien à votre sœur.",
+          "correct": "Essayez de ne rien dire à votre sœur.",
+          "note": "*Ne rien* devant l'infinitif."
+        },
+        {
+          "wrong": "Je préfère ne personne voir ce week-end.",
+          "correct": "Je préfère ne voir personne ce week-end.",
+          "note": "*Personne* reste après l'infinitif."
+        },
+        {
+          "wrong": "Nous lui avons demandé de ne se lever pas trop tard.",
+          "correct": "Nous lui avons demandé de ne pas se lever trop tard.",
+          "note": "*Ne pas* + pronom + infinitif."
+        },
+        {
+          "wrong": "Tu as eu raison de ne avoir pas répondu.",
+          "correct": "Tu as eu raison de ne pas avoir répondu.",
+          "note": "*Ne pas* devant l'auxiliaire infinitif."
+        },
+        {
+          "wrong": "Attention : toucher ne pas les tableaux.",
+          "correct": "Attention : ne pas toucher les tableaux.",
+          "note": "Consigne : *ne pas* + infinitif."
+        }
+      ],
+      "tagIds": [
+        "fr.tag.b1",
+        "fr.tag.minor",
+        "fr.tag.negation",
+        "fr.tag.infinitive",
+        "fr.tag.negating",
+        "fr.tag.common"
       ]
     },
     {
@@ -2020,7 +4424,9 @@
       "tagIds": [
         "fr.tag.b2",
         "fr.tag.major",
-        "fr.tag.subjunctive"
+        "fr.tag.subjunctive",
+        "fr.tag.advice_obligation",
+        "fr.tag.common"
       ]
     },
     {
@@ -2084,7 +4490,10 @@
         "fr.tag.b2",
         "fr.tag.major",
         "fr.tag.subjunctive",
-        "fr.tag.subordination"
+        "fr.tag.subordination",
+        "fr.tag.advice_obligation",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.common"
       ]
     },
     {
@@ -2147,7 +4556,9 @@
       "tagIds": [
         "fr.tag.b2",
         "fr.tag.major",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.common"
       ]
     },
     {
@@ -2211,7 +4622,9 @@
         "fr.tag.b2",
         "fr.tag.major",
         "fr.tag.subordination",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.common"
       ]
     },
     {
@@ -2274,7 +4687,9 @@
       "tagIds": [
         "fr.tag.b2",
         "fr.tag.major",
-        "fr.tag.relative_clauses"
+        "fr.tag.relative_clauses",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
       ]
     },
     {
@@ -2337,7 +4752,9 @@
       "tagIds": [
         "fr.tag.b2",
         "fr.tag.minor",
-        "fr.tag.passive_voice"
+        "fr.tag.passive_voice",
+        "fr.tag.emphasis_style",
+        "fr.tag.common"
       ]
     },
     {
@@ -2400,7 +4817,9 @@
       "tagIds": [
         "fr.tag.b2",
         "fr.tag.major",
-        "fr.tag.reported_speech"
+        "fr.tag.reported_speech",
+        "fr.tag.reporting_speech",
+        "fr.tag.common"
       ]
     },
     {
@@ -2463,7 +4882,9 @@
       "tagIds": [
         "fr.tag.b2",
         "fr.tag.major",
-        "fr.tag.participles"
+        "fr.tag.participles",
+        "fr.tag.talking_about_past",
+        "fr.tag.common"
       ]
     },
     {
@@ -2527,7 +4948,9 @@
         "fr.tag.b2",
         "fr.tag.minor",
         "fr.tag.participles",
-        "fr.tag.subordination"
+        "fr.tag.subordination",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
       ]
     },
     {
@@ -2591,7 +5014,9 @@
         "fr.tag.c1",
         "fr.tag.major",
         "fr.tag.subjunctive",
-        "fr.tag.subordination"
+        "fr.tag.subordination",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
       ]
     },
     {
@@ -2655,7 +5080,10 @@
         "fr.tag.c1",
         "fr.tag.major",
         "fr.tag.subjunctive",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.common"
       ]
     },
     {
@@ -2719,7 +5147,9 @@
         "fr.tag.c1",
         "fr.tag.major",
         "fr.tag.relative_clauses",
-        "fr.tag.prepositions"
+        "fr.tag.prepositions",
+        "fr.tag.linking_ideas",
+        "fr.tag.common"
       ]
     },
     {
@@ -2783,7 +5213,10 @@
         "fr.tag.c1",
         "fr.tag.major",
         "fr.tag.reported_speech",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.reporting_speech",
+        "fr.tag.talking_about_past",
+        "fr.tag.common"
       ]
     },
     {
@@ -2846,7 +5279,10 @@
       "tagIds": [
         "fr.tag.c1",
         "fr.tag.major",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.advice_obligation",
+        "fr.tag.common"
       ]
     },
     {
@@ -2910,7 +5346,9 @@
         "fr.tag.c1",
         "fr.tag.major",
         "fr.tag.subordination",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.hypotheticals_wishes",
+        "fr.tag.common"
       ]
     },
     {
@@ -2974,7 +5412,9 @@
         "fr.tag.c1",
         "fr.tag.minor",
         "fr.tag.participles",
-        "fr.tag.adjectives"
+        "fr.tag.adjectives",
+        "fr.tag.describing_things",
+        "fr.tag.common"
       ]
     },
     {
@@ -3037,7 +5477,9 @@
       "tagIds": [
         "fr.tag.c1",
         "fr.tag.major",
-        "fr.tag.future_conditional"
+        "fr.tag.future_conditional",
+        "fr.tag.talking_about_future",
+        "fr.tag.common"
       ]
     },
     {
@@ -3100,7 +5542,9 @@
       "tagIds": [
         "fr.tag.c1",
         "fr.tag.major",
-        "fr.tag.prepositions"
+        "fr.tag.prepositions",
+        "fr.tag.sentence_building",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -3163,7 +5607,10 @@
       "tagIds": [
         "fr.tag.c2",
         "fr.tag.major",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.emphasis_style",
+        "fr.tag.common"
       ]
     },
     {
@@ -3226,7 +5673,9 @@
       "tagIds": [
         "fr.tag.c2",
         "fr.tag.minor",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.rare"
       ]
     },
     {
@@ -3290,7 +5739,9 @@
         "fr.tag.c2",
         "fr.tag.minor",
         "fr.tag.subjunctive",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.emphasis_style",
+        "fr.tag.rare"
       ]
     },
     {
@@ -3354,7 +5805,10 @@
         "fr.tag.c2",
         "fr.tag.major",
         "fr.tag.subjunctive",
-        "fr.tag.relative_clauses"
+        "fr.tag.relative_clauses",
+        "fr.tag.describing_things",
+        "fr.tag.linking_ideas",
+        "fr.tag.rare"
       ]
     },
     {
@@ -3417,7 +5871,9 @@
       "tagIds": [
         "fr.tag.c2",
         "fr.tag.minor",
-        "fr.tag.word_order"
+        "fr.tag.word_order",
+        "fr.tag.emphasis_style",
+        "fr.tag.rare"
       ]
     },
     {
@@ -3480,7 +5936,9 @@
       "tagIds": [
         "fr.tag.c2",
         "fr.tag.minor",
-        "fr.tag.word_order"
+        "fr.tag.word_order",
+        "fr.tag.emphasis_style",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -3544,7 +6002,9 @@
         "fr.tag.c2",
         "fr.tag.minor",
         "fr.tag.word_order",
-        "fr.tag.object_pronouns"
+        "fr.tag.object_pronouns",
+        "fr.tag.emphasis_style",
+        "fr.tag.everyday"
       ]
     },
     {
@@ -3608,7 +6068,9 @@
         "fr.tag.c2",
         "fr.tag.major",
         "fr.tag.participles",
-        "fr.tag.past_tenses"
+        "fr.tag.past_tenses",
+        "fr.tag.talking_about_past",
+        "fr.tag.common"
       ]
     },
     {
@@ -3672,7 +6134,9 @@
         "fr.tag.c2",
         "fr.tag.major",
         "fr.tag.subjunctive",
-        "fr.tag.subordination"
+        "fr.tag.subordination",
+        "fr.tag.linking_ideas",
+        "fr.tag.rare"
       ]
     }
   ]

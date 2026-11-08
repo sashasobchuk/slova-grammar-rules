@@ -1,6 +1,6 @@
 {
   "lang": "es",
-  "version": 1,
+  "version": 2,
   "groups": [
     {
       "id": "es.group.level",
@@ -16,6 +16,16 @@
       "id": "es.group.area",
       "name": "area",
       "description": "Área gramatical a la que pertenece la regla."
+    },
+    {
+      "id": "es.group.function",
+      "name": "function",
+      "description": "Lo que el estudiante quiere hacer con la lengua: hablar del pasado, preguntar, aconsejar, comparar, unir ideas, etc."
+    },
+    {
+      "id": "es.group.frequency",
+      "name": "frequency",
+      "description": "Con qué frecuencia aparece la construcción en el uso real y cotidiano: vídeos, conversación, libros."
     }
   ],
   "tags": [
@@ -250,6 +260,190 @@
       "groupIds": [
         "es.group.area"
       ]
+    },
+    {
+      "id": "es.tag.sentence_building",
+      "name": "sentence_building",
+      "description": "Piezas básicas de la oración: ser y estar, hay, pronombres, orden de palabras y concordancia elemental.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.talking_about_present",
+      "name": "talking_about_present",
+      "description": "Hablar de estados, costumbres y acciones que pasan ahora.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.talking_about_past",
+      "name": "talking_about_past",
+      "description": "Hablar de hechos pasados, costumbres del pasado y contar historias.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.talking_about_future",
+      "name": "talking_about_future",
+      "description": "Hablar de planes, predicciones, intenciones y acciones futuras.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.describing_things",
+      "name": "describing_things",
+      "description": "Describir personas y cosas: sustantivos, adjetivos, artículos, determinantes, posesión y cantidad.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.comparing",
+      "name": "comparing",
+      "description": "Comparar personas y cosas: comparativos, superlativos, igualdad y grado.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.asking_questions",
+      "name": "asking_questions",
+      "description": "Hacer preguntas de todo tipo: totales, parciales, indirectas y exclamaciones.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.negating",
+      "name": "negating",
+      "description": "Decir que no: oraciones negativas y palabras negativas.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.advice_obligation",
+      "name": "advice_obligation",
+      "description": "Dar consejos, expresar obligación, necesidad y prohibición, reprochar acciones pasadas.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.requests_offers_permission",
+      "name": "requests_offers_permission",
+      "description": "Pedir cosas, ofrecer, dar y pedir permiso, invitar y sugerir con la cortesía adecuada.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.ability_possibility",
+      "name": "ability_possibility",
+      "description": "Expresar capacidad, posibilidad, duda, certeza y suposición.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.hypotheticals_wishes",
+      "name": "hypotheticals_wishes",
+      "description": "Hablar de condiciones, situaciones imaginarias, deseos y arrepentimientos.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.reporting_speech",
+      "name": "reporting_speech",
+      "description": "Contar lo que otras personas dijeron, preguntaron o pensaron.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.linking_ideas",
+      "name": "linking_ideas",
+      "description": "Unir oraciones: causa, consecuencia, contraste, finalidad, tiempo y oraciones de relativo.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.emphasis_style",
+      "name": "emphasis_style",
+      "description": "Dar énfasis o ajustar el registro: tratamiento, formalidad, estructuras enfáticas y literarias.",
+      "groupIds": [
+        "es.group.function"
+      ]
+    },
+    {
+      "id": "es.tag.everyday",
+      "name": "everyday",
+      "description": "Se usa constantemente, en casi cualquier conversación.",
+      "groupIds": [
+        "es.group.frequency"
+      ]
+    },
+    {
+      "id": "es.tag.common",
+      "name": "common",
+      "description": "Habitual en el habla y la escritura normales, aunque no en todas las conversaciones.",
+      "groupIds": [
+        "es.group.frequency"
+      ]
+    },
+    {
+      "id": "es.tag.rare",
+      "name": "rare",
+      "description": "Sobre todo formal, literario o avanzado; aparece solo de vez en cuando.",
+      "groupIds": [
+        "es.group.frequency"
+      ]
+    },
+    {
+      "id": "es.tag.personal_pronouns",
+      "name": "personal_pronouns",
+      "description": "Pronombres personales de sujeto y tónicos con preposición (yo, tú, mí, ti, conmigo) y la omisión del sujeto.",
+      "groupIds": [
+        "es.group.area"
+      ]
+    },
+    {
+      "id": "es.tag.quantifiers",
+      "name": "quantifiers",
+      "description": "Cuantificadores e indefinidos como muy, mucho, poco, alguien, nadie, algún, ningún, también y tampoco.",
+      "groupIds": [
+        "es.group.area"
+      ]
+    },
+    {
+      "id": "es.tag.verb_pairs",
+      "name": "verb_pairs",
+      "description": "Pares de verbos de significado cercano que se confunden, como saber y conocer, pedir y preguntar, ir y venir.",
+      "groupIds": [
+        "es.group.area"
+      ]
+    },
+    {
+      "id": "es.tag.infinitive_gerund",
+      "name": "infinitive_gerund",
+      "description": "Usos del infinitivo, el gerundio y el participio como formas no personales dentro de la oración.",
+      "groupIds": [
+        "es.group.area"
+      ]
+    },
+    {
+      "id": "es.tag.connectors",
+      "name": "connectors",
+      "description": "Conectores y conjunciones que unen ideas: pero, sino, sin embargo, así que, por eso, por lo tanto.",
+      "groupIds": [
+        "es.group.area"
+      ]
     }
   ],
   "rules": [
@@ -313,7 +507,9 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.minor",
-        "es.tag.gender_number"
+        "es.tag.gender_number",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -376,7 +572,9 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.minor",
-        "es.tag.gender_number"
+        "es.tag.gender_number",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -439,7 +637,10 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.minor",
-        "es.tag.articles"
+        "es.tag.articles",
+        "es.tag.describing_things",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
       ]
     },
     {
@@ -502,7 +703,10 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.major",
-        "es.tag.present_tense"
+        "es.tag.present_tense",
+        "es.tag.talking_about_present",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
       ]
     },
     {
@@ -565,7 +769,10 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.major",
-        "es.tag.copular_verbs"
+        "es.tag.copular_verbs",
+        "es.tag.sentence_building",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -628,7 +835,10 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.major",
-        "es.tag.copular_verbs"
+        "es.tag.copular_verbs",
+        "es.tag.sentence_building",
+        "es.tag.talking_about_present",
+        "es.tag.everyday"
       ]
     },
     {
@@ -691,7 +901,10 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.minor",
-        "es.tag.copular_verbs"
+        "es.tag.copular_verbs",
+        "es.tag.sentence_building",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -754,7 +967,9 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.major",
-        "es.tag.negation"
+        "es.tag.negation",
+        "es.tag.negating",
+        "es.tag.everyday"
       ]
     },
     {
@@ -817,7 +1032,9 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.minor",
-        "es.tag.questions"
+        "es.tag.questions",
+        "es.tag.asking_questions",
+        "es.tag.everyday"
       ]
     },
     {
@@ -880,7 +1097,596 @@
       "tagIds": [
         "es.tag.a1",
         "es.tag.minor",
-        "es.tag.register_politeness"
+        "es.tag.register_politeness",
+        "es.tag.emphasis_style",
+        "es.tag.requests_offers_permission",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.adjective_agreement",
+      "title": "Concordancia del adjetivo",
+      "description": "**La idea.** El adjetivo copia el género y el número del sustantivo. Si el sustantivo es femenino y plural, el adjetivo también es femenino y plural. Así el oyente sabe a qué palabra se refiere.\n\n**La forma:**\n- Adjetivo en `-o`: cuatro formas `-o, -a, -os, -as` (alto, alta, altos, altas).\n- Adjetivo en `-e` o en consonante: una forma para masculino y femenino, plural `-s` o `-es` (grande, grandes; azul, azules).\n- Adjetivo de nacionalidad en consonante: añade `-a` en femenino (español, española; inglés, inglesa).\n- Posición normal: sustantivo + adjetivo (casa blanca).\n- Con `ser` y `estar` el adjetivo también concuerda con el sujeto (ellas son altas).\n\n**Cuándo se usa:**\n- Siempre que un adjetivo acompaña a un sustantivo.\n- Después de `ser`, `estar`, `parecer`: el adjetivo concuerda con el sujeto.\n- Con un sustantivo masculino y uno femenino juntos: adjetivo en masculino plural.\n\n**Cuándo NO se usa.** El adverbio no cambia nunca (`muy`, `bien`, `mal`, `rápido` como adverbio). Prueba rápida: si la palabra describe a una persona o cosa, concuerda; si describe cómo se hace algo, no cambia.\n\n**Errores típicos:**\n- Dejar el adjetivo en `-o` con un sustantivo femenino, porque `-o` parece la forma básica.\n- Olvidar el plural del adjetivo cuando el sustantivo ya tiene `-s`.\n- Poner `-a` a adjetivos en `-e` o en `-l` (granda, azula), que no tienen femenino.\n- Mirar la terminación del sustantivo y no su género real (el problema, la mano).\n\n**Excepciones y datos útiles:**\n- Los colores que son nombres de cosas no cambian a veces (camisas naranja o naranjas son posibles).\n- Los adjetivos en `-ista` tienen una forma para los dos géneros (optimista).",
+      "llmDescription": "Concordancia de género y número del adjetivo con el sustantivo o el sujeto de ser/estar: -o/-a/-os/-as, -e/-es; no el género del sustantivo ni el artículo.",
+      "examples": [
+        {
+          "wrong": "Mi hermana es muy alto.",
+          "correct": "Mi hermana es muy alta.",
+          "note": "El adjetivo debe ser femenino como hermana."
+        },
+        {
+          "wrong": "Tengo dos gatos negro en casa.",
+          "correct": "Tengo dos gatos negros en casa.",
+          "note": "Falta el plural del adjetivo."
+        },
+        {
+          "wrong": "La casa de mis abuelos es muy viejo.",
+          "correct": "La casa de mis abuelos es muy vieja.",
+          "note": "Casa es femenino; el adjetivo también."
+        },
+        {
+          "wrong": "¿Las manzanas están maduros?",
+          "correct": "¿Las manzanas están maduras?",
+          "note": "Maduras concuerda con manzanas, femenino plural."
+        },
+        {
+          "wrong": "Nosotros no estamos cansado hoy.",
+          "correct": "Nosotros no estamos cansados hoy.",
+          "note": "Con nosotros el adjetivo va en plural."
+        },
+        {
+          "wrong": "Mi profesora es inglés.",
+          "correct": "Mi profesora es inglesa.",
+          "note": "La nacionalidad en femenino añade -a."
+        },
+        {
+          "wrong": "Compra unas flores amarillos, por favor.",
+          "correct": "Compra unas flores amarillas, por favor.",
+          "note": "Flores es femenino: amarillas."
+        },
+        {
+          "wrong": "Ellos viven en una ciudad granda.",
+          "correct": "Ellos viven en una ciudad grande.",
+          "note": "Grande no tiene forma en -a."
+        },
+        {
+          "wrong": "El problema es muy difícila.",
+          "correct": "El problema es muy difícil.",
+          "note": "Difícil no cambia en femenino."
+        },
+        {
+          "wrong": "Mi padre y mi madre están contentas.",
+          "correct": "Mi padre y mi madre están contentos.",
+          "note": "Masculino y femenino juntos: masculino plural."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.gender_number",
+        "es.tag.describing_things",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.demonstratives",
+      "title": "Demostrativos este, ese, aquel",
+      "description": "**La idea.** Los demostrativos señalan una cosa y dicen lo lejos que está del hablante. Hay tres distancias: aquí, ahí y allí. Además concuerdan con el sustantivo en género y número.\n\n**La forma:**\n- Cerca de mí (`aquí`): `este, esta, estos, estas`.\n- Cerca de ti o a media distancia (`ahí`): `ese, esa, esos, esas`.\n- Lejos de los dos (`allí`): `aquel, aquella, aquellos, aquellas`.\n- Sin sustantivo: la misma forma (quiero este).\n- Neutro para algo que no se nombra: `esto, eso, aquello`, sin plural.\n- Orden: demostrativo + sustantivo, sin artículo (esta mesa).\n\n**Cuándo se usa:**\n- Para señalar algo que se ve: este libro, esa silla.\n- Con tiempo: `este año`, `esta semana` para el tiempo actual; `aquel día` para un pasado lejano.\n- `Esto`, `eso` para una idea o una cosa sin nombre (¿qué es esto?).\n\n**Cuándo NO se usa.** El artículo `el, la` solo identifica, no señala distancia. Prueba rápida: si puedes añadir aquí o allí, usa un demostrativo; si no, basta el artículo.\n\n**Errores típicos:**\n- Usar `este` con sustantivo femenino, porque `este` parece la forma básica.\n- Poner artículo y demostrativo juntos (el este libro).\n- Usar `esto` delante de un sustantivo; `esto` va siempre solo.\n- Escribir `estos` como `estes` por analogía con el singular.\n\n**Registro y uso.** En la conversación `ese` es el más frecuente; `aquel` aparece más al contar recuerdos.\n\n**Excepciones y datos útiles:**\n- `Este` y `esta` no llevan tilde hoy, tampoco sin sustantivo.",
+      "llmDescription": "Demostrativos este/ese/aquel y sus formas femeninas y plurales, neutros esto/eso/aquello, distancia aquí/ahí/allí, sin artículo; no el artículo definido ni posesivos.",
+      "examples": [
+        {
+          "wrong": "Este casa es muy bonita.",
+          "correct": "Esta casa es muy bonita.",
+          "note": "Casa es femenino: esta."
+        },
+        {
+          "wrong": "¿Cuánto cuestan estes zapatos?",
+          "correct": "¿Cuánto cuestan estos zapatos?",
+          "note": "El plural de este es estos."
+        },
+        {
+          "wrong": "Quiero el este pastel de chocolate.",
+          "correct": "Quiero este pastel de chocolate.",
+          "note": "No se pone artículo con demostrativo."
+        },
+        {
+          "wrong": "¿Qué es este? No lo conozco.",
+          "correct": "¿Qué es esto? No lo conozco.",
+          "note": "Para algo sin nombre se usa esto."
+        },
+        {
+          "wrong": "Esto libro es de mi hermano.",
+          "correct": "Este libro es de mi hermano.",
+          "note": "Esto no va delante de un sustantivo."
+        },
+        {
+          "wrong": "Aquel montañas de allí son altísimas.",
+          "correct": "Aquellas montañas de allí son altísimas.",
+          "note": "Montañas es femenino plural: aquellas."
+        },
+        {
+          "wrong": "Ese semana no trabajo.",
+          "correct": "Esa semana no trabajo.",
+          "note": "Semana es femenino: esa."
+        },
+        {
+          "wrong": "Dame esos llave, por favor.",
+          "correct": "Dame esa llave, por favor.",
+          "note": "Llave es singular femenino: esa."
+        },
+        {
+          "wrong": "Nosotros vivimos en este ciudad desde enero.",
+          "correct": "Nosotros vivimos en esta ciudad desde enero.",
+          "note": "Ciudad es femenino: esta."
+        },
+        {
+          "wrong": "No me gusta esos, prefiero estas.",
+          "correct": "No me gusta eso, prefiero esto.",
+          "note": "Para algo sin nombre se usa el neutro."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.determiners",
+        "es.tag.describing_things",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.tener_age_sensations",
+      "title": "Tener para edad y sensaciones",
+      "description": "**La idea.** Para la edad y para muchas sensaciones del cuerpo se usa `tener` + sustantivo. La persona *tiene* hambre o años, como si fueran cosas. Por eso no se usa `ser` ni `estar` con estas palabras.\n\n**La forma:**\n- `tener` conjugado + número + `años`: tengo, tienes, tiene, tenemos, tenéis, tienen.\n- `tener` + sustantivo sin artículo: `hambre, sed, frío, calor, sueño, miedo, prisa, razón, suerte`.\n- Grado: `mucho` o `mucha` según el sustantivo (mucho frío, mucha hambre).\n- Negación: `no tengo` + sustantivo.\n- Pregunta: `¿cuántos años tienes?`, `¿tienes frío?`.\n\n**Cuándo se usa:**\n- Edad: siempre con `años` y `tener`.\n- Sensaciones físicas: hambre, sed, sueño, frío, calor.\n- Estados de ánimo fijos: miedo, prisa, razón, suerte.\n\n**Cuándo NO se usa.** Con adjetivos se usa `estar`: estoy cansado, estoy enfermo. Prueba rápida: si la palabra es un sustantivo (hambre, miedo), usa `tener`; si es un adjetivo (cansado, nervioso), usa `estar`.\n\n**Errores típicos:**\n- Decir `soy` o `estoy` con años, porque la edad parece una descripción.\n- Usar `muy` con estos sustantivos (muy hambre); con sustantivo va `mucho/mucha`.\n- Olvidar la palabra `años` después del número.\n- Usar `hace frío` para la persona; `hace` es para el tiempo atmosférico.\n\n**Excepciones y datos útiles:**\n- `Hambre` es femenino: mucha hambre.\n- `Tener calor` es la persona; `hace calor` es el día; `está caliente` es la cosa.",
+      "llmDescription": "Tener + años para la edad y tener + hambre, sed, frío, calor, sueño, miedo, prisa, razón con mucho/mucha; no ser/estar con años ni estar + adjetivo.",
+      "examples": [
+        {
+          "wrong": "Yo soy veinte años.",
+          "correct": "Yo tengo veinte años.",
+          "note": "La edad se dice con tener."
+        },
+        {
+          "wrong": "¿Cuántos años eres?",
+          "correct": "¿Cuántos años tienes?",
+          "note": "Para preguntar la edad se usa tener."
+        },
+        {
+          "wrong": "Estoy hambre, ¿comemos ya?",
+          "correct": "Tengo hambre, ¿comemos ya?",
+          "note": "Hambre es sustantivo: va con tener."
+        },
+        {
+          "wrong": "Mi hijo tiene muy sueño.",
+          "correct": "Mi hijo tiene mucho sueño.",
+          "note": "Con sustantivo se usa mucho, no muy."
+        },
+        {
+          "wrong": "Nosotros estamos frío en esta oficina.",
+          "correct": "Nosotros tenemos frío en esta oficina.",
+          "note": "La sensación de frío va con tener."
+        },
+        {
+          "wrong": "Mi abuela tiene ochenta.",
+          "correct": "Mi abuela tiene ochenta años.",
+          "note": "Falta la palabra años."
+        },
+        {
+          "wrong": "Lo siento, estoy prisa.",
+          "correct": "Lo siento, tengo prisa.",
+          "note": "Prisa va con tener."
+        },
+        {
+          "wrong": "Los niños son miedo de los perros.",
+          "correct": "Los niños tienen miedo de los perros.",
+          "note": "Miedo va con tener, no con ser."
+        },
+        {
+          "wrong": "¿Estás sed? Hay agua en la nevera.",
+          "correct": "¿Tienes sed? Hay agua en la nevera.",
+          "note": "Sed va con tener."
+        },
+        {
+          "wrong": "Tienes muy razón, profesor.",
+          "correct": "Tienes mucha razón, profesor.",
+          "note": "Razón es femenino: mucha razón."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.copular_verbs",
+        "es.tag.describing_things",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.irregular_yo_present",
+      "title": "Presente con yo irregular",
+      "description": "**La idea.** Algunos verbos muy frecuentes son regulares en casi todas las personas, pero la forma de `yo` es especial. Hay que aprender esa forma de memoria; las demás siguen el modelo normal.\n\n**La forma:**\n- `-go` en yo: hacer > `hago`, poner > `pongo`, salir > `salgo`, traer > `traigo`, tener > `tengo`, venir > `vengo`, decir > `digo`, oír > `oigo`.\n- `-zco` en yo (verbos en `-cer`, `-cir`): conocer > `conozco`, conducir > `conduzco`, parecer > `parezco`.\n- `-oy` en yo: dar > `doy`, estar > `estoy`, ir > `voy`, ser > `soy`.\n- Otros: saber > `sé`, ver > `veo`, caber > `quepo`.\n- Las otras personas son regulares (haces, hace, hacemos), salvo tener, venir, decir, que además cambian la vocal (tienes, vienes, dices).\n- `ir` es irregular entero: voy, vas, va, vamos, vais, van.\n\n**Cuándo se usa:**\n- Siempre que el sujeto es `yo` con uno de estos verbos.\n- En preguntas de respuesta personal: ¿qué haces? > hago...\n\n**Cuándo NO se usa.** Las otras personas no llevan `-go` ni `-zco`. Prueba rápida: si el sujeto no es yo, usa la forma regular (o con cambio vocálico).\n\n**Errores típicos:**\n- Regularizar la forma de yo (hazo, poneo, conoco, sabo), porque los otros verbos terminan en `-o`.\n- Llevar `-g` a otras personas (tenges, salgimos).\n- Confundir `sé` (saber) con `se` sin tilde.\n\n**Excepciones y datos útiles:**\n- Los compuestos siguen al verbo base: deshacer > deshago, suponer > supongo, obtener > obtengo.",
+      "llmDescription": "Forma irregular de yo en presente: hago, pongo, salgo, tengo, vengo, digo, traigo, conozco, conduzco, doy, voy, sé, veo; otras personas regulares; no cambio vocálico e>ie general.",
+      "examples": [
+        {
+          "wrong": "Yo hazo la comida todos los días.",
+          "correct": "Yo hago la comida todos los días.",
+          "note": "Hacer en yo es hago."
+        },
+        {
+          "wrong": "No conoco a tu hermano.",
+          "correct": "No conozco a tu hermano.",
+          "note": "Conocer en yo es conozco."
+        },
+        {
+          "wrong": "Yo no sabo la respuesta.",
+          "correct": "Yo no sé la respuesta.",
+          "note": "Saber en yo es sé."
+        },
+        {
+          "wrong": "¿Poneo la mesa ahora?",
+          "correct": "¿Pongo la mesa ahora?",
+          "note": "Poner en yo es pongo."
+        },
+        {
+          "wrong": "Salo de casa a las ocho.",
+          "correct": "Salgo de casa a las ocho.",
+          "note": "Salir en yo es salgo."
+        },
+        {
+          "wrong": "Tú tenges un coche muy bonito.",
+          "correct": "Tú tienes un coche muy bonito.",
+          "note": "La -g solo va en la forma de yo."
+        },
+        {
+          "wrong": "Mañana yo do una fiesta en casa.",
+          "correct": "Mañana yo doy una fiesta en casa.",
+          "note": "Dar en yo es doy."
+        },
+        {
+          "wrong": "Siempre traio el almuerzo al trabajo.",
+          "correct": "Siempre traigo el almuerzo al trabajo.",
+          "note": "Traer en yo es traigo."
+        },
+        {
+          "wrong": "Yo conduco con mucho cuidado.",
+          "correct": "Yo conduzco con mucho cuidado.",
+          "note": "Conducir en yo es conduzco."
+        },
+        {
+          "wrong": "Nosotros salgimos los viernes por la noche.",
+          "correct": "Nosotros salimos los viernes por la noche.",
+          "note": "Con nosotros salir es regular."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.present_tense",
+        "es.tag.talking_about_present",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.prepositions_a_en_de",
+      "title": "Preposiciones a, en y de",
+      "description": "**La idea.** Tres preposiciones pequeñas marcan los datos básicos de una frase: adónde voy, dónde estoy y de dónde vengo. Cada una tiene una idea central.\n\n**La forma:**\n- `a`: dirección o destino, con verbos de movimiento (ir a, llegar a, volver a casa); hora (a las tres).\n- `en`: lugar donde algo está o pasa (estoy en casa, vivo en Madrid); medio de transporte (en tren, en coche); meses, años y estaciones (en mayo, en 2020, en verano).\n- `de`: origen (soy de Chile, vengo de la playa); posesión (el coche de Ana); material y tipo (mesa de madera, clase de inglés).\n- `a` + `el` = `al`; `de` + `el` = `del`.\n- `de... a`: inicio y fin (de lunes a viernes, de nueve a cinco).\n\n**Cuándo se usa:**\n- Movimiento hacia un lugar: `a`.\n- Situación sin movimiento: `en`.\n- Procedencia, dueño o material: `de`.\n\n**Cuándo NO se usa.** Días de la semana y fechas no llevan preposición: el lunes, el 5 de mayo. Prueba rápida: si hay movimiento hacia el lugar, `a`; si no hay movimiento, `en`.\n\n**Errores típicos:**\n- Usar `en` con verbos de movimiento (voy en Madrid), porque el destino también es un lugar.\n- Usar `a` para un lugar fijo (estoy a casa).\n- Poner `en` delante de los días (en el lunes).\n- Olvidar las contracciones `al` y `del`.\n\n**Excepciones y datos útiles:**\n- `A pie` y `a caballo`, pero `en bici`, `en avión`.\n- `Llegar a` un lugar, aunque se piensa en el sitio final.",
+      "llmDescription": "Preposiciones básicas a (destino con ir/llegar, hora), en (lugar sin movimiento, transporte, meses) y de (origen, posesión, material), contracciones al/del; no por/para ni a personal.",
+      "examples": [
+        {
+          "wrong": "Mañana voy en Barcelona con mi familia.",
+          "correct": "Mañana voy a Barcelona con mi familia.",
+          "note": "Con movimiento hacia un lugar va a."
+        },
+        {
+          "wrong": "Ahora estoy a casa de mi madre.",
+          "correct": "Ahora estoy en casa de mi madre.",
+          "note": "Para un lugar fijo se usa en."
+        },
+        {
+          "wrong": "Mi compañero es en Perú.",
+          "correct": "Mi compañero es de Perú.",
+          "note": "El origen se expresa con de."
+        },
+        {
+          "wrong": "La clase empieza en las nueve.",
+          "correct": "La clase empieza a las nueve.",
+          "note": "La hora va con a."
+        },
+        {
+          "wrong": "Nosotros vamos al trabajo a autobús.",
+          "correct": "Nosotros vamos al trabajo en autobús.",
+          "note": "El transporte va con en."
+        },
+        {
+          "wrong": "¿Tienes el número de el médico?",
+          "correct": "¿Tienes el número del médico?",
+          "note": "De más el se contrae en del."
+        },
+        {
+          "wrong": "Mis padres llegan en el aeropuerto a las seis.",
+          "correct": "Mis padres llegan al aeropuerto a las seis.",
+          "note": "Llegar se construye con a."
+        },
+        {
+          "wrong": "Mi cumpleaños es a julio.",
+          "correct": "Mi cumpleaños es en julio.",
+          "note": "Los meses van con en."
+        },
+        {
+          "wrong": "Quiero una mesa en madera para la cocina.",
+          "correct": "Quiero una mesa de madera para la cocina.",
+          "note": "El material se expresa con de."
+        },
+        {
+          "wrong": "Trabajo en lunes a viernes.",
+          "correct": "Trabajo de lunes a viernes.",
+          "note": "Inicio y fin: de... a."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.prepositions",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.question_word_order",
+      "title": "Orden de palabras en preguntas",
+      "description": "**La idea.** En una pregunta con palabra interrogativa, el verbo va justo detrás de esa palabra y el sujeto va después. En las preguntas de sí o no basta la entonación y los signos; el orden puede quedar igual que en la afirmación.\n\n**La forma:**\n- Pregunta parcial: `¿` + palabra interrogativa + verbo + sujeto + resto `?`.\n- Con preposición: la preposición va delante de la palabra interrogativa (`¿de dónde...?`, `¿con quién...?`, `¿a qué hora...?`).\n- Pregunta total: `¿` + oración normal + `?`, con entonación subiendo; también verbo + sujeto.\n- Negativa: `¿no` + verbo...`?`.\n- Signo `¿` al principio y `?` al final, siempre los dos.\n\n**Cuándo se usa:**\n- Preguntas con qué, dónde, cuándo, cómo, quién, cuánto.\n- Preguntas de sí o no: ¿tienes...?, ¿vas...?\n\n**Cuándo NO se usa.** En preguntas indirectas (no sé dónde vive Ana) el orden es el mismo, pero no hay signos. No se añade un verbo auxiliar para preguntar: el verbo principal hace todo el trabajo.\n\n**Errores típicos:**\n- Poner el sujeto entre la palabra interrogativa y el verbo (¿dónde tu hermano vive?).\n- Dejar la preposición al final de la pregunta (¿quién vives con?).\n- Olvidar el signo de apertura `¿`.\n- Añadir un verbo extra como `hacer` o `ser` para formar la pregunta.\n\n**Registro y uso.** En el habla del Caribe se oye a veces ¿qué tú quieres?; en el estándar el sujeto va detrás del verbo.",
+      "llmDescription": "Orden de la pregunta: palabra interrogativa + verbo + sujeto, preposición delante (¿de dónde?, ¿con quién?), signos ¿?; no la tilde de las interrogativas ni preguntas indirectas.",
+      "examples": [
+        {
+          "wrong": "¿Dónde tu hermano vive?",
+          "correct": "¿Dónde vive tu hermano?",
+          "note": "El verbo va detrás de dónde."
+        },
+        {
+          "wrong": "¿Quién vives con?",
+          "correct": "¿Con quién vives?",
+          "note": "La preposición va delante de quién."
+        },
+        {
+          "wrong": "¿Qué hora empieza la película a?",
+          "correct": "¿A qué hora empieza la película?",
+          "note": "A va al principio de la pregunta."
+        },
+        {
+          "wrong": "Tienes hijos?",
+          "correct": "¿Tienes hijos?",
+          "note": "Falta el signo de apertura."
+        },
+        {
+          "wrong": "¿Cuánto el billete cuesta?",
+          "correct": "¿Cuánto cuesta el billete?",
+          "note": "El sujeto va después del verbo."
+        },
+        {
+          "wrong": "¿Dónde eres de?",
+          "correct": "¿De dónde eres?",
+          "note": "De va delante de dónde."
+        },
+        {
+          "wrong": "¿Qué ustedes quieren para cenar?",
+          "correct": "¿Qué quieren ustedes para cenar?",
+          "note": "El sujeto va detrás del verbo."
+        },
+        {
+          "wrong": "¿Cómo tu perro se llama?",
+          "correct": "¿Cómo se llama tu perro?",
+          "note": "Pronombre y verbo van detrás de cómo."
+        },
+        {
+          "wrong": "¿Por qué los niños están tristes?",
+          "correct": "¿Por qué están tristes los niños?",
+          "note": "El verbo sigue a la palabra interrogativa."
+        },
+        {
+          "wrong": "¿Cuándo tus padres llegan a Madrid?",
+          "correct": "¿Cuándo llegan tus padres a Madrid?",
+          "note": "El verbo va detrás de cuándo."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.questions",
+        "es.tag.asking_questions",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.muy_vs_mucho",
+      "title": "Muy o mucho",
+      "description": "**La idea.** `Muy` y `mucho` expresan gran cantidad o intensidad, pero acompañan a palabras distintas. `Muy` intensifica adjetivos y adverbios; `mucho` acompaña a sustantivos y verbos.\n\n**La forma:**\n- `muy` + adjetivo: muy alto, muy cansada.\n- `muy` + adverbio: muy bien, muy lejos, muy tarde.\n- `mucho, mucha, muchos, muchas` + sustantivo, con concordancia: mucho tiempo, mucha gente, muchos libros.\n- verbo + `mucho` (invariable): trabajo mucho, llueve mucho.\n- `mucho` solo como respuesta: ¿te gusta? Sí, mucho.\n- Negativo: `no` + verbo + `mucho`; `no muy` + adjetivo.\n\n**Cuándo se usa:**\n- Para describir con intensidad: `muy`.\n- Para hablar de cantidad de cosas: `mucho/a/os/as`.\n- Para decir que una acción pasa con intensidad o frecuencia: verbo + `mucho`.\n\n**Cuándo NO se usa.** `Muy` nunca va solo ni delante de un sustantivo o verbo. Prueba rápida: si la palabra siguiente es un adjetivo o adverbio, `muy`; si es un sustantivo o va detrás de un verbo, `mucho`.\n\n**Errores típicos:**\n- Decir `muy` detrás del verbo (me gusta muy), porque en el fondo significan lo mismo.\n- Usar `mucho` delante de adjetivo (mucho caro).\n- No hacer concordar `mucho` con el sustantivo (mucho personas).\n- Responder solo `muy`.\n\n**Excepciones y datos útiles:**\n- Con `mejor, peor, mayor, menor, más, menos` se usa `mucho`: mucho mejor, mucho más.\n- `Muchísimo` es la forma intensiva de `mucho`.",
+      "llmDescription": "Elección entre muy (delante de adjetivo o adverbio) y mucho/mucha/muchos/muchas (con sustantivo, detrás del verbo, con mejor/más); no cuantificadores indefinidos ni tener + mucho.",
+      "examples": [
+        {
+          "wrong": "Me gusta muy esta canción.",
+          "correct": "Me gusta mucho esta canción.",
+          "note": "Detrás del verbo se usa mucho."
+        },
+        {
+          "wrong": "Este restaurante es mucho caro.",
+          "correct": "Este restaurante es muy caro.",
+          "note": "Delante de adjetivo se usa muy."
+        },
+        {
+          "wrong": "Hay mucho personas en la playa.",
+          "correct": "Hay muchas personas en la playa.",
+          "note": "Mucho concuerda con personas."
+        },
+        {
+          "wrong": "Mi hermano trabaja muy los sábados.",
+          "correct": "Mi hermano trabaja mucho los sábados.",
+          "note": "Con verbo se usa mucho."
+        },
+        {
+          "wrong": "¿Te duele? —Sí, muy.",
+          "correct": "¿Te duele? —Sí, mucho.",
+          "note": "Muy no puede ir solo."
+        },
+        {
+          "wrong": "Hoy estamos mucho cansados.",
+          "correct": "Hoy estamos muy cansados.",
+          "note": "Con adjetivo se usa muy."
+        },
+        {
+          "wrong": "Ahora hablas muy mejor que antes.",
+          "correct": "Ahora hablas mucho mejor que antes.",
+          "note": "Con mejor se usa mucho."
+        },
+        {
+          "wrong": "No tengo muy tiempo esta semana.",
+          "correct": "No tengo mucho tiempo esta semana.",
+          "note": "Delante de sustantivo se usa mucho."
+        },
+        {
+          "wrong": "Ellos viven mucho lejos del centro.",
+          "correct": "Ellos viven muy lejos del centro.",
+          "note": "Con adverbio se usa muy."
+        },
+        {
+          "wrong": "Bebe muchos agua cuando haces deporte.",
+          "correct": "Bebe mucha agua cuando haces deporte.",
+          "note": "Agua es femenino singular: mucha."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.quantifiers",
+        "es.tag.describing_things",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.verb_plus_infinitive",
+      "title": "Verbo conjugado más infinitivo",
+      "description": "**La idea.** Cuando un verbo como `querer` o `poder` lleva otro verbo, solo el primero se conjuga; el segundo queda en infinitivo. El primer verbo dice la actitud (deseo, capacidad, necesidad) y el infinitivo dice la acción.\n\n**La forma:**\n- verbo conjugado + infinitivo, sin preposición: `querer, poder, necesitar, preferir, deber, saber, pensar` (planear), `esperar`.\n- El sujeto es el mismo para los dos verbos.\n- Negación: `no` + verbo conjugado + infinitivo.\n- Pregunta: `¿quieres venir?`, `¿puedes ayudar?`.\n- Pronombres: delante del verbo conjugado o pegados al infinitivo (lo quiero ver, quiero verlo).\n\n**Cuándo se usa:**\n- Deseo: quiero, prefiero.\n- Capacidad o permiso: puedo, sé.\n- Necesidad: necesito, debo.\n- Planes: pienso, espero.\n\n**Cuándo NO se usa.** Otros verbos piden preposición: `empezar a`, `aprender a`, `tratar de`, `ir a`. Si los sujetos son distintos se usa `que` + otra forma, no el infinitivo. Prueba rápida: un solo sujeto y verbo de la lista, infinitivo directo.\n\n**Errores típicos:**\n- Conjugar los dos verbos (quiero como), porque los dos tienen el mismo sujeto.\n- Añadir una preposición que no hace falta (quiero a ir, necesito de estudiar).\n- Poner el infinitivo con `-ndo` (puedo cantando).\n- Colocar el pronombre entre los dos verbos sin pegarlo (quiero lo ver).\n\n**Registro y uso.** Es una de las construcciones más frecuentes de la lengua hablada.",
+      "llmDescription": "Querer, poder, necesitar, preferir, deber, saber, pensar + infinitivo sin preposición y con un solo verbo conjugado; no ir a + infinitivo ni perífrasis con a/de.",
+      "examples": [
+        {
+          "wrong": "Quiero como paella esta noche.",
+          "correct": "Quiero comer paella esta noche.",
+          "note": "El segundo verbo va en infinitivo."
+        },
+        {
+          "wrong": "¿Puedes me ayudas con la maleta?",
+          "correct": "¿Puedes ayudarme con la maleta?",
+          "note": "Tras poder va infinitivo con el pronombre pegado."
+        },
+        {
+          "wrong": "Necesito de estudiar para el examen.",
+          "correct": "Necesito estudiar para el examen.",
+          "note": "Necesitar no lleva preposición."
+        },
+        {
+          "wrong": "Mi hija sabe nada muy bien.",
+          "correct": "Mi hija sabe nadar muy bien.",
+          "note": "Tras saber va infinitivo: nadar."
+        },
+        {
+          "wrong": "No queremos a salir hoy.",
+          "correct": "No queremos salir hoy.",
+          "note": "Querer va sin preposición."
+        },
+        {
+          "wrong": "Prefiero viajando en tren.",
+          "correct": "Prefiero viajar en tren.",
+          "note": "Se usa infinitivo, no gerundio."
+        },
+        {
+          "wrong": "Ustedes deben llegan a las ocho.",
+          "correct": "Ustedes deben llegar a las ocho.",
+          "note": "Solo deber se conjuga."
+        },
+        {
+          "wrong": "Quiero lo ver ahora mismo.",
+          "correct": "Quiero verlo ahora mismo.",
+          "note": "El pronombre se pega al infinitivo."
+        },
+        {
+          "wrong": "Pienso visito a mis abuelos en verano.",
+          "correct": "Pienso visitar a mis abuelos en verano.",
+          "note": "Tras pensar va infinitivo."
+        },
+        {
+          "wrong": "¿Podéis cerráis la ventana, por favor?",
+          "correct": "¿Podéis cerrar la ventana, por favor?",
+          "note": "Tras poder el verbo no se conjuga."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.major",
+        "es.tag.verbal_periphrases",
+        "es.tag.sentence_building",
+        "es.tag.ability_possibility",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.weather_hacer",
+      "title": "El tiempo atmosférico",
+      "description": "**La idea.** Para hablar del tiempo que hace se usan verbos sin sujeto: no hay ninguna persona ni cosa que haga la acción. El verbo va siempre en tercera persona del singular.\n\n**La forma:**\n- `hace` + sustantivo: hace frío, hace calor, hace sol, hace viento, hace buen tiempo, hace mal tiempo.\n- Grado con `mucho/mucha`: hace mucho frío, hace mucho viento.\n- Verbos propios: `llueve` (llover), `nieva` (nevar); en curso: está lloviendo.\n- `está` + adjetivo: está nublado, está despejado.\n- `hay` + sustantivo: hay niebla, hay tormenta.\n- Negación: no hace frío, no llueve.\n- Pregunta: `¿qué tiempo hace?`.\n\n**Cuándo se usa:**\n- Para describir el tiempo de hoy, de una estación o de un lugar.\n- Con expresiones como hoy, en invierno, en el norte.\n\n**Cuándo NO se usa.** Si es la sensación de una persona se usa `tener` (tengo frío); si es una cosa, `estar` (la sopa está fría). Prueba rápida: ¿el día? `hace`; ¿la persona? `tener`; ¿la cosa? `estar`.\n\n**Errores típicos:**\n- Usar `es` o `está` con frío, calor o sol (es frío, está sol).\n- Poner un sujeto como `él` o `ello` delante del verbo.\n- Usar `muy` con estos sustantivos (hace muy frío); va `mucho`.\n- Poner el verbo en plural (hacen frío, llueven).\n\n**Excepciones y datos útiles:**\n- `Hace` también va con años: hace un año (tiempo pasado), es otra construcción.\n- En pasado: hacía frío, llovió, nevaba.",
+      "llmDescription": "Expresiones del tiempo atmosférico: hace frío/calor/sol/viento con mucho, llueve, nieva, está nublado, hay niebla, sin sujeto y en singular; no tener frío de persona.",
+      "examples": [
+        {
+          "wrong": "Hoy es mucho frío en Madrid.",
+          "correct": "Hoy hace mucho frío en Madrid.",
+          "note": "El frío del día se dice con hacer."
+        },
+        {
+          "wrong": "En verano está sol todos los días.",
+          "correct": "En verano hace sol todos los días.",
+          "note": "Sol va con hace."
+        },
+        {
+          "wrong": "¿Qué tiempo es hoy?",
+          "correct": "¿Qué tiempo hace hoy?",
+          "note": "La pregunta es qué tiempo hace."
+        },
+        {
+          "wrong": "En el norte llueven mucho.",
+          "correct": "En el norte llueve mucho.",
+          "note": "Llover va siempre en singular."
+        },
+        {
+          "wrong": "Hace muy calor en la cocina.",
+          "correct": "Hace mucho calor en la cocina.",
+          "note": "Con calor se usa mucho."
+        },
+        {
+          "wrong": "No vamos a la playa porque hace nublado.",
+          "correct": "No vamos a la playa porque está nublado.",
+          "note": "Nublado es adjetivo: va con está."
+        },
+        {
+          "wrong": "Él nieva en las montañas.",
+          "correct": "Nieva en las montañas.",
+          "note": "Nevar no lleva sujeto."
+        },
+        {
+          "wrong": "Hoy es buen tiempo para pasear.",
+          "correct": "Hoy hace buen tiempo para pasear.",
+          "note": "Buen tiempo va con hace."
+        },
+        {
+          "wrong": "Hacen viento en la costa esta tarde.",
+          "correct": "Hace viento en la costa esta tarde.",
+          "note": "Hacer va en singular."
+        },
+        {
+          "wrong": "Cuidado con el coche, es niebla.",
+          "correct": "Cuidado con el coche, hay niebla.",
+          "note": "Niebla va con hay."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a1",
+        "es.tag.minor",
+        "es.tag.copular_verbs",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -943,7 +1749,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.minor",
-        "es.tag.determiners"
+        "es.tag.determiners",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1006,7 +1814,10 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.critical",
-        "es.tag.object_pronouns"
+        "es.tag.object_pronouns",
+        "es.tag.talking_about_present",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1069,7 +1880,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.major",
-        "es.tag.present_tense"
+        "es.tag.present_tense",
+        "es.tag.talking_about_present",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1132,7 +1945,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.major",
-        "es.tag.reflexive_verbs"
+        "es.tag.reflexive_verbs",
+        "es.tag.talking_about_present",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1195,7 +2010,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.major",
-        "es.tag.past_tenses"
+        "es.tag.past_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1258,7 +2075,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.major",
-        "es.tag.past_tenses"
+        "es.tag.past_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1321,7 +2140,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.minor",
-        "es.tag.comparison"
+        "es.tag.comparison",
+        "es.tag.comparing",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1384,7 +2205,9 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.major",
-        "es.tag.verbal_periphrases"
+        "es.tag.verbal_periphrases",
+        "es.tag.talking_about_future",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1447,7 +2270,790 @@
       "tagIds": [
         "es.tag.a2",
         "es.tag.major",
-        "es.tag.verbal_periphrases"
+        "es.tag.verbal_periphrases",
+        "es.tag.talking_about_present",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.tener_que_hay_que",
+      "title": "Tener que y hay que",
+      "description": "**La idea.** Para decir que algo es necesario se usa `tener que` + infinitivo cuando hablamos de una persona concreta, y `hay que` + infinitivo cuando la obligación es general, para todos.\n\n**La forma:**\n- `tener` conjugado + `que` + infinitivo: tengo que, tienes que, tiene que, tenemos que, tenéis que, tienen que.\n- `hay que` + infinitivo: forma única, sin sujeto.\n- Negación: `no tener que` = no es necesario; `no hay que` = no conviene o no es necesario en general.\n- Pregunta: `¿tienes que...?`, `¿hay que...?`.\n- Pasado: tuve que, tenía que, había que.\n\n**Cuándo se usa:**\n- Obligación personal: tengo que trabajar el sábado.\n- Norma general o consejo para todos: hay que reciclar.\n- Con `mañana`, `hoy`, `antes de`, `siempre` según el contexto.\n\n**Cuándo NO se usa.** `Deber` + infinitivo suena más a obligación moral o consejo; `necesitar` + infinitivo habla de necesidad personal. Prueba rápida: si hay un sujeto concreto, `tener que`; si es para todo el mundo, `hay que`.\n\n**Errores típicos:**\n- Olvidar `que` (tengo trabajar), por analogía con `quiero trabajar`.\n- Poner `de` en lugar de `que` (tengo de ir).\n- Conjugar `hay` con un sujeto (hay que yo estudio, hayn que).\n- Usar `hay que` con un sujeto personal: para personas se usa `tener que`.\n\n**Registro y uso.** Las dos formas son muy frecuentes en la conversación diaria.",
+      "llmDescription": "Obligación con tener que + infinitivo (persona concreta) y hay que + infinitivo (impersonal, general), con que obligatorio; no deber + infinitivo ni hay de existencia.",
+      "examples": [
+        {
+          "wrong": "Mañana tengo trabajar hasta las diez.",
+          "correct": "Mañana tengo que trabajar hasta las diez.",
+          "note": "Falta que después de tener."
+        },
+        {
+          "wrong": "Para entrar al museo tiene que pagar todos.",
+          "correct": "Para entrar al museo hay que pagar.",
+          "note": "Para una norma general se usa hay que."
+        },
+        {
+          "wrong": "¿Tienes de salir ahora?",
+          "correct": "¿Tienes que salir ahora?",
+          "note": "La forma es tener que, no tener de."
+        },
+        {
+          "wrong": "Mis hijos tienen que hacen los deberes.",
+          "correct": "Mis hijos tienen que hacer los deberes.",
+          "note": "Tras tener que va infinitivo."
+        },
+        {
+          "wrong": "Hay que yo estudio más para el examen.",
+          "correct": "Tengo que estudiar más para el examen.",
+          "note": "Con sujeto personal se usa tener que."
+        },
+        {
+          "wrong": "En la biblioteca hay hablar en voz baja.",
+          "correct": "En la biblioteca hay que hablar en voz baja.",
+          "note": "Falta que después de hay."
+        },
+        {
+          "wrong": "No tienes que preocuparte que todo va bien.",
+          "correct": "No tienes que preocuparte, todo va bien.",
+          "note": "Sobra el segundo que."
+        },
+        {
+          "wrong": "Nosotros tenemos que a limpiar la casa.",
+          "correct": "Nosotros tenemos que limpiar la casa.",
+          "note": "Tener que no lleva a."
+        },
+        {
+          "wrong": "Para estar sano hayn que comer fruta.",
+          "correct": "Para estar sano hay que comer fruta.",
+          "note": "Hay no cambia nunca."
+        },
+        {
+          "wrong": "Ayer tengo que llamar al médico.",
+          "correct": "Ayer tuve que llamar al médico.",
+          "note": "Con ayer va tuve que."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.verbal_periphrases",
+        "es.tag.advice_obligation",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.saber_vs_conocer",
+      "title": "Saber o conocer",
+      "description": "**La idea.** Los dos verbos hablan de conocimiento, pero de tipos distintos. `Saber` es tener información o una habilidad; `conocer` es tener experiencia o contacto con una persona, un lugar o una cosa.\n\n**La forma:**\n- `saber`: sé, sabes, sabe, sabemos, sabéis, saben.\n- `conocer`: conozco, conoces, conoce, conocemos, conocéis, conocen.\n- `saber` + infinitivo: habilidad (sé nadar).\n- `saber` + `que`, `si`, `dónde`, `cómo`...: información (sé que, no sé dónde).\n- `conocer` + persona con `a` personal (conozco a Ana).\n- `conocer` + lugar u obra (conozco Roma, conozco esa novela).\n\n**Cuándo se usa:**\n- Datos, respuestas, noticias: `saber`.\n- Habilidades aprendidas: `saber` + infinitivo.\n- Personas, ciudades, restaurantes, obras: `conocer`.\n\n**Cuándo NO se usa.** Prueba rápida: si después viene un infinitivo, `que` o una palabra interrogativa, `saber`; si viene una persona o un lugar, `conocer`.\n\n**Errores típicos:**\n- Usar `conocer` con información (conozco que), porque en otros contextos significan lo mismo.\n- Usar `saber` con personas o ciudades (sé a María, sé Madrid).\n- Olvidar la `a` personal con `conocer` + persona.\n- Usar `poder` para habilidades aprendidas: sé tocar la guitarra.\n\n**Excepciones y datos útiles:**\n- `Conocer` en indefinido significa ver por primera vez (conocí a mi novia en 2019).\n- `Saber` en indefinido significa enterarse (supe la noticia ayer).",
+      "llmDescription": "Elección entre saber (información, saber + infinitivo, saber que/si/dónde) y conocer (personas con a, lugares, obras, experiencia); no poder de capacidad física.",
+      "examples": [
+        {
+          "wrong": "No conozco dónde está la estación.",
+          "correct": "No sé dónde está la estación.",
+          "note": "Con dónde se usa saber."
+        },
+        {
+          "wrong": "¿Sabes a mi hermana Lucía?",
+          "correct": "¿Conoces a mi hermana Lucía?",
+          "note": "Con personas se usa conocer."
+        },
+        {
+          "wrong": "Mi hijo conoce nadar muy bien.",
+          "correct": "Mi hijo sabe nadar muy bien.",
+          "note": "Habilidad con infinitivo: saber."
+        },
+        {
+          "wrong": "Nosotros no sabemos Buenos Aires todavía.",
+          "correct": "Nosotros no conocemos Buenos Aires todavía.",
+          "note": "Con ciudades se usa conocer."
+        },
+        {
+          "wrong": "Conozco que tienes razón.",
+          "correct": "Sé que tienes razón.",
+          "note": "Saber que para información."
+        },
+        {
+          "wrong": "¿Conocéis si hay clase mañana?",
+          "correct": "¿Sabéis si hay clase mañana?",
+          "note": "Con si se usa saber."
+        },
+        {
+          "wrong": "Ella sabe un restaurante muy bueno aquí.",
+          "correct": "Ella conoce un restaurante muy bueno aquí.",
+          "note": "Un lugar concreto: conocer."
+        },
+        {
+          "wrong": "Mis padres no conocen usar el ordenador.",
+          "correct": "Mis padres no saben usar el ordenador.",
+          "note": "Habilidad aprendida: saber."
+        },
+        {
+          "wrong": "¿Conoce usted la respuesta?",
+          "correct": "¿Sabe usted la respuesta?",
+          "note": "Una respuesta es información: saber."
+        },
+        {
+          "wrong": "Quiero saber a tus amigos del trabajo.",
+          "correct": "Quiero conocer a tus amigos del trabajo.",
+          "note": "Con personas se usa conocer."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.verb_pairs",
+        "es.tag.ability_possibility",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.pedir_vs_preguntar",
+      "title": "Pedir o preguntar",
+      "description": "**La idea.** `Preguntar` es buscar información: quiero una respuesta. `Pedir` es solicitar algo: quiero una cosa o un favor. La diferencia está en lo que espero recibir.\n\n**La forma:**\n- `preguntar` (regular): pregunto, preguntas, pregunta...\n- `pedir` (e>i): pido, pides, pide, pedimos, pedís, piden; indefinido pidió, pidieron.\n- `preguntar` + `si`, `qué`, `dónde`, `cuándo`... o `por` + persona o cosa.\n- `pedir` + cosa (pedir la cuenta, pedir ayuda).\n- `pedir` + `que` + subjuntivo para pedir una acción a otra persona.\n- Persona con pronombre indirecto: le pregunto, le pido.\n\n**Cuándo se usa:**\n- Información, datos, opiniones: `preguntar`.\n- Objetos, comida, favores, permiso, dinero: `pedir`.\n- En el restaurante, la comida y la cuenta se piden.\n\n**Cuándo NO se usa.** Prueba rápida: si espero una respuesta con palabras, `preguntar`; si espero una cosa o una acción, `pedir`.\n\n**Errores típicos:**\n- Usar `preguntar` para pedir cosas (preguntar un café), porque los dos son verbos de hablar con alguien.\n- Decir `pedir una pregunta`; lo correcto es `hacer una pregunta`.\n- Olvidar el cambio e>i (pedo, pedió).\n- Usar `preguntar` con `que` + subjuntivo para un favor.\n\n**Excepciones y datos útiles:**\n- `Preguntar por` alguien = interesarse por esa persona.\n- `Pedir perdón` y `pedir disculpas` son expresiones fijas.",
+      "llmDescription": "Elección entre preguntar (información: preguntar si/qué/dónde, preguntar por) y pedir (objetos, favores, comida, pedir que, pedir perdón), hacer una pregunta; no decir.",
+      "examples": [
+        {
+          "wrong": "Voy a preguntar un café con leche.",
+          "correct": "Voy a pedir un café con leche.",
+          "note": "Para solicitar algo se usa pedir."
+        },
+        {
+          "wrong": "Le pedí a Juan dónde vive.",
+          "correct": "Le pregunté a Juan dónde vive.",
+          "note": "Para información se usa preguntar."
+        },
+        {
+          "wrong": "¿Puedo pedirte una pregunta?",
+          "correct": "¿Puedo hacerte una pregunta?",
+          "note": "Una pregunta se hace, no se pide."
+        },
+        {
+          "wrong": "Siempre pedo ayuda a mi hermano.",
+          "correct": "Siempre pido ayuda a mi hermano.",
+          "note": "Pedir cambia e>i: pido."
+        },
+        {
+          "wrong": "Camarero, ¿podemos preguntar la cuenta?",
+          "correct": "Camarero, ¿podemos pedir la cuenta?",
+          "note": "La cuenta se pide."
+        },
+        {
+          "wrong": "Mi jefe me preguntó un informe para mañana.",
+          "correct": "Mi jefe me pidió un informe para mañana.",
+          "note": "Solicitar un trabajo es pedir."
+        },
+        {
+          "wrong": "Ella pedió perdón a sus padres.",
+          "correct": "Ella pidió perdón a sus padres.",
+          "note": "El indefinido es pidió."
+        },
+        {
+          "wrong": "Los turistas nos pidieron si había metro.",
+          "correct": "Los turistas nos preguntaron si había metro.",
+          "note": "Con si se usa preguntar."
+        },
+        {
+          "wrong": "Os pregunto que habléis más despacio.",
+          "correct": "Os pido que habléis más despacio.",
+          "note": "Solicitar una acción es pedir."
+        },
+        {
+          "wrong": "Tu abuela pidió por ti ayer.",
+          "correct": "Tu abuela preguntó por ti ayer.",
+          "note": "Interesarse por alguien: preguntar por."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.verb_pairs",
+        "es.tag.requests_offers_permission",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.indefinite_pronouns",
+      "title": "Alguien, algo, algún y ningún",
+      "description": "**La idea.** Los indefinidos hablan de personas o cosas sin decir cuáles. Cada palabra afirmativa tiene su pareja negativa: alguien/nadie, algo/nada, alguno/ninguno.\n\n**La forma:**\n- Personas: `alguien` / `nadie` (sin sustantivo, invariables).\n- Cosas: `algo` / `nada` (sin sustantivo, invariables).\n- Con sustantivo o elección dentro de un grupo: `alguno, alguna, algunos, algunas` / `ninguno, ninguna`.\n- Delante de sustantivo masculino singular: `algún`, `ningún` (con tilde).\n- `ninguno` casi nunca va en plural: ningún libro, ninguna idea.\n- Con persona como objeto directo: `a alguien`, `a nadie`.\n\n**Cuándo se usa:**\n- Pregunta o afirmación abierta: ¿hay alguien?, quiero algo.\n- Respuesta negativa: no hay nadie, no quiero nada.\n- Parte de un grupo: algunos alumnos, alguna vez.\n\n**Cuándo NO se usa.** Prueba rápida: si la frase es afirmativa o pregunta abierta, `algo/alguien/algún`; si es negativa, `nada/nadie/ningún`. La regla de la doble negación (dónde va `no`) es otro tema.\n\n**Errores típicos:**\n- Usar `alguien` o `algo` en frase negativa (no veo alguien).\n- Decir `alguno` o `ninguno` delante de un sustantivo masculino (ninguno problema).\n- Usar `ningunos` en plural con sustantivos normales.\n- Usar `algo` para personas o `alguien` con un sustantivo (alguien persona).\n\n**Excepciones y datos útiles:**\n- `Ningunas ganas`, `ningunos pantalones`: solo con palabras que siempre van en plural.",
+      "llmDescription": "Indefinidos alguien/nadie, algo/nada, alguno/ninguno con apócope algún/ningún y ninguno en singular, elección afirmativa o negativa; no la posición de no en la doble negación.",
+      "examples": [
+        {
+          "wrong": "No conozco a alguien en esta ciudad.",
+          "correct": "No conozco a nadie en esta ciudad.",
+          "note": "En frase negativa se usa nadie."
+        },
+        {
+          "wrong": "¿Tienes alguno problema con el ordenador?",
+          "correct": "¿Tienes algún problema con el ordenador?",
+          "note": "Delante de masculino singular: algún."
+        },
+        {
+          "wrong": "No hay ningunos tomates en la nevera.",
+          "correct": "No hay ningún tomate en la nevera.",
+          "note": "Ningún va normalmente en singular."
+        },
+        {
+          "wrong": "Ella no quiere comer algo ahora.",
+          "correct": "Ella no quiere comer nada ahora.",
+          "note": "En frase negativa se usa nada."
+        },
+        {
+          "wrong": "¿Hay algo en la puerta? Oigo ruido.",
+          "correct": "¿Hay alguien en la puerta? Oigo ruido.",
+          "note": "Para personas se usa alguien."
+        },
+        {
+          "wrong": "Ninguno alumno ha hecho los deberes.",
+          "correct": "Ningún alumno ha hecho los deberes.",
+          "note": "Delante de alumno: ningún."
+        },
+        {
+          "wrong": "Algunas de mis amigos viven en Lima.",
+          "correct": "Algunos de mis amigos viven en Lima.",
+          "note": "Algunos concuerda con amigos."
+        },
+        {
+          "wrong": "¿Tienes hermanos? —No, no tengo alguno.",
+          "correct": "¿Tienes hermanos? —No, no tengo ninguno.",
+          "note": "En frase negativa se usa ninguno."
+        },
+        {
+          "wrong": "Nosotros no tenemos alguna idea.",
+          "correct": "Nosotros no tenemos ninguna idea.",
+          "note": "En frase negativa se usa ninguna."
+        },
+        {
+          "wrong": "Busco nadie para compartir piso.",
+          "correct": "Busco a alguien para compartir piso.",
+          "note": "Afirmativo: a alguien."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.quantifiers",
+        "es.tag.negating",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.stressed_possessives",
+      "title": "Posesivos tónicos mío, tuyo",
+      "description": "**La idea.** Los posesivos tónicos dicen de quién es algo, pero van después del sustantivo o sin sustantivo. Sirven para responder, para contrastar o para no repetir una palabra.\n\n**La forma:**\n- `mío, mía, míos, mías` (yo).\n- `tuyo, tuya, tuyos, tuyas` (tú).\n- `suyo, suya, suyos, suyas` (él, ella, usted, ellos, ustedes).\n- `nuestro, nuestra, nuestros, nuestras` (nosotros).\n- `vuestro, vuestra, vuestros, vuestras` (vosotros).\n- Concordancia: con la cosa poseída, no con el dueño.\n- Sin sustantivo: artículo + posesivo (el mío, la tuya, los nuestros).\n- Después de `ser`: sin artículo (es mío).\n- Después del sustantivo: un amigo mío.\n\n**Cuándo se usa:**\n- Responder ¿de quién es?: es mío.\n- Evitar repetir: tu coche y el mío.\n- Con artículo indefinido: una amiga suya.\n\n**Cuándo NO se usa.** Delante del sustantivo se usan los átonos `mi, tu, su`. Prueba rápida: si el sustantivo viene después, `mi`; si no hay sustantivo o va antes, `mío`.\n\n**Errores típicos:**\n- Usar `mi` sin sustantivo (es mi), porque es la forma que se aprende primero.\n- Hacer concordar con el dueño (Ana dice: es mía el libro).\n- Olvidar el artículo cuando sustituye al sustantivo (tu casa es más grande que mía).\n- Poner `mío` delante del sustantivo (mío amigo).",
+      "llmDescription": "Posesivos tónicos mío, tuyo, suyo, nuestro, vuestro tras el sustantivo, tras ser o con artículo (el mío), concordando con lo poseído; no los átonos mi, tu, su.",
+      "examples": [
+        {
+          "wrong": "Esta maleta no es mi.",
+          "correct": "Esta maleta no es mía.",
+          "note": "Sin sustantivo se usa el posesivo tónico."
+        },
+        {
+          "wrong": "Tu casa es más grande que mía.",
+          "correct": "Tu casa es más grande que la mía.",
+          "note": "Falta el artículo antes de mía."
+        },
+        {
+          "wrong": "Ayer vi a un amigo tu en el centro.",
+          "correct": "Ayer vi a un amigo tuyo en el centro.",
+          "note": "Detrás del sustantivo va tuyo."
+        },
+        {
+          "wrong": "¿Estos guantes son tuyas?",
+          "correct": "¿Estos guantes son tuyos?",
+          "note": "Concuerda con guantes: tuyos."
+        },
+        {
+          "wrong": "Mi coche es rojo y el suya es azul.",
+          "correct": "Mi coche es rojo y el suyo es azul.",
+          "note": "Suyo concuerda con coche."
+        },
+        {
+          "wrong": "Juan dice que las llaves son suyo.",
+          "correct": "Juan dice que las llaves son suyas.",
+          "note": "Concuerda con llaves, no con Juan."
+        },
+        {
+          "wrong": "Nuestros hijos y los vuestro juegan juntos.",
+          "correct": "Nuestros hijos y los vuestros juegan juntos.",
+          "note": "Falta el plural: vuestros."
+        },
+        {
+          "wrong": "Ese bolígrafo no es tu, es de Pedro.",
+          "correct": "Ese bolígrafo no es tuyo, es de Pedro.",
+          "note": "Tras ser va el posesivo tónico."
+        },
+        {
+          "wrong": "Perdone, ¿este asiento es su?",
+          "correct": "Perdone, ¿este asiento es suyo?",
+          "note": "Tras ser va el posesivo tónico."
+        },
+        {
+          "wrong": "Vuestra casa es bonita, pero la nuestro es más grande.",
+          "correct": "Vuestra casa es bonita, pero la nuestra es más grande.",
+          "note": "Nuestra concuerda con casa."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.determiners",
+        "es.tag.describing_things",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.prepositional_pronouns",
+      "title": "Pronombres con preposición mí, ti",
+      "description": "**La idea.** Después de una preposición, los pronombres de yo y tú cambian de forma: `mí` y `ti`. Las demás personas usan la misma forma que el sujeto. Con `con` hay formas especiales.\n\n**La forma:**\n- Preposición + `mí` (con tilde), `ti` (sin tilde), `él, ella, usted, nosotros, vosotros, ellos, ellas, ustedes`.\n- `con` + yo = `conmigo`; `con` + tú = `contigo`.\n- `con` + él/ella reflexivo = `consigo` (registro cuidado).\n- Preposiciones: a, de, para, por, sin, en, sobre, hacia, delante de, cerca de...\n- Reflexivo: `para sí` (culto), normalmente `para él mismo`.\n\n**Cuándo se usa:**\n- Después de cualquier preposición: para mí, de ti, sin ti.\n- Para reforzar pronombres átonos: a mí me gusta, a ti te llamo.\n\n**Cuándo NO se usa.** Algunas palabras llevan `yo` y `tú`: `entre tú y yo`, `según tú`, `excepto yo`, `incluso tú`, `como yo`. Prueba rápida: con preposición normal, `mí/ti`; con entre, según, excepto, como, `yo/tú`.\n\n**Errores típicos:**\n- Usar `yo` o `tú` después de la preposición (para yo), porque es la forma del sujeto.\n- Decir `con mí` o `con ti` en vez de `conmigo`, `contigo`.\n- Escribir `mi` sin tilde: sin tilde es el posesivo.\n- Poner tilde a `ti`, que nunca la lleva.",
+      "llmDescription": "Pronombres tras preposición: mí, ti, conmigo, contigo y él/ella/nosotros; entre tú y yo, según tú; no los átonos me/te ni el posesivo mi.",
+      "examples": [
+        {
+          "wrong": "Este regalo es para yo.",
+          "correct": "Este regalo es para mí.",
+          "note": "Tras preposición se usa mí."
+        },
+        {
+          "wrong": "¿Quieres venir con mí al cine?",
+          "correct": "¿Quieres venir conmigo al cine?",
+          "note": "Con más yo es conmigo."
+        },
+        {
+          "wrong": "No puedo vivir sin tú.",
+          "correct": "No puedo vivir sin ti.",
+          "note": "Tras sin se usa ti."
+        },
+        {
+          "wrong": "Este mensaje es para tí.",
+          "correct": "Este mensaje es para ti.",
+          "note": "Ti nunca lleva tilde."
+        },
+        {
+          "wrong": "A mi me encanta el chocolate.",
+          "correct": "A mí me encanta el chocolate.",
+          "note": "El pronombre mí lleva tilde."
+        },
+        {
+          "wrong": "Mañana voy al médico con ti.",
+          "correct": "Mañana voy al médico contigo.",
+          "note": "Con más tú es contigo."
+        },
+        {
+          "wrong": "Entre ti y mí no hay secretos.",
+          "correct": "Entre tú y yo no hay secretos.",
+          "note": "Con entre se usa tú y yo."
+        },
+        {
+          "wrong": "Mis padres siempre piensan en yo.",
+          "correct": "Mis padres siempre piensan en mí.",
+          "note": "Tras en se usa mí."
+        },
+        {
+          "wrong": "Según ti, ¿quién va a ganar?",
+          "correct": "Según tú, ¿quién va a ganar?",
+          "note": "Con según se usa tú."
+        },
+        {
+          "wrong": "Esta carta es para tú, no para mí.",
+          "correct": "Esta carta es para ti, no para mí.",
+          "note": "Tras para se usa ti."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.personal_pronouns",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.superlatives",
+      "title": "Superlativo relativo y -ísimo",
+      "description": "**La idea.** El superlativo dice que algo está en el punto más alto o más bajo de un grupo. El superlativo absoluto (`-ísimo`) dice solo que algo es extremadamente así, sin compararlo con un grupo.\n\n**La forma:**\n- Relativo: `el, la, los, las` + (sustantivo) + `más`/`menos` + adjetivo + `de` + grupo.\n- Irregulares: `el mejor`, `el peor`, `el mayor`, `el menor`, sin `más`.\n- El grupo va con `de`: el más alto de la clase.\n- Absoluto: adjetivo sin vocal final + `-ísimo, -ísima, -ísimos, -ísimas` (alto > altísimo).\n- Cambios de escritura: rico > riquísimo, largo > larguísimo, feliz > felicísimo.\n- Con oración: el mejor libro que he leído.\n\n**Cuándo se usa:**\n- Comparar uno con todos los del grupo: el más..., de.\n- Intensificar mucho: carísimo, buenísimo.\n\n**Cuándo NO se usa.** El comparativo (más... que) compara solo dos cosas. Prueba rápida: si hay `de` + grupo y artículo delante de `más`, es superlativo; si hay `que` + otra cosa, es comparativo.\n\n**Errores típicos:**\n- Usar `en` o `que` para el grupo (el más alto en la clase, el más alto que todos).\n- Decir `el más bueno` o `el más malo` en lugar de `el mejor`, `el peor`.\n- Juntar `muy` con `-ísimo` (muy altísimo).\n- Olvidar el artículo (es más alto de la clase).\n\n**Excepciones y datos útiles:**\n- Con sustantivo, el artículo va solo una vez: la ciudad más bonita, no la ciudad la más bonita.",
+      "llmDescription": "Superlativo relativo el/la más o menos + adjetivo + de + grupo, el mejor/peor/mayor, y absoluto -ísimo (riquísimo); no comparativo más... que entre dos.",
+      "examples": [
+        {
+          "wrong": "Marta es la más alta en la clase.",
+          "correct": "Marta es la más alta de la clase.",
+          "note": "El grupo va con de."
+        },
+        {
+          "wrong": "Este es el más bueno restaurante del barrio.",
+          "correct": "Este es el mejor restaurante del barrio.",
+          "note": "El superlativo de bueno es el mejor."
+        },
+        {
+          "wrong": "La sopa de tu abuela está muy riquísima.",
+          "correct": "La sopa de tu abuela está riquísima.",
+          "note": "Muy sobra con -ísimo."
+        },
+        {
+          "wrong": "Madrid es la ciudad la más grande de España.",
+          "correct": "Madrid es la ciudad más grande de España.",
+          "note": "El artículo va solo una vez."
+        },
+        {
+          "wrong": "Mi hermano es más joven de la familia.",
+          "correct": "Mi hermano es el más joven de la familia.",
+          "note": "Falta el artículo del superlativo."
+        },
+        {
+          "wrong": "El examen de ayer fue dificilísima.",
+          "correct": "El examen de ayer fue dificilísimo.",
+          "note": "Concuerda con examen, masculino."
+        },
+        {
+          "wrong": "Estos zapatos son carísimas.",
+          "correct": "Estos zapatos son carísimos.",
+          "note": "Carísimos concuerda con zapatos."
+        },
+        {
+          "wrong": "¿Cuál es el río más largo que el mundo?",
+          "correct": "¿Cuál es el río más largo del mundo?",
+          "note": "El grupo va con de."
+        },
+        {
+          "wrong": "Es el peor día que mi vida.",
+          "correct": "Es el peor día de mi vida.",
+          "note": "El grupo va con de, no que."
+        },
+        {
+          "wrong": "Este café está ricísimo.",
+          "correct": "Este café está riquísimo.",
+          "note": "Rico cambia c por qu: riquísimo."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.comparison",
+        "es.tag.comparing",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.acabar_de_infinitive",
+      "title": "Acabar de más infinitivo",
+      "description": "**La idea.** `Acabar de` + infinitivo dice que una acción ha terminado hace muy poco tiempo, justo antes del momento en que hablamos. Es un pasado muy reciente.\n\n**La forma:**\n- `acabar` conjugado + `de` + infinitivo.\n- Presente: acabo, acabas, acaba, acabamos, acabáis, acaban + de + infinitivo.\n- En el pasado: `acababa de` + infinitivo (justo antes de otro momento pasado).\n- Pronombres: delante de `acabar` o pegados al infinitivo (lo acabo de ver, acabo de verlo).\n- Negación: poco frecuente; `no acabo de` + infinitivo tiene otro sentido (no consigo).\n\n**Cuándo se usa:**\n- Acción terminada hace segundos o minutos: acabo de llegar.\n- Con palabras como `ahora mismo`, `justo`.\n- Para explicar una situación actual: acabo de comer, no tengo hambre.\n\n**Cuándo NO se usa.** `Acabar` + sustantivo o `terminar de` = completar algo (acabé el libro). `Ya` + perfecto también es pasado reciente, pero no marca que sea justo ahora. Prueba rápida: si quieres decir hace un momento, `acabo de`.\n\n**Errores típicos:**\n- Olvidar `de` (acabo llegar), por analogía con verbos sin preposición.\n- Poner el segundo verbo en participio o conjugado (acabo de llegado).\n- Usar el indefinido para pasado reciente (acabé de llegar ahora) cuando se quiere decir justo ahora.\n- Usar `acabar de` con tiempo largo (acabo de vivir aquí diez años).\n\n**Excepciones y datos útiles:**\n- `No acabo de entender` = no termino de entender, es otra perífrasis.",
+      "llmDescription": "Acabar de + infinitivo (presente acabo de, pasado acababa de) para acción terminada hace muy poco; no acabar + sustantivo ni no acabar de = no conseguir.",
+      "examples": [
+        {
+          "wrong": "Acabo llegar a casa, te llamo luego.",
+          "correct": "Acabo de llegar a casa, te llamo luego.",
+          "note": "Falta la preposición de."
+        },
+        {
+          "wrong": "¿Ya acabas de comido?",
+          "correct": "¿Ya acabas de comer?",
+          "note": "Tras acabar de va infinitivo."
+        },
+        {
+          "wrong": "Mis padres acaban de salen del hospital.",
+          "correct": "Mis padres acaban de salir del hospital.",
+          "note": "El segundo verbo no se conjuga."
+        },
+        {
+          "wrong": "Acabamos a ver la película, es muy buena.",
+          "correct": "Acabamos de ver la película, es muy buena.",
+          "note": "La preposición es de, no a."
+        },
+        {
+          "wrong": "Cuando llegué, el tren acabó de salir.",
+          "correct": "Cuando llegué, el tren acababa de salir.",
+          "note": "En el pasado se usa acababa de."
+        },
+        {
+          "wrong": "Acabo de lo leer y me encanta.",
+          "correct": "Acabo de leerlo y me encanta.",
+          "note": "El pronombre va pegado al infinitivo."
+        },
+        {
+          "wrong": "Ella acaba de terminando el informe.",
+          "correct": "Ella acaba de terminar el informe.",
+          "note": "Se usa infinitivo, no gerundio."
+        },
+        {
+          "wrong": "¿Acabáis llegar del aeropuerto?",
+          "correct": "¿Acabáis de llegar del aeropuerto?",
+          "note": "Falta de antes del infinitivo."
+        },
+        {
+          "wrong": "Perdón, acabo por despertarme.",
+          "correct": "Perdón, acabo de despertarme.",
+          "note": "Acabar por es otra perífrasis."
+        },
+        {
+          "wrong": "El médico acaba de llamaste hace un minuto.",
+          "correct": "El médico acaba de llamarte hace un minuto.",
+          "note": "Infinitivo con pronombre: llamarte."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.verbal_periphrases",
+        "es.tag.talking_about_past",
+        "es.tag.common"
+      ]
+    },
+    {
+      "id": "es.rule.hace_ago",
+      "title": "Hace con expresiones de tiempo",
+      "description": "**La idea.** `Hace` + cantidad de tiempo sitúa un hecho pasado contando desde hoy hacia atrás. El verbo `hacer` aquí no significa hacer algo: solo mide el tiempo.\n\n**La forma:**\n- `hace` + cantidad de tiempo: hace dos días, hace un año, hace mucho tiempo.\n- `hace` no cambia: hace tres semanas, nunca hacen.\n- Con verbo en indefinido normalmente: llegué hace una hora.\n- Posición: al final o al principio (hace un año fui a Perú).\n- Pregunta: `¿cuánto tiempo hace que...?`.\n- Sin preposición delante: nunca `en hace` ni `por hace`.\n\n**Cuándo se usa:**\n- Hechos terminados en un momento pasado: hace dos años me casé.\n- Para responder ¿cuándo?\n\n**Cuándo NO se usa.** Para algo que empezó y sigue ahora se usa `desde hace` con presente (vivo aquí desde hace dos años). Para una fecha concreta se usa `en` o `el` (en 2020, el lunes). Prueba rápida: si cuentas hacia atrás desde hoy, `hace`; si das una fecha, no.\n\n**Errores típicos:**\n- Poner `hace` detrás de la cantidad (dos años hace) o añadir `atrás` sin necesidad (hace dos años atrás).\n- Concordar `hace` en plural (hacen tres días).\n- Usar `antes` con una cantidad desde hoy (dos años antes) cuando el punto es hoy.\n- Usar presente con `hace` para hechos terminados.\n\n**Excepciones y datos útiles:**\n- `Hace poco` = recientemente; `hace un rato` = hace unos minutos.\n- En pasado narrativo se usa `hacía` (hacía años que no la veía).",
+      "llmDescription": "Hace + cantidad de tiempo para situar un hecho pasado desde hoy (llegué hace una hora), invariable, sin preposición; no desde hace con presente ni antes.",
+      "examples": [
+        {
+          "wrong": "Llegué a Madrid dos años hace.",
+          "correct": "Llegué a Madrid hace dos años.",
+          "note": "Hace va delante de la cantidad."
+        },
+        {
+          "wrong": "Hacen tres días que no llueve.",
+          "correct": "Hace tres días que no llueve.",
+          "note": "Hace no se pone en plural."
+        },
+        {
+          "wrong": "Mi abuelo murió en hace cinco años.",
+          "correct": "Mi abuelo murió hace cinco años.",
+          "note": "Hace no lleva preposición."
+        },
+        {
+          "wrong": "Conocí a Pablo diez años antes.",
+          "correct": "Conocí a Pablo hace diez años.",
+          "note": "Contando desde hoy se usa hace."
+        },
+        {
+          "wrong": "¿Cuánto tiempo hace que llegas?",
+          "correct": "¿Cuánto tiempo hace que llegaste?",
+          "note": "Para un hecho terminado va indefinido."
+        },
+        {
+          "wrong": "Ella empezó a trabajar aquí hace un mes atrás.",
+          "correct": "Ella empezó a trabajar aquí hace un mes.",
+          "note": "Atrás sobra con hace."
+        },
+        {
+          "wrong": "Hace un rato hablo con tu madre.",
+          "correct": "Hace un rato hablé con tu madre.",
+          "note": "Con hace va pasado, no presente."
+        },
+        {
+          "wrong": "Nos mudamos a esta casa por hace un año.",
+          "correct": "Nos mudamos a esta casa hace un año.",
+          "note": "Sobra la preposición por."
+        },
+        {
+          "wrong": "¿Comprasteis el coche hacen dos meses?",
+          "correct": "¿Comprasteis el coche hace dos meses?",
+          "note": "Hace es invariable."
+        },
+        {
+          "wrong": "Terminé la carrera desde hace tres años.",
+          "correct": "Terminé la carrera hace tres años.",
+          "note": "Hecho terminado: hace, no desde hace."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.past_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.tambien_tampoco",
+      "title": "También y tampoco",
+      "description": "**La idea.** `También` muestra acuerdo con una idea afirmativa; `tampoco`, con una idea negativa. Para mostrar desacuerdo se usan `sí` y `no`.\n\n**La forma:**\n- Acuerdo con afirmación: `yo también`, `también` + verbo.\n- Acuerdo con negación: `yo tampoco`, `tampoco` + verbo, o `no` + verbo + `tampoco`.\n- Desacuerdo: afirmación + `yo no`; negación + `yo sí`.\n- Con verbos como gustar: `a mí también`, `a mí tampoco`, `a mí sí`, `a mí no`.\n- `tampoco` delante del verbo no lleva `no`; detrás del verbo, sí: no voy tampoco.\n\n**Cuándo se usa:**\n- Respuestas cortas: —Tengo hambre. —Yo también.\n- Añadir otra cosa negativa: no fuma ni bebe; tampoco bebe.\n\n**Cuándo NO se usa.** `También` nunca responde a una frase negativa. Prueba rápida: frase anterior con `no` > `tampoco` o `sí`; frase sin `no` > `también` o `no`.\n\n**Errores típicos:**\n- Responder `yo también no` o `yo también` a una frase negativa.\n- Usar `yo` con gustar (yo también) en vez de `a mí también`.\n- Poner `no` antes de `tampoco` delante del verbo (no tampoco voy).\n- Responder `yo sí` a una frase afirmativa.",
+      "llmDescription": "Acuerdo y desacuerdo con también (afirmativo), tampoco (negativo), sí/no; a mí también/tampoco con gustar; tampoco delante del verbo sin no; no doble negación general.",
+      "examples": [
+        {
+          "wrong": "—No me gusta el café. —A mí también.",
+          "correct": "—No me gusta el café. —A mí tampoco.",
+          "note": "Acuerdo con algo negativo: tampoco."
+        },
+        {
+          "wrong": "—Yo no hablo francés. —Yo también no.",
+          "correct": "—Yo no hablo francés. —Yo tampoco.",
+          "note": "La forma correcta es yo tampoco."
+        },
+        {
+          "wrong": "—Me encanta esta serie. —Yo también.",
+          "correct": "—Me encanta esta serie. —A mí también.",
+          "note": "Con encantar se responde a mí."
+        },
+        {
+          "wrong": "Mi hermano no come carne y no tampoco come pescado.",
+          "correct": "Mi hermano no come carne y tampoco come pescado.",
+          "note": "Tampoco delante del verbo va sin no."
+        },
+        {
+          "wrong": "—Vivo en el centro. —Yo sí.",
+          "correct": "—Vivo en el centro. —Yo también.",
+          "note": "Acuerdo con frase afirmativa: también."
+        },
+        {
+          "wrong": "—No tengo coche. —Yo tampoco tengo no.",
+          "correct": "—No tengo coche. —Yo tampoco tengo.",
+          "note": "Sobra el no final."
+        },
+        {
+          "wrong": "—Nosotros no vamos a la fiesta. —Nosotros también.",
+          "correct": "—Nosotros no vamos a la fiesta. —Nosotros tampoco.",
+          "note": "Respuesta a frase negativa: tampoco."
+        },
+        {
+          "wrong": "—A mí no me duele nada. —A mí también no.",
+          "correct": "—A mí no me duele nada. —A mí tampoco.",
+          "note": "La forma es a mí tampoco."
+        },
+        {
+          "wrong": "Ella tampoco no sabe la respuesta.",
+          "correct": "Ella tampoco sabe la respuesta.",
+          "note": "Tampoco delante del verbo no lleva no."
+        },
+        {
+          "wrong": "—No me gustan los lunes. —A mí no.",
+          "correct": "—No me gustan los lunes. —A mí tampoco.",
+          "note": "Para estar de acuerdo se usa tampoco."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.quantifiers",
+        "es.tag.negation",
+        "es.tag.negating",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.adjective_apocope",
+      "title": "Apócope buen, gran, primer",
+      "description": "**La idea.** Algunos adjetivos pierden su final cuando van delante de un sustantivo. Es una forma corta que se usa solo en esa posición; detrás del sustantivo la forma es completa.\n\n**La forma:**\n- `bueno` > `buen`, `malo` > `mal` delante de masculino singular.\n- `primero` > `primer`, `tercero` > `tercer` delante de masculino singular.\n- `grande` > `gran` delante de singular, masculino y femenino.\n- `alguno` > `algún`, `ninguno` > `ningún` (masculino singular).\n- `santo` > `san` delante de nombres de santos (salvo Tomás, Domingo).\n- `ciento` > `cien` delante de sustantivo y de mil.\n- Femenino y plural no se acortan: buena casa, buenos días (salvo `gran`).\n\n**Cuándo se usa:**\n- Adjetivo delante de un sustantivo de la lista: buen día, mal momento, primer piso.\n\n**Cuándo NO se usa.** Detrás del sustantivo o detrás de `ser`: un día bueno, es el primero. Prueba rápida: si el sustantivo masculino singular viene justo después, forma corta; si no, forma completa.\n\n**Errores típicos:**\n- Usar la forma completa delante (un bueno amigo), porque es la forma del diccionario.\n- Acortar en femenino (buen idea, primer vez).\n- Acortar sin sustantivo (es muy buen).\n- Olvidar que `gran` antes del sustantivo significa importante y `grande` después significa de tamaño grande.",
+      "llmDescription": "Apócope ante sustantivo: buen, mal, primer, tercer, gran, san, cien; forma completa en femenino, en plural, detrás del sustantivo o tras ser; no algún/ningún de indefinidos.",
+      "examples": [
+        {
+          "wrong": "Carlos es un bueno amigo.",
+          "correct": "Carlos es un buen amigo.",
+          "note": "Delante de masculino singular: buen."
+        },
+        {
+          "wrong": "Vivo en el primero piso.",
+          "correct": "Vivo en el primer piso.",
+          "note": "Delante del sustantivo: primer."
+        },
+        {
+          "wrong": "¡Qué buen idea has tenido!",
+          "correct": "¡Qué buena idea has tenido!",
+          "note": "En femenino no hay apócope."
+        },
+        {
+          "wrong": "Es la primer vez que viajo sola.",
+          "correct": "Es la primera vez que viajo sola.",
+          "note": "En femenino se dice primera."
+        },
+        {
+          "wrong": "Hoy hace un tiempo muy buen.",
+          "correct": "Hoy hace un tiempo muy bueno.",
+          "note": "Detrás del sustantivo: bueno."
+        },
+        {
+          "wrong": "Fue un grande error no llamarte.",
+          "correct": "Fue un gran error no llamarte.",
+          "note": "Delante de sustantivo: gran."
+        },
+        {
+          "wrong": "Tengo ciento euros en la cuenta.",
+          "correct": "Tengo cien euros en la cuenta.",
+          "note": "Delante de sustantivo: cien."
+        },
+        {
+          "wrong": "Estoy de malo humor esta mañana.",
+          "correct": "Estoy de mal humor esta mañana.",
+          "note": "Delante de humor: mal."
+        },
+        {
+          "wrong": "Nuestra oficina está en el tercero piso.",
+          "correct": "Nuestra oficina está en el tercer piso.",
+          "note": "Delante de piso: tercer."
+        },
+        {
+          "wrong": "Este café es muy buen.",
+          "correct": "Este café es muy bueno.",
+          "note": "Sin sustantivo detrás: bueno."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.gender_number",
+        "es.tag.describing_things",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.porque_como_cause",
+      "title": "Causa con porque y como",
+      "description": "**La idea.** `Porque` y `como` explican la causa de algo, pero ocupan lugares distintos. `Como` presenta la causa primero, como algo ya conocido; `porque` la da después, como explicación.\n\n**La forma:**\n- Consecuencia + `porque` + causa (no voy porque estoy enfermo).\n- `Como` + causa + coma + consecuencia (como estoy enfermo, no voy).\n- Pregunta: `¿por qué...?` (dos palabras, con tilde).\n- Respuesta: `porque...` (una palabra, sin tilde).\n- Sustantivo: `el porqué` = la razón.\n- Verbo en indicativo en los dos casos.\n\n**Cuándo se usa:**\n- Explicar después de la información principal: `porque`.\n- Dar la causa al principio de la frase: `como`.\n- Preguntar la causa: `por qué`.\n\n**Cuándo NO se usa.** `Como` causal no va en el medio de la frase; `porque` no suele abrir la frase. Prueba rápida: causa al principio, `como`; causa al final, `porque`.\n\n**Errores típicos:**\n- Empezar la frase con `porque` para dar la causa primero.\n- Poner `como` causal después de la consecuencia.\n- Escribir `por qué` en la respuesta o `porque` en la pregunta.\n- Escribir `porqué` junto y con tilde en lugar de `por qué`.\n\n**Registro y uso.** En la lengua hablada `es que` también da causas como excusa.",
+      "llmDescription": "Causales porque (después de la consecuencia) y como (al principio, con coma), y diferencia por qué/porque/porqué; no ya que, puesto que ni por + sustantivo.",
+      "examples": [
+        {
+          "wrong": "Porque llovía, nos quedamos en casa.",
+          "correct": "Como llovía, nos quedamos en casa.",
+          "note": "Causa al principio de la frase: como."
+        },
+        {
+          "wrong": "No voy a clase como estoy enfermo.",
+          "correct": "No voy a clase porque estoy enfermo.",
+          "note": "Causa al final: porque."
+        },
+        {
+          "wrong": "¿Porque no vienes a la fiesta?",
+          "correct": "¿Por qué no vienes a la fiesta?",
+          "note": "En la pregunta: por qué, separado."
+        },
+        {
+          "wrong": "Estudio español por qué me gusta.",
+          "correct": "Estudio español porque me gusta.",
+          "note": "En la respuesta: porque, junto."
+        },
+        {
+          "wrong": "Porque no tenía dinero, no compré el billete.",
+          "correct": "Como no tenía dinero, no compré el billete.",
+          "note": "Al principio se usa como."
+        },
+        {
+          "wrong": "¿Porqué estás tan triste?",
+          "correct": "¿Por qué estás tan triste?",
+          "note": "La pregunta lleva por qué, separado."
+        },
+        {
+          "wrong": "Ella está cansada como trabaja mucho.",
+          "correct": "Ella está cansada porque trabaja mucho.",
+          "note": "Tras la consecuencia: porque."
+        },
+        {
+          "wrong": "Porque es tarde, tomamos un taxi.",
+          "correct": "Como es tarde, tomamos un taxi.",
+          "note": "Causa primero: como."
+        },
+        {
+          "wrong": "Me llamaron por qué necesitaban ayuda.",
+          "correct": "Me llamaron porque necesitaban ayuda.",
+          "note": "Explicación de la causa: porque."
+        },
+        {
+          "wrong": "¿Sabes porque cerraron la tienda?",
+          "correct": "¿Sabes por qué cerraron la tienda?",
+          "note": "Pregunta indirecta: por qué."
+        }
+      ],
+      "tagIds": [
+        "es.tag.a2",
+        "es.tag.minor",
+        "es.tag.subordination",
+        "es.tag.linking_ideas",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1510,7 +3116,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.past_tenses"
+        "es.tag.past_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1573,7 +3181,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.past_tenses"
+        "es.tag.past_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1636,7 +3246,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.compound_tenses"
+        "es.tag.compound_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1699,7 +3311,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.future_conditional"
+        "es.tag.future_conditional",
+        "es.tag.talking_about_future",
+        "es.tag.common"
       ]
     },
     {
@@ -1762,7 +3376,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.copular_verbs"
+        "es.tag.copular_verbs",
+        "es.tag.describing_things",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1825,7 +3441,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.object_pronouns"
+        "es.tag.object_pronouns",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1888,7 +3506,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.object_pronouns"
+        "es.tag.object_pronouns",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
       ]
     },
     {
@@ -1951,7 +3571,9 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.prepositions"
+        "es.tag.prepositions",
+        "es.tag.linking_ideas",
+        "es.tag.everyday"
       ]
     },
     {
@@ -2014,7 +3636,10 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.imperative"
+        "es.tag.imperative",
+        "es.tag.requests_offers_permission",
+        "es.tag.advice_obligation",
+        "es.tag.everyday"
       ]
     },
     {
@@ -2077,7 +3702,922 @@
       "tagIds": [
         "es.tag.b1",
         "es.tag.major",
-        "es.tag.subjunctive"
+        "es.tag.subjunctive",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.requests_offers_permission",
+        "es.tag.common"
+      ]
+    },
+    {
+      "id": "es.rule.infinitive_vs_que_subjunctive",
+      "title": "Infinitivo o que con subjuntivo",
+      "description": "**La idea.** Con verbos de deseo, preferencia o necesidad, la forma del segundo verbo depende de quién hace la acción. Si es la misma persona que desea, basta el infinitivo; si es otra persona, hace falta `que` + subjuntivo.\n\n**La forma:**\n- Mismo sujeto: verbo de deseo + infinitivo (quiero salir).\n- Sujeto distinto: verbo de deseo + `que` + presente de subjuntivo (quiero que salgas).\n- Verbos típicos: `querer, preferir, desear, necesitar, esperar, odiar, gustar, encantar`.\n- Con pasado o condicional en el verbo principal: `que` + imperfecto de subjuntivo (quería que vinieras).\n- Negación: no quiero ir / no quiero que vayas.\n\n**Cuándo se usa:**\n- Deseos sobre uno mismo: infinitivo.\n- Deseos, peticiones o preferencias sobre otra persona: `que` + subjuntivo.\n- Con gustar: me gusta cocinar / me gusta que cocines tú.\n\n**Cuándo NO se usa.** La formación del subjuntivo es otra regla; aquí solo se decide entre infinitivo y `que`. Prueba rápida: ¿la persona que desea y la que actúa son la misma? Infinitivo. ¿Son distintas? `Que` + subjuntivo.\n\n**Errores típicos:**\n- Usar infinitivo con otro sujeto (quiero tú vienes, quiero venir tú), porque el infinitivo es más fácil.\n- Usar `que` + subjuntivo con el mismo sujeto (quiero que yo vaya).\n- Poner indicativo después de `que` (quiero que vienes).\n- Olvidar `que` entre los dos verbos (espero vengas).",
+      "llmDescription": "Querer, preferir, esperar, necesitar, gustar + infinitivo con el mismo sujeto frente a + que + subjuntivo con sujeto distinto; no la conjugación del subjuntivo.",
+      "examples": [
+        {
+          "wrong": "Quiero tú vienes a mi cumpleaños.",
+          "correct": "Quiero que vengas a mi cumpleaños.",
+          "note": "Sujeto distinto: que más subjuntivo."
+        },
+        {
+          "wrong": "Prefiero que yo me quede en casa.",
+          "correct": "Prefiero quedarme en casa.",
+          "note": "Mismo sujeto: basta el infinitivo."
+        },
+        {
+          "wrong": "Mis padres quieren que estudio medicina.",
+          "correct": "Mis padres quieren que estudie medicina.",
+          "note": "Tras querer que va subjuntivo."
+        },
+        {
+          "wrong": "Espero vengáis pronto a visitarnos.",
+          "correct": "Espero que vengáis pronto a visitarnos.",
+          "note": "Falta que entre los dos verbos."
+        },
+        {
+          "wrong": "¿Necesitas ayudarte yo con la mudanza?",
+          "correct": "¿Necesitas que te ayude con la mudanza?",
+          "note": "Otro sujeto: que más subjuntivo."
+        },
+        {
+          "wrong": "No me gusta que llego tarde a clase.",
+          "correct": "No me gusta llegar tarde a clase.",
+          "note": "Mismo sujeto: infinitivo."
+        },
+        {
+          "wrong": "El médico quiere que mi padre deja de fumar.",
+          "correct": "El médico quiere que mi padre deje de fumar.",
+          "note": "Tras quiere que va subjuntivo."
+        },
+        {
+          "wrong": "Odio que tú gritar tanto.",
+          "correct": "Odio que grites tanto.",
+          "note": "Otro sujeto: que más subjuntivo."
+        },
+        {
+          "wrong": "Ella desea que ella viaje a Japón.",
+          "correct": "Ella desea viajar a Japón.",
+          "note": "Mismo sujeto: infinitivo."
+        },
+        {
+          "wrong": "Os pido que traer algo de beber.",
+          "correct": "Os pido que traigáis algo de beber.",
+          "note": "Tras pedir que va subjuntivo."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.major",
+        "es.tag.subjunctive",
+        "es.tag.requests_offers_permission",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.para_que_purpose",
+      "title": "Finalidad con para y para que",
+      "description": "**La idea.** La finalidad dice con qué objetivo se hace algo. Si el que actúa y el que se beneficia son la misma persona, se usa `para` + infinitivo; si el objetivo es que otra persona haga algo, `para que` + subjuntivo.\n\n**La forma:**\n- Mismo sujeto: `para` + infinitivo (ahorro para comprar un coche).\n- Sujeto distinto: `para que` + presente de subjuntivo (te lo explico para que lo entiendas).\n- Verbo principal en pasado o condicional: `para que` + imperfecto de subjuntivo (lo dije para que lo supieras).\n- Negación: para no + infinitivo; para que no + subjuntivo.\n- Pregunta por la finalidad: `¿para qué...?`.\n- Equivalentes formales: `a fin de (que)`, `con el objetivo de (que)`.\n\n**Cuándo se usa:**\n- Explicar el objetivo de una acción.\n- Responder a `¿para qué?`.\n\n**Cuándo NO se usa.** `Porque` da la causa, no el objetivo. `Para que` nunca lleva indicativo. Prueba rápida: ¿el objetivo es tuyo? `para` + infinitivo; ¿quieres que otro haga algo? `para que` + subjuntivo.\n\n**Errores típicos:**\n- Usar indicativo tras `para que` (para que lo entiendes), porque se piensa en un hecho real.\n- Usar infinitivo con sujeto distinto (lo repito para tú entender).\n- Usar `por` en lugar de `para` para el objetivo.\n- Usar `para que` + presente de subjuntivo con verbo principal en pasado.",
+      "llmDescription": "Finalidad: para + infinitivo con el mismo sujeto, para que + subjuntivo (presente o imperfecto) con sujeto distinto, ¿para qué?; no porque causal ni por/para general.",
+      "examples": [
+        {
+          "wrong": "Te lo explico otra vez para que lo entiendes.",
+          "correct": "Te lo explico otra vez para que lo entiendas.",
+          "note": "Tras para que va subjuntivo."
+        },
+        {
+          "wrong": "Estudio mucho para que yo apruebe.",
+          "correct": "Estudio mucho para aprobar.",
+          "note": "Mismo sujeto: para más infinitivo."
+        },
+        {
+          "wrong": "Hablo despacio para tú entender bien.",
+          "correct": "Hablo despacio para que entiendas bien.",
+          "note": "Sujeto distinto: para que más subjuntivo."
+        },
+        {
+          "wrong": "Ahorramos dinero por comprar una casa.",
+          "correct": "Ahorramos dinero para comprar una casa.",
+          "note": "El objetivo se expresa con para."
+        },
+        {
+          "wrong": "Mi madre me llamó para que vaya a cenar.",
+          "correct": "Mi madre me llamó para que fuera a cenar.",
+          "note": "Con pasado va imperfecto de subjuntivo."
+        },
+        {
+          "wrong": "Cierra la ventana para que no entra el frío.",
+          "correct": "Cierra la ventana para que no entre el frío.",
+          "note": "Para que no va con subjuntivo."
+        },
+        {
+          "wrong": "¿Para que sirve este botón?",
+          "correct": "¿Para qué sirve este botón?",
+          "note": "En la pregunta: para qué, con tilde."
+        },
+        {
+          "wrong": "Les doy el número para que me llaman.",
+          "correct": "Les doy el número para que me llamen.",
+          "note": "Tras para que va subjuntivo."
+        },
+        {
+          "wrong": "Ella salió temprano para que no llegue tarde.",
+          "correct": "Ella salió temprano para no llegar tarde.",
+          "note": "Mismo sujeto: para no más infinitivo."
+        },
+        {
+          "wrong": "Le presté el libro para que lo lee en el viaje.",
+          "correct": "Le presté el libro para que lo leyera en el viaje.",
+          "note": "Con pasado: imperfecto de subjuntivo."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.major",
+        "es.tag.subordination",
+        "es.tag.linking_ideas",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.estar_participle_result",
+      "title": "Estar con participio de resultado",
+      "description": "**La idea.** `Estar` + participio describe el estado en que queda algo después de una acción: la puerta está cerrada porque alguien la cerró. No se cuenta la acción, sino su resultado.\n\n**La forma:**\n- `estar` conjugado + participio (-ado, -ido o irregular).\n- El participio concuerda con el sujeto: está abierto, está abierta, están abiertos, están abiertas.\n- Participios irregulares: abierto, roto, hecho, escrito, puesto, muerto, vuelto, cubierto, dicho.\n- Negación: no está terminado.\n- Pregunta: ¿está preparada la cena?\n\n**Cuándo se usa:**\n- Estados de objetos: la tienda está cerrada, el vaso está roto.\n- Estados de personas tras un cambio: está casado, está sentada, está dormido.\n- Con `ya` para resultado terminado: ya está hecho.\n\n**Cuándo NO se usa.** El perfecto con `haber` cuenta la acción y su participio no cambia (he cerrado la puerta). La pasiva con `ser` cuenta la acción con agente. Prueba rápida: ¿describes cómo está algo ahora? `estar` + participio concordado; ¿cuentas quién lo hizo? `haber` o `ser`.\n\n**Errores típicos:**\n- No hacer concordar el participio (las ventanas están abierto).\n- Usar `ser` para un estado resultante (la tienda es cerrada).\n- Usar `haber` cuando se describe el estado (la puerta ha abierta).\n- Regularizar participios irregulares (rompido, abrido).",
+      "llmDescription": "Estar + participio concordado para el estado resultante (está cerrada, están rotos, está sentado); no haber + participio invariable ni pasiva con ser + por.",
+      "examples": [
+        {
+          "wrong": "Las ventanas están abierto.",
+          "correct": "Las ventanas están abiertas.",
+          "note": "El participio concuerda con ventanas."
+        },
+        {
+          "wrong": "Lo siento, la tienda es cerrada hoy.",
+          "correct": "Lo siento, la tienda está cerrada hoy.",
+          "note": "El estado resultante va con estar."
+        },
+        {
+          "wrong": "Mi móvil está rompido otra vez.",
+          "correct": "Mi móvil está roto otra vez.",
+          "note": "El participio de romper es roto."
+        },
+        {
+          "wrong": "¿La cena ya ha preparada?",
+          "correct": "¿La cena ya está preparada?",
+          "note": "Para el estado se usa estar."
+        },
+        {
+          "wrong": "Mi hermana está casado desde hace un año.",
+          "correct": "Mi hermana está casada desde hace un año.",
+          "note": "Casada concuerda con hermana."
+        },
+        {
+          "wrong": "No podemos entrar, la puerta es cerrada con llave.",
+          "correct": "No podemos entrar, la puerta está cerrada con llave.",
+          "note": "Estado de la puerta: estar."
+        },
+        {
+          "wrong": "Los niños ya están dormido.",
+          "correct": "Los niños ya están dormidos.",
+          "note": "Falta el plural del participio."
+        },
+        {
+          "wrong": "El informe ya está hacido.",
+          "correct": "El informe ya está hecho.",
+          "note": "El participio de hacer es hecho."
+        },
+        {
+          "wrong": "Mi abuelo ha sentado en el sofá ahora.",
+          "correct": "Mi abuelo está sentado en el sofá ahora.",
+          "note": "Estado actual: está sentado."
+        },
+        {
+          "wrong": "Cuando llegamos, el museo ya era cerrado.",
+          "correct": "Cuando llegamos, el museo ya estaba cerrado.",
+          "note": "Estado en el pasado: estaba."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.copular_verbs",
+        "es.tag.describing_things",
+        "es.tag.common"
+      ]
+    },
+    {
+      "id": "es.rule.ir_venir_llevar_traer",
+      "title": "Ir, venir, llevar y traer",
+      "description": "**La idea.** Estos verbos de movimiento dependen de dónde está el hablante. `Venir` y `traer` indican movimiento hacia el lugar donde está quien habla; `ir` y `llevar`, movimiento hacia otro lugar.\n\n**La forma:**\n- `venir` (vengo, vienes, viene): moverse hacia aquí.\n- `ir` (voy, vas, va): moverse hacia allí.\n- `traer` (traigo, traes): llevar algo hacia aquí.\n- `llevar` (llevo, llevas): mover algo hacia allí.\n- Construcción: venir/ir `a` + lugar; traer/llevar + cosa + `a` + lugar.\n\n**Cuándo se usa:**\n- `Ven aquí`, `trae el libro`: hacia el hablante.\n- `Voy a tu casa`, `te llevo al aeropuerto`: hacia otro sitio.\n- Al responder a una invitación a la casa del otro: `voy`, porque me muevo hacia el otro.\n\n**Cuándo NO se usa.** El punto de referencia es el hablante, no el oyente. Prueba rápida: si el destino es donde estoy yo ahora, `venir/traer`; si es cualquier otro sitio, incluido donde está el oyente, `ir/llevar`.\n\n**Errores típicos:**\n- Responder `vengo` a quien me llama desde otro lugar, porque se toma el punto de vista del oyente.\n- Usar `traer` para algo que mando a otro sitio (te traigo a la estación).\n- Usar `llevar` para pedir que alguien me dé algo aquí.\n- Olvidar la forma irregular de yo: traigo, vengo.\n\n**Registro y uso.** En algunas zonas de América el uso es más flexible, pero el criterio general es el del hablante.",
+      "llmDescription": "Elección según la posición del hablante: venir/traer hacia aquí, ir/llevar hacia otro lugar, incluido el del oyente (voy, te llevo); no ir a + infinitivo.",
+      "examples": [
+        {
+          "wrong": "—¡Ven a cenar! —¡Ya vengo, mamá!",
+          "correct": "—¡Ven a cenar! —¡Ya voy, mamá!",
+          "note": "Me muevo hacia otro lugar: voy."
+        },
+        {
+          "wrong": "¿Puedes llevarme un vaso de agua aquí?",
+          "correct": "¿Puedes traerme un vaso de agua aquí?",
+          "note": "Hacia el hablante se usa traer."
+        },
+        {
+          "wrong": "Mañana te traigo al aeropuerto en coche.",
+          "correct": "Mañana te llevo al aeropuerto en coche.",
+          "note": "Hacia otro lugar se usa llevar."
+        },
+        {
+          "wrong": "¿Cuándo vas a mi casa? Te espero aquí.",
+          "correct": "¿Cuándo vienes a mi casa? Te espero aquí.",
+          "note": "Hacia donde está el hablante: venir."
+        },
+        {
+          "wrong": "Voy a llevar vino cuando vengo a tu fiesta.",
+          "correct": "Voy a llevar vino cuando vaya a tu fiesta.",
+          "note": "Hacia la casa del otro: ir."
+        },
+        {
+          "wrong": "Cuando venga a la oficina, trae los papeles.",
+          "correct": "Cuando vengas a la oficina, trae los papeles.",
+          "note": "Hacia el hablante: vengas."
+        },
+        {
+          "wrong": "Los niños llevan sus juguetes aquí todos los días.",
+          "correct": "Los niños traen sus juguetes aquí todos los días.",
+          "note": "Hacia aquí se usa traer."
+        },
+        {
+          "wrong": "Lleva tus fotos cuando vengas a vernos.",
+          "correct": "Trae tus fotos cuando vengas a vernos.",
+          "note": "Hacia el hablante se usa traer."
+        },
+        {
+          "wrong": "—¿Vienes a mi boda? —Sí, claro que vengo.",
+          "correct": "—¿Vienes a mi boda? —Sí, claro que voy.",
+          "note": "Hacia donde está el otro: voy."
+        },
+        {
+          "wrong": "Llévame el periódico, por favor; estoy en el salón.",
+          "correct": "Tráeme el periódico, por favor; estoy en el salón.",
+          "note": "Hacia el hablante: traer."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.verb_pairs",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.soler_infinitive",
+      "title": "Soler más infinitivo",
+      "description": "**La idea.** `Soler` + infinitivo dice que una acción es habitual: pasa normalmente, casi siempre. Sustituye a palabras como `normalmente` o `generalmente`.\n\n**La forma:**\n- `soler` conjugado + infinitivo, sin preposición.\n- Presente (o>ue): suelo, sueles, suele, solemos, soléis, suelen.\n- Pasado habitual: solía, solías, solía, solíamos, solíais, solían.\n- Negación: no suelo + infinitivo.\n- Pregunta: ¿sueles + infinitivo?\n- Pronombres: me suelo levantar / suelo levantarme.\n\n**Cuándo se usa:**\n- Costumbres del presente: suelo correr por la mañana.\n- Costumbres del pasado: de niño solía ir al pueblo.\n\n**Cuándo NO se usa.** `Soler` no se usa en futuro ni en indefinido: solo en presente e imperfecto, porque una costumbre no es un hecho único. Para un hábito ya terminado en el pasado también vale el imperfecto simple. Prueba rápida: si puedes decir normalmente, puedes usar `soler`.\n\n**Errores típicos:**\n- Olvidar el cambio o>ue (solo, sole) o aplicarlo en nosotros (suelemos).\n- Poner una preposición (suelo a comer, suelo de salir).\n- Usar el indefinido (solí) o el futuro (soleré), que no existen en el uso normal.\n- Conjugar los dos verbos (suelo como).",
+      "llmDescription": "Soler + infinitivo (suelo, sueles; solía) para acción habitual, sin preposición, solo presente e imperfecto; no estar + gerundio ni seguir + gerundio.",
+      "examples": [
+        {
+          "wrong": "Yo solo comer a las dos.",
+          "correct": "Yo suelo comer a las dos.",
+          "note": "Soler cambia o>ue: suelo."
+        },
+        {
+          "wrong": "Mis padres suelen a cenar temprano.",
+          "correct": "Mis padres suelen cenar temprano.",
+          "note": "Soler no lleva preposición."
+        },
+        {
+          "wrong": "¿Sueles vas al gimnasio por la tarde?",
+          "correct": "¿Sueles ir al gimnasio por la tarde?",
+          "note": "Tras soler va infinitivo."
+        },
+        {
+          "wrong": "De niño solí jugar en la calle.",
+          "correct": "De niño solía jugar en la calle.",
+          "note": "Costumbre pasada: solía."
+        },
+        {
+          "wrong": "Ella no sole tomar café.",
+          "correct": "Ella no suele tomar café.",
+          "note": "La forma correcta es suele."
+        },
+        {
+          "wrong": "Nosotros suelemos viajar en agosto.",
+          "correct": "Nosotros solemos viajar en agosto.",
+          "note": "Con nosotros no hay cambio: solemos."
+        },
+        {
+          "wrong": "Antes mi abuela suele contarnos cuentos.",
+          "correct": "Antes mi abuela solía contarnos cuentos.",
+          "note": "Con antes va solía."
+        },
+        {
+          "wrong": "En invierno suele de nevar mucho aquí.",
+          "correct": "En invierno suele nevar mucho aquí.",
+          "note": "Sobra la preposición de."
+        },
+        {
+          "wrong": "¿Vosotros soléis saliendo los viernes?",
+          "correct": "¿Vosotros soléis salir los viernes?",
+          "note": "Infinitivo, no gerundio."
+        },
+        {
+          "wrong": "Los domingos suelo me levanto tarde.",
+          "correct": "Los domingos suelo levantarme tarde.",
+          "note": "El segundo verbo va en infinitivo."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.verbal_periphrases",
+        "es.tag.talking_about_present",
+        "es.tag.talking_about_past",
+        "es.tag.common"
+      ]
+    },
+    {
+      "id": "es.rule.phase_periphrases",
+      "title": "Empezar a, dejar de, volver a",
+      "description": "**La idea.** Estas perífrasis marcan una fase de la acción: el comienzo, el final o la repetición. Cada verbo lleva siempre su propia preposición, y el segundo verbo va en infinitivo.\n\n**La forma:**\n- Comienzo: `empezar a`, `comenzar a`, `ponerse a` + infinitivo.\n- Final o abandono: `dejar de` + infinitivo; `terminar de` + infinitivo (acabar la tarea).\n- Repetición: `volver a` + infinitivo = otra vez.\n- El verbo auxiliar se conjuga en cualquier tiempo: empecé a, dejaré de, he vuelto a.\n- Pronombres: delante del auxiliar o pegados al infinitivo.\n\n**Cuándo se usa:**\n- Hábitos que empiezan o terminan: empecé a correr, dejé de fumar.\n- Repetir algo: vuelve a llamar.\n- Completar una tarea: terminé de leer.\n\n**Cuándo NO se usa.** `Dejar` + infinitivo sin `de` significa permitir (deja jugar a los niños). `Volver` sin `a` + infinitivo es regresar. Prueba rápida: ¿significa parar? `dejar de`; ¿otra vez? `volver a`.\n\n**Errores típicos:**\n- Cambiar la preposición (empezar de, dejar a), por mezclar las perífrasis.\n- Omitir la preposición (empecé estudiar).\n- Usar el gerundio (dejé fumando).\n- Usar `volver` sin `a` (volví llamar), que entonces significa regresar.",
+      "llmDescription": "Perífrasis de fase empezar/comenzar/ponerse a, dejar de, terminar de, volver a + infinitivo con su preposición fija; no acabar de reciente ni dejar + infinitivo = permitir.",
+      "examples": [
+        {
+          "wrong": "Empecé de estudiar español el año pasado.",
+          "correct": "Empecé a estudiar español el año pasado.",
+          "note": "Empezar va con a."
+        },
+        {
+          "wrong": "Mi padre dejó fumar hace diez años.",
+          "correct": "Mi padre dejó de fumar hace diez años.",
+          "note": "Parar una costumbre: dejar de."
+        },
+        {
+          "wrong": "¿Puedes volver de explicarlo, por favor?",
+          "correct": "¿Puedes volver a explicarlo, por favor?",
+          "note": "Repetir se dice volver a."
+        },
+        {
+          "wrong": "De repente se puso llorar.",
+          "correct": "De repente se puso a llorar.",
+          "note": "Ponerse va con a."
+        },
+        {
+          "wrong": "Cuando termines a comer, lava los platos.",
+          "correct": "Cuando termines de comer, lava los platos.",
+          "note": "Terminar va con de."
+        },
+        {
+          "wrong": "Nunca vamos a dejar a luchar.",
+          "correct": "Nunca vamos a dejar de luchar.",
+          "note": "Dejar de para parar."
+        },
+        {
+          "wrong": "Ha empezado lloviendo muy fuerte.",
+          "correct": "Ha empezado a llover muy fuerte.",
+          "note": "Empezar a más infinitivo."
+        },
+        {
+          "wrong": "Ellos volvieron llamar a las once.",
+          "correct": "Ellos volvieron a llamar a las once.",
+          "note": "Falta la preposición a."
+        },
+        {
+          "wrong": "No dejes de me escribir.",
+          "correct": "No dejes de escribirme.",
+          "note": "El pronombre va pegado al infinitivo."
+        },
+        {
+          "wrong": "Cuando acabó la película, comenzamos de discutir.",
+          "correct": "Cuando acabó la película, comenzamos a discutir.",
+          "note": "Comenzar va con a."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.verbal_periphrases",
+        "es.tag.talking_about_past",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.exclamatives_que",
+      "title": "Exclamativas con qué y cuánto",
+      "description": "**La idea.** Las exclamativas expresan sorpresa, admiración o queja con intensidad. Las palabras exclamativas llevan tilde, como las interrogativas, y la oración se escribe entre `¡` y `!`.\n\n**La forma:**\n- `¡Qué` + adjetivo o adverbio`!`: ¡qué bonito!, ¡qué tarde!\n- `¡Qué` + sustantivo`!`: ¡qué calor!, ¡qué suerte!\n- `¡Qué` + sustantivo + `más`/`tan` + adjetivo`!`: ¡qué casa más grande!\n- `¡Cuánto/a/os/as` + sustantivo`!`: ¡cuánta gente!; `¡cuánto` + verbo`!`: ¡cuánto has crecido!\n- `¡Cómo` + verbo`!`: ¡cómo llueve!\n- Orden: palabra exclamativa + verbo + sujeto (¡qué bien canta tu hija!).\n\n**Cuándo se usa:**\n- Reaccionar ante algo sorprendente o intenso.\n- Expresar alegría, pena, enfado.\n\n**Cuándo NO se usa.** En las exclamativas no se usa `tan` ni `muy` solos al principio (¡tan bonito!, ¡muy bonito! son posibles pero no son esta construcción). Prueba rápida: si quieres decir lo intenso de algo con una palabra inicial, `qué`, `cuánto` o `cómo` con tilde.\n\n**Errores típicos:**\n- Poner `muy` tras `qué` (¡qué muy bonito!).\n- Usar `cuánto` delante de adjetivos (¡cuánto bonito!).\n- Poner el sujeto antes del verbo (¡qué bien tu hija canta!).\n- Olvidar el signo de apertura `¡` o la tilde.\n- Usar `qué` sin `más`/`tan` entre sustantivo y adjetivo (¡qué casa grande! suena incompleto).",
+      "llmDescription": "Exclamativas ¡qué + adjetivo/sustantivo!, ¡qué + sustantivo + más/tan + adjetivo!, ¡cuánto/a + sustantivo!, ¡cómo + verbo!, con tilde y orden verbo-sujeto; no interrogativas.",
+      "examples": [
+        {
+          "wrong": "¡Qué muy bonito es tu piso!",
+          "correct": "¡Qué bonito es tu piso!",
+          "note": "Sobra muy después de qué."
+        },
+        {
+          "wrong": "¡Cuánto inteligente es tu hijo!",
+          "correct": "¡Qué inteligente es tu hijo!",
+          "note": "Con adjetivo se usa qué."
+        },
+        {
+          "wrong": "¡Qué casa grande tenéis!",
+          "correct": "¡Qué casa más grande tenéis!",
+          "note": "Falta más entre sustantivo y adjetivo."
+        },
+        {
+          "wrong": "¡Qué bien tu hermana canta!",
+          "correct": "¡Qué bien canta tu hermana!",
+          "note": "El verbo va antes del sujeto."
+        },
+        {
+          "wrong": "¡Qué mucha gente hay en la playa!",
+          "correct": "¡Cuánta gente hay en la playa!",
+          "note": "Para cantidad se usa cuánta."
+        },
+        {
+          "wrong": "¡Cuánto has crecido, Pablo! ¡Qué alto eres ya! ¡Que guapo!",
+          "correct": "¡Cuánto has crecido, Pablo! ¡Qué alto eres ya! ¡Qué guapo!",
+          "note": "Qué exclamativo lleva tilde."
+        },
+        {
+          "wrong": "¡Qué frío hace hoy! ¡Cómo mucho llueve!",
+          "correct": "¡Qué frío hace hoy! ¡Cómo llueve!",
+          "note": "Cómo más verbo, sin mucho."
+        },
+        {
+          "wrong": "¡Cuántas problemas tenemos este mes!",
+          "correct": "¡Cuántos problemas tenemos este mes!",
+          "note": "Cuántos concuerda con problemas."
+        },
+        {
+          "wrong": "¡Qué tan suerte has tenido!",
+          "correct": "¡Qué suerte has tenido!",
+          "note": "Con sustantivo solo, qué sin tan."
+        },
+        {
+          "wrong": "¡Cuánto rápido conduces!",
+          "correct": "¡Qué rápido conduces!",
+          "note": "Con adverbio se usa qué."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.questions",
+        "es.tag.emphasis_style",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.real_si_conditional",
+      "title": "Condicional real con si",
+      "description": "**La idea.** La condición real presenta algo posible o probable: si pasa una cosa, pasa otra. Después de `si` se usa el presente de indicativo, aunque se hable del futuro.\n\n**La forma:**\n- `si` + presente de indicativo, + futuro (si llueve, me quedaré).\n- `si` + presente, + presente (si tengo tiempo, voy al gimnasio): costumbre o verdad general.\n- `si` + presente, + imperativo (si ves a Ana, salúdala).\n- `si` + presente, + `ir a` + infinitivo.\n- Orden libre: condición primero con coma, o consecuencia primero sin coma.\n- Negación: si no + presente.\n\n**Cuándo se usa:**\n- Planes que dependen de algo posible.\n- Instrucciones y consejos: si te duele, toma esto.\n- Verdades generales: si calientas el agua, hierve.\n\n**Cuándo NO se usa.** Para situaciones imaginarias o poco probables se usa `si` + imperfecto de subjuntivo con condicional. Prueba rápida: ¿es posible y real? `si` + presente; ¿es imaginario? `si` + imperfecto de subjuntivo.\n\n**Errores típicos:**\n- Poner futuro después de `si` (si lloverá), porque la acción es futura.\n- Poner presente de subjuntivo después de `si` (si tenga tiempo).\n- Usar condicional en la consecuencia de una condición real (si puedo, iría).\n- Confundir `si` condicional con `sí` afirmativo.\n\n**Excepciones y datos útiles:**\n- Después de `si` interrogativo indirecto (no sé si vendrá) sí puede ir futuro: es otro `si`.",
+      "llmDescription": "Condición real: si + presente de indicativo con futuro, presente, imperativo o ir a en la consecuencia; nunca futuro ni presente de subjuntivo tras si; no condición irreal.",
+      "examples": [
+        {
+          "wrong": "Si lloverá mañana, no iremos a la playa.",
+          "correct": "Si llueve mañana, no iremos a la playa.",
+          "note": "Tras si no va futuro."
+        },
+        {
+          "wrong": "Si tengas tiempo, llámame esta tarde.",
+          "correct": "Si tienes tiempo, llámame esta tarde.",
+          "note": "Tras si va presente de indicativo."
+        },
+        {
+          "wrong": "Si puedo, iría a tu fiesta el sábado.",
+          "correct": "Si puedo, iré a tu fiesta el sábado.",
+          "note": "Condición real: futuro, no condicional."
+        },
+        {
+          "wrong": "Si estudiaréis, aprobaréis el examen.",
+          "correct": "Si estudiáis, aprobaréis el examen.",
+          "note": "Tras si va presente."
+        },
+        {
+          "wrong": "Si ves a María, la saludarías de mi parte.",
+          "correct": "Si ves a María, salúdala de mi parte.",
+          "note": "Instrucción: imperativo en la consecuencia."
+        },
+        {
+          "wrong": "Sí no te gusta la sopa, no la comas.",
+          "correct": "Si no te gusta la sopa, no la comas.",
+          "note": "El si condicional no lleva tilde."
+        },
+        {
+          "wrong": "¿Qué haces si el tren llegará tarde?",
+          "correct": "¿Qué haces si el tren llega tarde?",
+          "note": "Tras si va presente."
+        },
+        {
+          "wrong": "Si calientas el hielo, se derretiría.",
+          "correct": "Si calientas el hielo, se derrite.",
+          "note": "Verdad general: presente en los dos verbos."
+        },
+        {
+          "wrong": "Los niños van a jugar fuera si haga sol.",
+          "correct": "Los niños van a jugar fuera si hace sol.",
+          "note": "Tras si va indicativo."
+        },
+        {
+          "wrong": "Si usted necesitará algo, avíseme.",
+          "correct": "Si usted necesita algo, avíseme.",
+          "note": "Tras si va presente, no futuro."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.major",
+        "es.tag.future_conditional",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.pronominal_meaning_change",
+      "title": "Verbos que cambian con se",
+      "description": "**La idea.** Algunos verbos cambian de significado cuando llevan pronombre reflexivo. No es que la acción vuelva al sujeto: el pronombre crea otro verbo con otro sentido.\n\n**La forma:**\n- `ir` (moverse a un lugar) / `irse` (marcharse de un lugar).\n- `dormir` (estar dormido) / `dormirse` (empezar a dormir).\n- `quedar` (tener una cita; resultar) / `quedarse` (permanecer).\n- `llevar` (transportar; vestir) / `llevarse` (tomar para sí; tener relación: llevarse bien).\n- `parecer` (dar impresión) / `parecerse a` (ser similar).\n- `acordar` (decidir juntos) / `acordarse de` (recordar).\n- `poner` (colocar) / `ponerse` (vestirse; empezar a sentirse).\n- El pronombre concuerda con el sujeto: me voy, te vas, se va.\n\n**Cuándo se usa:**\n- Cuando quieres el sentido especial: me voy ya, me quedo en casa, me parezco a mi madre.\n\n**Cuándo NO se usa.** El sentido básico va sin pronombre: voy a Madrid, quedamos a las ocho. Prueba rápida: ¿marcharse, permanecer, recordar, ser similar? Con pronombre. ¿Ir a un lugar, citarse, decidir? Sin pronombre.\n\n**Errores típicos:**\n- Omitir el pronombre (ya voy de la fiesta), porque el verbo base parece suficiente.\n- Poner pronombre al sentido básico (nos quedamos con Ana para decir que hay una cita).\n- Olvidar la preposición: acordarse `de`, parecerse `a`.\n- No hacer concordar el pronombre con el sujeto.",
+      "llmDescription": "Verbos con otro sentido al ser pronominales: irse, dormirse, quedarse, llevarse, parecerse a, acordarse de, ponerse; frente a ir, dormir, quedar, acordar; no reflexivos de rutina.",
+      "examples": [
+        {
+          "wrong": "Es tarde, ya voy. ¡Adiós a todos!",
+          "correct": "Es tarde, ya me voy. ¡Adiós a todos!",
+          "note": "Marcharse es irse, con pronombre."
+        },
+        {
+          "wrong": "¿Te acuerdas mi cumpleaños?",
+          "correct": "¿Te acuerdas de mi cumpleaños?",
+          "note": "Acordarse lleva de."
+        },
+        {
+          "wrong": "Mi hermano parece mucho a mi padre.",
+          "correct": "Mi hermano se parece mucho a mi padre.",
+          "note": "Ser similar es parecerse a."
+        },
+        {
+          "wrong": "Este fin de semana quedo en casa.",
+          "correct": "Este fin de semana me quedo en casa.",
+          "note": "Permanecer es quedarse."
+        },
+        {
+          "wrong": "Nos quedamos con Luis a las ocho en el bar.",
+          "correct": "Quedamos con Luis a las ocho en el bar.",
+          "note": "Tener una cita es quedar, sin pronombre."
+        },
+        {
+          "wrong": "Anoche dormí en el sofá viendo la película.",
+          "correct": "Anoche me dormí en el sofá viendo la película.",
+          "note": "Empezar a dormir es dormirse."
+        },
+        {
+          "wrong": "No llevo bien con mi jefe.",
+          "correct": "No me llevo bien con mi jefe.",
+          "note": "Tener relación es llevarse."
+        },
+        {
+          "wrong": "Ella pone muy nerviosa antes de los exámenes.",
+          "correct": "Ella se pone muy nerviosa antes de los exámenes.",
+          "note": "Cambio de estado: ponerse."
+        },
+        {
+          "wrong": "¿Os vais al cine mañana a las seis?",
+          "correct": "¿Vais al cine mañana a las seis?",
+          "note": "Ir a un lugar va sin pronombre."
+        },
+        {
+          "wrong": "Los vecinos se acordaron pintar la fachada.",
+          "correct": "Los vecinos acordaron pintar la fachada.",
+          "note": "Decidir juntos es acordar, sin pronombre."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.reflexive_verbs",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.verbs_with_prepositions",
+      "title": "Verbos con preposición fija",
+      "description": "**La idea.** Muchos verbos van siempre con una preposición concreta delante de su complemento. La preposición no se elige por el sentido de la frase: forma parte del verbo y hay que aprenderla con él.\n\n**La forma:**\n- `en`: pensar en, confiar en, consistir en, fijarse en, insistir en.\n- `con`: soñar con, casarse con, contar con, quedar con.\n- `de`: depender de, enamorarse de, acordarse de, tratar de, olvidarse de, darse cuenta de.\n- `a`: ayudar a, aprender a, asistir a, oler a, saber a, negarse a.\n- `por`: preocuparse por, interesarse por.\n- La preposición se mantiene delante de infinitivo y de `que` (me alegro de que, insisto en que).\n- En preguntas, la preposición va delante: ¿en qué piensas?, ¿con quién sueñas?\n\n**Cuándo se usa:**\n- Siempre que el verbo tenga complemento: sustantivo, pronombre, infinitivo u oración con `que`.\n\n**Cuándo NO se usa.** Algunos verbos de sentido cercano no llevan preposición: `recordar algo` frente a `acordarse de algo`; `olvidar algo` frente a `olvidarse de algo`. Prueba rápida: si el verbo es pronominal (acordarse, olvidarse), lleva `de`; si no, va directo.\n\n**Errores típicos:**\n- Elegir la preposición por el sentido general (pensar de ti, soñar de ti).\n- Omitir la preposición delante de `que` (me di cuenta que).\n- Poner `de` a verbos que no la llevan (recordar de algo).\n- Dejar la preposición al final de la pregunta.",
+      "llmDescription": "Régimen preposicional fijo: pensar en, soñar con, casarse con, depender de, enamorarse de, darse cuenta de, oler a, preocuparse por, también ante que; no por/para ni a personal.",
+      "examples": [
+        {
+          "wrong": "Siempre pienso de ti cuando oigo esta canción.",
+          "correct": "Siempre pienso en ti cuando oigo esta canción.",
+          "note": "Pensar se construye con en."
+        },
+        {
+          "wrong": "Anoche soñé de mi abuela.",
+          "correct": "Anoche soñé con mi abuela.",
+          "note": "Soñar se construye con con."
+        },
+        {
+          "wrong": "Mi prima se casó a un chico argentino.",
+          "correct": "Mi prima se casó con un chico argentino.",
+          "note": "Casarse se construye con con."
+        },
+        {
+          "wrong": "Todo depende en el precio del billete.",
+          "correct": "Todo depende del precio del billete.",
+          "note": "Depender se construye con de."
+        },
+        {
+          "wrong": "No me di cuenta que estabas aquí.",
+          "correct": "No me di cuenta de que estabas aquí.",
+          "note": "Darse cuenta lleva de ante que."
+        },
+        {
+          "wrong": "Esta habitación huele de tabaco.",
+          "correct": "Esta habitación huele a tabaco.",
+          "note": "Oler se construye con a."
+        },
+        {
+          "wrong": "¿Quién te enamoraste de?",
+          "correct": "¿De quién te enamoraste?",
+          "note": "La preposición va al principio."
+        },
+        {
+          "wrong": "Mis padres se preocupan de mi salud mucho.",
+          "correct": "Mis padres se preocupan mucho por mi salud.",
+          "note": "Preocuparse se construye con por."
+        },
+        {
+          "wrong": "Puedes confiar a mí, no diré nada.",
+          "correct": "Puedes confiar en mí, no diré nada.",
+          "note": "Confiar se construye con en."
+        },
+        {
+          "wrong": "No recuerdo de su nombre.",
+          "correct": "No recuerdo su nombre.",
+          "note": "Recordar va sin preposición."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.prepositions",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.ser_events_location",
+      "title": "Ser para eventos y lugar",
+      "description": "**La idea.** Para decir dónde está una persona o una cosa se usa `estar`. Pero cuando el sujeto es un evento (una fiesta, una reunión, un concierto), su lugar y su hora se dicen con `ser`, porque significa *tener lugar*.\n\n**La forma:**\n- Evento + `ser` + `en` + lugar: la fiesta es en mi casa.\n- Evento + `ser` + `a` + hora / `el` + día: la reunión es a las diez, el examen es el lunes.\n- Pregunta: `¿dónde es la boda?`, `¿cuándo es el concierto?`.\n- Persona u objeto + `estar` + lugar: Ana está en casa, las llaves están en la mesa.\n\n**Cuándo se usa:**\n- Sustantivos de evento: fiesta, reunión, clase, boda, concierto, examen, partido, cena, conferencia.\n- Con preguntas dónde y cuándo sobre esos eventos.\n\n**Cuándo NO se usa.** Si el sujeto es un edificio, un objeto o una persona, va `estar` (el teatro está en el centro). Prueba rápida: si puedes cambiar el verbo por *se celebra*, `ser`; si puedes cambiarlo por *se encuentra*, `estar`.\n\n**Errores típicos:**\n- Usar `estar` con eventos (la fiesta está en mi casa), porque se aplica la regla general de lugar.\n- Usar `ser` con edificios u objetos (el banco es en la plaza).\n- Confundir el lugar del edificio con el del evento (el cine está en el centro; la película es en el cine Rex).\n\n**Registro y uso.** Es muy frecuente en invitaciones y planes.",
+      "llmDescription": "Ser + en/a para lugar y hora de eventos (la fiesta es en mi casa, la reunión es a las diez); estar + lugar para personas, objetos y edificios.",
+      "examples": [
+        {
+          "wrong": "La fiesta está en casa de Marta.",
+          "correct": "La fiesta es en casa de Marta.",
+          "note": "El lugar de un evento va con ser."
+        },
+        {
+          "wrong": "¿Dónde está la boda de tu hermano?",
+          "correct": "¿Dónde es la boda de tu hermano?",
+          "note": "Boda es un evento: ser."
+        },
+        {
+          "wrong": "El banco es en la plaza mayor.",
+          "correct": "El banco está en la plaza mayor.",
+          "note": "Un edificio se sitúa con estar."
+        },
+        {
+          "wrong": "La reunión está a las diez en la sala dos.",
+          "correct": "La reunión es a las diez en la sala dos.",
+          "note": "Hora y lugar de un evento: ser."
+        },
+        {
+          "wrong": "Mis llaves son en el bolso.",
+          "correct": "Mis llaves están en el bolso.",
+          "note": "Objetos se sitúan con estar."
+        },
+        {
+          "wrong": "El concierto estuvo en el estadio nuevo.",
+          "correct": "El concierto fue en el estadio nuevo.",
+          "note": "Evento en pasado: fue."
+        },
+        {
+          "wrong": "¿Cuándo está el examen de historia?",
+          "correct": "¿Cuándo es el examen de historia?",
+          "note": "Para eventos se usa ser."
+        },
+        {
+          "wrong": "La clase de yoga no está aquí hoy, sino en el parque.",
+          "correct": "La clase de yoga no es aquí hoy, sino en el parque.",
+          "note": "Clase como evento: ser."
+        },
+        {
+          "wrong": "Nuestros amigos son en el restaurante ya.",
+          "correct": "Nuestros amigos están en el restaurante ya.",
+          "note": "Las personas se sitúan con estar."
+        },
+        {
+          "wrong": "El partido de mañana está en Sevilla.",
+          "correct": "El partido de mañana es en Sevilla.",
+          "note": "Partido es un evento: ser."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.copular_verbs",
+        "es.tag.sentence_building",
+        "es.tag.common"
+      ]
+    },
+    {
+      "id": "es.rule.desde_hace_duration",
+      "title": "Desde, desde hace y hace que",
+      "description": "**La idea.** Para una situación que empezó en el pasado y sigue ahora, el español usa el presente, no un tiempo pasado. La duración se marca con `desde hace` o `hace... que`; el punto de inicio, con `desde`.\n\n**La forma:**\n- Presente + `desde hace` + cantidad de tiempo (vivo aquí desde hace tres años).\n- `Hace` + cantidad + `que` + presente (hace tres años que vivo aquí).\n- Presente + `desde` + punto de inicio: fecha, día, momento (vivo aquí desde 2020, desde el lunes).\n- `desde que` + verbo: inicio con una acción (desde que llegué).\n- Pregunta: `¿desde cuándo...?`, `¿cuánto tiempo hace que...?`.\n- Negación: no lo veo desde hace meses.\n\n**Cuándo se usa:**\n- Situaciones actuales que empezaron antes: trabajo aquí desde hace un año.\n\n**Cuándo NO se usa.** Si la acción ya terminó, se usa indefinido + `hace` (viví allí hace años). Prueba rápida: ¿la situación sigue? presente + `desde hace`; ¿terminó? pasado + `hace`.\n\n**Errores típicos:**\n- Usar perfecto o indefinido para algo que sigue (he vivido aquí desde hace dos años).\n- Usar `desde` con cantidad de tiempo (desde tres años), mezclando punto y duración.\n- Usar `desde hace` con fecha (desde hace 2019).\n- Usar `por` o `durante` para una situación que continúa.\n\n**Excepciones y datos útiles:**\n- `Llevar` + tiempo + gerundio expresa la misma idea (llevo tres años viviendo aquí).",
+      "llmDescription": "Presente + desde hace + duración, hace + duración + que + presente, desde + fecha, desde que, ¿desde cuándo?, para situaciones que continúan; no hace + pasado terminado.",
+      "examples": [
+        {
+          "wrong": "Vivo en Valencia desde tres años.",
+          "correct": "Vivo en Valencia desde hace tres años.",
+          "note": "Con cantidad de tiempo: desde hace."
+        },
+        {
+          "wrong": "Estudio español desde hace 2021.",
+          "correct": "Estudio español desde 2021.",
+          "note": "Con una fecha: solo desde."
+        },
+        {
+          "wrong": "Hace dos horas que te esperé aquí.",
+          "correct": "Hace dos horas que te espero aquí.",
+          "note": "Sigue esperando: presente."
+        },
+        {
+          "wrong": "Trabajé en esta empresa desde hace cinco años.",
+          "correct": "Trabajo en esta empresa desde hace cinco años.",
+          "note": "Situación que continúa: presente."
+        },
+        {
+          "wrong": "¿Desde hace cuándo conoces a Laura?",
+          "correct": "¿Desde cuándo conoces a Laura?",
+          "note": "La pregunta es desde cuándo."
+        },
+        {
+          "wrong": "No veo a mis primos por meses.",
+          "correct": "No veo a mis primos desde hace meses.",
+          "note": "Situación que continúa: desde hace."
+        },
+        {
+          "wrong": "Estoy enfermo desde hace el lunes.",
+          "correct": "Estoy enfermo desde el lunes.",
+          "note": "Con un día de inicio: solo desde."
+        },
+        {
+          "wrong": "Desde llegué a Chile, hablo más español.",
+          "correct": "Desde que llegué a Chile, hablo más español.",
+          "note": "Ante un verbo: desde que."
+        },
+        {
+          "wrong": "Conozco a Pedro hace diez años.",
+          "correct": "Conozco a Pedro desde hace diez años.",
+          "note": "Situación que continúa: desde hace."
+        },
+        {
+          "wrong": "Ella está casada desde hace marzo.",
+          "correct": "Ella está casada desde marzo.",
+          "note": "Con un mes: solo desde."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.present_tense",
+        "es.tag.talking_about_present",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.infinitive_as_noun",
+      "title": "Infinitivo como sustantivo",
+      "description": "**La idea.** Para nombrar una acción como si fuera una cosa (sujeto, objeto, tras preposición), el español usa el infinitivo. El gerundio nunca hace de sustantivo.\n\n**La forma:**\n- Infinitivo como sujeto: fumar es malo; me gusta bailar.\n- Infinitivo tras preposición: antes de salir, después de comer, sin decir nada, al llegar.\n- Con artículo `el` (opcional, más formal): el comer bien es importante.\n- Infinitivo con sus complementos y pronombres: leer libros, verla.\n- Negación: no comer carne es difícil.\n\n**Cuándo se usa:**\n- Hablar de actividades en general: nadar, cocinar, viajar.\n- Después de cualquier preposición.\n- Con verbos como gustar, encantar, odiar, preferir.\n\n**Cuándo NO se usa.** El gerundio (`-ando`, `-iendo`) expresa acción en curso o modo (estoy leyendo, llegó corriendo), nunca un sustantivo. Prueba rápida: si puedes poner `el` delante o va tras preposición, infinitivo.\n\n**Errores típicos:**\n- Usar gerundio como sujeto (nadando es sano), por imitación de la forma `-ndo` que se ve en otras construcciones.\n- Usar gerundio tras preposición (antes de saliendo, sin diciendo).\n- Conjugar el verbo tras preposición (después de como).\n- Poner `que` antes del infinitivo (es importante que estudiar).",
+      "llmDescription": "Infinitivo con función de sustantivo: sujeto (fumar es malo), tras preposición (antes de salir, sin decir), con gustar; nunca gerundio en esas posiciones; no estar + gerundio.",
+      "examples": [
+        {
+          "wrong": "Nadando es muy bueno para la espalda.",
+          "correct": "Nadar es muy bueno para la espalda.",
+          "note": "Como sujeto se usa el infinitivo."
+        },
+        {
+          "wrong": "Lávate las manos antes de comiendo.",
+          "correct": "Lávate las manos antes de comer.",
+          "note": "Tras preposición va infinitivo."
+        },
+        {
+          "wrong": "Me encanta viajando con mis amigos.",
+          "correct": "Me encanta viajar con mis amigos.",
+          "note": "Tras encantar va infinitivo."
+        },
+        {
+          "wrong": "Se fue sin diciendo adiós.",
+          "correct": "Se fue sin decir adiós.",
+          "note": "Tras sin va infinitivo."
+        },
+        {
+          "wrong": "Después de cené, vimos una película.",
+          "correct": "Después de cenar, vimos una película.",
+          "note": "Tras preposición no se conjuga."
+        },
+        {
+          "wrong": "Aprendiendo idiomas abre muchas puertas.",
+          "correct": "Aprender idiomas abre muchas puertas.",
+          "note": "Sujeto de la oración: infinitivo."
+        },
+        {
+          "wrong": "¿Te gusta cocinando para tu familia?",
+          "correct": "¿Te gusta cocinar para tu familia?",
+          "note": "Tras gustar va infinitivo."
+        },
+        {
+          "wrong": "Es importante que dormir ocho horas.",
+          "correct": "Es importante dormir ocho horas.",
+          "note": "Sobra que delante del infinitivo."
+        },
+        {
+          "wrong": "Gracias por ayudándome con la mudanza.",
+          "correct": "Gracias por ayudarme con la mudanza.",
+          "note": "Tras por va infinitivo."
+        },
+        {
+          "wrong": "Fumando está prohibido en este edificio.",
+          "correct": "Fumar está prohibido en este edificio.",
+          "note": "Como sujeto se usa fumar."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.infinitive_gerund",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
+      ]
+    },
+    {
+      "id": "es.rule.pero_vs_sino",
+      "title": "Pero o sino",
+      "description": "**La idea.** `Pero` añade una idea que contrasta con la anterior, sin anularla. `Sino` corrige: después de una negación, sustituye lo negado por lo verdadero.\n\n**La forma:**\n- Idea 1 + `pero` + idea 2: las dos son verdad (es caro, pero bueno).\n- `No` + A + `sino` + B: no A, la verdad es B (no es azul, sino verde).\n- `No` + verbo + `sino que` + verbo conjugado: corrección con dos verbos (no lo compré, sino que lo alquilé).\n- `No solo` + A + `sino también` + B: suma.\n- `Pero` después de una negación también es posible si no hay corrección (no es caro, pero no me gusta).\n\n**Cuándo se usa:**\n- `Pero`: contraste, objeción, limitación.\n- `Sino`: corregir un error o una idea falsa negada antes.\n\n**Cuándo NO se usa.** `Sino` necesita siempre una negación delante y dos elementos incompatibles. Prueba rápida: si B sustituye a A (no A, en realidad B), `sino`; si A y B son verdad a la vez, `pero`.\n\n**Errores típicos:**\n- Usar `pero` para corregir (no es mi hermano, pero mi primo).\n- Usar `sino` sin negación previa.\n- Olvidar `que` cuando siguen dos verbos conjugados (no estudia, sino trabaja).\n- Escribir `si no` (condicional) en lugar de `sino`.",
+      "llmDescription": "Elección entre pero (contraste sin anular) y sino / sino que tras negación para corregir (no A sino B), no solo... sino también; no si no condicional.",
+      "examples": [
+        {
+          "wrong": "No es mi hermano, pero mi primo.",
+          "correct": "No es mi hermano, sino mi primo.",
+          "note": "Para corregir tras negación: sino."
+        },
+        {
+          "wrong": "El hotel es pequeño, sino muy cómodo.",
+          "correct": "El hotel es pequeño, pero muy cómodo.",
+          "note": "Sin negación previa se usa pero."
+        },
+        {
+          "wrong": "No vive en Madrid, sino vive en Toledo.",
+          "correct": "No vive en Madrid, sino que vive en Toledo.",
+          "note": "Ante verbo conjugado: sino que."
+        },
+        {
+          "wrong": "No quiero té, si no café.",
+          "correct": "No quiero té, sino café.",
+          "note": "Sino se escribe junto."
+        },
+        {
+          "wrong": "Ella no solo canta, pero también baila.",
+          "correct": "Ella no solo canta, sino también baila.",
+          "note": "No solo... sino también."
+        },
+        {
+          "wrong": "Me gustaría ir, sino no tengo tiempo.",
+          "correct": "Me gustaría ir, pero no tengo tiempo.",
+          "note": "Contraste sin corrección: pero."
+        },
+        {
+          "wrong": "No lo hice por dinero, pero por amor.",
+          "correct": "No lo hice por dinero, sino por amor.",
+          "note": "Se sustituye la causa: sino."
+        },
+        {
+          "wrong": "No nos llamó, sino nos escribió un mensaje.",
+          "correct": "No nos llamó, sino que nos escribió un mensaje.",
+          "note": "Dos verbos: sino que."
+        },
+        {
+          "wrong": "La película no es de terror, pero de humor.",
+          "correct": "La película no es de terror, sino de humor.",
+          "note": "Corrección tras negación: sino."
+        },
+        {
+          "wrong": "Estudio mucho, sino el examen es difícil.",
+          "correct": "Estudio mucho, pero el examen es difícil.",
+          "note": "Contraste simple: pero."
+        }
+      ],
+      "tagIds": [
+        "es.tag.b1",
+        "es.tag.minor",
+        "es.tag.connectors",
+        "es.tag.linking_ideas",
+        "es.tag.common"
       ]
     },
     {
@@ -2141,7 +4681,10 @@
         "es.tag.b2",
         "es.tag.major",
         "es.tag.imperative",
-        "es.tag.subjunctive"
+        "es.tag.subjunctive",
+        "es.tag.requests_offers_permission",
+        "es.tag.advice_obligation",
+        "es.tag.common"
       ]
     },
     {
@@ -2204,7 +4747,10 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.major",
-        "es.tag.future_conditional"
+        "es.tag.future_conditional",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.requests_offers_permission",
+        "es.tag.common"
       ]
     },
     {
@@ -2267,7 +4813,9 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.major",
-        "es.tag.subjunctive"
+        "es.tag.subjunctive",
+        "es.tag.ability_possibility",
+        "es.tag.common"
       ]
     },
     {
@@ -2330,7 +4878,9 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.major",
-        "es.tag.subjunctive"
+        "es.tag.subjunctive",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.common"
       ]
     },
     {
@@ -2394,7 +4944,9 @@
         "es.tag.b2",
         "es.tag.major",
         "es.tag.future_conditional",
-        "es.tag.subordination"
+        "es.tag.subordination",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.common"
       ]
     },
     {
@@ -2458,7 +5010,9 @@
         "es.tag.b2",
         "es.tag.major",
         "es.tag.compound_tenses",
-        "es.tag.past_tenses"
+        "es.tag.past_tenses",
+        "es.tag.talking_about_past",
+        "es.tag.common"
       ]
     },
     {
@@ -2521,7 +5075,9 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.minor",
-        "es.tag.object_pronouns"
+        "es.tag.object_pronouns",
+        "es.tag.sentence_building",
+        "es.tag.common"
       ]
     },
     {
@@ -2584,7 +5140,9 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.major",
-        "es.tag.passive_impersonal"
+        "es.tag.passive_impersonal",
+        "es.tag.emphasis_style",
+        "es.tag.common"
       ]
     },
     {
@@ -2647,7 +5205,9 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.major",
-        "es.tag.subordination"
+        "es.tag.subordination",
+        "es.tag.linking_ideas",
+        "es.tag.everyday"
       ]
     },
     {
@@ -2710,7 +5270,9 @@
       "tagIds": [
         "es.tag.b2",
         "es.tag.minor",
-        "es.tag.prepositions"
+        "es.tag.prepositions",
+        "es.tag.sentence_building",
+        "es.tag.everyday"
       ]
     },
     {
@@ -2774,7 +5336,9 @@
         "es.tag.c1",
         "es.tag.major",
         "es.tag.subjunctive",
-        "es.tag.compound_tenses"
+        "es.tag.compound_tenses",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.common"
       ]
     },
     {
@@ -2838,7 +5402,10 @@
         "es.tag.c1",
         "es.tag.major",
         "es.tag.compound_tenses",
-        "es.tag.future_conditional"
+        "es.tag.future_conditional",
+        "es.tag.hypotheticals_wishes",
+        "es.tag.advice_obligation",
+        "es.tag.common"
       ]
     },
     {
@@ -2901,7 +5468,9 @@
       "tagIds": [
         "es.tag.c1",
         "es.tag.minor",
-        "es.tag.future_conditional"
+        "es.tag.future_conditional",
+        "es.tag.ability_possibility",
+        "es.tag.common"
       ]
     },
     {
@@ -2965,7 +5534,10 @@
         "es.tag.c1",
         "es.tag.major",
         "es.tag.subjunctive",
-        "es.tag.subordination"
+        "es.tag.subordination",
+        "es.tag.linking_ideas",
+        "es.tag.describing_things",
+        "es.tag.common"
       ]
     },
     {
@@ -3029,7 +5601,9 @@
         "es.tag.c1",
         "es.tag.major",
         "es.tag.subordination",
-        "es.tag.subjunctive"
+        "es.tag.subjunctive",
+        "es.tag.linking_ideas",
+        "es.tag.common"
       ]
     },
     {
@@ -3093,7 +5667,10 @@
         "es.tag.c1",
         "es.tag.major",
         "es.tag.subordination",
-        "es.tag.subjunctive"
+        "es.tag.subjunctive",
+        "es.tag.linking_ideas",
+        "es.tag.talking_about_future",
+        "es.tag.common"
       ]
     },
     {
@@ -3156,7 +5733,9 @@
       "tagIds": [
         "es.tag.c1",
         "es.tag.major",
-        "es.tag.subordination"
+        "es.tag.subordination",
+        "es.tag.reporting_speech",
+        "es.tag.common"
       ]
     },
     {
@@ -3219,7 +5798,9 @@
       "tagIds": [
         "es.tag.c1",
         "es.tag.minor",
-        "es.tag.verbal_periphrases"
+        "es.tag.verbal_periphrases",
+        "es.tag.talking_about_present",
+        "es.tag.common"
       ]
     },
     {
@@ -3282,7 +5863,9 @@
       "tagIds": [
         "es.tag.c2",
         "es.tag.minor",
-        "es.tag.passive_impersonal"
+        "es.tag.passive_impersonal",
+        "es.tag.emphasis_style",
+        "es.tag.rare"
       ]
     },
     {
@@ -3345,7 +5928,9 @@
       "tagIds": [
         "es.tag.c2",
         "es.tag.minor",
-        "es.tag.passive_impersonal"
+        "es.tag.passive_impersonal",
+        "es.tag.emphasis_style",
+        "es.tag.common"
       ]
     },
     {
@@ -3408,7 +5993,10 @@
       "tagIds": [
         "es.tag.c2",
         "es.tag.minor",
-        "es.tag.articles"
+        "es.tag.articles",
+        "es.tag.emphasis_style",
+        "es.tag.describing_things",
+        "es.tag.common"
       ]
     },
     {
@@ -3471,7 +6059,9 @@
       "tagIds": [
         "es.tag.c2",
         "es.tag.minor",
-        "es.tag.copular_verbs"
+        "es.tag.copular_verbs",
+        "es.tag.describing_things",
+        "es.tag.common"
       ]
     },
     {
@@ -3534,7 +6124,9 @@
       "tagIds": [
         "es.tag.c2",
         "es.tag.minor",
-        "es.tag.subordination"
+        "es.tag.subordination",
+        "es.tag.linking_ideas",
+        "es.tag.rare"
       ]
     },
     {
@@ -3598,7 +6190,10 @@
         "es.tag.c2",
         "es.tag.minor",
         "es.tag.subjunctive",
-        "es.tag.subordination"
+        "es.tag.subordination",
+        "es.tag.linking_ideas",
+        "es.tag.emphasis_style",
+        "es.tag.rare"
       ]
     },
     {
@@ -3662,7 +6257,9 @@
         "es.tag.c2",
         "es.tag.minor",
         "es.tag.register_politeness",
-        "es.tag.present_tense"
+        "es.tag.present_tense",
+        "es.tag.emphasis_style",
+        "es.tag.common"
       ]
     },
     {
@@ -3725,7 +6322,9 @@
       "tagIds": [
         "es.tag.c2",
         "es.tag.minor",
-        "es.tag.object_pronouns"
+        "es.tag.object_pronouns",
+        "es.tag.sentence_building",
+        "es.tag.common"
       ]
     }
   ]
