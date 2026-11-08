@@ -137,13 +137,27 @@ Never emit two rules that name the same grammar point in different words.
 language would head it. Unique across the whole catalog.
 
 --- description (the human lesson) ---
-Markdown in the TARGET LANGUAGE, 15-30 lines. This is the WHOLE lesson, not
+Markdown in the TARGET LANGUAGE, 20-38 lines. This is the WHOLE lesson, not
 a summary: a learner who has never met this rule must be able to use it
 correctly after reading this and nothing else — no other textbook needed.
 Be generous: explain, do not just list.
 
 Write it as these blocks, each opened by a **bold** lead-in instead of a
-heading, separated by \n\n:
+heading, separated by \n\n. Blocks A and B always come FIRST, then blocks
+1-7 exactly as they are below:
+
+A. **Why this rule matters** — 2-4 sentences, no grammar terms. Which
+   problem the rule solves and what goes wrong without it. Give a real
+   everyday situation in which a person needs this construction. Never
+   compare with another language (the learner's native language is unknown);
+   if the TARGET LANGUAGE itself has a stricter or looser neighbouring
+   pattern, you may say where this rule is stricter.
+B. **In simple words** — 2-3 sentences: the rule as if explained to a
+   friend. Then, in this order: the formula or scheme in `inline code`;
+   exactly ONE short example sentence in the TARGET LANGUAGE (no
+   translation — the only example sentence allowed in this field); one
+   quick self-test as a question and answer ("Is it ...? Then ...
+   Otherwise ..."), written in the TARGET LANGUAGE.
 
 1. **The idea** — what the rule means, in two or three plain sentences:
    the thinking behind the form (what the speaker is expressing and why
@@ -168,19 +182,56 @@ heading, separated by \n\n:
    pattern they overgeneralise, which form they copy from the neighbouring
    rule, which part of the form they drop or put in the wrong place. One
    mistake per "- " line, each with its cause, and, where possible, how
-   to avoid it.
+   to avoid it. Each line names a CONCRETE mistake with the wrong fragment
+   (a form, a word pair), not a topic ("verbs that do not allow it" is
+   not a mistake; name the verbs or drop the line). No two lines describe
+   the same mistake. A mistake that belongs to a neighbouring rule is
+   not listed here. Each mistake listed here MUST be shown by at least
+   one of the 10 examples (see "examples" below).
 6. **Register and usage** — spoken vs written, formal vs informal,
    frequency; add only when it matters for the rule.
 7. **Exceptions and anything worth knowing** — irregular cases, spelling
    or sound changes, fixed expressions, common traps. Omit this block
    when the rule truly has none.
 
+Formatting of the blocks is the same in every rule: a prose block is
+"**Lead-in** — text" on ONE line; a block made of a list is "**Lead-in**"
+alone on its line, then the "- " items from the next line. Never mix the two
+styles for the same block between rules.
+
 Allowed markup: **bold**, *italic*, "- " lists, `inline code`, blank lines
 between blocks. NO headings (#), NO tables — the name is already in title.
 
 Explain with words and short fragments (an ending, a form, a signal word, a
-word pair), but put NO full example sentences here: whole sentences belong
-to examples.
+word pair), but put NO full example sentences here, except the single one
+in block B: whole sentences belong to examples.
+
+Quality of the text, for every rule:
+- No jargon the learner has not been given. A grammar term (participle,
+  clause, agent, reflexive, register, agreement ...) is allowed only from
+  b2 up; below that, say it in plain words ("the third form of the verb",
+  "the one who does the action"). If a term is unavoidable, explain it in
+  a few words at its first use.
+- Every claim must be true and uncontested. Do not state debatable things
+  as fact (what "can be dropped in speech", what "sounds unnatural"). If
+  usage varies, say so ("often", "in formal writing") and give the
+  condition.
+- Blocks never contradict each other and never repeat each other: a fact
+  stated in "Register and usage" is not stated again in "The idea" or
+  "Exceptions". Do not write vague filler ("often shows the speaker's
+  involvement", "the strength of the pattern") — either say exactly what
+  it means or leave it out.
+- Every word or example set you list as a category member ("verbs of
+  change", "reflexive verbs") must really belong to it. Do not list
+  idioms or fixed phrases as members of a pattern unless you say they are
+  fixed expressions.
+- If the rule has a punctuation or placement condition (a comma, a
+  position of a word), state the exact condition once and obey it in
+  every example.
+- If the form has parts that depend on the tense, the verb type or the
+  sentence type (for example "do/did only in simple tenses", a linking
+  verb versus an ordinary verb), say for which cases each part applies,
+  and for which it does not.
 
 Grade the language of the description to the level of the rule: for a1-a2
 use short sentences and basic vocabulary, lean on formulas and fragments;
@@ -193,7 +244,10 @@ sentences. Another model reads it to decide whether a learner's sentence
 falls under this rule, so it must carry the MARKERS the rule is recognised
 by: key words, forms, constructions (these stay in the TARGET LANGUAGE).
 No teaching talk, no "this rule teaches". Make it impossible to confuse with
-a neighbouring rule: name what tells them apart.
+a neighbouring rule: name what tells them apart. Separate the markers with
+commas or semicolons, never a bare run of words. Mention only mistakes that
+the 10 examples of the rule really show, and write it as plain, natural
+phrasing.
 
 --- examples: exactly 10 ---
 wrong:   a sentence in the TARGET LANGUAGE with the typical learner
@@ -203,7 +257,29 @@ correct: the same sentence fixed. It differs ONLY in what this rule
 governs — every other word stays identical — and it is the one
 natural way to fix it.
 note:    one short sentence in the TARGET LANGUAGE, up to 12 words,
-saying what exactly is wrong in "wrong".
+saying what exactly is wrong in "wrong". It names the SPECIFIC
+error of this sentence (which word or form, and what it should be),
+not a generic phrase that fits every example of the rule. It must
+match the error really present: if the sentence has an extra word
+or a missing word, the note says so. No two notes are the same.
+
+Link between the lesson and the examples:
+- Every mistake in the block "Typical mistakes" is shown by at least one
+  example, and every example shows a mistake listed there. No example
+  tests something the lesson never mentions; no listed mistake stays
+  without an example.
+- Every variant listed in "The form" (negative, question, short form,
+  each condition-dependent variant) and every situation in "When it
+  applies" is covered by at least one example, where it can go wrong.
+- An example checks THIS rule only. If the mistake lies in a different
+  rule (another word's form, a different tense of a helper verb, a
+  regional variant that is correct somewhere), do not use it. Never put
+  a form in "wrong" that the lesson itself calls acceptable.
+- At most 2 of the 10 examples may have the same type of mistake, and
+  their notes must then differ in what they name.
+- Every sentence must be natural: a real person would say it for a real
+  reason. No example built only to hit a form (an unnatural combination
+  such as an event that cannot repeat described as repeated).
 
 All 10 must be really different:
 - different persons and numbers (I, you, he/she, we, they; singular and
@@ -228,6 +304,24 @@ At least one level tag, at least one severity tag, and one or two area
 tags. Every tagId must exist in "tags". The level tag must match the level
 at which the rule sits in the ordering.
 
+Choosing them honestly:
+- Level is where common courses of the TARGET LANGUAGE teach the
+  construction, not how rare or "advanced" it feels. A spoken, everyday
+  or basic construction is not c1/c2 just because it is informal. Do not
+  inflate: c1-c2 are for constructions that are really late (rare
+  literary or very formal patterns, fine nuance).
+- Severity tells how much the mistake harms understanding, in line with
+  the descriptions of the three severity tags. Do not use "minor" for a
+  mistake that changes the meaning, nor "critical" for a form that stays
+  understandable.
+- Area tags describe the grammar area of the rule itself (tense, case,
+  word order, ...). Never tag a rule with an area for style, frequency
+  or register ("everyday", "emphasis", "common", "informal") unless the
+  rule is really about that; and never with an area the rule does not
+  belong to. Only tags from "tags" are allowed, and they must not
+  contradict each other (for example the highest level together with
+  "minor" and "everyday" for a basic spoken pattern).
+
 ====================== 6. SELF-CHECK BEFORE ANSWERING ======================
 
 Go through this list silently before you output anything:
@@ -236,10 +330,22 @@ Go through this list silently before you output anything:
   catalog, current + 1 when regenerating), all 3 groups, all 6 level tags, all 3
   severity tags, 12-20 area tags, and 50-90 rules covering a1-c2 with
   8-15 rules per level;
-- every rule has exactly 10 examples and a description of 15-30 lines with
-  the blocks from section 5;
-- description holds no full example sentences; llmDescription holds no
+- every rule has exactly 10 examples and a description of 20-38 lines that
+  opens with blocks A and B and continues with the blocks from section 5;
+- description holds no full example sentences except the single one in block B; llmDescription holds no
   Markdown and is one line of up to 30 words;
+- every mistake in "Typical mistakes" is shown by an example, and every
+  example shows a listed mistake; no two lines of the block repeat each
+  other; no more than 2 examples share the same mistake type; every note
+  names the specific error and no two notes are the same;
+- every variant in "The form" is covered by at least one example; any
+  punctuation or placement condition in the lesson is obeyed in every
+  example, and "wrong" never contains a form the lesson calls acceptable;
+- levels are not inflated and tags do not contradict each other; no area
+  tag is used for style, frequency or register by mistake;
+- no unexplained grammar term below b2; no vague filler; no blocks that
+  repeat each other; block formatting follows the same pattern in every
+  rule;
 - every tagId in rules exists in tags; every groupId in tags exists in
   groups; every area tag is used by some rule;
 - no duplicate id, no duplicate rule title, no duplicate tag/group name,
