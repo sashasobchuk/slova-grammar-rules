@@ -81,7 +81,7 @@ where <code> is the LANGUAGE CODE you derived.
 - ids are permanent: user statistics is keyed by them;
 - no id repeats, no rule "title" repeats, no tag/group "name" repeats.
 
-====================== 3. GROUPS (fixed, exactly these three) ======================
+====================== 3. GROUPS (fixed, exactly these five) ======================
 
 The "name" values are read by code and must stay exactly as written. Only
 "description" is in the TARGET LANGUAGE.
@@ -92,6 +92,12 @@ description: CEFR level at which the rule is normally taught.
 description: how badly breaking the rule damages comprehension.
 <code>.group.area      name: "area"
 description: the grammar area the rule belongs to.
+<code>.group.function  name: "function"
+description: what the learner wants to do with the language (talk about
+the past, ask questions, give advice, compare, link ideas ...).
+<code>.group.frequency name: "frequency"
+description: how often the construction appears in real everyday use of
+the TARGET LANGUAGE (conversation, videos, books).
 
 ====================== 4. TAGS ======================
 
@@ -105,7 +111,7 @@ major     the mistake breaks the meaning, not only the form
 critical  the sentence becomes hard or impossible to understand
 groupIds: [<code>.group.severity]
 
-Area tags — you invent them, 12-20 of them, for the areas the TARGET
+Area tags — you invent them, 15-25 of them, for the areas the TARGET
 LANGUAGE actually has. Derive them from its grammar: emit a tag for a
 category only if the language has it (no "article" tag for a language
 without articles), and do emit the categories it does have that other
@@ -119,13 +125,32 @@ groupIds: [<code>.group.area]
 
 Every area tag must be used by at least one rule.
 
+Function tags — you invent them, 10-16 of them. They answer "what does the
+learner want to DO with the language", not "which grammar category is it":
+talking about the present / the past / the future, describing things,
+comparing, asking questions, negating, advice and obligation, requests and
+permission, ability and possibility, hypotheticals and wishes, reporting
+what others said, linking ideas, building a basic sentence, emphasis and
+formality. Adapt the list to the TARGET LANGUAGE (drop what it does not
+need, add what it has). name: snake_case ASCII, never the same word as its
+group; description: one sentence in the TARGET LANGUAGE; groupIds:
+[<code>.group.function]. Every function tag must be used by at least one
+rule.
+
+Frequency tags — exactly these three, names verbatim, description in the
+TARGET LANGUAGE:
+everyday  used constantly, in almost every conversation
+common    regular in normal speech and writing, but not in every conversation
+rare      mostly formal, literary or advanced; met only occasionally
+groupIds: [<code>.group.frequency]
+
 ====================== 5. RULES ======================
 
-Coverage: 8-15 rules per CEFR level, a1 through c2 (50-90 rules in total),
+Coverage: 15-45 rules per CEFR level, a1 through c2 (120-220 rules in total),
 ordered from the most basic to the most advanced: all a1 rules first, then
 a2, b1, b2, c1, c2. Cover the grammar of the TARGET LANGUAGE systematically
 and start from the rules a learner meets first. Together the rules must
-cover every area tag you created.
+cover every area tag and every function tag you created.
 
 One rule = ONE construction. "All the tenses" is not a rule; "the present
 perfect with since and for" is. Never widen a title into a whole topic.
@@ -300,9 +325,10 @@ All 10 must be really different:
   a1-a2 examples simple and the content natural from b1 up.
 
 --- tagIds ---
-At least one level tag, at least one severity tag, and one or two area
-tags. Every tagId must exist in "tags". The level tag must match the level
-at which the rule sits in the ordering.
+Exactly one level tag, exactly one severity tag, one or two area tags, one
+or two function tags and exactly one frequency tag. Every tagId must exist in
+"tags". The level tag must match the level at which the rule sits in the
+ordering.
 
 Choosing them honestly:
 - Level is where common courses of the TARGET LANGUAGE teach the
@@ -314,22 +340,29 @@ Choosing them honestly:
   the descriptions of the three severity tags. Do not use "minor" for a
   mistake that changes the meaning, nor "critical" for a form that stays
   understandable.
-- Area tags describe the grammar area of the rule itself (tense, case,
-  word order, ...). Never tag a rule with an area for style, frequency
-  or register ("everyday", "emphasis", "common", "informal") unless the
-  rule is really about that; and never with an area the rule does not
-  belong to. Only tags from "tags" are allowed, and they must not
-  contradict each other (for example the highest level together with
-  "minor" and "everyday" for a basic spoken pattern).
+- Area tags describe the grammar category of the rule itself (tense, case,
+  word order, ...), never its purpose, frequency or style, and never an
+  area the rule does not belong to. The purpose goes into function tags,
+  the frequency into the frequency tag.
+- Function tags say what the learner does with the rule. Pick the ones
+  the rule really serves; do not add one only to spread tags around.
+- The frequency tag is judged by real use, independent of level: "rare"
+  for formal, literary or advanced patterns, "everyday" only for patterns
+  heard in almost every conversation.
+- Tags must not contradict each other (for example the highest level
+  together with "minor" and "everyday" for a basic spoken pattern, or
+  "rare" on a basic a1 rule).
 
 ====================== 6. SELF-CHECK BEFORE ANSWERING ======================
 
 Go through this list silently before you output anything:
 
 - the object contains "lang" and an integer "version" (1 for a new
-  catalog, current + 1 when regenerating), all 3 groups, all 6 level tags, all 3
-  severity tags, 12-20 area tags, and 50-90 rules covering a1-c2 with
-  8-15 rules per level;
+  catalog, current + 1 when regenerating), all 5 groups, all 6 level tags, all 3
+  severity tags, 15-25 area tags, 10-16 function tags, all 3 frequency
+  tags, and 120-220 rules covering a1-c2 with 15-45 rules per level;
+- every rule has exactly one level, one severity and one frequency tag,
+  1-2 area tags and 1-2 function tags;
 - every rule has exactly 10 examples and a description of 20-38 lines that
   opens with blocks A and B and continues with the blocks from section 5;
 - description holds no full example sentences except the single one in block B; llmDescription holds no
@@ -347,11 +380,11 @@ Go through this list silently before you output anything:
   repeat each other; block formatting follows the same pattern in every
   rule;
 - every tagId in rules exists in tags; every groupId in tags exists in
-  groups; every area tag is used by some rule;
+  groups; every area and function tag is used by some rule;
 - no duplicate id, no duplicate rule title, no duplicate tag/group name,
   no two rules about the same grammar point;
 - all ids and all tag/group names are ASCII; group names are exactly
-  "level", "severity", "area"; level and severity tag names are exactly as
+  "level", "severity", "area", "function", "frequency"; level and severity tag names are exactly as
   specified;
 - every text field is in the TARGET LANGUAGE, no English and no third
   language anywhere, no mention of any native language;
